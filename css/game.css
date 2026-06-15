@@ -1,0 +1,174 @@
+body.light .vote-btn{ background:#FFFFFF; border-color:rgba(0,0,0,0.1); }
+body.light .vote-btn:active{ background:#F5F5FF; }
+body.light .btn-skip{ background:rgba(0,0,0,0.06); border-color:rgba(0,0,0,0.1); color:rgba(0,0,0,0.5); }
+body.light .name-row{ background:#FFFFFF; border-color:rgba(0,0,0,0.08); }
+body.light .name-input{ color:#0C0C14; }
+body.light .pl{ background:#FFFFFF; border-color:rgba(0,0,0,0.08); }
+body.light .score-row{ background:#FFFFFF; border-color:rgba(0,0,0,0.08); }
+
+body{
+  background:#08080F;
+  min-height:100vh;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-body);
+  color:var(--text);
+  padding:16px 12px;
+  overflow-x:hidden;
+}
+
+/* ── SCENE ── */
+.scene{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.scene-blob{
+  position:absolute;border-radius:50%;filter:blur(80px);
+  animation:blobFloat 8s ease-in-out infinite alternate;
+}
+@keyframes blobFloat{0%{transform:translate(0,0) scale(1)}100%{transform:translate(20px,30px) scale(1.05)}}
+
+/* Custom timer input */
+.custom-timer-wrap{
+  display:none;margin-top:10px;
+  background:var(--card2);border:1.5px solid var(--border);border-radius:12px;
+  padding:10px 14px;align-items:center;gap:10px;
+}
+.custom-timer-wrap.show{display:flex}
+.custom-timer-input{
+  flex:1;background:transparent;border:none;outline:none;
+  color:var(--text);font-family:var(--font-head);font-size:22px;
+  caret-color:#FF4D6D;text-align:center;
+}
+.custom-timer-unit{font-size:13px;color:var(--muted);font-weight:600}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   GAME SCREENS — SHARED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.game-screen{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  padding:38px 20px 24px;gap:12px;
+}
+
+.g-topbar{display:flex;align-items:center;justify-content:space-between}
+
+.g-round{
+  background:rgba(255,255,255,0.07);border:1px solid var(--border);
+  border-radius:20px;padding:5px 14px;
+  font-size:11px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;
+}
+
+/* Question card */
+.q-card{
+  flex:1;border-radius:26px;padding:24px 20px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;gap:14px;position:relative;overflow:hidden;
+}
+.q-card::before{
+  content:'';position:absolute;inset:0;
+  background:conic-gradient(transparent 0%, rgba(255,255,255,0.03) 25%, transparent 50%);
+  animation:qSpin 12s linear infinite;
+}
+@keyframes qSpin{to{transform:rotate(360deg) scale(1.5)}}
+
+.q-tag{
+  position:relative;font-size:10px;font-weight:800;letter-spacing:2px;
+  text-transform:uppercase;padding:5px 14px;border-radius:10px;
+}
+.q-text{
+  position:relative;font-family:var(--font-head);font-size:20px;line-height:1.35;
+  color:#fff;
+}
+.q-sub{
+  position:relative;font-size:12px;color:var(--muted);line-height:1.5;
+}
+
+/* Timer ring */
+.timer-wrap{position:relative;width:60px;height:60px;flex-shrink:0}
+.timer-wrap svg{position:absolute;top:0;left:0;transform:rotate(-90deg)}
+.timer-num{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-head);font-size:20px;
+}
+
+/* Turn indicator */
+.turn-bar{
+  background:var(--card);border:1.5px solid var(--border);border-radius:16px;
+  padding:11px 16px;display:flex;align-items:center;gap:10px;
+}
+.turn-av{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.turn-name{font-size:14px;font-weight:800}
+.turn-role{font-size:11px;margin-top:2px}
+.turn-pulse{
+  width:8px;height:8px;border-radius:50%;margin-left:auto;flex-shrink:0;
+  animation:tPulse 1.5s ease-in-out infinite;
+}
+@keyframes tPulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.6}}
+
+/* Action buttons */
+.act-row{display:flex;gap:10px}
+.btn-skip{
+  flex:1;padding:14px;border-radius:16px;
+  border:1.5px solid var(--border);background:transparent;
+  color:var(--muted);font-family:var(--font-body);font-size:14px;font-weight:700;
+  cursor:pointer;transition:all .2s;
+}
+.btn-skip:active{border-color:rgba(255,255,255,0.25);color:var(--text)}
+
+.btn-next{
+  flex:2;padding:14px;border-radius:16px;border:none;
+  color:#fff;font-family:var(--font-head);font-size:15px;
+  cursor:pointer;transition:transform .15s;
+  box-shadow:0 4px 20px rgba(0,0,0,0.3);
+}
+.btn-next:active{transform:scale(0.96)}
+
+/* Player avatars row */
+.players-row{display:flex;gap:6px;align-items:center;justify-content:center}
+.p-av-sm{
+  width:30px;height:30px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:15px;
+  border:2px solid transparent;transition:all .2s;
+}
+.p-av-sm.active-player{
+  border-color:currentColor;
+  box-shadow:0 0 10px currentColor;
+  transform:scale(1.15);
+}
+
+/* Vote buttons (Vrai/Faux) */
+.vote-split{display:flex;gap:10px;flex:1}
+.vote-btn{
+  flex:1;border-radius:20px;border:2px solid var(--border);
+  background:var(--card);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:8px;
+  cursor:pointer;transition:all .2s;padding:16px 0;
+}
+.vote-btn:active{transform:scale(0.96)}
+.vote-emoji{font-size:36px}
+.vote-label{font-family:var(--font-head);font-size:18px}
+.vote-btn.v-true{border-color:rgba(16,185,129,0.4);background:rgba(16,185,129,0.08)}
+.vote-btn.v-false{border-color:rgba(255,77,109,0.4);background:rgba(255,77,109,0.08)}
+
+/* Imposteur role reveal */
+.role-reveal{
+  border-radius:22px;padding:22px 18px;text-align:center;
+  display:flex;flex-direction:column;align-items:center;gap:10px;
+  position:relative;overflow:hidden;
+}
+.role-reveal::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(255,255,255,0.04),transparent);
+  pointer-events:none;
+}
+.role-badge{
+  font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;
+  padding:5px 14px;border-radius:10px;
+}
+.role-emoji-big{font-size:54px}
+.role-subject{font-family:var(--font-head);font-size:17px;line-height:1.3}
+.role-camp{font-size:13px;font-weight:700;margin-top:2px}
+.btn-tap{
+  width:100%;padding:15px;border-radius:16px;border:none;
+  color:rgba(0,0,0,0.7);font-family:var(--font-head);font-size:16px;
+  cursor:pointer;transition:transform .15s;
+}
+.btn-tap:active{transform:scale(0.97)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,5 @@
+/* ── LIGHT MODE ── */
+body.light{
+  background:#E8E8F0;
+}
+body.light .scene-blob{ opacity:0.35; }

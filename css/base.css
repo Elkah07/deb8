@@ -1,0 +1,30 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#0C0C14;
+  --card:#16161F;
+  --card2:#1C1C28;
+  --border:rgba(255,255,255,0.09);
+  --text:#FFFFFF;
+  --muted:rgba(255,255,255,0.42);
+  --muted2:rgba(255,255,255,0.22);
+  --orange:#FF8C42;
+
+  /* Mode colors */
+  --debate:#FF4D6D;
+  --duel:#3B82F6;
+  --truefalse:#10B981;
+  --impostor:#8B5CF6;
+
+  /* Theme colors */
+  --classic:#F59E0B;
+  --politique:#EF4444;
+  --philo:#6366F1;
+  --hero:#F97316;
+  --drole:#EC4899;
+  --cartoon:#14B8A6;
+  --enfants:#84CC16;
+
+  --font-head:'Righteous',cursive;
+  --font-body:'Figtree',sans-serif;
+}
