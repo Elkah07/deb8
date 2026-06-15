@@ -195,15 +195,45 @@ SCREEN 1 — SPLASH
 .th.c7{} .th.c7.sel{border-color:#84CC16;box-shadow:0 0 0 3px rgba(132,204,22,0.12);background:rgba(132,204,22,0.07)}
 
 .check{
-  width:18px;height:18px;border-radius:6px;
-  border:1.5px solid var(--border);background:transparent;
-  display:flex;align-items:center;justify-content:center;font-size:11px;
-  transition:all .2s;margin-top:2px;
+  width:18px;
+  height:18px;
+  border-radius:6px;
+  border:1.5px solid var(--border);
+  background:transparent;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:11px;
+  transition:all .2s;
+  margin-top:2px;
+  font-weight:900;
 }
-.sel .check{background:currentColor;border-color:currentColor}
-/* color per theme */
-.c1 .check{color:#F59E0B}.c2 .check{color:#EF4444}.c3 .check{color:#6366F1}
-.c4 .check{color:#F97316}.c5 .check{color:#EC4899}.c6 .check{color:#14B8A6}.c7 .check{color:#84CC16}
+
+/* Thème NON sélectionné */
+.check::before{
+  content:"✕";
+  color:var(--muted);
+}
+
+/* Thème sélectionné */
+.sel .check{
+  background:currentColor;
+  border-color:currentColor;
+}
+
+.sel .check::before{
+  content:"✓";
+  color:white;
+}
+
+/* Couleurs des thèmes */
+.c1 .check{color:#F59E0B}
+.c2 .check{color:#EF4444}
+.c3 .check{color:#6366F1}
+.c4 .check{color:#F97316}
+.c5 .check{color:#EC4899}
+.c6 .check{color:#14B8A6}
+.c7 .check{color:#84CC16}
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    SCREEN 6 — SETTINGS (nb questions etc)
