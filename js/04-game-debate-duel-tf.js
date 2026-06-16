@@ -3,8 +3,8 @@ const debateQuestionsPool=[
   'Le télétravail est-il bénéfique pour la productivité ?',
   'Faut-il rendre le vote obligatoire ?',
   'Internet a-t-il rendu les gens plus heureux ?',
-  'Faut-il abolir les examens à l\\'école ?',
-  'L\\'argent fait-il vraiment le bonheur ?',
+  'Faut-il abolir les examens à l'école ?',
+  'L'argent fait-il vraiment le bonheur ?',
 ]
 
 let debateGameQuestions = []
@@ -181,15 +181,27 @@ function nextDebateQ(){
 }
 
 function switchDebateQ(){
-  // Replace current question with another, without advancing the counter
-  const cur = debateQuestions[debQIdx]
-  let newQ, tries=0
-  do { newQ = debateQuestions[Math.floor(Math.random()*debateQuestions.length)]; tries++ }
-  while(newQ === cur && tries < 10)
-  debateQuestions[debQIdx] = newQ
+  if(!debateGameQuestions.length) prepareDebateQuestions()
+
+  const cur = debateGameQuestions[debQIdx]
+  let newQ, tries = 0
+
+  do {
+    newQ = debateQuestionsPool[Math.floor(Math.random() * debateQuestionsPool.length)]
+    tries++
+  } while(newQ === cur && tries < 10)
+
+  debateGameQuestions[debQIdx] = newQ
+
   const el = document.getElementById('deb-question')
-  if(el){ el.style.opacity='0'; setTimeout(function(){ el.textContent=newQ; el.style.opacity='1' }, 200) }
-  else if(el) el.textContent = newQ
+  if(el){
+    el.style.opacity = '0'
+    setTimeout(function(){
+      el.textContent = newQ
+      el.style.opacity = '1'
+    }, 200)
+  }
+
   startDebateTimer()
 }
 
