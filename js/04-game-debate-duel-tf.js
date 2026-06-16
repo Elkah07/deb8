@@ -59,7 +59,12 @@ console.log("Thèmes sélectionnés :", selectedThemes)
       const data = await res.json()
 
       data.forEach(item => {
-        if(item.question) debateGameQuestions.push(item.question)
+        if(item.question){
+  debateGameQuestions.push({
+    question: item.question,
+    theme: debateThemeLabels[themeKey]
+  })
+}
       })
     } catch(err){
       console.warn("Erreur chargement thème :", file, err)
@@ -74,10 +79,8 @@ console.log("Thèmes sélectionnés :", selectedThemes)
 
   document.getElementById("deb-q-total").textContent = debateGameQuestions.length
   document.getElementById("deb-q-num").textContent = 1
-  document.getElementById("deb-question").textContent = debateGameQuestions[0] || "Aucune question disponible."
+  showDebateQuestion()
 
-  const tag = document.getElementById("deb-theme-tag")
-if(tag) tag.textContent = currentDebateThemeLabel.toUpperCase()
 }
 
 function buildDebatePlayers(){
@@ -128,7 +131,7 @@ function nextDebateQ(){
     return
   }
 
-  document.getElementById("deb-question").textContent = debateGameQuestions[debQIdx]
+  showDebateQuestion()
   document.getElementById("deb-q-num").textContent = debQIdx + 1
   document.getElementById("deb-q-total").textContent = debateGameQuestions.length
 
@@ -149,7 +152,7 @@ function switchDebateQ(){
   }
 
   debateGameQuestions[debQIdx] = newQ
-  document.getElementById("deb-question").textContent = newQ
+  showDebateQuestion()
 
   startDebateTimer()
 }
@@ -658,6 +661,24 @@ function impVote(){
 let debateTimerInt = null
 let debateTimerSec = 0
 let debateTimerTotal = 0
+
+function showDebateQuestion(){
+
+  const current = debateGameQuestions[debQIdx]
+
+
+
+  const qEl = document.getElementById("deb-question")
+
+  if(qEl) qEl.textContent = current?.question || "Aucune question disponible."
+
+
+
+  const tag = document.getElementById("deb-theme-tag")
+
+  if(tag) tag.textContent = (current?.theme || "Classiques").toUpperCase()
+
+}
 
 function getDebateDurationSeconds(){
   const idx = settingVals['time_debate'] ?? 0
