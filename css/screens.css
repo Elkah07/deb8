@@ -234,6 +234,13 @@ SCREEN 1 — SPLASH
 .c5 .check{color:#EC4899}
 .c6 .check{color:#14B8A6}
 .c7 .check{color:#84CC16}
+.c8 .check{color:#8B5CF6}
+.c9 .check{color:#F59E0B}
+.c10 .check{color:#A855F7}
+
+.th.c8.sel{border-color:#8B5CF6;box-shadow:0 0 0 1px #8B5CF6}
+.th.c9.sel{border-color:#F59E0B;box-shadow:0 0 0 1px #F59E0B}
+.th.c10.sel{border-color:#A855F7;box-shadow:0 0 0 1px #A855F7}
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    SCREEN 6 — SETTINGS (nb questions etc)
