@@ -1,11 +1,34 @@
 // ── GAME SCREENS ──
-const debateQuestions=[
+const debateQuestionsPool=[
   'Le télétravail est-il bénéfique pour la productivité ?',
   'Faut-il rendre le vote obligatoire ?',
   'Internet a-t-il rendu les gens plus heureux ?',
-  'Faut-il abolir les examens à l\'école ?',
-  'L\'argent fait-il vraiment le bonheur ?',
+  'Faut-il abolir les examens à l\\'école ?',
+  'L\\'argent fait-il vraiment le bonheur ?',
 ]
+
+let debateGameQuestions = []
+
+function prepareDebateQuestions(){
+  const total = settingVals['nb_questions'] ?? 8
+  debateGameQuestions = []
+
+  for(let i = 0; i < total; i++){
+    debateGameQuestions.push(debateQuestionsPool[i % debateQuestionsPool.length])
+  }
+
+  debQIdx = 0
+
+  const totalEl = document.getElementById('deb-q-total')
+  if(totalEl) totalEl.textContent = total
+
+  const numEl = document.getElementById('deb-q-num')
+  if(numEl) numEl.textContent = 1
+
+  const qEl = document.getElementById('deb-question')
+  if(qEl) qEl.textContent = debateGameQuestions[0]
+}
+
 const duelQuestions=[
   'Faut-il interdire les réseaux sociaux aux moins de 16 ans ?',
   'La peine de mort est-elle justifiée dans certains cas ?',
@@ -48,7 +71,11 @@ function showGame(mode){
     startDuelTimer(); return
   }
   if(mode==='imp') startImpTimer()
-  if(mode==='debate') { buildDebatePlayers(); startDebateTimer() }
+  if(mode==='debate') {
+  prepareDebateQuestions()
+  buildDebatePlayers()
+  startDebateTimer()
+}
 }
 
 function previewDuelVote(){
