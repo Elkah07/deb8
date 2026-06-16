@@ -10,8 +10,6 @@ const debateThemeFiles = {
 }
 
 let debateGameQuestions = []
-
-let debateGameQuestions = []
 let debQIdx = 0, duelQIdx = 0, duelTourN = 1, tfQIdx = 0, impTourN = 2
 let duelTimerInt = null, impTimerInt = null
 let duelSec = 45
@@ -117,7 +115,7 @@ function switchDebateQ(){
   let tries = 0
 
   while(newQ === cur && tries < 10){
-    newQ = debateQuestionsPool[Math.floor(Math.random() * debateQuestionsPool.length)]
+    newQ = debateGameQuestions[Math.floor(Math.random() * debateGameQuestions.length)]
     tries++
   }
 
