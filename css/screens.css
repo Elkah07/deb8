@@ -443,3 +443,21 @@ body.light .th:not(.sel) .check::after{
 .custom-timer-wrap.show{
   display:flex;
 }
+
+
+.sc-input{
+  width:70px;
+  height:42px;
+  border-radius:12px;
+  border:1.5px solid var(--border);
+  background:var(--card2);
+  color:var(--text);
+  text-align:center;
+  font-family:var(--font-head);
+  font-size:24px;
+  outline:none;
+}
+
+.sc-input:focus{
+  border-color:var(--orange);
+}
