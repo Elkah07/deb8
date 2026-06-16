@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "politique_001",
+    "question": "Bardella vs Bompart : qui est le plus convaincant en débat public ?"
+  },
+  {
+    "id": "politique_002",
+    "question": "Bardella vs Mélenchon : qui maîtrise le mieux la rhétorique politique ?"
+  },
+  {
+    "id": "politique_003",
+    "question": "Macron vs Le Pen : qui incarne le mieux la fonction présidentielle ?"
+  },
+  {
+    "id": "politique_004",
+    "question": "Attal vs Bardella : qui séduit le plus les jeunes électeurs ?"
+  },
+  {
+    "id": "politique_005",
+    "question": "Le Pen vs Mélenchon : qui mobilise le plus fortement son électorat ?"
+  },
+  {
+    "id": "politique_006",
+    "question": "Macron vs Mélenchon : qui propose la vision la plus cohérente pour la France ?"
+  },
+  {
+    "id": "politique_007",
+    "question": "Bardella vs Attal : qui gère le mieux la communication médiatique ?"
+  },
+  {
+    "id": "politique_008",
+    "question": "Le Pen vs Zemmour : qui structure le mieux son projet politique ?"
+  },
+  {
+    "id": "politique_009",
+    "question": "Macron vs Le Pen : qui gère le mieux les crises ?"
+  },
+  {
+    "id": "politique_010",
+    "question": "Mélenchon vs Bardella : qui polarise le plus le débat public ?"
+  },
+  {
+    "id": "politique_011",
+    "question": "Trump vs Poutine : qui exerce le pouvoir de manière la plus directe ?"
+  },
+  {
+    "id": "politique_012",
+    "question": "Trump vs Biden : qui incarne le mieux l’autorité présidentielle ?"
+  },
+  {
+    "id": "politique_013",
+    "question": "Poutine vs Xi Jinping : qui contrôle le plus solidement son pays ?"
+  },
+  {
+    "id": "politique_014",
+    "question": "Macron vs Scholz : qui influence le plus l’Union européenne ?"
+  },
+  {
+    "id": "politique_015",
+    "question": "Biden vs Trump : qui gère le mieux les alliances internationales ?"
+  },
+  {
+    "id": "politique_016",
+    "question": "Xi Jinping vs dirigeants occidentaux : quel modèle est le plus stable ?"
+  },
+  {
+    "id": "politique_017",
+    "question": "Poutine vs dirigeants européens : qui impose le plus son agenda ?"
+  },
+  {
+    "id": "politique_018",
+    "question": "Trump vs Macron : qui domine le mieux le débat médiatique international ?"
+  },
+  {
+    "id": "politique_019",
+    "question": "Biden vs Xi Jinping : qui a la stratégie la plus claire à long terme ?"
+  },
+  {
+    "id": "politique_020",
+    "question": "Les dirigeants populistes sont-ils plus efficaces en communication ?"
+  },
+  {
+    "id": "politique_021",
+    "question": "Un dirigeant clivant est-il plus efficace qu’un dirigeant consensuel ?"
+  },
+  {
+    "id": "politique_022",
+    "question": "Les leaders populistes gouvernent-ils mieux en période de crise ?"
+  },
+  {
+    "id": "politique_023",
+    "question": "Un président jeune est-il plus en phase avec son époque ?"
+  },
+  {
+    "id": "politique_024",
+    "question": "Un chef d’État expérimenté est-il forcément plus compétent ?"
+  },
+  {
+    "id": "politique_025",
+    "question": "La fermeté est-elle plus efficace que la diplomatie ?"
+  },
+  {
+    "id": "politique_026",
+    "question": "La communication directe sur les réseaux sociaux renforce-t-elle l’autorité ?"
+  },
+  {
+    "id": "politique_027",
+    "question": "Un dirigeant doit-il prioriser l’économie ou la cohésion sociale ?"
+  },
+  {
+    "id": "politique_028",
+    "question": "Les leaders autoritaires gèrent-ils mieux les crises majeures ?"
+  },
+  {
+    "id": "politique_029",
+    "question": "Un chef d’État doit-il être charismatique pour réussir ?"
+  },
+  {
+    "id": "politique_030",
+    "question": "Les débats télévisés influencent-ils réellement l’opinion ?"
+  },
+  {
+    "id": "politique_031",
+    "question": "Bardella vs Bompart : qui défend le plus clairement son idéologie ?"
+  },
+  {
+    "id": "politique_032",
+    "question": "Macron vs Mélenchon : qui propose la réforme la plus ambitieuse ?"
+  },
+  {
+    "id": "politique_033",
+    "question": "Le Pen vs Macron : qui incarne le changement ?"
+  },
+  {
+    "id": "politique_034",
+    "question": "Trump vs Biden : qui représente le mieux son camp politique ?"
+  },
+  {
+    "id": "politique_035",
+    "question": "Poutine vs dirigeants occidentaux : qui incarne le plus la puissance nationale ?"
+  },
+  {
+    "id": "politique_036",
+    "question": "Xi Jinping vs dirigeants européens : quel modèle inspire le plus ?"
+  },
+  {
+    "id": "politique_037",
+    "question": "Mélenchon vs Le Pen : qui structure le mieux son programme économique ?"
+  },
+  {
+    "id": "politique_038",
+    "question": "Bardella vs Attal : qui maîtrise le mieux le débat sur l’immigration ?"
+  },
+  {
+    "id": "politique_039",
+    "question": "Macron vs Le Pen : qui convainc le plus à l’international ?"
+  },
+  {
+    "id": "politique_040",
+    "question": "Trump vs Poutine : qui influence le plus l’ordre mondial ?"
+  },
+  {
+    "id": "politique_041",
+    "question": "Les leaders populistes dominent-ils mieux les débats médiatiques ?"
+  },
+  {
+    "id": "politique_042",
+    "question": "Les dirigeants technocrates sont-ils plus efficaces que les tribuns ?"
+  },
+  {
+    "id": "politique_043",
+    "question": "Les figures politiques jeunes séduisent-elles davantage ?"
+  },
+  {
+    "id": "politique_044",
+    "question": "Un leader doit-il être aimé ou craint ?"
+  },
+  {
+    "id": "politique_045",
+    "question": "Le style direct est-il plus convaincant que le style diplomatique ?"
+  },
+  {
+    "id": "politique_046",
+    "question": "Les débats télévisés déterminent-ils les élections ?"
+  },
+  {
+    "id": "politique_047",
+    "question": "Un dirigeant doit-il privilégier la stabilité ou la rupture ?"
+  },
+  {
+    "id": "politique_048",
+    "question": "La personnalisation de la politique renforce-t-elle la démocratie ?"
+  },
+  {
+    "id": "politique_049",
+    "question": "Les confrontations directes améliorent-elles le débat public ?"
+  },
+  {
+    "id": "politique_050",
+    "question": "Un bon débatteur fait-il un bon dirigeant ?"
+  },
+  {
+    "id": "politique_051",
+    "question": "Le communisme est-il encore viable aujourd’hui ?"
+  },
+  {
+    "id": "politique_052",
+    "question": "Le libéralisme favorise-t-il réellement la liberté ?"
+  },
+  {
+    "id": "politique_053",
+    "question": "La démocratie est-elle le meilleur système possible ?"
+  },
+  {
+    "id": "politique_054",
+    "question": "Faut-il limiter la liberté d’expression pour protéger la société ?"
+  },
+  {
+    "id": "politique_055",
+    "question": "Un État fort est-il préférable à un État minimal ?"
+  },
+  {
+    "id": "politique_056",
+    "question": "La séparation des pouvoirs est-elle réellement respectée ?"
+  },
+  {
+    "id": "politique_057",
+    "question": "Le populisme est-il une menace ou une réponse à un malaise démocratique ?"
+  },
+  {
+    "id": "politique_058",
+    "question": "Le capitalisme est-il compatible avec l’écologie ?"
+  },
+  {
+    "id": "politique_059",
+    "question": "Les partis traditionnels sont-ils dépassés ?"
+  },
+  {
+    "id": "politique_060",
+    "question": "La politique doit-elle être morale avant d’être efficace ?"
+  },
+  {
+    "id": "politique_061",
+    "question": "La méritocratie est-elle un mythe ?"
+  },
+  {
+    "id": "politique_062",
+    "question": "Le socialisme est-il encore adapté au monde moderne ?"
+  },
+  {
+    "id": "politique_063",
+    "question": "L’écologie politique peut-elle gouverner efficacement ?"
+  },
+  {
+    "id": "politique_064",
+    "question": "La droite et la gauche ont-elles encore un sens ?"
+  },
+  {
+    "id": "politique_065",
+    "question": "Un régime autoritaire peut-il être efficace ?"
+  },
+  {
+    "id": "politique_066",
+    "question": "La réforme des retraites était-elle nécessaire ?"
+  },
+  {
+    "id": "politique_067",
+    "question": "Le 49.3 affaiblit-il la démocratie ?"
+  },
+  {
+    "id": "politique_068",
+    "question": "La proportionnelle devrait-elle être instaurée en France ?"
+  },
+  {
+    "id": "politique_069",
+    "question": "La Ve République est-elle dépassée ?"
+  },
+  {
+    "id": "politique_070",
+    "question": "Les coalitions rendent-elles le pays ingouvernable ?"
+  },
+  {
+    "id": "politique_071",
+    "question": "Les manifestations sont-elles un outil démocratique efficace ?"
+  },
+  {
+    "id": "politique_072",
+    "question": "Les syndicats ont-ils encore du poids en France ?"
+  },
+  {
+    "id": "politique_073",
+    "question": "LFI représente-t-elle une alternative crédible ?"
+  },
+  {
+    "id": "politique_074",
+    "question": "Le RN est-il devenu un parti comme les autres ?"
+  },
+  {
+    "id": "politique_075",
+    "question": "Le pouvoir présidentiel est-il trop fort en France ?"
+  },
+  {
+    "id": "politique_076",
+    "question": "Les députés représentent-ils réellement leurs électeurs ?"
+  },
+  {
+    "id": "politique_077",
+    "question": "L’abstention est-elle un échec du système ?"
+  },
+  {
+    "id": "politique_078",
+    "question": "La politique française est-elle trop centralisée ?"
+  },
+  {
+    "id": "politique_079",
+    "question": "Les élus sont-ils déconnectés du quotidien ?"
+  },
+  {
+    "id": "politique_080",
+    "question": "Les partis politiques devraient-ils être financés différemment ?"
+  },
+  {
+    "id": "politique_081",
+    "question": "Le Royaume-Uni aurait-il dû rester dans l’Union européenne ?"
+  },
+  {
+    "id": "politique_082",
+    "question": "L’Union européenne est-elle trop technocratique ?"
+  },
+  {
+    "id": "politique_083",
+    "question": "L’OTAN est-elle encore nécessaire ?"
+  },
+  {
+    "id": "politique_084",
+    "question": "Les sanctions économiques sont-elles efficaces ?"
+  },
+  {
+    "id": "politique_085",
+    "question": "La mondialisation profite-t-elle aux peuples ?"
+  },
+  {
+    "id": "politique_086",
+    "question": "Les frontières doivent-elles être renforcées ?"
+  },
+  {
+    "id": "politique_087",
+    "question": "L’Union européenne protège-t-elle suffisamment ses États membres ?"
+  },
+  {
+    "id": "politique_088",
+    "question": "Les démocraties sont-elles en recul dans le monde ?"
+  },
+  {
+    "id": "politique_089",
+    "question": "La diplomatie doit-elle primer sur la fermeté militaire ?"
+  },
+  {
+    "id": "politique_090",
+    "question": "Les grandes puissances respectent-elles encore le droit international ?"
+  },
+  {
+    "id": "politique_091",
+    "question": "Faut-il une armée européenne ?"
+  },
+  {
+    "id": "politique_092",
+    "question": "L’Europe est-elle trop dépendante des États-Unis ?"
+  },
+  {
+    "id": "politique_093",
+    "question": "La souveraineté nationale est-elle compatible avec l’UE ?"
+  },
+  {
+    "id": "politique_094",
+    "question": "Les crises migratoires sont-elles mal gérées en Europe ?"
+  },
+  {
+    "id": "politique_095",
+    "question": "Les institutions européennes sont-elles trop éloignées des citoyens ?"
+  },
+  {
+    "id": "politique_096",
+    "question": "Un dirigeant doit-il être charismatique ou compétent ?"
+  },
+  {
+    "id": "politique_097",
+    "question": "Faut-il limiter le nombre de mandats présidentiels ?"
+  },
+  {
+    "id": "politique_098",
+    "question": "Les référendums sont-ils un bon outil démocratique ?"
+  },
+  {
+    "id": "politique_099",
+    "question": "Les dirigeants doivent-ils rendre des comptes plus souvent ?"
+  },
+  {
+    "id": "politique_100",
+    "question": "Un président jeune est-il un avantage ?"
+  },
+  {
+    "id": "politique_101",
+    "question": "Les gouvernements technocratiques sont-ils plus efficaces ?"
+  },
+  {
+    "id": "politique_102",
+    "question": "La communication politique prime-t-elle sur l’action ?"
+  },
+  {
+    "id": "politique_103",
+    "question": "Les réseaux sociaux affaiblissent-ils la politique traditionnelle ?"
+  },
+  {
+    "id": "politique_104",
+    "question": "Un bon dirigeant doit-il être consensuel ou clivant ?"
+  },
+  {
+    "id": "politique_105",
+    "question": "La transparence totale est-elle possible en politique ?"
+  },
+  {
+    "id": "politique_106",
+    "question": "Un chef d’État doit-il avoir une expérience professionnelle hors politique ?"
+  },
+  {
+    "id": "politique_107",
+    "question": "La stabilité politique est-elle plus importante que le changement ?"
+  },
+  {
+    "id": "politique_108",
+    "question": "Les leaders populistes comprennent-ils mieux le peuple ?"
+  },
+  {
+    "id": "politique_109",
+    "question": "La politique est-elle devenue un métier fermé ?"
+  },
+  {
+    "id": "politique_110",
+    "question": "Les campagnes électorales sont-elles trop coûteuses ?"
+  },
+  {
+    "id": "politique_111",
+    "question": "Les médias influencent-ils trop les élections ?"
+  },
+  {
+    "id": "politique_112",
+    "question": "Les fake news menacent-elles la démocratie ?"
+  },
+  {
+    "id": "politique_113",
+    "question": "La laïcité est-elle bien appliquée ?"
+  },
+  {
+    "id": "politique_114",
+    "question": "Les églises devraient-elles payer des impôts ?"
+  },
+  {
+    "id": "politique_115",
+    "question": "Les religions doivent-elles être exclues du débat politique ?"
+  },
+  {
+    "id": "politique_116",
+    "question": "Les politiques doivent-ils être irréprochables moralement ?"
+  },
+  {
+    "id": "politique_117",
+    "question": "Les jeunes sont-ils suffisamment représentés en politique ?"
+  },
+  {
+    "id": "politique_118",
+    "question": "Les quotas en politique sont-ils nécessaires ?"
+  },
+  {
+    "id": "politique_119",
+    "question": "Les élus devraient-ils être tirés au sort ?"
+  },
+  {
+    "id": "politique_120",
+    "question": "La politique reflète-t-elle vraiment la diversité du pays ?"
+  },
+  {
+    "id": "politique_121",
+    "question": "Faut-il interdire certains partis politiques ?"
+  },
+  {
+    "id": "politique_122",
+    "question": "La liberté de la presse est-elle menacée ?"
+  },
+  {
+    "id": "politique_123",
+    "question": "Les sondages influencent-ils trop les votes ?"
+  },
+  {
+    "id": "politique_124",
+    "question": "Les réseaux sociaux favorisent-ils la radicalisation politique ?"
+  },
+  {
+    "id": "politique_125",
+    "question": "La politique doit-elle être plus participative ?"
+  },
+  {
+    "id": "politique_126",
+    "question": "L’État doit-il intervenir davantage dans l’économie ?"
+  },
+  {
+    "id": "politique_127",
+    "question": "Faut-il taxer davantage les plus riches ?"
+  },
+  {
+    "id": "politique_128",
+    "question": "La dette publique est-elle un problème majeur ?"
+  },
+  {
+    "id": "politique_129",
+    "question": "Le salaire minimum devrait-il être augmenté ?"
+  },
+  {
+    "id": "politique_130",
+    "question": "Les aides sociales sont-elles trop importantes ?"
+  },
+  {
+    "id": "politique_131",
+    "question": "Le protectionnisme est-il une solution viable ?"
+  },
+  {
+    "id": "politique_132",
+    "question": "La privatisation améliore-t-elle les services publics ?"
+  },
+  {
+    "id": "politique_133",
+    "question": "Faut-il nationaliser certains secteurs stratégiques ?"
+  },
+  {
+    "id": "politique_134",
+    "question": "L’inflation est-elle mal gérée ?"
+  },
+  {
+    "id": "politique_135",
+    "question": "La transition écologique coûte-t-elle trop cher ?"
+  },
+  {
+    "id": "politique_136",
+    "question": "Les peines de prison sont-elles efficaces ?"
+  },
+  {
+    "id": "politique_137",
+    "question": "Faut-il renforcer les pouvoirs de la police ?"
+  },
+  {
+    "id": "politique_138",
+    "question": "La vidéosurveillance protège-t-elle vraiment ?"
+  },
+  {
+    "id": "politique_139",
+    "question": "La justice est-elle trop laxiste ?"
+  },
+  {
+    "id": "politique_140",
+    "question": "La peine de mort devrait-elle être rétablie ?"
+  },
+  {
+    "id": "politique_141",
+    "question": "La sécurité doit-elle primer sur la liberté ?"
+  },
+  {
+    "id": "politique_142",
+    "question": "Les lois d’urgence deviennent-elles permanentes ?"
+  },
+  {
+    "id": "politique_143",
+    "question": "Les prisons sont-elles adaptées ?"
+  },
+  {
+    "id": "politique_144",
+    "question": "La prévention est-elle plus efficace que la répression ?"
+  },
+  {
+    "id": "politique_145",
+    "question": "La police est-elle suffisamment contrôlée ?"
+  },
+  {
+    "id": "politique_146",
+    "question": "L’immigration est-elle une chance pour un pays ?"
+  },
+  {
+    "id": "politique_147",
+    "question": "Faut-il durcir les conditions d’immigration ?"
+  },
+  {
+    "id": "politique_148",
+    "question": "L’intégration fonctionne-t-elle ?"
+  },
+  {
+    "id": "politique_149",
+    "question": "Le droit du sol doit-il être maintenu ?"
+  },
+  {
+    "id": "politique_150",
+    "question": "Les politiques migratoires sont-elles trop strictes ?"
+  },
+  {
+    "id": "politique_151",
+    "question": "L’immigration pèse-t-elle sur les finances publiques ?"
+  },
+  {
+    "id": "politique_152",
+    "question": "La diversité est-elle une richesse ?"
+  },
+  {
+    "id": "politique_153",
+    "question": "Les politiques d’asile sont-elles efficaces ?"
+  },
+  {
+    "id": "politique_154",
+    "question": "Les frontières ouvertes sont-elles réalistes ?"
+  },
+  {
+    "id": "politique_155",
+    "question": "L’identité nationale est-elle menacée ?"
+  },
+  {
+    "id": "politique_156",
+    "question": "La transition écologique doit-elle être prioritaire ?"
+  },
+  {
+    "id": "politique_157",
+    "question": "Les taxes écologiques sont-elles efficaces ?"
+  },
+  {
+    "id": "politique_158",
+    "question": "Faut-il interdire certains produits polluants ?"
+  },
+  {
+    "id": "politique_159",
+    "question": "La croissance verte est-elle possible ?"
+  },
+  {
+    "id": "politique_160",
+    "question": "Les gouvernements agissent-ils assez contre le climat ?"
+  },
+  {
+    "id": "politique_161",
+    "question": "Les accords internationaux sur le climat sont-ils respectés ?"
+  },
+  {
+    "id": "politique_162",
+    "question": "Les citoyens doivent-ils faire plus d’efforts ?"
+  },
+  {
+    "id": "politique_163",
+    "question": "Les entreprises sont-elles assez régulées ?"
+  },
+  {
+    "id": "politique_164",
+    "question": "L’écologie pénalise-t-elle les classes populaires ?"
+  },
+  {
+    "id": "politique_165",
+    "question": "Le nucléaire est-il une solution d’avenir ?"
+  },
+  {
+    "id": "politique_166",
+    "question": "Le vote devrait-il être obligatoire ?"
+  },
+  {
+    "id": "politique_167",
+    "question": "Le vote électronique est-il une bonne idée ?"
+  },
+  {
+    "id": "politique_168",
+    "question": "Faut-il abaisser l’âge du droit de vote ?"
+  },
+  {
+    "id": "politique_169",
+    "question": "Le tirage au sort des citoyens est-il démocratique ?"
+  },
+  {
+    "id": "politique_170",
+    "question": "Les mandats devraient-ils être plus courts ?"
+  },
+  {
+    "id": "politique_171",
+    "question": "La démocratie directe est-elle préférable ?"
+  },
+  {
+    "id": "politique_172",
+    "question": "Les institutions protègent-elles vraiment les citoyens ?"
+  },
+  {
+    "id": "politique_173",
+    "question": "Les contre-pouvoirs sont-ils suffisants ?"
+  },
+  {
+    "id": "politique_174",
+    "question": "Les débats parlementaires sont-ils utiles ?"
+  },
+  {
+    "id": "politique_175",
+    "question": "La confiance envers les institutions est-elle en baisse ?"
+  },
+  {
+    "id": "politique_176",
+    "question": "La réforme des retraites a-t-elle fragilisé la confiance démocratique ?"
+  },
+  {
+    "id": "politique_177",
+    "question": "Le recours au 49.3 est-il devenu trop fréquent ?"
+  },
+  {
+    "id": "politique_178",
+    "question": "Le gouvernement communique-t-il trop par médias interposés ?"
+  },
+  {
+    "id": "politique_179",
+    "question": "La majorité relative rend-elle la France ingouvernable ?"
+  },
+  {
+    "id": "politique_180",
+    "question": "Les oppositions jouent-elles un rôle constructif ?"
+  },
+  {
+    "id": "politique_181",
+    "question": "La polarisation entre LFI et RN fragilise-t-elle le débat public ?"
+  },
+  {
+    "id": "politique_182",
+    "question": "Le RN a-t-il réellement changé de ligne politique ?"
+  },
+  {
+    "id": "politique_183",
+    "question": "LFI radicalise-t-elle le débat politique français ?"
+  },
+  {
+    "id": "politique_184",
+    "question": "Les partis traditionnels comme LR et PS peuvent-ils rebondir ?"
+  },
+  {
+    "id": "politique_185",
+    "question": "La réforme de l’assurance chômage est-elle équitable ?"
+  },
+  {
+    "id": "politique_186",
+    "question": "La gestion de l’inflation a-t-elle été efficace ?"
+  },
+  {
+    "id": "politique_187",
+    "question": "Le pouvoir d’achat est-il suffisamment pris en compte ?"
+  },
+  {
+    "id": "politique_188",
+    "question": "La politique écologique actuelle est-elle cohérente ?"
+  },
+  {
+    "id": "politique_189",
+    "question": "Le nucléaire doit-il rester central en France ?"
+  },
+  {
+    "id": "politique_190",
+    "question": "La planification écologique est-elle réaliste ?"
+  },
+  {
+    "id": "politique_191",
+    "question": "La politique migratoire française est-elle claire ?"
+  },
+  {
+    "id": "politique_192",
+    "question": "Faut-il durcir les conditions d’expulsion ?"
+  },
+  {
+    "id": "politique_193",
+    "question": "La France gère-t-elle bien les tensions sociales ?"
+  },
+  {
+    "id": "politique_194",
+    "question": "Les violences urbaines sont-elles mal comprises politiquement ?"
+  },
+  {
+    "id": "politique_195",
+    "question": "La laïcité est-elle instrumentalisée politiquement ?"
+  },
+  {
+    "id": "politique_196",
+    "question": "Les médias français sont-ils trop concentrés ?"
+  },
+  {
+    "id": "politique_197",
+    "question": "La réforme des institutions est-elle nécessaire ?"
+  },
+  {
+    "id": "politique_198",
+    "question": "La proportionnelle améliorerait-elle la représentation ?"
+  },
+  {
+    "id": "politique_199",
+    "question": "Le Sénat a-t-il encore un rôle clé ?"
+  },
+  {
+    "id": "politique_200",
+    "question": "Les collectivités locales ont-elles assez d’autonomie ?"
+  },
+  {
+    "id": "politique_201",
+    "question": "La dette publique française est-elle inquiétante ?"
+  },
+  {
+    "id": "politique_202",
+    "question": "Les aides sociales sont-elles bien ciblées ?"
+  },
+  {
+    "id": "politique_203",
+    "question": "La fiscalité française est-elle trop lourde ?"
+  },
+  {
+    "id": "politique_204",
+    "question": "Les services publics se dégradent-ils ?"
+  },
+  {
+    "id": "politique_205",
+    "question": "L’hôpital public est-il suffisamment soutenu ?"
+  },
+  {
+    "id": "politique_206",
+    "question": "L’école publique est-elle en crise ?"
+  },
+  {
+    "id": "politique_207",
+    "question": "La réforme du lycée a-t-elle été bénéfique ?"
+  },
+  {
+    "id": "politique_208",
+    "question": "Les forces de l’ordre sont-elles assez encadrées ?"
+  },
+  {
+    "id": "politique_209",
+    "question": "La justice française est-elle trop lente ?"
+  },
+  {
+    "id": "politique_210",
+    "question": "La confiance envers le président est-elle en baisse ?"
+  },
+  {
+    "id": "politique_211",
+    "question": "La politique française est-elle trop centralisée à Paris ?"
+  },
+  {
+    "id": "politique_212",
+    "question": "Les débats parlementaires influencent-ils réellement les décisions ?"
+  },
+  {
+    "id": "politique_213",
+    "question": "La communication politique prime-t-elle sur l’action réelle ?"
+  },
+  {
+    "id": "politique_214",
+    "question": "L’abstention traduit-elle un rejet du système ?"
+  },
+  {
+    "id": "politique_215",
+    "question": "Le système électoral américain est-il démocratique ?"
+  },
+  {
+    "id": "politique_216",
+    "question": "La polarisation politique aux États-Unis menace-t-elle la démocratie ?"
+  },
+  {
+    "id": "politique_217",
+    "question": "Le rôle des lobbys est-il trop important aux USA ?"
+  },
+  {
+    "id": "politique_218",
+    "question": "Le président américain a-t-il trop de pouvoir ?"
+  },
+  {
+    "id": "politique_219",
+    "question": "La Cour suprême influence-t-elle trop la politique ?"
+  },
+  {
+    "id": "politique_220",
+    "question": "La politique migratoire américaine est-elle cohérente ?"
+  },
+  {
+    "id": "politique_221",
+    "question": "Les États-Unis restent-ils la première puissance mondiale ?"
+  },
+  {
+    "id": "politique_222",
+    "question": "Le modèle américain est-il en crise ?"
+  },
+  {
+    "id": "politique_223",
+    "question": "La liberté d’expression est-elle mieux protégée aux USA ?"
+  },
+  {
+    "id": "politique_224",
+    "question": "Le système de santé américain est-il inégalitaire ?"
+  },
+  {
+    "id": "politique_225",
+    "question": "La Chine représente-t-elle une alternative au modèle occidental ?"
+  },
+  {
+    "id": "politique_226",
+    "question": "Le régime chinois est-il efficace économiquement ?"
+  },
+  {
+    "id": "politique_227",
+    "question": "La surveillance numérique en Chine est-elle un danger ?"
+  },
+  {
+    "id": "politique_228",
+    "question": "La Chine respecte-t-elle les droits fondamentaux ?"
+  },
+  {
+    "id": "politique_229",
+    "question": "Le modèle chinois séduit-il certains pays ?"
+  },
+  {
+    "id": "politique_230",
+    "question": "La rivalité USA-Chine menace-t-elle la stabilité mondiale ?"
+  },
+  {
+    "id": "politique_231",
+    "question": "La Chine est-elle en train de devenir la première puissance mondiale ?"
+  },
+  {
+    "id": "politique_232",
+    "question": "La diplomatie chinoise est-elle expansionniste ?"
+  },
+  {
+    "id": "politique_233",
+    "question": "La gestion chinoise des crises est-elle plus efficace ?"
+  },
+  {
+    "id": "politique_234",
+    "question": "Le contrôle de l’information en Chine est-il justifié ?"
+  },
+  {
+    "id": "politique_235",
+    "question": "Les conflits au Moyen-Orient sont-ils mal compris en Europe ?"
+  },
+  {
+    "id": "politique_236",
+    "question": "La diplomatie internationale est-elle efficace dans la région ?"
+  },
+  {
+    "id": "politique_237",
+    "question": "Les sanctions économiques aggravent-elles les tensions ?"
+  },
+  {
+    "id": "politique_238",
+    "question": "La question israélo-palestinienne est-elle insoluble ?"
+  },
+  {
+    "id": "politique_239",
+    "question": "L’ingérence étrangère a-t-elle aggravé les conflits ?"
+  },
+  {
+    "id": "politique_240",
+    "question": "Les monarchies du Golfe influencent-elles trop la géopolitique ?"
+  },
+  {
+    "id": "politique_241",
+    "question": "La dépendance au pétrole façonne-t-elle la politique régionale ?"
+  },
+  {
+    "id": "politique_242",
+    "question": "Les accords diplomatiques récents stabilisent-ils la région ?"
+  },
+  {
+    "id": "politique_243",
+    "question": "La démocratie est-elle compatible avec tous les contextes culturels ?"
+  },
+  {
+    "id": "politique_244",
+    "question": "Les organisations internationales sont-elles impuissantes ?"
+  },
+  {
+    "id": "politique_245",
+    "question": "L’Union européenne doit-elle s’élargir davantage ?"
+  },
+  {
+    "id": "politique_246",
+    "question": "L’Europe est-elle trop dépendante militairement des États-Unis ?"
+  },
+  {
+    "id": "politique_247",
+    "question": "Une armée européenne est-elle nécessaire ?"
+  },
+  {
+    "id": "politique_248",
+    "question": "La guerre en Ukraine a-t-elle renforcé l’UE ?"
+  },
+  {
+    "id": "politique_249",
+    "question": "Les sanctions contre la Russie sont-elles efficaces ?"
+  },
+  {
+    "id": "politique_250",
+    "question": "Les populismes progressent-ils en Europe ?"
+  },
+  {
+    "id": "politique_251",
+    "question": "La Hongrie et la Pologne respectent-elles les principes européens ?"
+  },
+  {
+    "id": "politique_252",
+    "question": "Le Brexit a-t-il affaibli le Royaume-Uni ?"
+  },
+  {
+    "id": "politique_253",
+    "question": "L’Allemagne domine-t-elle l’Union européenne ?"
+  },
+  {
+    "id": "politique_254",
+    "question": "La Banque centrale européenne a-t-elle trop de pouvoir ?"
+  },
+  {
+    "id": "politique_255",
+    "question": "L’ONU est-elle encore efficace ?"
+  },
+  {
+    "id": "politique_256",
+    "question": "Le Conseil de sécurité doit-il être réformé ?"
+  },
+  {
+    "id": "politique_257",
+    "question": "Les grandes puissances respectent-elles le droit international ?"
+  },
+  {
+    "id": "politique_258",
+    "question": "La mondialisation doit-elle être régulée ?"
+  },
+  {
+    "id": "politique_259",
+    "question": "Les multinationales ont-elles trop d’influence politique ?"
+  },
+  {
+    "id": "politique_260",
+    "question": "La gouvernance climatique mondiale est-elle crédible ?"
+  },
+  {
+    "id": "politique_261",
+    "question": "Les sommets internationaux produisent-ils des résultats concrets ?"
+  },
+  {
+    "id": "politique_262",
+    "question": "Les ONG influencent-elles trop les politiques publiques ?"
+  },
+  {
+    "id": "politique_263",
+    "question": "La démocratie libérale est-elle en recul global ?"
+  },
+  {
+    "id": "politique_264",
+    "question": "Le monde se dirige-t-il vers un nouvel ordre multipolaire ?"
+  },
+  {
+    "id": "politique_265",
+    "question": "Le libéralisme garantit-il plus de liberté que le socialisme ?"
+  },
+  {
+    "id": "politique_266",
+    "question": "Le socialisme réduit-il réellement les inégalités ?"
+  },
+  {
+    "id": "politique_267",
+    "question": "Le marché libre est-il plus efficace que l’intervention de l’État ?"
+  },
+  {
+    "id": "politique_268",
+    "question": "La redistribution des richesses freine-t-elle l’économie ?"
+  },
+  {
+    "id": "politique_269",
+    "question": "Le libéralisme favorise-t-il l’innovation ?"
+  },
+  {
+    "id": "politique_270",
+    "question": "Le socialisme protège-t-il mieux les classes populaires ?"
+  },
+  {
+    "id": "politique_271",
+    "question": "Un État minimal est-il plus performant ?"
+  },
+  {
+    "id": "politique_272",
+    "question": "L’intervention publique crée-t-elle une dépendance ?"
+  },
+  {
+    "id": "politique_273",
+    "question": "La concurrence améliore-t-elle toujours les services ?"
+  },
+  {
+    "id": "politique_274",
+    "question": "Le modèle social européen est-il soutenable ?"
+  },
+  {
+    "id": "politique_275",
+    "question": "Le capitalisme est-il responsable des inégalités actuelles ?"
+  },
+  {
+    "id": "politique_276",
+    "question": "Le communisme peut-il fonctionner dans une économie moderne ?"
+  },
+  {
+    "id": "politique_277",
+    "question": "La propriété privée est-elle indispensable au progrès ?"
+  },
+  {
+    "id": "politique_278",
+    "question": "Une économie planifiée est-elle viable aujourd’hui ?"
+  },
+  {
+    "id": "politique_279",
+    "question": "Le communisme limite-t-il les libertés individuelles ?"
+  },
+  {
+    "id": "politique_280",
+    "question": "La compétition économique est-elle bénéfique ?"
+  },
+  {
+    "id": "politique_281",
+    "question": "Un système sans marché peut-il innover ?"
+  },
+  {
+    "id": "politique_282",
+    "question": "Le capitalisme favorise-t-il la méritocratie ?"
+  },
+  {
+    "id": "politique_283",
+    "question": "Le communisme est-il forcément autoritaire ?"
+  },
+  {
+    "id": "politique_284",
+    "question": "Le conservatisme protège-t-il la stabilité sociale ?"
+  },
+  {
+    "id": "politique_285",
+    "question": "Le progressisme est-il nécessaire au progrès sociétal ?"
+  },
+  {
+    "id": "politique_286",
+    "question": "Les traditions doivent-elles être préservées à tout prix ?"
+  },
+  {
+    "id": "politique_287",
+    "question": "Le changement social doit-il être rapide ou progressif ?"
+  },
+  {
+    "id": "politique_288",
+    "question": "Le progressisme fragilise-t-il l’identité nationale ?"
+  },
+  {
+    "id": "politique_289",
+    "question": "Le conservatisme freine-t-il les droits individuels ?"
+  },
+  {
+    "id": "politique_290",
+    "question": "L’évolution des mœurs est-elle inévitable ?"
+  },
+  {
+    "id": "politique_291",
+    "question": "Les valeurs traditionnelles sont-elles dépassées ?"
+  },
+  {
+    "id": "politique_292",
+    "question": "Le progressisme est-il élitiste ?"
+  },
+  {
+    "id": "politique_293",
+    "question": "Le conservatisme répond-il mieux aux crises ?"
+  },
+  {
+    "id": "politique_294",
+    "question": "Le nationalisme protège-t-il mieux les intérêts d’un pays ?"
+  },
+  {
+    "id": "politique_295",
+    "question": "La mondialisation affaiblit-elle la souveraineté nationale ?"
+  },
+  {
+    "id": "politique_296",
+    "question": "Le protectionnisme stimule-t-il l’économie locale ?"
+  },
+  {
+    "id": "politique_297",
+    "question": "Le mondialisme favorise-t-il la coopération internationale ?"
+  },
+  {
+    "id": "politique_298",
+    "question": "La souveraineté doit-elle primer sur les accords internationaux ?"
+  },
+  {
+    "id": "politique_299",
+    "question": "Le nationalisme menace-t-il la paix ?"
+  },
+  {
+    "id": "politique_300",
+    "question": "Les organisations supranationales sont-elles nécessaires ?"
+  },
+  {
+    "id": "politique_301",
+    "question": "L’identité nationale est-elle en danger ?"
+  },
+  {
+    "id": "politique_302",
+    "question": "Le repli national est-il une solution durable ?"
+  },
+  {
+    "id": "politique_303",
+    "question": "La démocratie libérale est-elle en crise ?"
+  },
+  {
+    "id": "politique_304",
+    "question": "Un régime autoritaire peut-il être plus efficace ?"
+  },
+  {
+    "id": "politique_305",
+    "question": "La stabilité justifie-t-elle la restriction des libertés ?"
+  },
+  {
+    "id": "politique_306",
+    "question": "Les contre-pouvoirs ralentissent-ils l’action politique ?"
+  },
+  {
+    "id": "politique_307",
+    "question": "Les régimes forts gèrent-ils mieux les crises ?"
+  },
+  {
+    "id": "politique_308",
+    "question": "La liberté politique est-elle plus importante que la croissance ?"
+  },
+  {
+    "id": "politique_309",
+    "question": "Un pouvoir centralisé est-il plus réactif ?"
+  },
+  {
+    "id": "politique_310",
+    "question": "La démocratie est-elle trop lente ?"
+  },
+  {
+    "id": "politique_311",
+    "question": "Les libertés individuelles sont-elles négociables ?"
+  },
+  {
+    "id": "politique_312",
+    "question": "La transparence est-elle compatible avec l’efficacité ?"
+  },
+  {
+    "id": "politique_313",
+    "question": "La décroissance est-elle une solution réaliste ?"
+  },
+  {
+    "id": "politique_314",
+    "question": "L’écologie doit-elle primer sur l’économie ?"
+  },
+  {
+    "id": "politique_315",
+    "question": "La transition écologique menace-t-elle l’emploi ?"
+  },
+  {
+    "id": "politique_316",
+    "question": "Les taxes écologiques sont-elles justes ?"
+  },
+  {
+    "id": "politique_317",
+    "question": "Les entreprises peuvent-elles s’autoréguler ?"
+  },
+  {
+    "id": "politique_318",
+    "question": "L’innovation technologique suffit-elle à résoudre la crise climatique ?"
+  },
+  {
+    "id": "politique_319",
+    "question": "Le modèle industriel actuel est-il soutenable ?"
+  },
+  {
+    "id": "politique_320",
+    "question": "L’écologie politique est-elle compatible avec le capitalisme ?"
+  },
+  {
+    "id": "politique_321",
+    "question": "Les efforts écologiques doivent-ils être contraignants ?"
+  },
+  {
+    "id": "politique_322",
+    "question": "L’État providence crée-t-il une dépendance sociale ?"
+  },
+  {
+    "id": "politique_323",
+    "question": "Les aides sociales doivent-elles être universelles ?"
+  },
+  {
+    "id": "politique_324",
+    "question": "La liberté individuelle doit-elle primer sur l’égalité ?"
+  },
+  {
+    "id": "politique_325",
+    "question": "L’impôt progressif est-il juste ?"
+  },
+  {
+    "id": "politique_326",
+    "question": "Les services publics doivent-ils être privatisés ?"
+  },
+  {
+    "id": "politique_327",
+    "question": "La solidarité doit-elle être organisée par l’État ?"
+  },
+  {
+    "id": "politique_328",
+    "question": "La liberté économique garantit-elle la prospérité ?"
+  },
+  {
+    "id": "politique_329",
+    "question": "L’État doit-il garantir un revenu minimum ?"
+  },
+  {
+    "id": "politique_330",
+    "question": "Moins d’État signifie-t-il plus d’efficacité ?"
+  },
+  {
+    "id": "politique_331",
+    "question": "La protection sociale freine-t-elle l’initiative ?"
+  },
+  {
+    "id": "politique_332",
+    "question": "La laïcité protège-t-elle mieux la cohésion sociale ?"
+  },
+  {
+    "id": "politique_333",
+    "question": "Le multiculturalisme enrichit-il la société ?"
+  },
+  {
+    "id": "politique_334",
+    "question": "Les symboles religieux doivent-ils être interdits dans l’espace public ?"
+  },
+  {
+    "id": "politique_335",
+    "question": "La neutralité religieuse est-elle applicable partout ?"
+  },
+  {
+    "id": "politique_336",
+    "question": "La diversité culturelle fragilise-t-elle l’unité nationale ?"
+  },
+  {
+    "id": "politique_337",
+    "question": "La tolérance doit-elle avoir des limites ?"
+  },
+  {
+    "id": "politique_338",
+    "question": "L’intégration doit-elle primer sur l’expression identitaire ?"
+  },
+  {
+    "id": "politique_339",
+    "question": "La laïcité est-elle mal comprise ?"
+  },
+  {
+    "id": "politique_340",
+    "question": "Le multiculturalisme favorise-t-il le communautarisme ?"
+  },
+  {
+    "id": "politique_341",
+    "question": "Les valeurs communes sont-elles indispensables ?"
+  },
+  {
+    "id": "politique_342",
+    "question": "L’égalité des chances est-elle suffisante ?"
+  },
+  {
+    "id": "politique_343",
+    "question": "Faut-il corriger les inégalités dès l’école ?"
+  },
+  {
+    "id": "politique_344",
+    "question": "Le talent doit-il être récompensé davantage ?"
+  },
+  {
+    "id": "politique_345",
+    "question": "L’égalitarisme freine-t-il l’excellence ?"
+  },
+  {
+    "id": "politique_346",
+    "question": "Les quotas sont-ils nécessaires ?"
+  },
+  {
+    "id": "politique_347",
+    "question": "Le mérite est-il influencé par le milieu social ?"
+  },
+  {
+    "id": "politique_348",
+    "question": "La réussite dépend-elle principalement de l’effort ?"
+  },
+  {
+    "id": "politique_349",
+    "question": "L’égalité parfaite est-elle atteignable ?"
+  },
+  {
+    "id": "politique_350",
+    "question": "La compétition est-elle nécessaire à la performance ?"
+  },
+  {
+    "id": "politique_351",
+    "question": "Bardella vs Bompart : qui est le plus efficace en débat télévisé ?"
+  },
+  {
+    "id": "politique_352",
+    "question": "Bardella vs Attal : qui maîtrise le mieux la communication politique ?"
+  },
+  {
+    "id": "politique_353",
+    "question": "Le Pen vs Macron : qui rassure le plus l’électorat modéré ?"
+  },
+  {
+    "id": "politique_354",
+    "question": "Mélenchon vs Macron : qui propose la vision économique la plus cohérente ?"
+  },
+  {
+    "id": "politique_355",
+    "question": "Trump vs Biden : qui mobilise le mieux sa base électorale ?"
+  },
+  {
+    "id": "politique_356",
+    "question": "Trump vs Poutine : qui exerce le pouvoir de manière la plus autoritaire ?"
+  },
+  {
+    "id": "politique_357",
+    "question": "Xi Jinping vs Biden : qui a la stratégie géopolitique la plus claire ?"
+  },
+  {
+    "id": "politique_358",
+    "question": "Le Pen vs Mélenchon : qui polarise le plus le débat public ?"
+  },
+  {
+    "id": "politique_359",
+    "question": "Bardella vs Mélenchon : qui est le plus percutant rhétoriquement ?"
+  },
+  {
+    "id": "politique_360",
+    "question": "Attal vs Bardella : qui séduit le plus les jeunes ?"
+  },
+  {
+    "id": "politique_361",
+    "question": "Trump vs Macron : qui domine le mieux les sommets internationaux ?"
+  },
+  {
+    "id": "politique_362",
+    "question": "Biden vs Trump : qui gère le mieux les crises diplomatiques ?"
+  },
+  {
+    "id": "politique_363",
+    "question": "Macron vs Le Pen : qui incarne le mieux la stabilité ?"
+  },
+  {
+    "id": "politique_364",
+    "question": "Mélenchon vs Bardella : qui structure le mieux son programme ?"
+  },
+  {
+    "id": "politique_365",
+    "question": "Le Pen vs Zemmour : qui est le plus cohérent idéologiquement ?"
+  },
+  {
+    "id": "politique_366",
+    "question": "Macron vs Mélenchon : qui convainc le plus à l’international ?"
+  },
+  {
+    "id": "politique_367",
+    "question": "Trump vs Xi Jinping : qui influence le plus l’ordre mondial ?"
+  },
+  {
+    "id": "politique_368",
+    "question": "Biden vs Macron : qui défend le mieux le multilatéralisme ?"
+  },
+  {
+    "id": "politique_369",
+    "question": "Programme libéral vs programme social-démocrate : lequel est le plus soutenable budgétairement ?"
+  },
+  {
+    "id": "politique_370",
+    "question": "Réduction des impôts vs augmentation des services publics : quelle priorité est la plus efficace ?"
+  },
+  {
+    "id": "politique_371",
+    "question": "Politique sécuritaire stricte vs prévention sociale : quelle approche réduit mieux la délinquance ?"
+  },
+  {
+    "id": "politique_372",
+    "question": "Sortie du nucléaire vs relance nucléaire : quelle stratégie énergétique est la plus réaliste ?"
+  },
+  {
+    "id": "politique_373",
+    "question": "Immigration choisie vs régularisations élargies : quelle politique est la plus cohérente ?"
+  },
+  {
+    "id": "politique_374",
+    "question": "Protectionnisme vs libre-échange : quel modèle protège mieux l’économie nationale ?"
+  },
+  {
+    "id": "politique_375",
+    "question": "Retraite à 60 ans vs 64 ans : quelle solution est la plus viable ?"
+  },
+  {
+    "id": "politique_376",
+    "question": "Proportionnelle intégrale vs scrutin majoritaire : quel système représente mieux les citoyens ?"
+  },
+  {
+    "id": "politique_377",
+    "question": "Décentralisation accrue vs centralisation forte : quelle gouvernance est la plus efficace ?"
+  },
+  {
+    "id": "politique_378",
+    "question": "Réduction des dépenses publiques vs hausse des recettes fiscales : quelle solution réduit mieux la dette ?"
+  },
+  {
+    "id": "politique_379",
+    "question": "Politique écologique contraignante vs incitative : laquelle fonctionne le mieux ?"
+  },
+  {
+    "id": "politique_380",
+    "question": "Revenu universel vs aides ciblées : quelle approche est la plus juste ?"
+  },
+  {
+    "id": "politique_381",
+    "question": "Privatisation des services publics vs nationalisation stratégique : quel modèle est le plus stable ?"
+  },
+  {
+    "id": "politique_382",
+    "question": "Référendums fréquents vs démocratie représentative classique : quel système est le plus efficace ?"
+  },
+  {
+    "id": "politique_383",
+    "question": "Réduction du temps de travail vs augmentation de la productivité : quelle stratégie économique est viable ?"
+  },
+  {
+    "id": "politique_384",
+    "question": "Les débats télévisés influencent-ils réellement le vote ?"
+  },
+  {
+    "id": "politique_385",
+    "question": "Une campagne agressive est-elle plus efficace qu’une campagne positive ?"
+  },
+  {
+    "id": "politique_386",
+    "question": "Les réseaux sociaux déterminent-ils l’issue des élections ?"
+  },
+  {
+    "id": "politique_387",
+    "question": "Le vote utile affaiblit-il la démocratie ?"
+  },
+  {
+    "id": "politique_388",
+    "question": "Les sondages influencent-ils trop les électeurs ?"
+  },
+  {
+    "id": "politique_389",
+    "question": "Les alliances électorales brouillent-elles les idéologies ?"
+  },
+  {
+    "id": "politique_390",
+    "question": "Un candidat outsider a-t-il plus de chances aujourd’hui ?"
+  },
+  {
+    "id": "politique_391",
+    "question": "La personnalisation des campagnes renforce-t-elle le populisme ?"
+  },
+  {
+    "id": "politique_392",
+    "question": "Les meetings sont-ils encore utiles à l’ère numérique ?"
+  },
+  {
+    "id": "politique_393",
+    "question": "Les campagnes digitales remplacent-elles le terrain ?"
+  },
+  {
+    "id": "politique_394",
+    "question": "Les jeunes votent-ils selon les réseaux sociaux ?"
+  },
+  {
+    "id": "politique_395",
+    "question": "La stratégie du clash attire-t-elle plus d’attention ?"
+  },
+  {
+    "id": "politique_396",
+    "question": "Les petites phrases influencent-elles davantage que les programmes ?"
+  },
+  {
+    "id": "politique_397",
+    "question": "Un programme détaillé est-il moins efficace qu’un message simple ?"
+  },
+  {
+    "id": "politique_398",
+    "question": "Les campagnes doivent-elles être davantage encadrées financièrement ?"
+  },
+  {
+    "id": "politique_399",
+    "question": "La transparence des financements change-t-elle le vote ?"
+  },
+  {
+    "id": "politique_400",
+    "question": "Les primaires affaiblissent-elles les partis ?"
+  },
+  {
+    "id": "politique_401",
+    "question": "Un débat raté peut-il faire perdre une élection ?"
+  },
+  {
+    "id": "politique_402",
+    "question": "La communication émotionnelle domine-t-elle la politique moderne ?"
+  },
+  {
+    "id": "politique_403",
+    "question": "Les campagnes négatives mobilisent-elles plus que les campagnes positives ?"
+  },
+  {
+    "id": "politique_404",
+    "question": "Tout le monde devrait-il posséder des armes ?"
+  },
+  {
+    "id": "politique_405",
+    "question": "La politique doit-elle être exclue de l’école ?"
+  },
+  {
+    "id": "politique_406",
+    "question": "Les immigrants illégaux devraient-ils être traités comme des criminels ?"
+  },
+  {
+    "id": "politique_407",
+    "question": "L’ONU devrait-elle avoir une armée permanente ?"
+  },
+  {
+    "id": "politique_408",
+    "question": "La politique devrait-elle affecter la vie privée ?"
+  },
+  {
+    "id": "politique_409",
+    "question": "Devrait-on imposer des limites strictes à la richesse individuelle ?"
+  },
+  {
+    "id": "politique_410",
+    "question": "Les élections devraient-elles être entièrement électroniques ?"
+  },
+  {
+    "id": "politique_411",
+    "question": "Les athlètes devraient-ils être autorisés à utiliser des substances améliorant les performances ?"
+  },
+  {
+    "id": "politique_412",
+    "question": "Devrait-on instaurer une journée de travail de quatre jours ?"
+  },
+  {
+    "id": "politique_413",
+    "question": "Les pays devraient-ils taxer les transactions financières internationales ?"
+  },
+  {
+    "id": "politique_414",
+    "question": "Les universités devraient-elles offrir un accès gratuit aux cours en ligne ?"
+  },
+  {
+    "id": "politique_415",
+    "question": "Les organes humains devraient-ils pouvoir être commercialisés ?"
+  },
+  {
+    "id": "politique_416",
+    "question": "Les grands événements sportifs devraient-ils rester politiquement neutres ?"
+  },
+  {
+    "id": "politique_417",
+    "question": "Les robots remplaçant des emplois devraient-ils être taxés ?"
+  },
+  {
+    "id": "politique_418",
+    "question": "Devrait-on instaurer un salaire maximum en entreprise ?"
+  },
+  {
+    "id": "politique_419",
+    "question": "Les grandes entreprises technologiques devraient-elles être démantelées pour éviter les monopoles ?"
+  },
+  {
+    "id": "politique_420",
+    "question": "Faut-il instaurer un référendum obligatoire pour toute réforme constitutionnelle ?"
+  },
+  {
+    "id": "politique_421",
+    "question": "Devrait-on instaurer un référendum obligatoire pour toute réforme constitutionnelle ?"
+  },
+  {
+    "id": "politique_422",
+    "question": "Les cabinets de conseil influencent-ils trop les politiques publiques ?"
+  },
+  {
+    "id": "politique_423",
+    "question": "Les gouvernements cabinets de conseil influencent-ils trop les politiques publiques ?"
+  },
+  {
+    "id": "politique_424",
+    "question": "La diplomatie économique doit-elle primer sur la diplomatie militaire ?"
+  },
+  {
+    "id": "politique_425",
+    "question": "Les partis politiques devraient-ils être totalement financés par l'État ?"
+  },
+  {
+    "id": "politique_426",
+    "question": "Les gouvernements partis politiques devraient-ils être totalement financés par l'État ?"
+  },
+  {
+    "id": "politique_427",
+    "question": "Un gouvernement technique est-il plus efficace qu’un gouvernement politique ?"
+  },
+  {
+    "id": "politique_428",
+    "question": "La politique de sanctions internationales est-elle efficace ?"
+  },
+  {
+    "id": "politique_429",
+    "question": "Faut-il interdire les sondages avant les élections ?"
+  },
+  {
+    "id": "politique_430",
+    "question": "Devrait-on interdire les sondages avant les élections ?"
+  },
+  {
+    "id": "politique_431",
+    "question": "Les élus devraient-ils publier leur patrimoine chaque année ?"
+  },
+  {
+    "id": "politique_432",
+    "question": "Les gouvernements élus devraient-ils publier leur patrimoine chaque année ?"
+  },
+  {
+    "id": "politique_433",
+    "question": "La suppression de l’immunité parlementaire renforcerait-elle la démocratie ?"
+  },
+  {
+    "id": "politique_434",
+    "question": "Les institutions européennes devraient-elles être élues au suffrage universel direct ?"
+  },
+  {
+    "id": "politique_435",
+    "question": "Les gouvernements institutions européennes devraient-elles être élues au suffrage universel direct ?"
+  },
+  {
+    "id": "politique_436",
+    "question": "Le droit de veto au Conseil de sécurité de l’ONU doit-il être supprimé ?"
+  },
+  {
+    "id": "politique_437",
+    "question": "Les réseaux sociaux devraient-ils être interdits aux candidats pendant les campagnes ?"
+  },
+  {
+    "id": "politique_438",
+    "question": "Les gouvernements réseaux sociaux devraient-ils être interdits aux candidats pendant les campagnes ?"
+  },
+  {
+    "id": "politique_439",
+    "question": "Faut-il instaurer un contrôle citoyen permanent des lois votées ?"
+  },
+  {
+    "id": "politique_440",
+    "question": "Devrait-on instaurer un contrôle citoyen permanent des lois votées ?"
+  },
+  {
+    "id": "politique_441",
+    "question": "Les dépenses publiques sont-elles trop élevées en France ?"
+  },
+  {
+    "id": "politique_442",
+    "question": "Les gouvernements dépenses publiques sont-elles trop élevées en France ?"
+  },
+  {
+    "id": "politique_443",
+    "question": "Le protectionnisme est-il une réponse efficace aux crises économiques ?"
+  },
+  {
+    "id": "politique_444",
+    "question": "La démocratie participative est-elle réaliste à grande échelle ?"
+  },
+  {
+    "id": "politique_445",
+    "question": "Les budgets militaires européens doivent-ils augmenter ?"
+  },
+  {
+    "id": "politique_446",
+    "question": "Les gouvernements budgets militaires européens doivent-ils augmenter ?"
+  },
+  {
+    "id": "politique_447",
+    "question": "La diplomatie climatique doit-elle être contraignante ?"
+  },
+  {
+    "id": "politique_448",
+    "question": "Les États devraient-ils interdire les paradis fiscaux ?"
+  },
+  {
+    "id": "politique_449",
+    "question": "Les gouvernements États devraient-ils interdire les paradis fiscaux ?"
+  },
+  {
+    "id": "politique_450",
+    "question": "La transparence totale des négociations internationales est-elle possible ?"
+  },
+  {
+    "id": "politique_451",
+    "question": "Un État peut-il être neutre face aux conflits internationaux ?"
+  },
+  {
+    "id": "politique_452",
+    "question": "Les multinationales ont-elles plus de pouvoir que les États ?"
+  },
+  {
+    "id": "politique_453",
+    "question": "Les gouvernements multinationales ont-elles plus de pouvoir que les États ?"
+  },
+  {
+    "id": "politique_454",
+    "question": "Les coalitions politiques diluent-elles les programmes électoraux ?"
+  },
+  {
+    "id": "politique_455",
+    "question": "Les gouvernements coalitions politiques diluent-elles les programmes électoraux ?"
+  },
+  {
+    "id": "politique_456",
+    "question": "Faut-il réduire drastiquement le nombre de parlementaires ?"
+  },
+  {
+    "id": "politique_457",
+    "question": "Devrait-on réduire drastiquement le nombre de parlementaires ?"
+  },
+  {
+    "id": "politique_458",
+    "question": "Les lois d’urgence devraient-elles avoir une durée maximale stricte ?"
+  },
+  {
+    "id": "politique_459",
+    "question": "Les gouvernements lois d’urgence devraient-elles avoir une durée maximale stricte ?"
+  },
+  {
+    "id": "politique_460",
+    "question": "La sécurité nationale justifie-t-elle la surveillance numérique ?"
+  },
+  {
+    "id": "politique_461",
+    "question": "Le vote obligatoire renforcerait-il la légitimité démocratique ?"
+  },
+  {
+    "id": "politique_462",
+    "question": "Les débats politiques sont-ils devenus trop polarisés ?"
+  },
+  {
+    "id": "politique_463",
+    "question": "Les gouvernements débats politiques sont-ils devenus trop polarisés ?"
+  },
+  {
+    "id": "politique_464",
+    "question": "Les États devraient-ils garantir la neutralité des algorithmes politiques ?"
+  },
+  {
+    "id": "politique_465",
+    "question": "Les gouvernements États devraient-ils garantir la neutralité des algorithmes politiques ?"
+  },
+  {
+    "id": "politique_466",
+    "question": "Les dirigeants doivent-ils être soumis à des évaluations citoyennes annuelles ?"
+  },
+  {
+    "id": "politique_467",
+    "question": "Les gouvernements dirigeants doivent-ils être soumis à des évaluations citoyennes annuelles ?"
+  },
+  {
+    "id": "politique_468",
+    "question": "Les sanctions écologiques devraient-elles être pénales ?"
+  },
+  {
+    "id": "politique_469",
+    "question": "Les gouvernements sanctions écologiques devraient-elles être pénales ?"
+  },
+  {
+    "id": "politique_470",
+    "question": "Faut-il instaurer une taxe mondiale sur les grandes fortunes ?"
+  },
+  {
+    "id": "politique_471",
+    "question": "Devrait-on instaurer une taxe mondiale sur les grandes fortunes ?"
+  },
+  {
+    "id": "politique_472",
+    "question": "Les grandes puissances respectent-elles réellement le droit international ?"
+  },
+  {
+    "id": "politique_473",
+    "question": "Les gouvernements grandes puissances respectent-elles réellement le droit international ?"
+  },
+  {
+    "id": "politique_474",
+    "question": "La politique étrangère devrait-elle être débattue publiquement avant chaque intervention ?"
+  },
+  {
+    "id": "politique_475",
+    "question": "Les institutions françaises sont-elles adaptées aux crises modernes ?"
+  },
+  {
+    "id": "politique_476",
+    "question": "Les gouvernements institutions françaises sont-elles adaptées aux crises modernes ?"
+  },
+  {
+    "id": "politique_477",
+    "question": "Les jeunes devraient-ils avoir un quota minimal au Parlement ?"
+  },
+  {
+    "id": "politique_478",
+    "question": "Les gouvernements jeunes devraient-ils avoir un quota minimal au Parlement ?"
+  },
+  {
+    "id": "politique_479",
+    "question": "Les États devraient-ils limiter la spéculation financière ?"
+  },
+  {
+    "id": "politique_480",
+    "question": "Les gouvernements États devraient-ils limiter la spéculation financière ?"
+  },
+  {
+    "id": "politique_481",
+    "question": "Un État peut-il concilier croissance forte et écologie stricte ?"
+  },
+  {
+    "id": "politique_482",
+    "question": "Les médias publics devraient-ils être totalement indépendants du gouvernement ?"
+  },
+  {
+    "id": "politique_483",
+    "question": "Les gouvernements médias publics devraient-ils être totalement indépendants du gouvernement ?"
+  },
+  {
+    "id": "politique_484",
+    "question": "Les débats présidentiels influencent-ils réellement les résultats électoraux ?"
+  },
+  {
+    "id": "politique_485",
+    "question": "Les gouvernements débats présidentiels influencent-ils réellement les résultats électoraux ?"
+  },
+  {
+    "id": "politique_486",
+    "question": "Un pays peut-il rester neutre dans un monde multipolaire ?"
+  },
+  {
+    "id": "politique_487",
+    "question": "La diplomatie publique est-elle devenue plus importante que la diplomatie classique ?"
+  },
+  {
+    "id": "politique_488",
+    "question": "Les coalitions européennes sont-elles trop fragiles ?"
+  },
+  {
+    "id": "politique_489",
+    "question": "La dette écologique devrait-elle être reconnue juridiquement ?"
+  },
+  {
+    "id": "politique_490",
+    "question": "Les États devraient-ils interdire les financements politiques étrangers ?"
+  },
+  {
+    "id": "politique_491",
+    "question": "La cybersécurité doit-elle devenir une priorité nationale absolue ?"
+  },
+  {
+    "id": "politique_492",
+    "question": "Les dirigeants devraient-ils passer des tests d’aptitude psychologique ?"
+  },
+  {
+    "id": "politique_493",
+    "question": "Un pays peut-il quitter l’UE sans conséquences majeures ?"
+  },
+  {
+    "id": "politique_494",
+    "question": "La politique énergétique devrait-elle être centralisée au niveau européen ?"
+  },
+  {
+    "id": "politique_495",
+    "question": "Les référendums locaux renforcent-ils la démocratie ?"
+  },
+  {
+    "id": "politique_496",
+    "question": "Les citoyens devraient-ils pouvoir révoquer un élu en cours de mandat ?"
+  },
+  {
+    "id": "politique_497",
+    "question": "La diplomatie sportive influence-t-elle réellement les relations internationales ?"
+  },
+  {
+    "id": "politique_498",
+    "question": "Les budgets de défense européens sont-ils insuffisants ?"
+  },
+  {
+    "id": "politique_499",
+    "question": "La politique industrielle doit-elle redevenir une priorité ?"
+  },
+  {
+    "id": "politique_500",
+    "question": "Les États devraient-ils encadrer davantage les cryptomonnaies ?"
+  },
+  {
+    "id": "politique_501",
+    "question": "La politique agricole européenne est-elle adaptée aux défis climatiques ?"
+  },
+  {
+    "id": "politique_502",
+    "question": "Les sanctions économiques devraient-elles viser uniquement les élites ?"
+  },
+  {
+    "id": "politique_503",
+    "question": "La neutralité carbone est-elle réaliste d’ici 2050 ?"
+  },
+  {
+    "id": "politique_504",
+    "question": "Les États devraient-ils contrôler davantage les investissements étrangers ?"
+  },
+  {
+    "id": "politique_505",
+    "question": "Le multilatéralisme est-il en crise ?"
+  },
+  {
+    "id": "politique_506",
+    "question": "Les think tanks devraient-ils déclarer publiquement leurs financements ?"
+  },
+  {
+    "id": "politique_507",
+    "question": "Les dirigeants doivent-ils limiter leurs mandats à deux maximum ?"
+  },
+  {
+    "id": "politique_508",
+    "question": "La diplomatie numérique est-elle sous-estimée ?"
+  },
+  {
+    "id": "politique_509",
+    "question": "Les politiques anti-inflation sont-elles socialement injustes ?"
+  },
+  {
+    "id": "politique_510",
+    "question": "La politique budgétaire européenne est-elle trop stricte ?"
+  },
+  {
+    "id": "politique_511",
+    "question": "Les États devraient-ils interdire les monopoles technologiques ?"
+  },
+  {
+    "id": "politique_512",
+    "question": "La souveraineté alimentaire doit-elle devenir prioritaire ?"
+  },
+  {
+    "id": "politique_513",
+    "question": "Les alliances militaires garantissent-elles réellement la paix ?"
+  },
+  {
+    "id": "politique_514",
+    "question": "Les politiques de relocalisation industrielle sont-elles efficaces ?"
+  },
+  {
+    "id": "politique_515",
+    "question": "La transition énergétique menace-t-elle la compétitivité ?"
+  },
+  {
+    "id": "politique_516",
+    "question": "Les institutions internationales manquent-elles de légitimité ?"
+  },
+  {
+    "id": "politique_517",
+    "question": "La diplomatie culturelle est-elle un outil de puissance ?"
+  },
+  {
+    "id": "politique_518",
+    "question": "Les États devraient-ils réguler davantage l’intelligence artificielle militaire ?"
+  },
+  {
+    "id": "politique_519",
+    "question": "Les partis politiques devraient-ils être limités en durée d’existence ?"
+  },
+  {
+    "id": "politique_520",
+    "question": "Les campagnes politiques devraient-elles être plafonnées à 30 jours ?"
+  },
+  {
+    "id": "politique_521",
+    "question": "La politique monétaire devrait-elle être contrôlée démocratiquement ?"
+  },
+  {
+    "id": "politique_522",
+    "question": "Les institutions françaises doivent-elles être modernisées ?"
+  },
+  {
+    "id": "politique_523",
+    "question": "Le pouvoir exécutif est-il trop dominant en France ?"
+  },
+  {
+    "id": "politique_524",
+    "question": "Les collectivités locales devraient-elles lever plus d’impôts ?"
+  },
+  {
+    "id": "politique_525",
+    "question": "La diplomatie européenne est-elle trop divisée ?"
+  },
+  {
+    "id": "politique_526",
+    "question": "Les politiques anti-terroristes menacent-elles les libertés civiles ?"
+  },
+  {
+    "id": "politique_527",
+    "question": "La sécurité doit-elle primer sur la vie privée ?"
+  },
+  {
+    "id": "politique_528",
+    "question": "Les gouvernements devraient-ils imposer un service civique obligatoire ?"
+  },
+  {
+    "id": "politique_529",
+    "question": "Les accords de libre-échange profitent-ils aux grandes entreprises ?"
+  },
+  {
+    "id": "politique_530",
+    "question": "La taxation mondiale des multinationales est-elle réaliste ?"
+  },
+  {
+    "id": "politique_531",
+    "question": "La diplomatie climatique doit-elle inclure des sanctions ?"
+  },
+  {
+    "id": "politique_532",
+    "question": "Les institutions devraient-elles intégrer davantage de citoyens tirés au sort ?"
+  },
+  {
+    "id": "politique_533",
+    "question": "Les partis populistes fragilisent-ils les démocraties ?"
+  },
+  {
+    "id": "politique_534",
+    "question": "Les États devraient-ils limiter la concentration des médias ?"
+  },
+  {
+    "id": "politique_535",
+    "question": "La presse devrait-elle être subventionnée pour garantir son indépendance ?"
+  },
+  {
+    "id": "politique_536",
+    "question": "Les gouvernements devraient-ils réguler les campagnes d’influence étrangères ?"
+  },
+  {
+    "id": "politique_537",
+    "question": "La souveraineté numérique est-elle un enjeu stratégique majeur ?"
+  },
+  {
+    "id": "politique_538",
+    "question": "Les dirigeants doivent-ils débattre plus fréquemment devant les citoyens ?"
+  },
+  {
+    "id": "politique_539",
+    "question": "Les politiques d’austérité sont-elles contre-productives ?"
+  },
+  {
+    "id": "politique_540",
+    "question": "La diplomatie européenne manque-t-elle d’un leadership fort ?"
+  },
+  {
+    "id": "politique_541",
+    "question": "Les États devraient-ils interdire la spéculation sur les matières premières ?"
+  },
+  {
+    "id": "politique_542",
+    "question": "Les politiques migratoires européennes sont-elles cohérentes ?"
+  },
+  {
+    "id": "politique_543",
+    "question": "La défense européenne commune est-elle inévitable ?"
+  },
+  {
+    "id": "politique_544",
+    "question": "Les institutions doivent-elles être plus transparentes ?"
+  },
+  {
+    "id": "politique_545",
+    "question": "Les dirigeants doivent-ils rendre des comptes chaque année ?"
+  },
+  {
+    "id": "politique_546",
+    "question": "La transition écologique doit-elle être constitutionnalisée ?"
+  },
+  {
+    "id": "politique_547",
+    "question": "Les sanctions internationales accélèrent-elles les conflits ?"
+  },
+  {
+    "id": "politique_548",
+    "question": "La politique étrangère française est-elle indépendante ?"
+  },
+  {
+    "id": "politique_549",
+    "question": "Les gouvernements doivent-ils limiter l’endettement constitutionnellement ?"
+  },
+  {
+    "id": "politique_550",
+    "question": "Les médias influencent-ils trop les décisions publiques ?"
+  },
+  {
+    "id": "politique_551",
+    "question": "Les réseaux sociaux amplifient-ils les extrêmes politiques ?"
+  },
+  {
+    "id": "politique_552",
+    "question": "Les États doivent-ils investir davantage dans l’éducation civique ?"
+  },
+  {
+    "id": "politique_553",
+    "question": "La politique doit-elle être davantage décentralisée ?"
+  },
+  {
+    "id": "politique_554",
+    "question": "Les gouvernements devraient-ils réglementer les deepfakes politiques ?"
+  },
+  {
+    "id": "politique_555",
+    "question": "La diplomatie européenne est-elle crédible face aux grandes puissances ?"
+  },
+  {
+    "id": "politique_556",
+    "question": "Les États devraient-ils imposer un impôt minimum mondial ?"
+  },
+  {
+    "id": "politique_557",
+    "question": "La stabilité politique est-elle prioritaire sur la réforme ?"
+  },
+  {
+    "id": "politique_558",
+    "question": "Les gouvernements doivent-ils protéger davantage les lanceurs d’alerte ?"
+  },
+  {
+    "id": "politique_559",
+    "question": "Les alliances économiques remplacent-elles les alliances militaires ?"
+  },
+  {
+    "id": "politique_560",
+    "question": "Les sanctions financières sont-elles plus efficaces que les sanctions militaires ?"
+  },
+  {
+    "id": "politique_561",
+    "question": "Les dirigeants devraient-ils limiter leur présence médiatique ?"
+  },
+  {
+    "id": "politique_562",
+    "question": "La gouvernance mondiale est-elle adaptée au XXIe siècle ?"
+  },
+  {
+    "id": "politique_563",
+    "question": "Les États devraient-ils imposer une transparence totale des financements politiques ?"
+  },
+  {
+    "id": "politique_564",
+    "question": "Les politiques climatiques divisent-elles les sociétés ?"
+  },
+  {
+    "id": "politique_565",
+    "question": "Les États doivent-ils garantir un accès universel à l’énergie ?"
+  },
+  {
+    "id": "politique_566",
+    "question": "Les politiques industrielles nationales sont-elles un retour en arrière ?"
+  },
+  {
+    "id": "politique_567",
+    "question": "Les institutions européennes devraient-elles être réformées en profondeur ?"
+  },
+  {
+    "id": "politique_568",
+    "question": "Les gouvernements devraient-ils encadrer davantage les sondages ?"
+  },
+  {
+    "id": "politique_569",
+    "question": "Les campagnes électorales devraient-elles être financées uniquement publiquement ?"
+  },
+  {
+    "id": "politique_570",
+    "question": "Les États doivent-ils interdire les armes autonomes ?"
+  },
+  {
+    "id": "politique_571",
+    "question": "Les sanctions diplomatiques sont-elles symboliques ?"
+  },
+  {
+    "id": "politique_572",
+    "question": "Les gouvernements devraient-ils taxer les profits exceptionnels ?"
+  },
+  {
+    "id": "politique_573",
+    "question": "Les institutions internationales doivent-elles être démocratisées ?"
+  },
+  {
+    "id": "politique_574",
+    "question": "Les dirigeants devraient-ils avoir une limite d’âge maximale ?"
+  },
+  {
+    "id": "politique_575",
+    "question": "Les politiques énergétiques nationales sont-elles trop dépendantes du marché ?"
+  },
+  {
+    "id": "politique_576",
+    "question": "Les États doivent-ils limiter la concentration bancaire ?"
+  },
+  {
+    "id": "politique_577",
+    "question": "Les gouvernements devraient-ils réguler les plateformes de streaming politiques ?"
+  },
+  {
+    "id": "politique_578",
+    "question": "La politique extérieure doit-elle être débattue au Parlement avant toute décision ?"
+  },
+  {
+    "id": "politique_579",
+    "question": "Les politiques publiques sont-elles trop influencées par les sondages ?"
+  },
+  {
+    "id": "politique_580",
+    "question": "Les États doivent-ils protéger leurs industries stratégiques ?"
+  },
+  {
+    "id": "politique_581",
+    "question": "Les gouvernements devraient-ils rendre obligatoire la transparence des algorithmes ?"
+  },
+  {
+    "id": "politique_582",
+    "question": "Les institutions doivent-elles intégrer plus de participation citoyenne ?"
+  },
+  {
+    "id": "politique_583",
+    "question": "Les politiques de sécurité intérieure sont-elles excessives ?"
+  },
+  {
+    "id": "politique_584",
+    "question": "La diplomatie européenne est-elle assez coordonnée ?"
+  },
+  {
+    "id": "politique_585",
+    "question": "Les États doivent-ils investir davantage dans la recherche stratégique ?"
+  },
+  {
+    "id": "politique_586",
+    "question": "Les gouvernements devraient-ils limiter la concentration des richesses ?"
+  },
+  {
+    "id": "politique_587",
+    "question": "Les institutions démocratiques sont-elles suffisamment protégées ?"
+  },
+  {
+    "id": "politique_588",
+    "question": "Les politiques publiques devraient-elles être évaluées par des citoyens ?"
+  },
+  {
+    "id": "politique_589",
+    "question": "Les démocraties doivent-elles se réinventer pour survivre ? (0)"
+  },
+  {
+    "id": "politique_590",
+    "question": "Les États devraient-ils limiter le pouvoir des multinationales ? (1)"
+  },
+  {
+    "id": "politique_591",
+    "question": "La politique internationale est-elle devenue imprévisible ? (2)"
+  },
+  {
+    "id": "politique_592",
+    "question": "Les gouvernements doivent-ils anticiper les crises plutôt que les gérer ? (3)"
+  },
+  {
+    "id": "politique_593",
+    "question": "La confiance dans les institutions peut-elle être restaurée ? (4)"
+  },
+  {
+    "id": "politique_594",
+    "question": "Les États devraient-ils imposer une transparence totale aux élus ? (5)"
+  },
+  {
+    "id": "politique_595",
+    "question": "Les alliances géopolitiques sont-elles durables ? (6)"
+  },
+  {
+    "id": "politique_596",
+    "question": "Les gouvernements doivent-ils protéger les industries stratégiques nationales ? (7)"
+  },
+  {
+    "id": "politique_597",
+    "question": "La souveraineté économique est-elle encore possible ? (8)"
+  },
+  {
+    "id": "politique_598",
+    "question": "Les politiques publiques devraient-elles être évaluées indépendamment ? (9)"
+  },
+  {
+    "id": "politique_599",
+    "question": "Les dirigeants doivent-ils consulter davantage les citoyens ? (10)"
+  },
+  {
+    "id": "politique_600",
+    "question": "La mondialisation peut-elle être régulée efficacement ? (11)"
+  },
+  {
+    "id": "politique_601",
+    "question": "Les États doivent-ils garantir un accès égal à l’information ? (12)"
+  },
+  {
+    "id": "politique_602",
+    "question": "Les politiques de défense sont-elles adaptées aux nouvelles menaces ? (13)"
+  },
+  {
+    "id": "politique_603",
+    "question": "La démocratie représentative doit-elle évoluer ? (14)"
+  },
+  {
+    "id": "politique_604",
+    "question": "Les institutions internationales doivent-elles être réformées ? (15)"
+  },
+  {
+    "id": "politique_605",
+    "question": "Les États doivent-ils encadrer davantage les nouvelles technologies ? (16)"
+  },
+  {
+    "id": "politique_606",
+    "question": "La politique économique doit-elle être coordonnée mondialement ? (17)"
+  },
+  {
+    "id": "politique_607",
+    "question": "Les gouvernements doivent-ils limiter la concentration médiatique ? (18)"
+  },
+  {
+    "id": "politique_608",
+    "question": "La stabilité politique est-elle plus importante que la réforme ? (19)"
+  },
+  {
+    "id": "politique_609",
+    "question": "Les démocraties doivent-elles se réinventer pour survivre ? (20)"
+  },
+  {
+    "id": "politique_610",
+    "question": "Les États devraient-ils limiter le pouvoir des multinationales ? (21)"
+  },
+  {
+    "id": "politique_611",
+    "question": "La politique internationale est-elle devenue imprévisible ? (22)"
+  },
+  {
+    "id": "politique_612",
+    "question": "Les gouvernements doivent-ils anticiper les crises plutôt que les gérer ? (23)"
+  },
+  {
+    "id": "politique_613",
+    "question": "La confiance dans les institutions peut-elle être restaurée ? (24)"
+  },
+  {
+    "id": "politique_614",
+    "question": "Les États devraient-ils imposer une transparence totale aux élus ? (25)"
+  },
+  {
+    "id": "politique_615",
+    "question": "Les alliances géopolitiques sont-elles durables ? (26)"
+  },
+  {
+    "id": "politique_616",
+    "question": "Les gouvernements doivent-ils protéger les industries stratégiques nationales ? (27)"
+  },
+  {
+    "id": "politique_617",
+    "question": "La souveraineté économique est-elle encore possible ? (28)"
+  },
+  {
+    "id": "politique_618",
+    "question": "Les politiques publiques devraient-elles être évaluées indépendamment ? (29)"
+  },
+  {
+    "id": "politique_619",
+    "question": "Les dirigeants doivent-ils consulter davantage les citoyens ? (30)"
+  },
+  {
+    "id": "politique_620",
+    "question": "La mondialisation peut-elle être régulée efficacement ? (31)"
+  }
+]

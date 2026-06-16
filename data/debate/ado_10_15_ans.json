@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "ado_10_15_ans_001",
+    "question": "Faut-il être soi-même même si on ne plaît pas à tout le monde ?"
+  },
+  {
+    "id": "ado_10_15_ans_002",
+    "question": "Être différent, c’est une force ou un problème ?"
+  },
+  {
+    "id": "ado_10_15_ans_003",
+    "question": "La confiance en soi, ça s’apprend ?"
+  },
+  {
+    "id": "ado_10_15_ans_004",
+    "question": "Faut-il changer pour s’intégrer ?"
+  },
+  {
+    "id": "ado_10_15_ans_005",
+    "question": "Est-ce grave de ne pas savoir qui on est encore ?"
+  },
+  {
+    "id": "ado_10_15_ans_006",
+    "question": "Peut-on être timide et fort à la fois ?"
+  },
+  {
+    "id": "ado_10_15_ans_007",
+    "question": "L’image qu’on montre aux autres est-elle toujours vraie ?"
+  },
+  {
+    "id": "ado_10_15_ans_008",
+    "question": "Est-ce important d’avoir un style unique ?"
+  },
+  {
+    "id": "ado_10_15_ans_009",
+    "question": "Peut-on être populaire et rester authentique ?"
+  },
+  {
+    "id": "ado_10_15_ans_010",
+    "question": "Faut-il toujours dire ce qu’on pense ?"
+  },
+  {
+    "id": "ado_10_15_ans_011",
+    "question": "Les autres nous voient-ils vraiment comme on se voit ?"
+  },
+  {
+    "id": "ado_10_15_ans_012",
+    "question": "Peut-on être influencé sans s’en rendre compte ?"
+  },
+  {
+    "id": "ado_10_15_ans_013",
+    "question": "Est-ce que l’apparence compte trop ?"
+  },
+  {
+    "id": "ado_10_15_ans_014",
+    "question": "Avoir confiance en soi, c’est ne jamais douter ?"
+  },
+  {
+    "id": "ado_10_15_ans_015",
+    "question": "Est-ce qu’on change vraiment en grandissant ?"
+  },
+  {
+    "id": "ado_10_15_ans_016",
+    "question": "Peut-on plaire à tout le monde ?"
+  },
+  {
+    "id": "ado_10_15_ans_017",
+    "question": "Est-ce que se comparer aux autres est dangereux ?"
+  },
+  {
+    "id": "ado_10_15_ans_018",
+    "question": "Peut-on être sensible et courageux ?"
+  },
+  {
+    "id": "ado_10_15_ans_019",
+    "question": "Est-ce que l’avis des autres doit compter ?"
+  },
+  {
+    "id": "ado_10_15_ans_020",
+    "question": "Faut-il cacher ses faiblesses ?"
+  },
+  {
+    "id": "ado_10_15_ans_021",
+    "question": "Être introverti, c’est un défaut ?"
+  },
+  {
+    "id": "ado_10_15_ans_022",
+    "question": "Peut-on être leader sans être le plus fort ?"
+  },
+  {
+    "id": "ado_10_15_ans_023",
+    "question": "Est-ce grave de ne pas avoir d’opinion sur tout ?"
+  },
+  {
+    "id": "ado_10_15_ans_024",
+    "question": "L’authenticité, c’est quoi ?"
+  },
+  {
+    "id": "ado_10_15_ans_025",
+    "question": "Peut-on être influencé par ses amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_026",
+    "question": "Est-ce que l’on devient la personne qu’on fréquente ?"
+  },
+  {
+    "id": "ado_10_15_ans_027",
+    "question": "Faut-il toujours défendre ses idées ?"
+  },
+  {
+    "id": "ado_10_15_ans_028",
+    "question": "Est-ce qu’on peut changer de personnalité ?"
+  },
+  {
+    "id": "ado_10_15_ans_029",
+    "question": "L’image qu’on a de soi est-elle souvent fausse ?"
+  },
+  {
+    "id": "ado_10_15_ans_030",
+    "question": "Être confiant, c’est parler fort ?"
+  },
+  {
+    "id": "ado_10_15_ans_031",
+    "question": "Peut-on réussir sans confiance en soi ?"
+  },
+  {
+    "id": "ado_10_15_ans_032",
+    "question": "Est-ce que les erreurs nous définissent ?"
+  },
+  {
+    "id": "ado_10_15_ans_033",
+    "question": "Peut-on être discret et puissant ?"
+  },
+  {
+    "id": "ado_10_15_ans_034",
+    "question": "Est-ce que la personnalité compte plus que le physique ?"
+  },
+  {
+    "id": "ado_10_15_ans_035",
+    "question": "Faut-il s’accepter tel qu’on est ?"
+  },
+  {
+    "id": "ado_10_15_ans_036",
+    "question": "Peut-on être influencé par les réseaux sociaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_037",
+    "question": "Est-ce que les critiques rendent plus fort ?"
+  },
+  {
+    "id": "ado_10_15_ans_038",
+    "question": "Être ambitieux, c’est mal vu ?"
+  },
+  {
+    "id": "ado_10_15_ans_039",
+    "question": "Peut-on être courageux en silence ?"
+  },
+  {
+    "id": "ado_10_15_ans_040",
+    "question": "Est-ce que l’on change selon les groupes ?"
+  },
+  {
+    "id": "ado_10_15_ans_041",
+    "question": "Faut-il assumer ses différences ?"
+  },
+  {
+    "id": "ado_10_15_ans_042",
+    "question": "Est-ce que le regard des autres nous transforme ?"
+  },
+  {
+    "id": "ado_10_15_ans_043",
+    "question": "Peut-on être populaire sans être gentil ?"
+  },
+  {
+    "id": "ado_10_15_ans_044",
+    "question": "Est-ce que le style vestimentaire définit une personne ?"
+  },
+  {
+    "id": "ado_10_15_ans_045",
+    "question": "Faut-il toujours défendre un ami même s’il a tort ?"
+  },
+  {
+    "id": "ado_10_15_ans_046",
+    "question": "Peut-on être fort et pleurer ?"
+  },
+  {
+    "id": "ado_10_15_ans_047",
+    "question": "Est-ce que l’on se connaît vraiment ?"
+  },
+  {
+    "id": "ado_10_15_ans_048",
+    "question": "Peut-on avoir plusieurs “versions” de soi ?"
+  },
+  {
+    "id": "ado_10_15_ans_049",
+    "question": "Est-ce que l’on est libre de devenir qui on veut ?"
+  },
+  {
+    "id": "ado_10_15_ans_050",
+    "question": "Faut-il ignorer les critiques ?"
+  },
+  {
+    "id": "ado_10_15_ans_051",
+    "question": "Être sensible, c’est une faiblesse ?"
+  },
+  {
+    "id": "ado_10_15_ans_052",
+    "question": "Peut-on apprendre à être courageux ?"
+  },
+  {
+    "id": "ado_10_15_ans_053",
+    "question": "Est-ce que la confiance vient avec l’âge ?"
+  },
+  {
+    "id": "ado_10_15_ans_054",
+    "question": "Peut-on être influencé par sa famille ?"
+  },
+  {
+    "id": "ado_10_15_ans_055",
+    "question": "Est-ce que l’on peut se réinventer ?"
+  },
+  {
+    "id": "ado_10_15_ans_056",
+    "question": "Faut-il toujours suivre son instinct ?"
+  },
+  {
+    "id": "ado_10_15_ans_057",
+    "question": "Peut-on être authentique sur les réseaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_058",
+    "question": "Est-ce que l’on est responsable de son image ?"
+  },
+  {
+    "id": "ado_10_15_ans_059",
+    "question": "Être différent, est-ce risqué ?"
+  },
+  {
+    "id": "ado_10_15_ans_060",
+    "question": "Peut-on être sûr de soi sans écraser les autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_061",
+    "question": "Est-ce que l’identité change selon les situations ?"
+  },
+  {
+    "id": "ado_10_15_ans_062",
+    "question": "Peut-on être fort intérieurement mais fragile extérieurement ?"
+  },
+  {
+    "id": "ado_10_15_ans_063",
+    "question": "Faut-il accepter toutes les critiques ?"
+  },
+  {
+    "id": "ado_10_15_ans_064",
+    "question": "Peut-on se créer une personnalité en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_065",
+    "question": "Est-ce que l’on peut choisir qui on devient ?"
+  },
+  {
+    "id": "ado_10_15_ans_066",
+    "question": "Être discret, c’est manquer de confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_067",
+    "question": "Peut-on réussir sans être populaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_068",
+    "question": "Est-ce que les autres nous comprennent vraiment ?"
+  },
+  {
+    "id": "ado_10_15_ans_069",
+    "question": "Faut-il toujours montrer ses émotions ?"
+  },
+  {
+    "id": "ado_10_15_ans_070",
+    "question": "Peut-on être influencé sans perdre son identité ?"
+  },
+  {
+    "id": "ado_10_15_ans_071",
+    "question": "Est-ce que l’on peut changer radicalement ?"
+  },
+  {
+    "id": "ado_10_15_ans_072",
+    "question": "Faut-il assumer ses passions même si elles sont jugées “bizarres” ?"
+  },
+  {
+    "id": "ado_10_15_ans_073",
+    "question": "Peut-on être fort sans le montrer ?"
+  },
+  {
+    "id": "ado_10_15_ans_074",
+    "question": "Est-ce que le regard des autres limite nos choix ?"
+  },
+  {
+    "id": "ado_10_15_ans_075",
+    "question": "Être soi-même, est-ce suffisant ?"
+  },
+  {
+    "id": "ado_10_15_ans_076",
+    "question": "Peut-on être inspiré sans copier ?"
+  },
+  {
+    "id": "ado_10_15_ans_077",
+    "question": "Est-ce que la confiance attire le respect ?"
+  },
+  {
+    "id": "ado_10_15_ans_078",
+    "question": "Faut-il cacher ses doutes ?"
+  },
+  {
+    "id": "ado_10_15_ans_079",
+    "question": "Peut-on se tromper sur soi-même ?"
+  },
+  {
+    "id": "ado_10_15_ans_080",
+    "question": "Est-ce que l’on est obligé d’avoir un “plan” pour l’avenir ?"
+  },
+  {
+    "id": "ado_10_15_ans_081",
+    "question": "Être mature, c’est quoi ?"
+  },
+  {
+    "id": "ado_10_15_ans_082",
+    "question": "Peut-on être différent à l’école et à la maison ?"
+  },
+  {
+    "id": "ado_10_15_ans_083",
+    "question": "Est-ce que la popularité change une personne ?"
+  },
+  {
+    "id": "ado_10_15_ans_084",
+    "question": "Faut-il accepter ses défauts ?"
+  },
+  {
+    "id": "ado_10_15_ans_085",
+    "question": "Peut-on être fier de ses différences ?"
+  },
+  {
+    "id": "ado_10_15_ans_086",
+    "question": "Est-ce que l’on peut devenir la meilleure version de soi ?"
+  },
+  {
+    "id": "ado_10_15_ans_087",
+    "question": "Être vulnérable, est-ce courageux ?"
+  },
+  {
+    "id": "ado_10_15_ans_088",
+    "question": "Peut-on être influencé par la mode sans s’en rendre compte ?"
+  },
+  {
+    "id": "ado_10_15_ans_089",
+    "question": "Est-ce que l’on peut vraiment ignorer l’avis des autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_090",
+    "question": "Faut-il toujours rester fidèle à ses valeurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_091",
+    "question": "Peut-on avoir plusieurs identités ?"
+  },
+  {
+    "id": "ado_10_15_ans_092",
+    "question": "Est-ce que la confiance se construit seul ?"
+  },
+  {
+    "id": "ado_10_15_ans_093",
+    "question": "Faut-il prouver sa valeur ?"
+  },
+  {
+    "id": "ado_10_15_ans_094",
+    "question": "Peut-on être admiré sans être populaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_095",
+    "question": "Est-ce que l’on change pour plaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_096",
+    "question": "Être soi-même, est-ce un risque ?"
+  },
+  {
+    "id": "ado_10_15_ans_097",
+    "question": "Peut-on devenir plus confiant avec l’expérience ?"
+  },
+  {
+    "id": "ado_10_15_ans_098",
+    "question": "Est-ce que l’on peut contrôler son image ?"
+  },
+  {
+    "id": "ado_10_15_ans_099",
+    "question": "Faut-il accepter de ne pas être parfait ?"
+  },
+  {
+    "id": "ado_10_15_ans_100",
+    "question": "Qui suis-je vraiment ?"
+  },
+  {
+    "id": "ado_10_15_ans_101",
+    "question": "Peut-on avoir plusieurs meilleurs amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_102",
+    "question": "Faut-il tout dire à son meilleur ami ?"
+  },
+  {
+    "id": "ado_10_15_ans_103",
+    "question": "Une amitié peut-elle survivre à une trahison ?"
+  },
+  {
+    "id": "ado_10_15_ans_104",
+    "question": "Être loyal, c’est toujours défendre son ami ?"
+  },
+  {
+    "id": "ado_10_15_ans_105",
+    "question": "Peut-on rester ami après une grosse dispute ?"
+  },
+  {
+    "id": "ado_10_15_ans_106",
+    "question": "Les amis influencent-ils qui l’on devient ?"
+  },
+  {
+    "id": "ado_10_15_ans_107",
+    "question": "Faut-il choisir entre deux amis qui ne s’aiment pas ?"
+  },
+  {
+    "id": "ado_10_15_ans_108",
+    "question": "Une amitié à distance peut-elle durer ?"
+  },
+  {
+    "id": "ado_10_15_ans_109",
+    "question": "Est-ce que la jalousie est normale en amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_110",
+    "question": "Peut-on être ami avec quelqu’un de très différent ?"
+  },
+  {
+    "id": "ado_10_15_ans_111",
+    "question": "Faut-il dire à un ami qu’il a tort ?"
+  },
+  {
+    "id": "ado_10_15_ans_112",
+    "question": "Peut-on être ami avec quelqu’un de plus populaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_113",
+    "question": "Une amitié peut-elle être déséquilibrée ?"
+  },
+  {
+    "id": "ado_10_15_ans_114",
+    "question": "Faut-il pardonner facilement ?"
+  },
+  {
+    "id": "ado_10_15_ans_115",
+    "question": "Peut-on être ami avec son ex-crush ?"
+  },
+  {
+    "id": "ado_10_15_ans_116",
+    "question": "Les secrets renforcent-ils l’amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_117",
+    "question": "Faut-il couper les ponts après une trahison ?"
+  },
+  {
+    "id": "ado_10_15_ans_118",
+    "question": "Peut-on être ami sans se voir souvent ?"
+  },
+  {
+    "id": "ado_10_15_ans_119",
+    "question": "L’honnêteté est-elle plus importante que la gentillesse ?"
+  },
+  {
+    "id": "ado_10_15_ans_120",
+    "question": "Peut-on être ami avec quelqu’un qu’on envie ?"
+  },
+  {
+    "id": "ado_10_15_ans_121",
+    "question": "Faut-il défendre un ami même s’il a tort ?"
+  },
+  {
+    "id": "ado_10_15_ans_122",
+    "question": "Une amitié peut-elle durer toute la vie ?"
+  },
+  {
+    "id": "ado_10_15_ans_123",
+    "question": "Peut-on changer de groupe d’amis sans trahir ?"
+  },
+  {
+    "id": "ado_10_15_ans_124",
+    "question": "Les vrais amis disent-ils toujours la vérité ?"
+  },
+  {
+    "id": "ado_10_15_ans_125",
+    "question": "Peut-on être ami avec quelqu’un qu’on ne comprend pas ?"
+  },
+  {
+    "id": "ado_10_15_ans_126",
+    "question": "Faut-il toujours répondre aux messages d’un ami ?"
+  },
+  {
+    "id": "ado_10_15_ans_127",
+    "question": "Une amitié peut-elle devenir toxique ?"
+  },
+  {
+    "id": "ado_10_15_ans_128",
+    "question": "Peut-on être ami avec quelqu’un de plus jeune ou plus âgé ?"
+  },
+  {
+    "id": "ado_10_15_ans_129",
+    "question": "Faut-il tester ses amis pour savoir s’ils sont loyaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_130",
+    "question": "Les amis peuvent-ils nous freiner ?"
+  },
+  {
+    "id": "ado_10_15_ans_131",
+    "question": "Peut-on être ami avec quelqu’un qu’on admire ?"
+  },
+  {
+    "id": "ado_10_15_ans_132",
+    "question": "Faut-il accepter les défauts de ses amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_133",
+    "question": "Une amitié peut-elle survivre à la distance ?"
+  },
+  {
+    "id": "ado_10_15_ans_134",
+    "question": "Peut-on être ami et rival ?"
+  },
+  {
+    "id": "ado_10_15_ans_135",
+    "question": "Faut-il tout partager avec ses amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_136",
+    "question": "Les disputes renforcent-elles parfois l’amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_137",
+    "question": "Peut-on être ami avec quelqu’un qu’on a blessé ?"
+  },
+  {
+    "id": "ado_10_15_ans_138",
+    "question": "Faut-il toujours faire le premier pas pour se réconcilier ?"
+  },
+  {
+    "id": "ado_10_15_ans_139",
+    "question": "Une amitié peut-elle être à sens unique ?"
+  },
+  {
+    "id": "ado_10_15_ans_140",
+    "question": "Peut-on être ami avec quelqu’un qui ne fait jamais d’efforts ?"
+  },
+  {
+    "id": "ado_10_15_ans_141",
+    "question": "Les amis doivent-ils se ressembler ?"
+  },
+  {
+    "id": "ado_10_15_ans_142",
+    "question": "Peut-on être ami avec quelqu’un de timide si on est extraverti ?"
+  },
+  {
+    "id": "ado_10_15_ans_143",
+    "question": "Faut-il toujours soutenir les choix de ses amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_144",
+    "question": "Une amitié peut-elle être plus forte qu’une relation amoureuse ?"
+  },
+  {
+    "id": "ado_10_15_ans_145",
+    "question": "Peut-on être ami avec quelqu’un qui nous critique beaucoup ?"
+  },
+  {
+    "id": "ado_10_15_ans_146",
+    "question": "Faut-il accepter quand un ami change ?"
+  },
+  {
+    "id": "ado_10_15_ans_147",
+    "question": "Les amis peuvent-ils être jaloux de notre réussite ?"
+  },
+  {
+    "id": "ado_10_15_ans_148",
+    "question": "Peut-on être ami avec quelqu’un qui nous ment ?"
+  },
+  {
+    "id": "ado_10_15_ans_149",
+    "question": "Faut-il tout pardonner ?"
+  },
+  {
+    "id": "ado_10_15_ans_150",
+    "question": "Une amitié peut-elle se terminer sans raison ?"
+  },
+  {
+    "id": "ado_10_15_ans_151",
+    "question": "Peut-on être ami avec quelqu’un qu’on voit rarement ?"
+  },
+  {
+    "id": "ado_10_15_ans_152",
+    "question": "Faut-il dire quand un ami nous déçoit ?"
+  },
+  {
+    "id": "ado_10_15_ans_153",
+    "question": "Une amitié peut-elle survivre à la popularité ?"
+  },
+  {
+    "id": "ado_10_15_ans_154",
+    "question": "Peut-on être ami avec quelqu’un qui nous dépasse ?"
+  },
+  {
+    "id": "ado_10_15_ans_155",
+    "question": "Faut-il choisir entre amour et amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_156",
+    "question": "Une amitié peut-elle renaître après des années ?"
+  },
+  {
+    "id": "ado_10_15_ans_157",
+    "question": "Peut-on être ami avec quelqu’un qui a des opinions opposées ?"
+  },
+  {
+    "id": "ado_10_15_ans_158",
+    "question": "Faut-il toujours être disponible pour ses amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_159",
+    "question": "Une amitié peut-elle être toxique sans qu’on s’en rende compte ?"
+  },
+  {
+    "id": "ado_10_15_ans_160",
+    "question": "Peut-on être ami avec quelqu’un qu’on a longtemps détesté ?"
+  },
+  {
+    "id": "ado_10_15_ans_161",
+    "question": "Les amis doivent-ils tout savoir de nous ?"
+  },
+  {
+    "id": "ado_10_15_ans_162",
+    "question": "Peut-on être ami avec quelqu’un qui ne nous ressemble pas du tout ?"
+  },
+  {
+    "id": "ado_10_15_ans_163",
+    "question": "Faut-il protéger un ami qui fait des erreurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_164",
+    "question": "Une amitié peut-elle survivre à une rumeur ?"
+  },
+  {
+    "id": "ado_10_15_ans_165",
+    "question": "Peut-on être ami avec quelqu’un qui nous a exclu ?"
+  },
+  {
+    "id": "ado_10_15_ans_166",
+    "question": "Faut-il parler des problèmes immédiatement ?"
+  },
+  {
+    "id": "ado_10_15_ans_167",
+    "question": "Une amitié peut-elle être plus importante que la famille ?"
+  },
+  {
+    "id": "ado_10_15_ans_168",
+    "question": "Peut-on être ami avec quelqu’un qui change beaucoup ?"
+  },
+  {
+    "id": "ado_10_15_ans_169",
+    "question": "Faut-il accepter qu’un ami ait d’autres meilleurs amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_170",
+    "question": "Une amitié peut-elle être plus forte que la distance ?"
+  },
+  {
+    "id": "ado_10_15_ans_171",
+    "question": "Peut-on être ami avec quelqu’un qu’on admire trop ?"
+  },
+  {
+    "id": "ado_10_15_ans_172",
+    "question": "Faut-il défendre un ami face à tout le monde ?"
+  },
+  {
+    "id": "ado_10_15_ans_173",
+    "question": "Une amitié peut-elle survivre aux réseaux sociaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_174",
+    "question": "Peut-on être ami avec quelqu’un qui nous critique en public ?"
+  },
+  {
+    "id": "ado_10_15_ans_175",
+    "question": "Faut-il tout dire pour éviter les malentendus ?"
+  },
+  {
+    "id": "ado_10_15_ans_176",
+    "question": "Une amitié peut-elle évoluer en amour ?"
+  },
+  {
+    "id": "ado_10_15_ans_177",
+    "question": "Peut-on être ami avec quelqu’un qui ne fait jamais le premier pas ?"
+  },
+  {
+    "id": "ado_10_15_ans_178",
+    "question": "Faut-il mettre des limites en amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_179",
+    "question": "Une amitié peut-elle être plus forte qu’une rivalité ?"
+  },
+  {
+    "id": "ado_10_15_ans_180",
+    "question": "Peut-on être ami avec quelqu’un qui a trahi notre confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_181",
+    "question": "Les amis doivent-ils être toujours d’accord ?"
+  },
+  {
+    "id": "ado_10_15_ans_182",
+    "question": "Peut-on être ami avec quelqu’un qui nous inspire ?"
+  },
+  {
+    "id": "ado_10_15_ans_183",
+    "question": "Faut-il accepter qu’une amitié se termine ?"
+  },
+  {
+    "id": "ado_10_15_ans_184",
+    "question": "Une amitié peut-elle être intense mais courte ?"
+  },
+  {
+    "id": "ado_10_15_ans_185",
+    "question": "Peut-on être ami avec quelqu’un qui ne nous comprend pas ?"
+  },
+  {
+    "id": "ado_10_15_ans_186",
+    "question": "Faut-il prioriser ses amis avant tout ?"
+  },
+  {
+    "id": "ado_10_15_ans_187",
+    "question": "Une amitié peut-elle survivre à une grosse jalousie ?"
+  },
+  {
+    "id": "ado_10_15_ans_188",
+    "question": "Peut-on être ami avec quelqu’un qu’on a aimé ?"
+  },
+  {
+    "id": "ado_10_15_ans_189",
+    "question": "Faut-il toujours être honnête même si ça fait mal ?"
+  },
+  {
+    "id": "ado_10_15_ans_190",
+    "question": "Une amitié peut-elle être plus forte que la pression du groupe ?"
+  },
+  {
+    "id": "ado_10_15_ans_191",
+    "question": "Peut-on être ami avec quelqu’un qui a changé ?"
+  },
+  {
+    "id": "ado_10_15_ans_192",
+    "question": "Faut-il accepter qu’un ami parte ?"
+  },
+  {
+    "id": "ado_10_15_ans_193",
+    "question": "Une amitié peut-elle être plus importante que la popularité ?"
+  },
+  {
+    "id": "ado_10_15_ans_194",
+    "question": "Peut-on être ami avec quelqu’un qui pense différemment ?"
+  },
+  {
+    "id": "ado_10_15_ans_195",
+    "question": "Faut-il tout pardonner pour sauver une amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_196",
+    "question": "Une amitié peut-elle survivre aux rumeurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_197",
+    "question": "Peut-on être ami avec quelqu’un qui nous dépasse ?"
+  },
+  {
+    "id": "ado_10_15_ans_198",
+    "question": "Faut-il dire quand on se sent exclu ?"
+  },
+  {
+    "id": "ado_10_15_ans_199",
+    "question": "Une amitié peut-elle être plus forte que le temps ?"
+  },
+  {
+    "id": "ado_10_15_ans_200",
+    "question": "C’est quoi un vrai ami ?"
+  },
+  {
+    "id": "ado_10_15_ans_201",
+    "question": "Peut-on être amoureux à 12 ans ?"
+  },
+  {
+    "id": "ado_10_15_ans_202",
+    "question": "L’amour au collège, c’est sérieux ?"
+  },
+  {
+    "id": "ado_10_15_ans_203",
+    "question": "Faut-il avouer son crush ?"
+  },
+  {
+    "id": "ado_10_15_ans_204",
+    "question": "Peut-on rester ami avec quelqu’un qu’on aime ?"
+  },
+  {
+    "id": "ado_10_15_ans_205",
+    "question": "Le physique est-il important ?"
+  },
+  {
+    "id": "ado_10_15_ans_206",
+    "question": "Peut-on aimer quelqu’un qu’on connaît peu ?"
+  },
+  {
+    "id": "ado_10_15_ans_207",
+    "question": "Faut-il attendre que l’autre fasse le premier pas ?"
+  },
+  {
+    "id": "ado_10_15_ans_208",
+    "question": "Une relation peut-elle durer à distance ?"
+  },
+  {
+    "id": "ado_10_15_ans_209",
+    "question": "Peut-on être amoureux plusieurs fois ?"
+  },
+  {
+    "id": "ado_10_15_ans_210",
+    "question": "Faut-il tout partager dans une relation ?"
+  },
+  {
+    "id": "ado_10_15_ans_211",
+    "question": "La jalousie est-elle une preuve d’amour ?"
+  },
+  {
+    "id": "ado_10_15_ans_212",
+    "question": "Peut-on aimer quelqu’un qui ne nous aime pas ?"
+  },
+  {
+    "id": "ado_10_15_ans_213",
+    "question": "Faut-il publier sa relation sur les réseaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_214",
+    "question": "L’amour rend-il plus fort ou plus fragile ?"
+  },
+  {
+    "id": "ado_10_15_ans_215",
+    "question": "Peut-on aimer deux personnes en même temps ?"
+  },
+  {
+    "id": "ado_10_15_ans_216",
+    "question": "Faut-il pardonner une trahison amoureuse ?"
+  },
+  {
+    "id": "ado_10_15_ans_217",
+    "question": "Une relation doit-elle être secrète ?"
+  },
+  {
+    "id": "ado_10_15_ans_218",
+    "question": "Peut-on être en couple sans se voir souvent ?"
+  },
+  {
+    "id": "ado_10_15_ans_219",
+    "question": "L’amour change-t-il la personnalité ?"
+  },
+  {
+    "id": "ado_10_15_ans_220",
+    "question": "Faut-il tout dire à son copain ou sa copine ?"
+  },
+  {
+    "id": "ado_10_15_ans_221",
+    "question": "Peut-on être en couple et indépendant ?"
+  },
+  {
+    "id": "ado_10_15_ans_222",
+    "question": "L’amour au collège est-il “juste pour s’amuser” ?"
+  },
+  {
+    "id": "ado_10_15_ans_223",
+    "question": "Faut-il quitter quelqu’un si on doute ?"
+  },
+  {
+    "id": "ado_10_15_ans_224",
+    "question": "Peut-on être amoureux d’un ami proche ?"
+  },
+  {
+    "id": "ado_10_15_ans_225",
+    "question": "Une relation peut-elle survivre aux rumeurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_226",
+    "question": "Le regard des autres influence-t-il le couple ?"
+  },
+  {
+    "id": "ado_10_15_ans_227",
+    "question": "Faut-il être parfait pour être aimé ?"
+  },
+  {
+    "id": "ado_10_15_ans_228",
+    "question": "Peut-on aimer quelqu’un de très différent ?"
+  },
+  {
+    "id": "ado_10_15_ans_229",
+    "question": "La popularité influence-t-elle les relations ?"
+  },
+  {
+    "id": "ado_10_15_ans_230",
+    "question": "Peut-on aimer quelqu’un qu’on admire trop ?"
+  },
+  {
+    "id": "ado_10_15_ans_231",
+    "question": "Faut-il tout accepter par amour ?"
+  },
+  {
+    "id": "ado_10_15_ans_232",
+    "question": "Peut-on être en couple sans être prêt ?"
+  },
+  {
+    "id": "ado_10_15_ans_233",
+    "question": "L’amour aide-t-il à grandir ?"
+  },
+  {
+    "id": "ado_10_15_ans_234",
+    "question": "Peut-on tomber amoureux rapidement ?"
+  },
+  {
+    "id": "ado_10_15_ans_235",
+    "question": "Faut-il écouter ses amis quand ils critiquent notre relation ?"
+  },
+  {
+    "id": "ado_10_15_ans_236",
+    "question": "Une relation peut-elle être déséquilibrée ?"
+  },
+  {
+    "id": "ado_10_15_ans_237",
+    "question": "Peut-on aimer sans le dire ?"
+  },
+  {
+    "id": "ado_10_15_ans_238",
+    "question": "Faut-il prouver son amour ?"
+  },
+  {
+    "id": "ado_10_15_ans_239",
+    "question": "Peut-on être jaloux sans être possessif ?"
+  },
+  {
+    "id": "ado_10_15_ans_240",
+    "question": "L’amour fait-il parfois souffrir inutilement ?"
+  },
+  {
+    "id": "ado_10_15_ans_241",
+    "question": "Peut-on aimer quelqu’un qui change beaucoup ?"
+  },
+  {
+    "id": "ado_10_15_ans_242",
+    "question": "Faut-il choisir entre amour et amitié ?"
+  },
+  {
+    "id": "ado_10_15_ans_243",
+    "question": "Peut-on être amoureux sans expérience ?"
+  },
+  {
+    "id": "ado_10_15_ans_244",
+    "question": "Une relation doit-elle être publique ?"
+  },
+  {
+    "id": "ado_10_15_ans_245",
+    "question": "Peut-on aimer quelqu’un qui nous ignore ?"
+  },
+  {
+    "id": "ado_10_15_ans_246",
+    "question": "Faut-il toujours faire confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_247",
+    "question": "L’amour peut-il être une distraction à l’école ?"
+  },
+  {
+    "id": "ado_10_15_ans_248",
+    "question": "Peut-on aimer quelqu’un qui a une mauvaise réputation ?"
+  },
+  {
+    "id": "ado_10_15_ans_249",
+    "question": "Faut-il mettre des limites dans une relation ?"
+  },
+  {
+    "id": "ado_10_15_ans_250",
+    "question": "Peut-on rester ami après une rupture ?"
+  },
+  {
+    "id": "ado_10_15_ans_251",
+    "question": "L’amour rend-il plus mature ?"
+  },
+  {
+    "id": "ado_10_15_ans_252",
+    "question": "Peut-on aimer quelqu’un qu’on ne voit pas souvent ?"
+  },
+  {
+    "id": "ado_10_15_ans_253",
+    "question": "Faut-il toujours répondre aux messages de son crush ?"
+  },
+  {
+    "id": "ado_10_15_ans_254",
+    "question": "Une relation peut-elle durer sans confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_255",
+    "question": "Peut-on être amoureux et avoir peur ?"
+  },
+  {
+    "id": "ado_10_15_ans_256",
+    "question": "Faut-il dire “je t’aime” rapidement ?"
+  },
+  {
+    "id": "ado_10_15_ans_257",
+    "question": "L’amour est-il plus important que la popularité ?"
+  },
+  {
+    "id": "ado_10_15_ans_258",
+    "question": "Peut-on aimer quelqu’un qui a des opinions opposées ?"
+  },
+  {
+    "id": "ado_10_15_ans_259",
+    "question": "Une relation doit-elle être intense ?"
+  },
+  {
+    "id": "ado_10_15_ans_260",
+    "question": "Peut-on aimer quelqu’un qui nous rend jaloux ?"
+  },
+  {
+    "id": "ado_10_15_ans_261",
+    "question": "Faut-il rester dans une relation par peur d’être seul ?"
+  },
+  {
+    "id": "ado_10_15_ans_262",
+    "question": "Peut-on aimer quelqu’un sans le comprendre ?"
+  },
+  {
+    "id": "ado_10_15_ans_263",
+    "question": "L’amour change-t-il nos priorités ?"
+  },
+  {
+    "id": "ado_10_15_ans_264",
+    "question": "Faut-il tout raconter à ses amis sur son couple ?"
+  },
+  {
+    "id": "ado_10_15_ans_265",
+    "question": "Peut-on aimer quelqu’un qui ne fait pas d’efforts ?"
+  },
+  {
+    "id": "ado_10_15_ans_266",
+    "question": "Une relation peut-elle survivre à une grosse dispute ?"
+  },
+  {
+    "id": "ado_10_15_ans_267",
+    "question": "Peut-on être amoureux sans vouloir être en couple ?"
+  },
+  {
+    "id": "ado_10_15_ans_268",
+    "question": "Faut-il écouter son cœur ou sa raison ?"
+  },
+  {
+    "id": "ado_10_15_ans_269",
+    "question": "L’amour peut-il rendre plus confiant ?"
+  },
+  {
+    "id": "ado_10_15_ans_270",
+    "question": "Peut-on aimer quelqu’un qu’on ne voit qu’en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_271",
+    "question": "Faut-il pardonner une erreur ?"
+  },
+  {
+    "id": "ado_10_15_ans_272",
+    "question": "Peut-on aimer quelqu’un qui nous a blessé ?"
+  },
+  {
+    "id": "ado_10_15_ans_273",
+    "question": "L’amour rend-il vulnérable ?"
+  },
+  {
+    "id": "ado_10_15_ans_274",
+    "question": "Peut-on aimer sans être prêt ?"
+  },
+  {
+    "id": "ado_10_15_ans_275",
+    "question": "Faut-il choisir quelqu’un qui nous rassure ou qui nous challenge ?"
+  },
+  {
+    "id": "ado_10_15_ans_276",
+    "question": "Une relation peut-elle être plus forte que la pression des autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_277",
+    "question": "Peut-on être amoureux et concentré sur ses objectifs ?"
+  },
+  {
+    "id": "ado_10_15_ans_278",
+    "question": "Faut-il mettre fin à une relation quand on souffre ?"
+  },
+  {
+    "id": "ado_10_15_ans_279",
+    "question": "L’amour au collège est-il sous-estimé ?"
+  },
+  {
+    "id": "ado_10_15_ans_280",
+    "question": "Peut-on aimer quelqu’un sans confiance totale ?"
+  },
+  {
+    "id": "ado_10_15_ans_281",
+    "question": "Faut-il tout accepter par peur de perdre l’autre ?"
+  },
+  {
+    "id": "ado_10_15_ans_282",
+    "question": "Peut-on aimer quelqu’un qui nous dépasse ?"
+  },
+  {
+    "id": "ado_10_15_ans_283",
+    "question": "Une relation peut-elle évoluer avec le temps ?"
+  },
+  {
+    "id": "ado_10_15_ans_284",
+    "question": "L’amour aide-t-il à mieux se connaître ?"
+  },
+  {
+    "id": "ado_10_15_ans_285",
+    "question": "Peut-on aimer quelqu’un qui n’est pas populaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_286",
+    "question": "Faut-il parler de ses doutes ?"
+  },
+  {
+    "id": "ado_10_15_ans_287",
+    "question": "L’amour est-il plus fort que la distance ?"
+  },
+  {
+    "id": "ado_10_15_ans_288",
+    "question": "Peut-on aimer quelqu’un qui change d’avis souvent ?"
+  },
+  {
+    "id": "ado_10_15_ans_289",
+    "question": "Faut-il rester soi-même en couple ?"
+  },
+  {
+    "id": "ado_10_15_ans_290",
+    "question": "L’amour peut-il être un moteur ?"
+  },
+  {
+    "id": "ado_10_15_ans_291",
+    "question": "Peut-on aimer quelqu’un sans l’idéaliser ?"
+  },
+  {
+    "id": "ado_10_15_ans_292",
+    "question": "Faut-il choisir quelqu’un qui nous comprend ?"
+  },
+  {
+    "id": "ado_10_15_ans_293",
+    "question": "L’amour peut-il être une distraction ?"
+  },
+  {
+    "id": "ado_10_15_ans_294",
+    "question": "Peut-on aimer quelqu’un qui ne partage pas nos passions ?"
+  },
+  {
+    "id": "ado_10_15_ans_295",
+    "question": "Faut-il toujours se battre pour une relation ?"
+  },
+  {
+    "id": "ado_10_15_ans_296",
+    "question": "L’amour est-il une question de timing ?"
+  },
+  {
+    "id": "ado_10_15_ans_297",
+    "question": "Peut-on aimer quelqu’un qui nous intimide ?"
+  },
+  {
+    "id": "ado_10_15_ans_298",
+    "question": "Faut-il écouter ses parents sur l’amour ?"
+  },
+  {
+    "id": "ado_10_15_ans_299",
+    "question": "L’amour est-il plus important que l’image ?"
+  },
+  {
+    "id": "ado_10_15_ans_300",
+    "question": "C’est quoi aimer vraiment ?"
+  },
+  {
+    "id": "ado_10_15_ans_301",
+    "question": "Les réseaux sociaux influencent-ils trop notre image ?"
+  },
+  {
+    "id": "ado_10_15_ans_302",
+    "question": "Les likes définissent-ils la valeur d’une personne ?"
+  },
+  {
+    "id": "ado_10_15_ans_303",
+    "question": "Faut-il montrer sa vie en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_304",
+    "question": "Peut-on être soi-même sur les réseaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_305",
+    "question": "Les filtres changent-ils la perception de soi ?"
+  },
+  {
+    "id": "ado_10_15_ans_306",
+    "question": "Faut-il accepter tout le monde en ami ?"
+  },
+  {
+    "id": "ado_10_15_ans_307",
+    "question": "Les réseaux sociaux rendent-ils plus populaires ?"
+  },
+  {
+    "id": "ado_10_15_ans_308",
+    "question": "Peut-on être heureux sans poster ?"
+  },
+  {
+    "id": "ado_10_15_ans_309",
+    "question": "Faut-il répondre rapidement aux messages ?"
+  },
+  {
+    "id": "ado_10_15_ans_310",
+    "question": "Les réseaux créent-ils plus de pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_311",
+    "question": "Peut-on être influencé sans s’en rendre compte ?"
+  },
+  {
+    "id": "ado_10_15_ans_312",
+    "question": "Faut-il supprimer quelqu’un après une dispute ?"
+  },
+  {
+    "id": "ado_10_15_ans_313",
+    "question": "Les stories montrent-elles la vraie vie ?"
+  },
+  {
+    "id": "ado_10_15_ans_314",
+    "question": "Peut-on être populaire sans réseaux sociaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_315",
+    "question": "Les réseaux renforcent-ils la comparaison ?"
+  },
+  {
+    "id": "ado_10_15_ans_316",
+    "question": "Faut-il tout partager avec ses abonnés ?"
+  },
+  {
+    "id": "ado_10_15_ans_317",
+    "question": "Peut-on être différent en ligne et en vrai ?"
+  },
+  {
+    "id": "ado_10_15_ans_318",
+    "question": "Les influenceurs ont-ils trop de pouvoir ?"
+  },
+  {
+    "id": "ado_10_15_ans_319",
+    "question": "Faut-il poster pour exister ?"
+  },
+  {
+    "id": "ado_10_15_ans_320",
+    "question": "Les réseaux peuvent-ils détruire une réputation ?"
+  },
+  {
+    "id": "ado_10_15_ans_321",
+    "question": "Peut-on être ami en ligne sans se voir ?"
+  },
+  {
+    "id": "ado_10_15_ans_322",
+    "question": "Faut-il surveiller son image numérique ?"
+  },
+  {
+    "id": "ado_10_15_ans_323",
+    "question": "Les réseaux rendent-ils plus anxieux ?"
+  },
+  {
+    "id": "ado_10_15_ans_324",
+    "question": "Peut-on être addict aux likes ?"
+  },
+  {
+    "id": "ado_10_15_ans_325",
+    "question": "Faut-il limiter son temps d’écran ?"
+  },
+  {
+    "id": "ado_10_15_ans_326",
+    "question": "Les réseaux sociaux rapprochent-ils vraiment les gens ?"
+  },
+  {
+    "id": "ado_10_15_ans_327",
+    "question": "Peut-on être harcelé sans le voir venir ?"
+  },
+  {
+    "id": "ado_10_15_ans_328",
+    "question": "Faut-il tout croire sur internet ?"
+  },
+  {
+    "id": "ado_10_15_ans_329",
+    "question": "Les réseaux amplifient-ils les rumeurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_330",
+    "question": "Peut-on être célèbre sans talent réel ?"
+  },
+  {
+    "id": "ado_10_15_ans_331",
+    "question": "Faut-il publier sa relation amoureuse ?"
+  },
+  {
+    "id": "ado_10_15_ans_332",
+    "question": "Les réseaux influencent-ils les standards de beauté ?"
+  },
+  {
+    "id": "ado_10_15_ans_333",
+    "question": "Peut-on être sincère en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_334",
+    "question": "Faut-il supprimer des photos anciennes ?"
+  },
+  {
+    "id": "ado_10_15_ans_335",
+    "question": "Les commentaires blessants font-ils plus mal en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_336",
+    "question": "Peut-on être plus courageux derrière un écran ?"
+  },
+  {
+    "id": "ado_10_15_ans_337",
+    "question": "Faut-il accepter les critiques publiques ?"
+  },
+  {
+    "id": "ado_10_15_ans_338",
+    "question": "Les réseaux rendent-ils plus dépendant au regard des autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_339",
+    "question": "Peut-on être authentique en cherchant des likes ?"
+  },
+  {
+    "id": "ado_10_15_ans_340",
+    "question": "Faut-il bloquer quelqu’un qui critique ?"
+  },
+  {
+    "id": "ado_10_15_ans_341",
+    "question": "Les réseaux sociaux influencent-ils l’estime de soi ?"
+  },
+  {
+    "id": "ado_10_15_ans_342",
+    "question": "Peut-on être jaloux à cause d’Instagram ?"
+  },
+  {
+    "id": "ado_10_15_ans_343",
+    "question": "Faut-il tout montrer de sa vie ?"
+  },
+  {
+    "id": "ado_10_15_ans_344",
+    "question": "Les réseaux rendent-ils la vie plus compétitive ?"
+  },
+  {
+    "id": "ado_10_15_ans_345",
+    "question": "Peut-on être populaire en ligne mais seul en vrai ?"
+  },
+  {
+    "id": "ado_10_15_ans_346",
+    "question": "Faut-il répondre à tous les messages ?"
+  },
+  {
+    "id": "ado_10_15_ans_347",
+    "question": "Les réseaux peuvent-ils aider à trouver sa passion ?"
+  },
+  {
+    "id": "ado_10_15_ans_348",
+    "question": "Peut-on devenir quelqu’un d’autre en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_349",
+    "question": "Faut-il surveiller ce qu’on publie ?"
+  },
+  {
+    "id": "ado_10_15_ans_350",
+    "question": "Les réseaux rendent-ils plus exposé ?"
+  },
+  {
+    "id": "ado_10_15_ans_351",
+    "question": "Peut-on être influencé par les tendances ?"
+  },
+  {
+    "id": "ado_10_15_ans_352",
+    "question": "Faut-il se comparer aux autres profils ?"
+  },
+  {
+    "id": "ado_10_15_ans_353",
+    "question": "Les réseaux rendent-ils plus superficiel ?"
+  },
+  {
+    "id": "ado_10_15_ans_354",
+    "question": "Peut-on être respecté sans être viral ?"
+  },
+  {
+    "id": "ado_10_15_ans_355",
+    "question": "Faut-il poster des photos parfaites ?"
+  },
+  {
+    "id": "ado_10_15_ans_356",
+    "question": "Les réseaux peuvent-ils aider à s’exprimer ?"
+  },
+  {
+    "id": "ado_10_15_ans_357",
+    "question": "Peut-on être jugé sur une seule publication ?"
+  },
+  {
+    "id": "ado_10_15_ans_358",
+    "question": "Faut-il accepter les inconnus en ami ?"
+  },
+  {
+    "id": "ado_10_15_ans_359",
+    "question": "Les réseaux peuvent-ils renforcer la confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_360",
+    "question": "Peut-on vivre sans réseaux sociaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_361",
+    "question": "Faut-il montrer ses réussites uniquement ?"
+  },
+  {
+    "id": "ado_10_15_ans_362",
+    "question": "Les réseaux créent-ils des illusions ?"
+  },
+  {
+    "id": "ado_10_15_ans_363",
+    "question": "Peut-on être critiqué injustement en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_364",
+    "question": "Faut-il supprimer un post qui crée une polémique ?"
+  },
+  {
+    "id": "ado_10_15_ans_365",
+    "question": "Les réseaux rendent-ils plus créatif ?"
+  },
+  {
+    "id": "ado_10_15_ans_366",
+    "question": "Peut-on être influencé par les influenceurs sans s’en rendre compte ?"
+  },
+  {
+    "id": "ado_10_15_ans_367",
+    "question": "Faut-il répondre aux haters ?"
+  },
+  {
+    "id": "ado_10_15_ans_368",
+    "question": "Les réseaux peuvent-ils renforcer la pression scolaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_369",
+    "question": "Peut-on être heureux sans validation numérique ?"
+  },
+  {
+    "id": "ado_10_15_ans_370",
+    "question": "Faut-il contrôler son image dès le collège ?"
+  },
+  {
+    "id": "ado_10_15_ans_371",
+    "question": "Les réseaux sociaux créent-ils de faux modèles ?"
+  },
+  {
+    "id": "ado_10_15_ans_372",
+    "question": "Peut-on être populaire sans montrer son visage ?"
+  },
+  {
+    "id": "ado_10_15_ans_373",
+    "question": "Faut-il publier pour garder ses amis ?"
+  },
+  {
+    "id": "ado_10_15_ans_374",
+    "question": "Les réseaux amplifient-ils les moqueries ?"
+  },
+  {
+    "id": "ado_10_15_ans_375",
+    "question": "Peut-on perdre des amis à cause d’un post ?"
+  },
+  {
+    "id": "ado_10_15_ans_376",
+    "question": "Faut-il signaler le harcèlement en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_377",
+    "question": "Les réseaux influencent-ils la façon de parler ?"
+  },
+  {
+    "id": "ado_10_15_ans_378",
+    "question": "Peut-on être influencé par les défis viraux ?"
+  },
+  {
+    "id": "ado_10_15_ans_379",
+    "question": "Faut-il accepter la pression du groupe en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_380",
+    "question": "Les réseaux rendent-ils plus dépendant au regard extérieur ?"
+  },
+  {
+    "id": "ado_10_15_ans_381",
+    "question": "Peut-on être sincère sur TikTok ?"
+  },
+  {
+    "id": "ado_10_15_ans_382",
+    "question": "Faut-il protéger sa vie privée ?"
+  },
+  {
+    "id": "ado_10_15_ans_383",
+    "question": "Les réseaux rendent-ils plus impatient ?"
+  },
+  {
+    "id": "ado_10_15_ans_384",
+    "question": "Peut-on être respecté sans followers ?"
+  },
+  {
+    "id": "ado_10_15_ans_385",
+    "question": "Faut-il poster tous les jours ?"
+  },
+  {
+    "id": "ado_10_15_ans_386",
+    "question": "Les réseaux créent-ils des standards irréalistes ?"
+  },
+  {
+    "id": "ado_10_15_ans_387",
+    "question": "Peut-on se sentir exclu à cause des réseaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_388",
+    "question": "Faut-il tout liker pour être accepté ?"
+  },
+  {
+    "id": "ado_10_15_ans_389",
+    "question": "Les réseaux peuvent-ils aider à se sentir moins seul ?"
+  },
+  {
+    "id": "ado_10_15_ans_390",
+    "question": "Peut-on devenir accro aux notifications ?"
+  },
+  {
+    "id": "ado_10_15_ans_391",
+    "question": "Faut-il montrer ses échecs ?"
+  },
+  {
+    "id": "ado_10_15_ans_392",
+    "question": "Les réseaux peuvent-ils créer des conflits ?"
+  },
+  {
+    "id": "ado_10_15_ans_393",
+    "question": "Peut-on être influencé par les tendances sans s’en rendre compte ?"
+  },
+  {
+    "id": "ado_10_15_ans_394",
+    "question": "Faut-il supprimer quelqu’un pour protéger sa paix ?"
+  },
+  {
+    "id": "ado_10_15_ans_395",
+    "question": "Les réseaux influencent-ils la façon de s’habiller ?"
+  },
+  {
+    "id": "ado_10_15_ans_396",
+    "question": "Peut-on être admiré sans être viral ?"
+  },
+  {
+    "id": "ado_10_15_ans_397",
+    "question": "Faut-il se comparer aux influenceurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_398",
+    "question": "Les réseaux rendent-ils plus compétitif ?"
+  },
+  {
+    "id": "ado_10_15_ans_399",
+    "question": "Peut-on être heureux en ligne et malheureux en vrai ?"
+  },
+  {
+    "id": "ado_10_15_ans_400",
+    "question": "Les réseaux sociaux nous rapprochent-ils ou nous éloignent-ils ?"
+  },
+  {
+    "id": "ado_10_15_ans_401",
+    "question": "Les notes définissent-elles l’intelligence ?"
+  },
+  {
+    "id": "ado_10_15_ans_402",
+    "question": "Faut-il réussir à l’école pour réussir sa vie ?"
+  },
+  {
+    "id": "ado_10_15_ans_403",
+    "question": "La pression scolaire est-elle trop forte ?"
+  },
+  {
+    "id": "ado_10_15_ans_404",
+    "question": "Les devoirs sont-ils vraiment utiles ?"
+  },
+  {
+    "id": "ado_10_15_ans_405",
+    "question": "Faut-il comparer ses notes aux autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_406",
+    "question": "Les profs mettent-ils trop de pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_407",
+    "question": "Peut-on être intelligent sans être bon élève ?"
+  },
+  {
+    "id": "ado_10_15_ans_408",
+    "question": "Les contrôles créent-ils plus de stress que d’apprentissage ?"
+  },
+  {
+    "id": "ado_10_15_ans_409",
+    "question": "Faut-il viser la perfection ?"
+  },
+  {
+    "id": "ado_10_15_ans_410",
+    "question": "Les notes devraient-elles disparaître ?"
+  },
+  {
+    "id": "ado_10_15_ans_411",
+    "question": "Peut-on réussir sans aimer l’école ?"
+  },
+  {
+    "id": "ado_10_15_ans_412",
+    "question": "Faut-il choisir une orientation tôt ?"
+  },
+  {
+    "id": "ado_10_15_ans_413",
+    "question": "Les parents mettent-ils trop de pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_414",
+    "question": "Le stress peut-il être motivant ?"
+  },
+  {
+    "id": "ado_10_15_ans_415",
+    "question": "Faut-il travailler dur ou intelligemment ?"
+  },
+  {
+    "id": "ado_10_15_ans_416",
+    "question": "Peut-on réussir en étant différent ?"
+  },
+  {
+    "id": "ado_10_15_ans_417",
+    "question": "Les comparaisons détruisent-elles la confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_418",
+    "question": "Faut-il toujours viser le meilleur ?"
+  },
+  {
+    "id": "ado_10_15_ans_419",
+    "question": "L’échec est-il nécessaire ?"
+  },
+  {
+    "id": "ado_10_15_ans_420",
+    "question": "Peut-on apprendre sans notes ?"
+  },
+  {
+    "id": "ado_10_15_ans_421",
+    "question": "Les élèves devraient-ils choisir leurs matières ?"
+  },
+  {
+    "id": "ado_10_15_ans_422",
+    "question": "Les classements sont-ils utiles ?"
+  },
+  {
+    "id": "ado_10_15_ans_423",
+    "question": "Faut-il toujours faire plus que les autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_424",
+    "question": "La réussite est-elle une question d’effort ou de talent ?"
+  },
+  {
+    "id": "ado_10_15_ans_425",
+    "question": "Peut-on être heureux sans être “premier” ?"
+  },
+  {
+    "id": "ado_10_15_ans_426",
+    "question": "Les examens sont-ils le meilleur moyen d’évaluer ?"
+  },
+  {
+    "id": "ado_10_15_ans_427",
+    "question": "Faut-il écouter ses parents sur son avenir ?"
+  },
+  {
+    "id": "ado_10_15_ans_428",
+    "question": "Peut-on changer de rêve ?"
+  },
+  {
+    "id": "ado_10_15_ans_429",
+    "question": "Les erreurs font-elles progresser ?"
+  },
+  {
+    "id": "ado_10_15_ans_430",
+    "question": "La compétition est-elle saine ?"
+  },
+  {
+    "id": "ado_10_15_ans_431",
+    "question": "Peut-on être stressé sans le montrer ?"
+  },
+  {
+    "id": "ado_10_15_ans_432",
+    "question": "Les notes influencent-elles l’estime de soi ?"
+  },
+  {
+    "id": "ado_10_15_ans_433",
+    "question": "Faut-il toujours réviser longtemps ?"
+  },
+  {
+    "id": "ado_10_15_ans_434",
+    "question": "Le travail en groupe est-il plus efficace ?"
+  },
+  {
+    "id": "ado_10_15_ans_435",
+    "question": "Peut-on réussir sans pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_436",
+    "question": "Les attentes des autres influencent-elles nos choix ?"
+  },
+  {
+    "id": "ado_10_15_ans_437",
+    "question": "Faut-il viser une carrière stable ou passionnante ?"
+  },
+  {
+    "id": "ado_10_15_ans_438",
+    "question": "Peut-on être bon sans être motivé ?"
+  },
+  {
+    "id": "ado_10_15_ans_439",
+    "question": "Les professeurs devraient-ils encourager plus que sanctionner ?"
+  },
+  {
+    "id": "ado_10_15_ans_440",
+    "question": "L’école prépare-t-elle vraiment à la vie ?"
+  },
+  {
+    "id": "ado_10_15_ans_441",
+    "question": "Faut-il tout comprendre du premier coup ?"
+  },
+  {
+    "id": "ado_10_15_ans_442",
+    "question": "Les élèves sont-ils trop fatigués ?"
+  },
+  {
+    "id": "ado_10_15_ans_443",
+    "question": "Peut-on être bon élève et mal organisé ?"
+  },
+  {
+    "id": "ado_10_15_ans_444",
+    "question": "Les devoirs à la maison sont-ils nécessaires ?"
+  },
+  {
+    "id": "ado_10_15_ans_445",
+    "question": "Faut-il travailler pendant les vacances ?"
+  },
+  {
+    "id": "ado_10_15_ans_446",
+    "question": "Les résultats scolaires déterminent-ils l’avenir ?"
+  },
+  {
+    "id": "ado_10_15_ans_447",
+    "question": "Peut-on être créatif à l’école ?"
+  },
+  {
+    "id": "ado_10_15_ans_448",
+    "question": "L’école valorise-t-elle tous les talents ?"
+  },
+  {
+    "id": "ado_10_15_ans_449",
+    "question": "Faut-il faire plaisir à ses parents ?"
+  },
+  {
+    "id": "ado_10_15_ans_450",
+    "question": "Peut-on réussir sans pression familiale ?"
+  },
+  {
+    "id": "ado_10_15_ans_451",
+    "question": "Les élèves devraient-ils avoir plus de pauses ?"
+  },
+  {
+    "id": "ado_10_15_ans_452",
+    "question": "Faut-il toujours se comparer aux meilleurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_453",
+    "question": "Peut-on apprendre sans aimer la matière ?"
+  },
+  {
+    "id": "ado_10_15_ans_454",
+    "question": "Les matières artistiques sont-elles sous-estimées ?"
+  },
+  {
+    "id": "ado_10_15_ans_455",
+    "question": "Faut-il choisir un métier par passion ?"
+  },
+  {
+    "id": "ado_10_15_ans_456",
+    "question": "Peut-on être bon dans plusieurs domaines ?"
+  },
+  {
+    "id": "ado_10_15_ans_457",
+    "question": "La peur de l’échec bloque-t-elle ?"
+  },
+  {
+    "id": "ado_10_15_ans_458",
+    "question": "Faut-il accepter de ne pas être le meilleur ?"
+  },
+  {
+    "id": "ado_10_15_ans_459",
+    "question": "L’école valorise-t-elle assez l’effort ?"
+  },
+  {
+    "id": "ado_10_15_ans_460",
+    "question": "Peut-on changer d’avis sur son avenir ?"
+  },
+  {
+    "id": "ado_10_15_ans_461",
+    "question": "Les élèves sont-ils trop stressés aujourd’hui ?"
+  },
+  {
+    "id": "ado_10_15_ans_462",
+    "question": "Faut-il écouter son instinct pour choisir son orientation ?"
+  },
+  {
+    "id": "ado_10_15_ans_463",
+    "question": "Peut-on réussir sans aimer les maths ?"
+  },
+  {
+    "id": "ado_10_15_ans_464",
+    "question": "Les attentes des parents influencent-elles trop ?"
+  },
+  {
+    "id": "ado_10_15_ans_465",
+    "question": "Faut-il viser un métier prestigieux ?"
+  },
+  {
+    "id": "ado_10_15_ans_466",
+    "question": "Peut-on être heureux sans carrière brillante ?"
+  },
+  {
+    "id": "ado_10_15_ans_467",
+    "question": "Les échecs construisent-ils plus que les réussites ?"
+  },
+  {
+    "id": "ado_10_15_ans_468",
+    "question": "Faut-il toujours répondre aux attentes ?"
+  },
+  {
+    "id": "ado_10_15_ans_469",
+    "question": "L’école mesure-t-elle vraiment l’intelligence ?"
+  },
+  {
+    "id": "ado_10_15_ans_470",
+    "question": "Peut-on être motivé sans pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_471",
+    "question": "Les élèves devraient-ils apprendre à gérer le stress ?"
+  },
+  {
+    "id": "ado_10_15_ans_472",
+    "question": "Faut-il choisir une filière par sécurité ?"
+  },
+  {
+    "id": "ado_10_15_ans_473",
+    "question": "Peut-on réussir sans diplôme ?"
+  },
+  {
+    "id": "ado_10_15_ans_474",
+    "question": "Les professeurs comprennent-ils la pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_475",
+    "question": "Faut-il tout planifier à l’avance ?"
+  },
+  {
+    "id": "ado_10_15_ans_476",
+    "question": "Peut-on changer de voie plus tard ?"
+  },
+  {
+    "id": "ado_10_15_ans_477",
+    "question": "La réussite est-elle subjective ?"
+  },
+  {
+    "id": "ado_10_15_ans_478",
+    "question": "Faut-il viser ses propres objectifs ?"
+  },
+  {
+    "id": "ado_10_15_ans_479",
+    "question": "L’école valorise-t-elle assez la créativité ?"
+  },
+  {
+    "id": "ado_10_15_ans_480",
+    "question": "Peut-on réussir différemment ?"
+  },
+  {
+    "id": "ado_10_15_ans_481",
+    "question": "Les élèves devraient-ils avoir moins d’examens ?"
+  },
+  {
+    "id": "ado_10_15_ans_482",
+    "question": "Faut-il être passionné pour réussir ?"
+  },
+  {
+    "id": "ado_10_15_ans_483",
+    "question": "Peut-on être excellent sans être premier ?"
+  },
+  {
+    "id": "ado_10_15_ans_484",
+    "question": "Les notes influencent-elles trop la confiance ?"
+  },
+  {
+    "id": "ado_10_15_ans_485",
+    "question": "Faut-il suivre la voie “normale” ?"
+  },
+  {
+    "id": "ado_10_15_ans_486",
+    "question": "Peut-on apprendre de ses échecs ?"
+  },
+  {
+    "id": "ado_10_15_ans_487",
+    "question": "L’école prépare-t-elle aux émotions ?"
+  },
+  {
+    "id": "ado_10_15_ans_488",
+    "question": "Faut-il choisir un métier pour l’argent ?"
+  },
+  {
+    "id": "ado_10_15_ans_489",
+    "question": "Peut-on réussir sans pression sociale ?"
+  },
+  {
+    "id": "ado_10_15_ans_490",
+    "question": "Les attentes scolaires sont-elles réalistes ?"
+  },
+  {
+    "id": "ado_10_15_ans_491",
+    "question": "Faut-il accepter de ne pas tout maîtriser ?"
+  },
+  {
+    "id": "ado_10_15_ans_492",
+    "question": "Peut-on réussir en étant différent ?"
+  },
+  {
+    "id": "ado_10_15_ans_493",
+    "question": "L’école récompense-t-elle tous les talents ?"
+  },
+  {
+    "id": "ado_10_15_ans_494",
+    "question": "Faut-il viser la stabilité ou l’aventure ?"
+  },
+  {
+    "id": "ado_10_15_ans_495",
+    "question": "Peut-on être heureux avec un métier simple ?"
+  },
+  {
+    "id": "ado_10_15_ans_496",
+    "question": "La pression pousse-t-elle à se dépasser ?"
+  },
+  {
+    "id": "ado_10_15_ans_497",
+    "question": "Faut-il écouter ses professeurs sur l’avenir ?"
+  },
+  {
+    "id": "ado_10_15_ans_498",
+    "question": "Peut-on réussir en dehors des normes ?"
+  },
+  {
+    "id": "ado_10_15_ans_499",
+    "question": "Les élèves devraient-ils apprendre plus de choses pratiques ?"
+  },
+  {
+    "id": "ado_10_15_ans_500",
+    "question": "Le monde devient-il meilleur ou pire ?"
+  },
+  {
+    "id": "ado_10_15_ans_501",
+    "question": "Réussir sa vie, c’est quoi ?"
+  },
+  {
+    "id": "ado_10_15_ans_502",
+    "question": "Les jeunes peuvent-ils vraiment changer le monde ?"
+  },
+  {
+    "id": "ado_10_15_ans_503",
+    "question": "Faut-il faire confiance aux adultes pour l’avenir ?"
+  },
+  {
+    "id": "ado_10_15_ans_504",
+    "question": "La technologie améliore-t-elle la vie ?"
+  },
+  {
+    "id": "ado_10_15_ans_505",
+    "question": "Les jeunes sont-ils plus ouverts que les générations précédentes ?"
+  },
+  {
+    "id": "ado_10_15_ans_506",
+    "question": "Le futur fait-il plus peur qu’il ne motive ?"
+  },
+  {
+    "id": "ado_10_15_ans_507",
+    "question": "Peut-on réussir sans suivre les règles de la société ?"
+  },
+  {
+    "id": "ado_10_15_ans_508",
+    "question": "L’argent rend-il plus libre ?"
+  },
+  {
+    "id": "ado_10_15_ans_509",
+    "question": "Faut-il protéger la planète à tout prix ?"
+  },
+  {
+    "id": "ado_10_15_ans_510",
+    "question": "Les adultes comprennent-ils vraiment les ados ?"
+  },
+  {
+    "id": "ado_10_15_ans_511",
+    "question": "Les inégalités sont-elles injustes ou inévitables ?"
+  },
+  {
+    "id": "ado_10_15_ans_512",
+    "question": "Faut-il toujours respecter l’autorité ?"
+  },
+  {
+    "id": "ado_10_15_ans_513",
+    "question": "La liberté d’expression doit-elle avoir des limites ?"
+  },
+  {
+    "id": "ado_10_15_ans_514",
+    "question": "Les jeunes sont-ils assez écoutés ?"
+  },
+  {
+    "id": "ado_10_15_ans_515",
+    "question": "Peut-on vivre sans smartphone aujourd’hui ?"
+  },
+  {
+    "id": "ado_10_15_ans_516",
+    "question": "L’intelligence artificielle est-elle dangereuse ?"
+  },
+  {
+    "id": "ado_10_15_ans_517",
+    "question": "Faut-il toujours dire ce qu’on pense en public ?"
+  },
+  {
+    "id": "ado_10_15_ans_518",
+    "question": "La société met-elle trop de pression ?"
+  },
+  {
+    "id": "ado_10_15_ans_519",
+    "question": "Les jeunes devraient-ils voter plus tôt ?"
+  },
+  {
+    "id": "ado_10_15_ans_520",
+    "question": "Le succès est-il défini par la société ?"
+  },
+  {
+    "id": "ado_10_15_ans_521",
+    "question": "Les réseaux influencent-ils la façon de penser ?"
+  },
+  {
+    "id": "ado_10_15_ans_522",
+    "question": "Peut-on être heureux sans richesse ?"
+  },
+  {
+    "id": "ado_10_15_ans_523",
+    "question": "Faut-il défendre ses idées même seul ?"
+  },
+  {
+    "id": "ado_10_15_ans_524",
+    "question": "La planète est-elle en danger réel ?"
+  },
+  {
+    "id": "ado_10_15_ans_525",
+    "question": "Les jeunes ont-ils plus de pression qu’avant ?"
+  },
+  {
+    "id": "ado_10_15_ans_526",
+    "question": "La compétition rend-elle plus fort ?"
+  },
+  {
+    "id": "ado_10_15_ans_527",
+    "question": "Faut-il toujours respecter les traditions ?"
+  },
+  {
+    "id": "ado_10_15_ans_528",
+    "question": "Le futur sera-t-il plus numérique qu’humain ?"
+  },
+  {
+    "id": "ado_10_15_ans_529",
+    "question": "Les ados sont-ils sous-estimés ?"
+  },
+  {
+    "id": "ado_10_15_ans_530",
+    "question": "Peut-on changer le système ?"
+  },
+  {
+    "id": "ado_10_15_ans_531",
+    "question": "Les médias influencent-ils trop l’opinion ?"
+  },
+  {
+    "id": "ado_10_15_ans_532",
+    "question": "Faut-il être engagé pour faire la différence ?"
+  },
+  {
+    "id": "ado_10_15_ans_533",
+    "question": "Les jeunes ont-ils une responsabilité écologique ?"
+  },
+  {
+    "id": "ado_10_15_ans_534",
+    "question": "La technologie rend-elle plus isolé ?"
+  },
+  {
+    "id": "ado_10_15_ans_535",
+    "question": "Peut-on faire confiance aux informations en ligne ?"
+  },
+  {
+    "id": "ado_10_15_ans_536",
+    "question": "La société valorise-t-elle trop l’apparence ?"
+  },
+  {
+    "id": "ado_10_15_ans_537",
+    "question": "Les jeunes devraient-ils avoir plus de pouvoir ?"
+  },
+  {
+    "id": "ado_10_15_ans_538",
+    "question": "Faut-il toujours suivre les lois ?"
+  },
+  {
+    "id": "ado_10_15_ans_539",
+    "question": "Le progrès est-il toujours positif ?"
+  },
+  {
+    "id": "ado_10_15_ans_540",
+    "question": "Peut-on être heureux dans une société compétitive ?"
+  },
+  {
+    "id": "ado_10_15_ans_541",
+    "question": "Les ados comprennent-ils mieux certains sujets que les adultes ?"
+  },
+  {
+    "id": "ado_10_15_ans_542",
+    "question": "La pression sociale influence-t-elle nos choix ?"
+  },
+  {
+    "id": "ado_10_15_ans_543",
+    "question": "Faut-il défendre l’environnement même si c’est contraignant ?"
+  },
+  {
+    "id": "ado_10_15_ans_544",
+    "question": "Les jeunes devraient-ils s’engager politiquement ?"
+  },
+  {
+    "id": "ado_10_15_ans_545",
+    "question": "La société est-elle trop connectée ?"
+  },
+  {
+    "id": "ado_10_15_ans_546",
+    "question": "Peut-on vivre sans comparer sa vie aux autres ?"
+  },
+  {
+    "id": "ado_10_15_ans_547",
+    "question": "Les jeunes ont-ils un rôle clé dans le futur ?"
+  },
+  {
+    "id": "ado_10_15_ans_548",
+    "question": "L’éducation prépare-t-elle à comprendre le monde ?"
+  },
+  {
+    "id": "ado_10_15_ans_549",
+    "question": "Faut-il dénoncer les injustices ?"
+  },
+  {
+    "id": "ado_10_15_ans_550",
+    "question": "Le monde numérique est-il plus réel que le monde physique ?"
+  },
+  {
+    "id": "ado_10_15_ans_551",
+    "question": "Les adultes devraient-ils écouter plus les jeunes ?"
+  },
+  {
+    "id": "ado_10_15_ans_552",
+    "question": "Peut-on être influencé sans le voir ?"
+  },
+  {
+    "id": "ado_10_15_ans_553",
+    "question": "Le futur sera-t-il plus écologique ?"
+  },
+  {
+    "id": "ado_10_15_ans_554",
+    "question": "Faut-il privilégier le bonheur ou la réussite ?"
+  },
+  {
+    "id": "ado_10_15_ans_555",
+    "question": "Les jeunes sont-ils plus tolérants ?"
+  },
+  {
+    "id": "ado_10_15_ans_556",
+    "question": "La société met-elle trop l’accent sur la réussite ?"
+  },
+  {
+    "id": "ado_10_15_ans_557",
+    "question": "Peut-on être libre dans un monde connecté ?"
+  },
+  {
+    "id": "ado_10_15_ans_558",
+    "question": "Faut-il accepter toutes les opinions ?"
+  },
+  {
+    "id": "ado_10_15_ans_559",
+    "question": "Les jeunes peuvent-ils être des leaders ?"
+  },
+  {
+    "id": "ado_10_15_ans_560",
+    "question": "La société change-t-elle trop vite ?"
+  },
+  {
+    "id": "ado_10_15_ans_561",
+    "question": "Les traditions doivent-elles évoluer ?"
+  },
+  {
+    "id": "ado_10_15_ans_562",
+    "question": "Peut-on faire confiance aux influenceurs ?"
+  },
+  {
+    "id": "ado_10_15_ans_563",
+    "question": "Les jeunes ont-ils plus de pression aujourd’hui ?"
+  },
+  {
+    "id": "ado_10_15_ans_564",
+    "question": "Faut-il protéger la vie privée à tout prix ?"
+  },
+  {
+    "id": "ado_10_15_ans_565",
+    "question": "La technologie va-t-elle remplacer des métiers ?"
+  },
+  {
+    "id": "ado_10_15_ans_566",
+    "question": "Peut-on être heureux sans validation sociale ?"
+  },
+  {
+    "id": "ado_10_15_ans_567",
+    "question": "Les jeunes devraient-ils être plus écoutés dans les décisions ?"
+  },
+  {
+    "id": "ado_10_15_ans_568",
+    "question": "Le futur sera-t-il meilleur ?"
+  },
+  {
+    "id": "ado_10_15_ans_569",
+    "question": "Faut-il défendre ses valeurs coûte que coûte ?"
+  },
+  {
+    "id": "ado_10_15_ans_570",
+    "question": "La société valorise-t-elle trop la performance ?"
+  },
+  {
+    "id": "ado_10_15_ans_571",
+    "question": "Les jeunes sont-ils plus conscients des problèmes mondiaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_572",
+    "question": "Peut-on vivre sans réseaux sociaux ?"
+  },
+  {
+    "id": "ado_10_15_ans_573",
+    "question": "Faut-il prioriser l’écologie sur l’économie ?"
+  },
+  {
+    "id": "ado_10_15_ans_574",
+    "question": "Les jeunes devraient-ils participer plus aux décisions publiques ?"
+  },
+  {
+    "id": "ado_10_15_ans_575",
+    "question": "La société est-elle trop rapide ?"
+  },
+  {
+    "id": "ado_10_15_ans_576",
+    "question": "Peut-on être libre dans une société pleine de règles ?"
+  },
+  {
+    "id": "ado_10_15_ans_577",
+    "question": "Les jeunes sont-ils l’avenir réel ?"
+  },
+  {
+    "id": "ado_10_15_ans_578",
+    "question": "Faut-il toujours suivre la majorité ?"
+  },
+  {
+    "id": "ado_10_15_ans_579",
+    "question": "Le futur appartient-il aux jeunes ?"
+  },
+  {
+    "id": "ado_10_15_ans_580",
+    "question": "La société est-elle plus ouverte qu’avant ?"
+  },
+  {
+    "id": "ado_10_15_ans_581",
+    "question": "Peut-on changer le monde à petite échelle ?"
+  },
+  {
+    "id": "ado_10_15_ans_582",
+    "question": "Les jeunes sont-ils assez informés ?"
+  },
+  {
+    "id": "ado_10_15_ans_583",
+    "question": "Faut-il faire confiance à la technologie ?"
+  },
+  {
+    "id": "ado_10_15_ans_584",
+    "question": "Les adultes devraient-ils laisser plus de place aux jeunes ?"
+  },
+  {
+    "id": "ado_10_15_ans_585",
+    "question": "La société favorise-t-elle les mêmes profils ?"
+  },
+  {
+    "id": "ado_10_15_ans_586",
+    "question": "Peut-on vivre sans pression sociale ?"
+  },
+  {
+    "id": "ado_10_15_ans_587",
+    "question": "Les jeunes ont-ils plus d’opportunités ?"
+  },
+  {
+    "id": "ado_10_15_ans_588",
+    "question": "Faut-il toujours défendre la justice ?"
+  },
+  {
+    "id": "ado_10_15_ans_589",
+    "question": "Le futur dépend-il de nos choix actuels ?"
+  },
+  {
+    "id": "ado_10_15_ans_590",
+    "question": "La société est-elle trop exigeante ?"
+  },
+  {
+    "id": "ado_10_15_ans_591",
+    "question": "Les jeunes peuvent-ils inspirer les adultes ?"
+  },
+  {
+    "id": "ado_10_15_ans_592",
+    "question": "Faut-il toujours remettre en question le système ?"
+  },
+  {
+    "id": "ado_10_15_ans_593",
+    "question": "La technologie améliore-t-elle l’éducation ?"
+  },
+  {
+    "id": "ado_10_15_ans_594",
+    "question": "Peut-on être heureux sans suivre les standards ?"
+  },
+  {
+    "id": "ado_10_15_ans_595",
+    "question": "Les jeunes ont-ils plus de liberté ?"
+  },
+  {
+    "id": "ado_10_15_ans_596",
+    "question": "Faut-il protéger la planète même si c’est difficile ?"
+  },
+  {
+    "id": "ado_10_15_ans_597",
+    "question": "La société est-elle équitable ?"
+  },
+  {
+    "id": "ado_10_15_ans_598",
+    "question": "Les jeunes ont-ils une voix suffisante ?"
+  },
+  {
+    "id": "ado_10_15_ans_599",
+    "question": "Peut-on être différent et réussir ?"
+  },
+  {
+    "id": "ado_10_15_ans_600",
+    "question": "Quel monde voulons-nous construire ?"
+  }
+]

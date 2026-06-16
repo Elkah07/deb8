@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "super_heros_001",
+    "question": "CLASSI"
+  },
+  {
+    "id": "super_heros_002",
+    "question": "Superman devrait-il volontairement limiter ses pouvoirs pour préserver l’équilibre mondial ?"
+  },
+  {
+    "id": "super_heros_003",
+    "question": "Captain America peut-il rester un symbole neutre dans un monde politiquement divisé ?"
+  },
+  {
+    "id": "super_heros_004",
+    "question": "Wonder Woman serait-elle prête à imposer la paix par la force si nécessaire ?"
+  },
+  {
+    "id": "super_heros_005",
+    "question": "Black Panther doit-il privilégier le Wakanda ou le monde entier ?"
+  },
+  {
+    "id": "super_heros_006",
+    "question": "Homelander représente-t-il le danger d’un héros sans contre-pouvoir ?"
+  },
+  {
+    "id": "super_heros_007",
+    "question": "Un héros tout-puissant peut-il vraiment comprendre la peur humaine ?"
+  },
+  {
+    "id": "super_heros_008",
+    "question": "Faut-il exiger un mandat officiel pour autoriser l’intervention des Avengers ?"
+  },
+  {
+    "id": "super_heros_009",
+    "question": "La Ligue des Justiciers devrait-elle fonctionner comme une institution démocratique ?"
+  },
+  {
+    "id": "super_heros_010",
+    "question": "Un super-héros peut-il être au-dessus des lois sans devenir tyrannique ?"
+  },
+  {
+    "id": "super_heros_011",
+    "question": "Le symbole d’espoir de Superman est-il plus important que ses actes réels ?"
+  },
+  {
+    "id": "super_heros_012",
+    "question": "Captain Marvel est-elle trop puissante pour être moralement contrôlable ?"
+  },
+  {
+    "id": "super_heros_013",
+    "question": "Peut-on confier la sécurité du monde à un groupe non élu comme les Avengers ?"
+  },
+  {
+    "id": "super_heros_014",
+    "question": "Wonder Woman serait-elle plus efficace en diplomate qu’en guerrière ?"
+  },
+  {
+    "id": "super_heros_015",
+    "question": "Black Panther incarne-t-il un roi moderne ou un héros classique ?"
+  },
+  {
+    "id": "super_heros_016",
+    "question": "Homelander est-il le reflet d’une société obsédée par la célébrité ?"
+  },
+  {
+    "id": "super_heros_017",
+    "question": "Batman combat-il le crime ou son propre traumatisme d’enfance ?"
+  },
+  {
+    "id": "super_heros_018",
+    "question": "Wolverine peut-il réellement échapper à sa nature violente ?"
+  },
+  {
+    "id": "super_heros_019",
+    "question": "Daredevil est-il guidé par la foi ou par la colère ?"
+  },
+  {
+    "id": "super_heros_020",
+    "question": "Jean Grey peut-elle vivre sans craindre sa propre puissance ?"
+  },
+  {
+    "id": "super_heros_021",
+    "question": "Hulk est-il une malédiction ou une protection ?"
+  },
+  {
+    "id": "super_heros_022",
+    "question": "Un héros brisé est-il plus dangereux qu’un vilain assumé ?"
+  },
+  {
+    "id": "super_heros_023",
+    "question": "Batman serait-il plus sain s’il abandonnait Gotham ?"
+  },
+  {
+    "id": "super_heros_024",
+    "question": "Wolverine mérite-t-il le repos après une vie de guerre ?"
+  },
+  {
+    "id": "super_heros_025",
+    "question": "Daredevil confond-il justice et punition ?"
+  },
+  {
+    "id": "super_heros_026",
+    "question": "Jean Grey est-elle responsable du Phénix ou victime de sa puissance ?"
+  },
+  {
+    "id": "super_heros_027",
+    "question": "Hulk devrait-il être isolé pour protéger le monde ?"
+  },
+  {
+    "id": "super_heros_028",
+    "question": "Un héros traumatisé peut-il être un modèle stable ?"
+  },
+  {
+    "id": "super_heros_029",
+    "question": "Batman inspire-t-il la peur plus que l’espoir ?"
+  },
+  {
+    "id": "super_heros_030",
+    "question": "Wolverine est-il condamné à la solitude ?"
+  },
+  {
+    "id": "super_heros_031",
+    "question": "Le sacrifice permanent est-il une forme d’autodestruction héroïque ?"
+  },
+  {
+    "id": "super_heros_032",
+    "question": "Loki manipule-t-il pour survivre ou pour dominer ?"
+  },
+  {
+    "id": "super_heros_033",
+    "question": "Magnéto est-il plus cohérent que les X-Men dans sa vision du monde ?"
+  },
+  {
+    "id": "super_heros_034",
+    "question": "Mystique est-elle loyale à quelqu’un d’autre qu’à elle-même ?"
+  },
+  {
+    "id": "super_heros_035",
+    "question": "Harley Quinn est-elle libre ou toujours influencée par son passé ?"
+  },
+  {
+    "id": "super_heros_036",
+    "question": "Catwoman agit-elle par intérêt ou par conviction morale ?"
+  },
+  {
+    "id": "super_heros_037",
+    "question": "Poison Ivy devrait-elle être forcément dans la catégorie \"vilain\"?"
+  },
+  {
+    "id": "super_heros_038",
+    "question": "Un vilain charismatique est-il plus dangereux qu’un tyran brutal ?"
+  },
+  {
+    "id": "super_heros_039",
+    "question": "Loki peut-il réellement changer ou joue-t-il un rôle ?"
+  },
+  {
+    "id": "super_heros_040",
+    "question": "Magnéto protège-t-il les mutants ou nourrit-il la guerre ?"
+  },
+  {
+    "id": "super_heros_041",
+    "question": "Mystique est-elle une survivante ou une manipulatrice ?"
+  },
+  {
+    "id": "super_heros_042",
+    "question": "Harley Quinn est-elle plus lucide que le Joker ?"
+  },
+  {
+    "id": "super_heros_043",
+    "question": "Catwoman aurait-elle pu devenir une héroïne complète ?"
+  },
+  {
+    "id": "super_heros_044",
+    "question": "Un vilain peut-il aimer sincèrement ?"
+  },
+  {
+    "id": "super_heros_045",
+    "question": "Loki serait-il différent sans l’ombre de Thor ?"
+  },
+  {
+    "id": "super_heros_046",
+    "question": "Magnéto est-il un révolutionnaire ou un extrémiste ?"
+  },
+  {
+    "id": "super_heros_047",
+    "question": "Peut-on admirer un vilain sans cautionner ses actes ?"
+  },
+  {
+    "id": "super_heros_048",
+    "question": "Le Spider-Man de Tobey Maguire incarne-t-il le héros classique ?"
+  },
+  {
+    "id": "super_heros_049",
+    "question": "Le Spider-Man d’Andrew Garfield est-il le plus tragique ?"
+  },
+  {
+    "id": "super_heros_050",
+    "question": "Le Spider-Man de Tom Holland est-il trop dépendant des Avengers ?"
+  },
+  {
+    "id": "super_heros_051",
+    "question": "Le Joker de Heath Ledger est-il plus anarchique que celui de Joaquin Phoenix ?"
+  },
+  {
+    "id": "super_heros_052",
+    "question": "Le Batman de Christian Bale est-il le plus réaliste ?"
+  },
+  {
+    "id": "super_heros_053",
+    "question": "Le multivers enrichit-il ou dilue-t-il l’identité des héros ?"
+  },
+  {
+    "id": "super_heros_054",
+    "question": "Une version sombre d’un héros le rend-elle plus crédible ?"
+  },
+  {
+    "id": "super_heros_055",
+    "question": "Les adaptations cinéma simplifient-elles les conflits moraux des comics ?"
+  },
+  {
+    "id": "super_heros_056",
+    "question": "Le Spider-Verse animé dépasse-t-il les films live en créativité ?"
+  },
+  {
+    "id": "super_heros_057",
+    "question": "Les différentes versions de Batman reflètent-elles leur époque ?"
+  },
+  {
+    "id": "super_heros_058",
+    "question": "Les Avengers seraient-ils efficaces sans Iron Man ?"
+  },
+  {
+    "id": "super_heros_059",
+    "question": "La Ligue des Justiciers dépend-elle trop de Superman ?"
+  },
+  {
+    "id": "super_heros_060",
+    "question": "Les X-Men sont-ils condamnés à l’exclusion sociale ?"
+  },
+  {
+    "id": "super_heros_061",
+    "question": "La Suicide Squad est-elle moralement défendable ?"
+  },
+  {
+    "id": "super_heros_062",
+    "question": "The Boys montre-t-il la dérive inévitable des super-héros ?"
+  },
+  {
+    "id": "super_heros_063",
+    "question": "Une équipe peut-elle survivre sans leader clair ?"
+  },
+  {
+    "id": "super_heros_064",
+    "question": "Les héros en équipe sacrifient-ils leur identité individuelle ?"
+  },
+  {
+    "id": "super_heros_065",
+    "question": "Une équipe de vilains serait-elle plus honnête qu’une équipe de héros ?"
+  },
+  {
+    "id": "super_heros_066",
+    "question": "Les Gardiens de la Galaxie fonctionnent-ils malgré leur chaos ?"
+  },
+  {
+    "id": "super_heros_067",
+    "question": "Une équipe peut-elle rester morale en temps de guerre ?"
+  },
+  {
+    "id": "super_heros_068",
+    "question": "Harley Quinn et Poison Ivy forment-elles un couple plus sain que la moyenne des héros ?"
+  },
+  {
+    "id": "super_heros_069",
+    "question": "Batman et Catwoman sont-ils attirés par l’amour ou par le risque ?"
+  },
+  {
+    "id": "super_heros_070",
+    "question": "Lois Lane rend-elle Superman vulnérable ou plus humain ?"
+  },
+  {
+    "id": "super_heros_071",
+    "question": "Wanda aimait-elle Vision ou l’illusion d’une vie normale ?"
+  },
+  {
+    "id": "super_heros_072",
+    "question": "Jean Grey et Cyclope auraient-ils survécu sans secrets ?"
+  },
+  {
+    "id": "super_heros_073",
+    "question": "Daredevil et Elektra sont-ils condamnés à se trahir ?"
+  },
+  {
+    "id": "super_heros_074",
+    "question": "Un héros peut-il aimer sans mentir sur son identité ?"
+  },
+  {
+    "id": "super_heros_075",
+    "question": "Les relations amoureuses rendent-elles les héros plus faibles ?"
+  },
+  {
+    "id": "super_heros_076",
+    "question": "Un vilain peut-il construire une relation stable ?"
+  },
+  {
+    "id": "super_heros_077",
+    "question": "L’amour est-il une force ou une faiblesse stratégique ?"
+  },
+  {
+    "id": "super_heros_078",
+    "question": "Un univers cynique est-il plus crédible qu’un univers idéaliste ?"
+  },
+  {
+    "id": "super_heros_079",
+    "question": "Homelander serait-il applaudi dans notre monde réel ?"
+  },
+  {
+    "id": "super_heros_080",
+    "question": "Les super-héros employés par des entreprises sont-ils inévitables ?"
+  },
+  {
+    "id": "super_heros_081",
+    "question": "Le combat de Poison Ivy n'est-il pas juste pour la planète au final?"
+  },
+  {
+    "id": "super_heros_082",
+    "question": "La célébrité corrompt-elle les héros plus vite que le pouvoir ?"
+  },
+  {
+    "id": "super_heros_083",
+    "question": "La violence explicite rend-elle les héros plus réalistes ?"
+  },
+  {
+    "id": "super_heros_084",
+    "question": "Un héros sponsorisé peut-il rester sincère ?"
+  },
+  {
+    "id": "super_heros_085",
+    "question": "Peut-on admirer un héros immoral s’il est efficace ?"
+  },
+  {
+    "id": "super_heros_086",
+    "question": "Un univers sombre reflète-t-il mieux la nature humaine ?"
+  },
+  {
+    "id": "super_heros_087",
+    "question": "Les super-héros sont-ils devenus des produits culturels avant d’être des symboles ?"
+  },
+  {
+    "id": "super_heros_088",
+    "question": "Si Deadpool était le seul à savoir qu’il vit dans une fiction, serait-il le plus lucide ?"
+  },
+  {
+    "id": "super_heros_089",
+    "question": "Si Thor perdait son marteau définitivement, resterait-il digne ?"
+  },
+  {
+    "id": "super_heros_090",
+    "question": "Si Hulk suivait une thérapie intensive, existerait-il encore ?"
+  },
+  {
+    "id": "super_heros_091",
+    "question": "Si Batman devait travailler en équipe obligatoire, deviendrait-il fou ?"
+  },
+  {
+    "id": "super_heros_092",
+    "question": "Si Loki devenait honnête du jour au lendemain, serait-il encore intéressant ?"
+  },
+  {
+    "id": "super_heros_093",
+    "question": "Si Superman décidait de ne plus intervenir, le monde apprendrait-il à se défendre seul ?"
+  },
+  {
+    "id": "super_heros_094",
+    "question": "Si Harley Quinn ouvrait un cabinet de thérapie, serait-elle crédible ?"
+  },
+  {
+    "id": "super_heros_095",
+    "question": "Si les costumes disparaissaient, les héros resteraient-ils admirés ?"
+  },
+  {
+    "id": "super_heros_096",
+    "question": "Si tous les vilains perdaient leurs traumatismes, existeraient-ils encore ?"
+  },
+  {
+    "id": "super_heros_097",
+    "question": "Sacrifier une ville pour sauver la planète est-il un choix héroïque ou monstrueux ?"
+  },
+  {
+    "id": "super_heros_098",
+    "question": "Un héros doit-il tuer s’il n’y a aucune autre option ?"
+  },
+  {
+    "id": "super_heros_099",
+    "question": "Révéler son identité pour sauver un proche est-il un devoir moral ?"
+  },
+  {
+    "id": "super_heros_100",
+    "question": "Un vilain repenti mérite-t-il une seconde chance ?"
+  },
+  {
+    "id": "super_heros_101",
+    "question": "Peut-on pardonner un héros qui a causé des dégâts irréversibles ?"
+  },
+  {
+    "id": "super_heros_102",
+    "question": "Un héros doit-il choisir entre justice et compassion ?"
+  },
+  {
+    "id": "super_heros_103",
+    "question": "La vengeance peut-elle être héroïque ?"
+  },
+  {
+    "id": "super_heros_104",
+    "question": "Mentir pour préserver l’espoir est-il acceptable ?"
+  },
+  {
+    "id": "super_heros_105",
+    "question": "Faut-il exiler un héros devenu incontrôlable ?"
+  },
+  {
+    "id": "super_heros_106",
+    "question": "Un héros doit-il toujours gagner pour rester un symbole ?"
+  },
+  {
+    "id": "super_heros_107",
+    "question": "Lequel est le plus drôle entre Loki et le Joker ?"
+  },
+  {
+    "id": "super_heros_108",
+    "question": "Qui serait le meilleur stratège entre Batman et Iron Man en guerre totale ?"
+  },
+  {
+    "id": "super_heros_109",
+    "question": "Entre Wonder Woman et Captain Marvel, qui inspire le plus naturellement le respect ?"
+  },
+  {
+    "id": "super_heros_110",
+    "question": "Spider-Man pourrait-il battre Daredevil dans un combat urbain sans gadgets ?"
+  },
+  {
+    "id": "super_heros_111",
+    "question": "Qui manipule le mieux l’opinion publique : Lex Luthor ou Magnéto ?"
+  },
+  {
+    "id": "super_heros_112",
+    "question": "Thor pourrait-il réellement vaincre Superman sans aide extérieure ?"
+  },
+  {
+    "id": "super_heros_113",
+    "question": "Entre Wolverine et Deadpool, qui survivrait le plus longtemps dans un monde post-apocalyptique ?"
+  },
+  {
+    "id": "super_heros_114",
+    "question": "Qui serait le plus dangereux en politique : Homelander ou Loki ?"
+  },
+  {
+    "id": "super_heros_115",
+    "question": "Batman pourrait-il neutraliser Thanos avec préparation ?"
+  },
+  {
+    "id": "super_heros_116",
+    "question": "Entre Hulk et Doomsday, qui est le plus incontrôlable ?"
+  },
+  {
+    "id": "super_heros_117",
+    "question": "Qui a sa place pour être le super-héros le plus drôle ?"
+  },
+  {
+    "id": "super_heros_118",
+    "question": "Deadpool est-il plus drôle que Spider-Man ou simplement plus vulgaire ?"
+  },
+  {
+    "id": "super_heros_119",
+    "question": "Thor est-il involontairement comique ou réellement charismatique ?"
+  },
+  {
+    "id": "super_heros_120",
+    "question": "Le sérieux de Batman le rend-il moins attachant ?"
+  },
+  {
+    "id": "super_heros_121",
+    "question": "L’humour est-il une arme plus efficace que la force brute ?"
+  },
+  {
+    "id": "super_heros_122",
+    "question": "Les Avengers manquent-ils d’un vrai clown stratégique ?"
+  },
+  {
+    "id": "super_heros_123",
+    "question": "Loki est-il drôle ou simplement sarcastique ?"
+  },
+  {
+    "id": "super_heros_124",
+    "question": "Peut-on être un héros crédible en étant trop comique ?"
+  },
+  {
+    "id": "super_heros_125",
+    "question": "Le Joker est-il drôle ou profondément inquiétant ?"
+  },
+  {
+    "id": "super_heros_126",
+    "question": "Un héros drôle est-il pris moins au sérieux ?"
+  },
+  {
+    "id": "super_heros_127",
+    "question": "Qui est le plus intéressant des Avengers ?"
+  },
+  {
+    "id": "super_heros_128",
+    "question": "Black Widow est-elle sous-estimée face aux héros surpuissants ?"
+  },
+  {
+    "id": "super_heros_129",
+    "question": "Vision est-il le personnage le plus philosophique du MCU ?"
+  },
+  {
+    "id": "super_heros_130",
+    "question": "Lequel des X-Men a l’arc narratif le plus fort ?"
+  },
+  {
+    "id": "super_heros_131",
+    "question": "Qui évolue le plus entre Tony Stark et Steve Rogers ?"
+  },
+  {
+    "id": "super_heros_132",
+    "question": "Homelander est-il plus fascinant que Superman parce qu’il est imparfait ?"
+  },
+  {
+    "id": "super_heros_133",
+    "question": "Scarlet Witch est-elle le personnage le plus tragique du MCU ?"
+  },
+  {
+    "id": "super_heros_134",
+    "question": "Batman est-il plus intéressant que Superman parce qu’il est humain ?"
+  },
+  {
+    "id": "super_heros_135",
+    "question": "Quel vilain a le parcours le plus cohérent : Magnéto ou Loki ?"
+  },
+  {
+    "id": "super_heros_136",
+    "question": "Les personnages secondaires sont-ils parfois plus captivants que les héros principaux ?"
+  },
+  {
+    "id": "super_heros_137",
+    "question": "Pourquoi Nick Fury attend-il si longtemps avant d’appeler Captain Marvel à l’aide ?"
+  },
+  {
+    "id": "super_heros_138",
+    "question": "Pourquoi Batman refuse-t-il d’achever le Joker malgré les conséquences ?"
+  },
+  {
+    "id": "super_heros_139",
+    "question": "Pourquoi Superman choisit-il souvent la retenue au lieu d’imposer sa vision ?"
+  },
+  {
+    "id": "super_heros_140",
+    "question": "Pourquoi les Avengers n’interviennent-ils pas toujours ensemble ?"
+  },
+  {
+    "id": "super_heros_141",
+    "question": "Pourquoi Thor perd-il souvent confiance malgré sa puissance ?"
+  },
+  {
+    "id": "super_heros_142",
+    "question": "Pourquoi Wanda n’est-elle pas arrêtée immédiatement après Westview ?"
+  },
+  {
+    "id": "super_heros_143",
+    "question": "Pourquoi Loki trahit-il même quand il semble sincère ?"
+  },
+  {
+    "id": "super_heros_144",
+    "question": "Pourquoi les X-Men restent-ils isolés malgré les menaces mondiales ?"
+  },
+  {
+    "id": "super_heros_145",
+    "question": "Pourquoi Aquaman est-il souvent sous-estimé ?"
+  },
+  {
+    "id": "super_heros_146",
+    "question": "Pourquoi Hulk parle-t-il parfois comme un enfant ?"
+  },
+  {
+    "id": "super_heros_147",
+    "question": "Et si Loki et Wanda formaient un couple, serait-ce explosif ou complémentaire ?"
+  },
+  {
+    "id": "super_heros_148",
+    "question": "Batman et Wonder Woman auraient-ils pu fonctionner sur le long terme ?"
+  },
+  {
+    "id": "super_heros_149",
+    "question": "Deadpool et Harley Quinn formeraient-ils le couple le plus chaotique ?"
+  },
+  {
+    "id": "super_heros_150",
+    "question": "Spider-Man et Supergirl pourraient-ils partager la même vision du héros ?"
+  },
+  {
+    "id": "super_heros_151",
+    "question": "Magnéto et Mystique seraient-ils un couple idéologique solide ?"
+  },
+  {
+    "id": "super_heros_152",
+    "question": "Thor et Captain Marvel seraient-ils compatibles ou trop dominants ?"
+  },
+  {
+    "id": "super_heros_153",
+    "question": "Black Panther et Wonder Woman auraient-ils une alliance royale crédible ?"
+  },
+  {
+    "id": "super_heros_154",
+    "question": "Homelander et Catwoman pourraient-ils se manipuler mutuellement ?"
+  },
+  {
+    "id": "super_heros_155",
+    "question": "Wolverine et Black Widow auraient-ils pu fonctionner ensemble ?"
+  },
+  {
+    "id": "super_heros_156",
+    "question": "Vision et Jean Grey seraient-ils trop puissants pour une relation stable ?"
+  },
+  {
+    "id": "super_heros_157",
+    "question": "Les Avengers seraient-ils plus efficaces avec un leader unique ?"
+  },
+  {
+    "id": "super_heros_158",
+    "question": "La Ligue des Justiciers manque-t-elle d’un vrai stratège humain ?"
+  },
+  {
+    "id": "super_heros_159",
+    "question": "La Suicide Squad est-elle plus honnête que les équipes héroïques ?"
+  },
+  {
+    "id": "super_heros_160",
+    "question": "The Boys sont-ils plus courageux que les super-héros qu’ils combattent ?"
+  },
+  {
+    "id": "super_heros_161",
+    "question": "Une équipe trop puissante devient-elle instable ?"
+  },
+  {
+    "id": "super_heros_162",
+    "question": "Les Gardiens de la Galaxie sont-ils un accident réussi ?"
+  },
+  {
+    "id": "super_heros_163",
+    "question": "Les équipes mixtes héros/vilains seraient-elles plus efficaces ?"
+  },
+  {
+    "id": "super_heros_164",
+    "question": "Une équipe peut-elle survivre sans confiance totale ?"
+  },
+  {
+    "id": "super_heros_165",
+    "question": "Les héros en groupe prennent-ils de mauvaises décisions collectives ?"
+  },
+  {
+    "id": "super_heros_166",
+    "question": "Qui serait le meilleur professeur : Charles Xavier ou Doctor Strange ?"
+  },
+  {
+    "id": "super_heros_167",
+    "question": "Qui serait le pire voisin : Hulk ou Venom ?"
+  },
+  {
+    "id": "super_heros_168",
+    "question": "Qui inspire le plus peur : Darkseid ou Thanos ?"
+  },
+  {
+    "id": "super_heros_169",
+    "question": "Qui serait le plus crédible en président : Black Panther ou Captain America ?"
+  },
+  {
+    "id": "super_heros_170",
+    "question": "Qui est le plus imprévisible : Deadpool ou Joker ?"
+  },
+  {
+    "id": "super_heros_171",
+    "question": "Qui serait le plus dangereux s’il perdait tout : Batman ou Wolverine ?"
+  },
+  {
+    "id": "super_heros_172",
+    "question": "Qui est le plus tragique : Wanda ou Jean Grey ?"
+  },
+  {
+    "id": "super_heros_173",
+    "question": "Qui est le plus fidèle à ses principes : Superman ou Captain America ?"
+  },
+  {
+    "id": "super_heros_174",
+    "question": "Qui est le plus stratège : Batman ou Magnéto ?"
+  },
+  {
+    "id": "super_heros_175",
+    "question": "Qui serait le plus difficile à arrêter : Flash ou Quicksilver ?"
+  },
+  {
+    "id": "super_heros_176",
+    "question": "Les films ont-ils rendu les héros plus humoristiques que les comics ?"
+  },
+  {
+    "id": "super_heros_177",
+    "question": "Le fan service détruit-il la cohérence des super-héros modernes ?"
+  },
+  {
+    "id": "super_heros_178",
+    "question": "Les multivers sont-ils une solution créative ou un manque d’idées ?"
+  },
+  {
+    "id": "super_heros_179",
+    "question": "Les super-héros sont-ils devenus trop puissants pour être intéressants ?"
+  },
+  {
+    "id": "super_heros_180",
+    "question": "Les vilains sont-ils mieux écrits que les héros aujourd’hui ?"
+  },
+  {
+    "id": "super_heros_181",
+    "question": "Le public préfère-t-il les héros imparfaits ?"
+  },
+  {
+    "id": "super_heros_182",
+    "question": "Les univers partagés nuisent-ils aux histoires individuelles ?"
+  },
+  {
+    "id": "super_heros_183",
+    "question": "Les séries offrent-elles une meilleure profondeur que les films ?"
+  },
+  {
+    "id": "super_heros_184",
+    "question": "Les héros féminins sont-ils mieux écrits aujourd’hui qu’avant ?"
+  },
+  {
+    "id": "super_heros_185",
+    "question": "Le cynisme moderne a-t-il remplacé l’idéalisme héroïque ?"
+  },
+  {
+    "id": "super_heros_186",
+    "question": "Qui craquerait mentalement en premier entre Batman et Captain America ?"
+  },
+  {
+    "id": "super_heros_187",
+    "question": "Entre Wanda et Jean Grey, qui maîtrise le mieux sa douleur ?"
+  },
+  {
+    "id": "super_heros_188",
+    "question": "Loki pourrait-il manipuler Harley Quinn ou finir manipulé ?"
+  },
+  {
+    "id": "super_heros_189",
+    "question": "Qui a la vision la plus radicale du futur : Magnéto ou Thanos ?"
+  },
+  {
+    "id": "super_heros_190",
+    "question": "Superman pourrait-il convaincre Homelander de changer ?"
+  },
+  {
+    "id": "super_heros_191",
+    "question": "Qui est le plus imprévisible en combat : Deadpool ou Moon Knight ?"
+  },
+  {
+    "id": "super_heros_192",
+    "question": "Entre Wonder Woman et Thor, qui abandonnerait l’orgueil en premier ?"
+  },
+  {
+    "id": "super_heros_193",
+    "question": "Qui est le plus dangereux : Batman ou Black Widow ?"
+  },
+  {
+    "id": "super_heros_194",
+    "question": "Spider-Man pourrait-il vaincre Joker sans céder à la colère ?"
+  },
+  {
+    "id": "super_heros_195",
+    "question": "Qui est le plus difficile à corrompre : Captain America ou Black Panther ?"
+  },
+  {
+    "id": "super_heros_196",
+    "question": "Et si Batman et Black Widow formaient un duo secret, serait-ce efficace ?"
+  },
+  {
+    "id": "super_heros_197",
+    "question": "Loki et Catwoman seraient-ils un couple basé sur la confiance ou la manipulation ?"
+  },
+  {
+    "id": "super_heros_198",
+    "question": "Wolverine et Wonder Woman pourraient-ils partager la même vision de la guerre ?"
+  },
+  {
+    "id": "super_heros_199",
+    "question": "Spider-Man et Wanda seraient-ils trop émotionnels pour durer ?"
+  },
+  {
+    "id": "super_heros_200",
+    "question": "Thor et Supergirl formeraient-ils un couple trop puissant ?"
+  },
+  {
+    "id": "super_heros_201",
+    "question": "Deadpool et Mystique pourraient-ils s’aimer sans se mentir ?"
+  },
+  {
+    "id": "super_heros_202",
+    "question": "Magnéto et Poison Ivy auraient-ils une alliance écologique crédible ?"
+  },
+  {
+    "id": "super_heros_203",
+    "question": "Daredevil et Wonder Woman partageraient-ils le même sens de la justice ?"
+  },
+  {
+    "id": "super_heros_204",
+    "question": "Superman et Captain Marvel seraient-ils compatibles ou rivaux permanents ?"
+  },
+  {
+    "id": "super_heros_205",
+    "question": "Hulk et Jean Grey pourraient-ils se comprendre sans se détruire ?"
+  },
+  {
+    "id": "super_heros_206",
+    "question": "Les Avengers devraient-ils exclure un membre trop puissant pour préserver l’équilibre ?"
+  },
+  {
+    "id": "super_heros_207",
+    "question": "La Ligue des Justiciers pourrait-elle fonctionner sans Batman ?"
+  },
+  {
+    "id": "super_heros_208",
+    "question": "Les X-Men sont-ils trop dépendants de Charles Xavier ?"
+  },
+  {
+    "id": "super_heros_209",
+    "question": "La Suicide Squad devrait-elle être volontaire plutôt que forcée ?"
+  },
+  {
+    "id": "super_heros_210",
+    "question": "The Boys sont-ils justifiés dans leur brutalité ?"
+  },
+  {
+    "id": "super_heros_211",
+    "question": "Les Gardiens de la Galaxie survivraient-ils sans humour ?"
+  },
+  {
+    "id": "super_heros_212",
+    "question": "Une équipe trop diverse devient-elle instable ?"
+  },
+  {
+    "id": "super_heros_213",
+    "question": "Les Quatre Fantastiques sont-ils d’abord une famille ou une équipe ?"
+  },
+  {
+    "id": "super_heros_214",
+    "question": "Les Titans sont-ils plus humains que leurs mentors ?"
+  },
+  {
+    "id": "super_heros_215",
+    "question": "Une équipe de héros peut-elle rester soudée sans secret ?"
+  },
+  {
+    "id": "super_heros_216",
+    "question": "Pourquoi personne ne reconnaît Superman avec des lunettes ?"
+  },
+  {
+    "id": "super_heros_217",
+    "question": "Pourquoi les villes se reconstruisent-elles si vite après les batailles ?"
+  },
+  {
+    "id": "super_heros_218",
+    "question": "Pourquoi les héros travaillent-ils souvent seuls malgré les équipes existantes ?"
+  },
+  {
+    "id": "super_heros_219",
+    "question": "Pourquoi les vilains élaborent-ils toujours des plans si complexes ?"
+  },
+  {
+    "id": "super_heros_220",
+    "question": "Pourquoi les pouvoirs apparaissent-ils toujours au moment le plus dramatique ?"
+  },
+  {
+    "id": "super_heros_221",
+    "question": "Pourquoi les identités secrètes tiennent-elles si longtemps ?"
+  },
+  {
+    "id": "super_heros_222",
+    "question": "Pourquoi les héros ne coopèrent-ils pas toujours entre univers ?"
+  },
+  {
+    "id": "super_heros_223",
+    "question": "Pourquoi certains héros refusent-ils de tuer même face au chaos ?"
+  },
+  {
+    "id": "super_heros_224",
+    "question": "Pourquoi les gouvernements tolèrent-ils des individus aussi puissants ?"
+  },
+  {
+    "id": "super_heros_225",
+    "question": "Pourquoi les héros ont-ils rarement des conséquences juridiques durables ?"
+  },
+  {
+    "id": "super_heros_226",
+    "question": "Qui attire le plus naturellement les foules : Thor ou Black Panther ?"
+  },
+  {
+    "id": "super_heros_227",
+    "question": "Spider-Man est-il plus populaire parce qu’il est relatable ?"
+  },
+  {
+    "id": "super_heros_228",
+    "question": "Batman fascine-t-il plus que Superman parce qu’il est imparfait ?"
+  },
+  {
+    "id": "super_heros_229",
+    "question": "Deadpool est-il aimé pour son humour ou pour sa sincérité ?"
+  },
+  {
+    "id": "super_heros_230",
+    "question": "Harley Quinn est-elle devenue plus populaire que certains héros ?"
+  },
+  {
+    "id": "super_heros_231",
+    "question": "Loki est-il apprécié malgré ses trahisons répétées ?"
+  },
+  {
+    "id": "super_heros_232",
+    "question": "Scarlet Witch est-elle l’un des personnages les plus complexes du MCU ?"
+  },
+  {
+    "id": "super_heros_233",
+    "question": "Qui a le plus grand potentiel narratif inexploité ?"
+  },
+  {
+    "id": "super_heros_234",
+    "question": "Les vilains charismatiques volent-ils la vedette aux héros ?"
+  },
+  {
+    "id": "super_heros_235",
+    "question": "Un héros trop parfait devient-il ennuyeux ?"
+  },
+  {
+    "id": "super_heros_236",
+    "question": "Qui ferait le meilleur humoriste : Deadpool ou Spider-Man ?"
+  },
+  {
+    "id": "super_heros_237",
+    "question": "Qui serait le pire colocataire : Hulk ou Thor ?"
+  },
+  {
+    "id": "super_heros_238",
+    "question": "Qui oublierait de payer le loyer : Loki ou Tony Stark ?"
+  },
+  {
+    "id": "super_heros_239",
+    "question": "Qui serait le plus crédible en professeur de morale : Captain America ou Superman ?"
+  },
+  {
+    "id": "super_heros_240",
+    "question": "Qui serait le plus dangereux dans une émission de téléréalité : Joker ou Homelander ?"
+  },
+  {
+    "id": "super_heros_241",
+    "question": "Qui survivrait le mieux à une vie normale sans pouvoir ?"
+  },
+  {
+    "id": "super_heros_242",
+    "question": "Qui ferait le meilleur avocat : Daredevil ou She-Hulk ?"
+  },
+  {
+    "id": "super_heros_243",
+    "question": "Qui serait le plus crédible en chef d’entreprise : Bruce Wayne ou T’Challa ?"
+  },
+  {
+    "id": "super_heros_244",
+    "question": "Qui serait le plus catastrophique en babysitter ?"
+  },
+  {
+    "id": "super_heros_245",
+    "question": "Qui gagnerait un concours de discours inspirant ?"
+  },
+  {
+    "id": "super_heros_246",
+    "question": "Peut-on être un héros sans être brisé à l’intérieur ?"
+  },
+  {
+    "id": "super_heros_247",
+    "question": "Un héros doit-il révéler toute la vérité au public même si cela provoque la panique ?"
+  },
+  {
+    "id": "super_heros_248",
+    "question": "Peut-on aimer un héros tout en refusant ses méthodes ?"
+  },
+  {
+    "id": "super_heros_249",
+    "question": "Un héros peut-il être jugé pour des dégâts collatéraux inévitables ?"
+  },
+  {
+    "id": "super_heros_250",
+    "question": "Faut-il interdire les pouvoirs génétiquement transmissibles ?"
+  },
+  {
+    "id": "super_heros_251",
+    "question": "Un héros doit-il abandonner son rôle en vieillissant ?"
+  },
+  {
+    "id": "super_heros_252",
+    "question": "Peut-on former un enfant à devenir super-héros ?"
+  },
+  {
+    "id": "super_heros_253",
+    "question": "Un vilain peut-il être réhabilité sans surveillance permanente ?"
+  },
+  {
+    "id": "super_heros_254",
+    "question": "Un héros peut-il mentir à son équipe pour le bien commun ?"
+  },
+  {
+    "id": "super_heros_255",
+    "question": "La fin justifie-t-elle les moyens dans un univers menacé ?"
+  },
+  {
+    "id": "super_heros_256",
+    "question": "Un héros peut-il choisir sa propre fin ?"
+  },
+  {
+    "id": "super_heros_257",
+    "question": "Le multivers permet-il d’éviter les conséquences permanentes ?"
+  },
+  {
+    "id": "super_heros_258",
+    "question": "Les reboots affaiblissent-ils l’impact émotionnel des morts héroïques ?"
+  },
+  {
+    "id": "super_heros_259",
+    "question": "Les crossovers sont-ils plus commerciaux que narratifs ?"
+  },
+  {
+    "id": "super_heros_260",
+    "question": "Un héros peut-il rester iconique malgré trop de versions différentes ?"
+  },
+  {
+    "id": "super_heros_261",
+    "question": "Les univers partagés rendent-ils les intrigues prévisibles ?"
+  },
+  {
+    "id": "super_heros_262",
+    "question": "Les séries offrent-elles une meilleure exploration psychologique que les films ?"
+  },
+  {
+    "id": "super_heros_263",
+    "question": "Les adaptations modernes sont-elles trop prudentes ?"
+  },
+  {
+    "id": "super_heros_264",
+    "question": "Les héros évoluent-ils avec la société ou la société s’adapte-t-elle à eux ?"
+  },
+  {
+    "id": "super_heros_265",
+    "question": "Le cynisme moderne rend-il les héros plus intéressants ?"
+  },
+  {
+    "id": "super_heros_266",
+    "question": "Les nouvelles générations préfèrent-elles les anti-héros ?"
+  },
+  {
+    "id": "super_heros_267",
+    "question": "Pourquoi Nick Fury manipule-t-il autant ses alliés ?"
+  },
+  {
+    "id": "super_heros_268",
+    "question": "Pourquoi Tony Stark cache-t-il ses failles derrière l’humour ?"
+  },
+  {
+    "id": "super_heros_269",
+    "question": "Pourquoi Wanda est-elle l’un des personnages les plus ambigus moralement ?"
+  },
+  {
+    "id": "super_heros_270",
+    "question": "Pourquoi Bruce Wayne refuse-t-il d’être heureux ?"
+  },
+  {
+    "id": "super_heros_271",
+    "question": "Pourquoi Loki cherche-t-il constamment la validation ?"
+  },
+  {
+    "id": "super_heros_272",
+    "question": "Pourquoi Captain America refuse-t-il de se moderniser totalement ?"
+  },
+  {
+    "id": "super_heros_273",
+    "question": "Pourquoi Jean Grey attire-t-elle autant de tragédies ?"
+  },
+  {
+    "id": "super_heros_274",
+    "question": "Pourquoi Homelander a-t-il besoin d’être adoré ?"
+  },
+  {
+    "id": "super_heros_275",
+    "question": "Pourquoi Spider-Man porte-t-il toujours le poids de la culpabilité ?"
+  },
+  {
+    "id": "super_heros_276",
+    "question": "Pourquoi Black Panther hésite-t-il entre tradition et ouverture ?"
+  },
+  {
+    "id": "super_heros_277",
+    "question": "Batman pourrait-il battre Doctor Strange avec uniquement de la préparation ?"
+  },
+  {
+    "id": "super_heros_278",
+    "question": "Entre Thor et Wonder Woman, qui est la meilleure combattante pure ?"
+  },
+  {
+    "id": "super_heros_279",
+    "question": "Spider-Man pourrait-il neutraliser Deadpool sans le tuer ?"
+  },
+  {
+    "id": "super_heros_280",
+    "question": "Qui manipule mieux les masses : Homelander ou Lex Luthor ?"
+  },
+  {
+    "id": "super_heros_281",
+    "question": "Scarlet Witch pourrait-elle vaincre Jean Grey en pleine maîtrise ?"
+  },
+  {
+    "id": "super_heros_282",
+    "question": "Black Panther pourrait-il surpasser Captain America en leadership mondial ?"
+  },
+  {
+    "id": "super_heros_283",
+    "question": "Magnéto pourrait-il contrôler Mjolnir si le métal le permettait ?"
+  },
+  {
+    "id": "super_heros_284",
+    "question": "Qui serait le plus dangereux en secret : Mystique ou Black Widow ?"
+  },
+  {
+    "id": "super_heros_285",
+    "question": "Superman pourrait-il battre Hulk sans retenue morale ?"
+  },
+  {
+    "id": "super_heros_286",
+    "question": "Qui gagnerait un duel tactique : Cyclope ou Iron Man ?"
+  },
+  {
+    "id": "super_heros_287",
+    "question": "Et si Spider-Man tombait amoureux de Black Cat pour de bon, changerait-il ?"
+  },
+  {
+    "id": "super_heros_288",
+    "question": "Wolverine et Jean Grey étaient-ils voués à l’échec ?"
+  },
+  {
+    "id": "super_heros_289",
+    "question": "Loki pourrait-il aimer sans manipuler ?"
+  },
+  {
+    "id": "super_heros_290",
+    "question": "Harley Quinn et Poison Ivy survivraient-elles à une vie normale ?"
+  },
+  {
+    "id": "super_heros_291",
+    "question": "Batman pourrait-il vraiment construire une famille stable ?"
+  },
+  {
+    "id": "super_heros_292",
+    "question": "Captain Marvel accepterait-elle un partenaire moins puissant qu’elle ?"
+  },
+  {
+    "id": "super_heros_293",
+    "question": "Thor et Jane Foster étaient-ils incompatibles dès le départ ?"
+  },
+  {
+    "id": "super_heros_294",
+    "question": "Deadpool pourrait-il aimer sans saboter la relation ?"
+  },
+  {
+    "id": "super_heros_295",
+    "question": "Wonder Woman pourrait-elle aimer un simple humain durablement ?"
+  },
+  {
+    "id": "super_heros_296",
+    "question": "Homelander est-il capable d’un attachement sincère ?"
+  },
+  {
+    "id": "super_heros_297",
+    "question": "Les Avengers seraient-ils plus efficaces sans ego dominant ?"
+  },
+  {
+    "id": "super_heros_298",
+    "question": "La Ligue des Justiciers devrait-elle intégrer plus d’humains sans pouvoirs ?"
+  },
+  {
+    "id": "super_heros_299",
+    "question": "Les X-Men doivent-ils s’isoler pour survivre ?"
+  },
+  {
+    "id": "super_heros_300",
+    "question": "La Suicide Squad est-elle un outil politique déguisé ?"
+  },
+  {
+    "id": "super_heros_301",
+    "question": "The Boys deviendraient-ils ce qu’ils combattent à force de haine ?"
+  },
+  {
+    "id": "super_heros_302",
+    "question": "Une équipe trop puissante attire-t-elle des menaces plus grandes ?"
+  },
+  {
+    "id": "super_heros_303",
+    "question": "Les Gardiens de la Galaxie sont-ils unis par choix ou par hasard ?"
+  },
+  {
+    "id": "super_heros_304",
+    "question": "Les Quatre Fantastiques sont-ils un modèle familial ou dysfonctionnel ?"
+  },
+  {
+    "id": "super_heros_305",
+    "question": "Une équipe devrait-elle avoir un code moral écrit ?"
+  },
+  {
+    "id": "super_heros_306",
+    "question": "Les héros devraient-ils voter leurs décisions collectivement ?"
+  },
+  {
+    "id": "super_heros_307",
+    "question": "Spider-Man est-il aimé parce qu’il échoue parfois ?"
+  },
+  {
+    "id": "super_heros_308",
+    "question": "Batman est-il plus respecté que Superman parce qu’il inspire la peur ?"
+  },
+  {
+    "id": "super_heros_309",
+    "question": "Thor est-il sous-estimé intellectuellement ?"
+  },
+  {
+    "id": "super_heros_310",
+    "question": "Black Widow mérite-t-elle plus de reconnaissance que certains Avengers ?"
+  },
+  {
+    "id": "super_heros_311",
+    "question": "Loki est-il devenu plus populaire que certains héros ?"
+  },
+  {
+    "id": "super_heros_312",
+    "question": "Harley Quinn est-elle passée de vilain à icône culturelle ?"
+  },
+  {
+    "id": "super_heros_313",
+    "question": "Deadpool est-il surestimé à cause de son humour ?"
+  },
+  {
+    "id": "super_heros_314",
+    "question": "Scarlet Witch est-elle devenue plus puissante que cohérente ?"
+  },
+  {
+    "id": "super_heros_315",
+    "question": "Captain America paraît-il dépassé aujourd’hui ?"
+  },
+  {
+    "id": "super_heros_316",
+    "question": "Homelander fascine-t-il plus qu’il ne choque ?"
+  },
+  {
+    "id": "super_heros_317",
+    "question": "Pourquoi les héros combattent-ils souvent en ville malgré les risques ?"
+  },
+  {
+    "id": "super_heros_318",
+    "question": "Pourquoi les vilains attaquent-ils rarement les héros quand ils sont vulnérables ?"
+  },
+  {
+    "id": "super_heros_319",
+    "question": "Pourquoi les équipes ne communiquent-elles pas mieux entre elles ?"
+  },
+  {
+    "id": "super_heros_320",
+    "question": "Pourquoi les héros gardent-ils leurs secrets même entre alliés ?"
+  },
+  {
+    "id": "super_heros_321",
+    "question": "Pourquoi les civils font-ils encore confiance aux super-héros ?"
+  },
+  {
+    "id": "super_heros_322",
+    "question": "Pourquoi les héros hésitent-ils à transmettre leurs pouvoirs ?"
+  },
+  {
+    "id": "super_heros_323",
+    "question": "Pourquoi les vilains monologuent-ils avant d’agir ?"
+  },
+  {
+    "id": "super_heros_324",
+    "question": "Pourquoi les héros refusent-ils parfois l’aide évidente ?"
+  },
+  {
+    "id": "super_heros_325",
+    "question": "Un héros doit-il renoncer à ses pouvoirs s’ils deviennent incontrôlables ?"
+  },
+  {
+    "id": "super_heros_326",
+    "question": "Peut-on exiler un héros pour protéger la société ?"
+  },
+  {
+    "id": "super_heros_327",
+    "question": "Un héros peut-il être emprisonné sans briser l’espoir public ?"
+  },
+  {
+    "id": "super_heros_328",
+    "question": "Un vilain sauvant des vies efface-t-il son passé ?"
+  },
+  {
+    "id": "super_heros_329",
+    "question": "Un héros doit-il choisir entre vérité et stabilité sociale ?"
+  },
+  {
+    "id": "super_heros_330",
+    "question": "Peut-on aimer un héros dont on désapprouve les méthodes ?"
+  },
+  {
+    "id": "super_heros_331",
+    "question": "Un héros peut-il devenir symbole malgré ses fautes ?"
+  },
+  {
+    "id": "super_heros_332",
+    "question": "La justice héroïque est-elle compatible avec la démocratie ?"
+  },
+  {
+    "id": "super_heros_333",
+    "question": "Un héros peut-il imposer la paix ?"
+  },
+  {
+    "id": "super_heros_334",
+    "question": "Un héros doit-il toujours se sacrifier ?"
+  },
+  {
+    "id": "super_heros_335",
+    "question": "Qui serait le meilleur mentor : Batman ou Charles Xavier ?"
+  },
+  {
+    "id": "super_heros_336",
+    "question": "Qui serait le pire dirigeant mondial : Loki ou Homelander ?"
+  },
+  {
+    "id": "super_heros_337",
+    "question": "Qui est le plus inspirant : Wonder Woman ou Captain America ?"
+  },
+  {
+    "id": "super_heros_338",
+    "question": "Qui est le plus imprévisible : Joker ou Deadpool ?"
+  },
+  {
+    "id": "super_heros_339",
+    "question": "Qui serait le plus crédible en chef militaire : Black Panther ou Captain Marvel ?"
+  },
+  {
+    "id": "super_heros_340",
+    "question": "Qui serait le plus dangereux sans morale : Superman ou Thor ?"
+  },
+  {
+    "id": "super_heros_341",
+    "question": "Qui est le plus fidèle à ses valeurs : Daredevil ou Cyclope ?"
+  },
+  {
+    "id": "super_heros_342",
+    "question": "Qui est le plus charismatique naturellement ?"
+  },
+  {
+    "id": "super_heros_343",
+    "question": "Qui est le plus cohérent dans ses décisions ?"
+  },
+  {
+    "id": "super_heros_344",
+    "question": "Qui serait le plus apte à vivre sans pouvoirs ?"
+  },
+  {
+    "id": "super_heros_345",
+    "question": "Si Batman devait gérer les réseaux sociaux, deviendrait-il paranoïaque ?"
+  },
+  {
+    "id": "super_heros_346",
+    "question": "Si Thor devait vivre un an sans électricité, s’adapterait-il ?"
+  },
+  {
+    "id": "super_heros_347",
+    "question": "Si Hulk devenait professeur de yoga, serait-il crédible ?"
+  },
+  {
+    "id": "super_heros_348",
+    "question": "Si Loki devenait président, combien de temps tiendrait-il ?"
+  },
+  {
+    "id": "super_heros_349",
+    "question": "Si Deadpool devenait narrateur officiel du MCU, serait-ce insupportable ?"
+  },
+  {
+    "id": "super_heros_350",
+    "question": "Si Wonder Woman devait négocier un traité mondial, réussirait-elle ?"
+  },
+  {
+    "id": "super_heros_351",
+    "question": "Si Spider-Man arrêtait l’école, perdrait-il son identité ?"
+  },
+  {
+    "id": "super_heros_352",
+    "question": "Si Homelander perdait son public, deviendrait-il plus dangereux ?"
+  },
+  {
+    "id": "super_heros_353",
+    "question": "Si Batman révélait son identité, Gotham survivrait-elle ?"
+  },
+  {
+    "id": "super_heros_354",
+    "question": "Si tous les héros vieillissaient normalement, qui resterait actif ?"
+  },
+  {
+    "id": "super_heros_355",
+    "question": "Pourquoi Doctor Strange prend-il des risques cosmiques constants ?"
+  },
+  {
+    "id": "super_heros_356",
+    "question": "Pourquoi Cyclope est-il souvent perçu comme rigide ?"
+  },
+  {
+    "id": "super_heros_357",
+    "question": "Pourquoi Black Panther lutte-t-il entre tradition et modernité ?"
+  },
+  {
+    "id": "super_heros_358",
+    "question": "Pourquoi Wanda oscille-t-elle entre héroïsme et chaos ?"
+  },
+  {
+    "id": "super_heros_359",
+    "question": "Pourquoi Tony Stark a-t-il besoin d’être reconnu ?"
+  },
+  {
+    "id": "super_heros_360",
+    "question": "Pourquoi Bruce Wayne refuse-t-il le bonheur durable ?"
+  },
+  {
+    "id": "super_heros_361",
+    "question": "Pourquoi Thor doute-t-il malgré son héritage divin ?"
+  },
+  {
+    "id": "super_heros_362",
+    "question": "Pourquoi Loki revient-il toujours vers son frère ?"
+  },
+  {
+    "id": "super_heros_363",
+    "question": "Pourquoi Captain Marvel reste-t-elle distante émotionnellement ?"
+  },
+  {
+    "id": "super_heros_364",
+    "question": "Pourquoi Jean Grey attire-t-elle les forces cosmiques ?"
+  },
+  {
+    "id": "super_heros_365",
+    "question": "Superman devrait-il inspirer l’humanité ou la protéger malgré elle ?"
+  },
+  {
+    "id": "super_heros_366",
+    "question": "Batman est-il plus efficace que les institutions officielles ?"
+  },
+  {
+    "id": "super_heros_367",
+    "question": "Magnéto défend-il une cause juste avec de mauvaises méthodes ?"
+  },
+  {
+    "id": "super_heros_368",
+    "question": "Captain America peut-il encore représenter le rêve américain aujourd’hui ?"
+  },
+  {
+    "id": "super_heros_369",
+    "question": "Wonder Woman croit-elle trop en la vérité pour ce monde ?"
+  },
+  {
+    "id": "super_heros_370",
+    "question": "Homelander serait-il différent sans public pour l’applaudir ?"
+  },
+  {
+    "id": "super_heros_371",
+    "question": "Black Panther privilégie-t-il trop la diplomatie ?"
+  },
+  {
+    "id": "super_heros_372",
+    "question": "Loki agit-il par jalousie ou par besoin d’exister ?"
+  },
+  {
+    "id": "super_heros_373",
+    "question": "Spider-Man est-il le héros le plus humain de tous ?"
+  },
+  {
+    "id": "super_heros_374",
+    "question": "Thor est-il un dieu qui joue au héros ou un héros qui doute ?"
+  },
+  {
+    "id": "super_heros_375",
+    "question": "Qui gagnerait un concours d’éloquence : Loki ou Doctor Strange ?"
+  },
+  {
+    "id": "super_heros_376",
+    "question": "Qui serait le plus impressionnant en entrée de scène : Thor ou Wonder Woman ?"
+  },
+  {
+    "id": "super_heros_377",
+    "question": "Qui a la meilleure présence naturelle : Black Panther ou Superman ?"
+  },
+  {
+    "id": "super_heros_378",
+    "question": "Qui improviserait le mieux face à une catastrophe : Spider-Man ou Iron Man ?"
+  },
+  {
+    "id": "super_heros_379",
+    "question": "Qui serait le plus redoutable en infiltration : Black Widow ou Mystique ?"
+  },
+  {
+    "id": "super_heros_380",
+    "question": "Qui ferait le meilleur général en guerre totale ?"
+  },
+  {
+    "id": "super_heros_381",
+    "question": "Qui est le plus stratégique sous pression ?"
+  },
+  {
+    "id": "super_heros_382",
+    "question": "Qui impressionne le plus sans parler ?"
+  },
+  {
+    "id": "super_heros_383",
+    "question": "Qui retournerait l’opinion publique le plus vite ?"
+  },
+  {
+    "id": "super_heros_384",
+    "question": "Qui serait le plus intimidant sans costume ?"
+  },
+  {
+    "id": "super_heros_385",
+    "question": "Batman pourrait-il aimer quelqu’un sans le mettre en danger ?"
+  },
+  {
+    "id": "super_heros_386",
+    "question": "Wanda et Vision étaient-ils condamnés par nature ?"
+  },
+  {
+    "id": "super_heros_387",
+    "question": "Deadpool mérite-t-il un amour stable ?"
+  },
+  {
+    "id": "super_heros_388",
+    "question": "Wonder Woman pourrait-elle partager sa longévité avec un humain ?"
+  },
+  {
+    "id": "super_heros_389",
+    "question": "Loki pourrait-il aimer quelqu’un plus puissant que lui ?"
+  },
+  {
+    "id": "super_heros_390",
+    "question": "Harley Quinn cherche-t-elle l’amour ou l’adrénaline ?"
+  },
+  {
+    "id": "super_heros_391",
+    "question": "Spider-Man devrait-il renoncer à l’amour pour protéger ses proches ?"
+  },
+  {
+    "id": "super_heros_392",
+    "question": "Jean Grey et Wolverine étaient-ils passion ou fuite ?"
+  },
+  {
+    "id": "super_heros_393",
+    "question": "Thor et Valkyrie seraient-ils complémentaires ou explosifs ?"
+  },
+  {
+    "id": "super_heros_394",
+    "question": "Homelander peut-il aimer sans posséder ?"
+  },
+  {
+    "id": "super_heros_395",
+    "question": "Les Avengers devraient-ils limiter les pouvoirs de certains membres ?"
+  },
+  {
+    "id": "super_heros_396",
+    "question": "La Ligue des Justiciers fonctionnerait-elle mieux sans hiérarchie ?"
+  },
+  {
+    "id": "super_heros_397",
+    "question": "Les X-Men devraient-ils se révéler au monde entier ?"
+  },
+  {
+    "id": "super_heros_398",
+    "question": "The Boys sont-ils moralement meilleurs que les héros qu’ils traquent ?"
+  },
+  {
+    "id": "super_heros_399",
+    "question": "La Suicide Squad est-elle une fausse solution politique ?"
+  },
+  {
+    "id": "super_heros_400",
+    "question": "Les équipes deviennent-elles arrogantes avec le temps ?"
+  },
+  {
+    "id": "super_heros_401",
+    "question": "Un héros solitaire est-il plus efficace qu’une équipe ?"
+  },
+  {
+    "id": "super_heros_402",
+    "question": "Une équipe peut-elle survivre sans secrets personnels ?"
+  },
+  {
+    "id": "super_heros_403",
+    "question": "Les héros devraient-ils rendre des comptes collectivement ?"
+  },
+  {
+    "id": "super_heros_404",
+    "question": "Une équipe trop homogène devient-elle fragile ?"
+  },
+  {
+    "id": "super_heros_405",
+    "question": "Un héros doit-il être aimé pour être efficace ?"
+  },
+  {
+    "id": "super_heros_406",
+    "question": "Batman cultive-t-il volontairement la peur ?"
+  },
+  {
+    "id": "super_heros_407",
+    "question": "Spider-Man est-il trop proche des gens pour être une icône ?"
+  },
+  {
+    "id": "super_heros_408",
+    "question": "Thor a-t-il perdu en crédibilité à force d’humour ?"
+  },
+  {
+    "id": "super_heros_409",
+    "question": "Loki est-il devenu populaire malgré ses fautes ?"
+  },
+  {
+    "id": "super_heros_410",
+    "question": "Black Panther est-il un modèle politique moderne ?"
+  },
+  {
+    "id": "super_heros_411",
+    "question": "Deadpool détourne-t-il l’attention des vrais enjeux ?"
+  },
+  {
+    "id": "super_heros_412",
+    "question": "Scarlet Witch est-elle perçue injustement ?"
+  },
+  {
+    "id": "super_heros_413",
+    "question": "Captain Marvel est-elle mal comprise par le public ?"
+  },
+  {
+    "id": "super_heros_414",
+    "question": "Homelander serait-il élu s’il se présentait ?"
+  },
+  {
+    "id": "super_heros_415",
+    "question": "Un héros peut-il refuser d’intervenir pour préserver sa santé mentale ?"
+  },
+  {
+    "id": "super_heros_416",
+    "question": "Un héros doit-il tout sacrifier à sa mission ?"
+  },
+  {
+    "id": "super_heros_417",
+    "question": "Peut-on juger un héros comme un citoyen ordinaire ?"
+  },
+  {
+    "id": "super_heros_418",
+    "question": "Un héros peut-il vieillir et accepter d’être remplacé ?"
+  },
+  {
+    "id": "super_heros_419",
+    "question": "Un vilain peut-il être pardonné publiquement ?"
+  },
+  {
+    "id": "super_heros_420",
+    "question": "Un héros peut-il mentir pour éviter une guerre ?"
+  },
+  {
+    "id": "super_heros_421",
+    "question": "La vérité est-elle toujours préférable à la paix ?"
+  },
+  {
+    "id": "super_heros_422",
+    "question": "Un héros doit-il sauver un ennemi ?"
+  },
+  {
+    "id": "super_heros_423",
+    "question": "Peut-on faire confiance à un héros trop puissant ?"
+  },
+  {
+    "id": "super_heros_424",
+    "question": "Un héros peut-il devenir obsolète ?"
+  },
+  {
+    "id": "super_heros_425",
+    "question": "Le multivers affaiblit-il les conséquences des sacrifices ?"
+  },
+  {
+    "id": "super_heros_426",
+    "question": "Les reboots fatiguent-ils le public ?"
+  },
+  {
+    "id": "super_heros_427",
+    "question": "Une version sombre rend-elle un héros plus crédible ?"
+  },
+  {
+    "id": "super_heros_428",
+    "question": "Les univers partagés diluent-ils les identités individuelles ?"
+  },
+  {
+    "id": "super_heros_429",
+    "question": "Un héros peut-il rester iconique malgré trop d’adaptations ?"
+  },
+  {
+    "id": "super_heros_430",
+    "question": "Les séries développent-elles mieux les personnages que les films ?"
+  },
+  {
+    "id": "super_heros_431",
+    "question": "Les vilains sont-ils mieux écrits aujourd’hui ?"
+  },
+  {
+    "id": "super_heros_432",
+    "question": "Les héros évoluent-ils avec la société ?"
+  },
+  {
+    "id": "super_heros_433",
+    "question": "Les anti-héros remplacent-ils les héros classiques ?"
+  },
+  {
+    "id": "super_heros_434",
+    "question": "Le cynisme moderne a-t-il tué l’idéalisme ?"
+  },
+  {
+    "id": "super_heros_435",
+    "question": "Si Batman devait animer un podcast, serait-il écouté ?"
+  },
+  {
+    "id": "super_heros_436",
+    "question": "Si Thor devait apprendre la cuisine moderne, réussirait-il ?"
+  },
+  {
+    "id": "super_heros_437",
+    "question": "Si Hulk écrivait un livre, serait-il lisible ?"
+  },
+  {
+    "id": "super_heros_438",
+    "question": "Si Loki devenait coach de vie, serait-il sincère ?"
+  },
+  {
+    "id": "super_heros_439",
+    "question": "Si Deadpool dirigeait une école, survivrait-elle ?"
+  },
+  {
+    "id": "super_heros_440",
+    "question": "Si Superman perdait Internet, continuerait-il à inspirer ?"
+  },
+  {
+    "id": "super_heros_441",
+    "question": "Si Wonder Woman devait gérer une entreprise, réussirait-elle ?"
+  },
+  {
+    "id": "super_heros_442",
+    "question": "Si Spider-Man arrêtait d’être drôle, perdrait-il son charme ?"
+  },
+  {
+    "id": "super_heros_443",
+    "question": "Si Homelander vivait sans caméras, changerait-il ?"
+  },
+  {
+    "id": "super_heros_444",
+    "question": "Si tous les héros étaient anonymes, seraient-ils toujours admirés ?"
+  },
+  {
+    "id": "super_heros_445",
+    "question": "Pourquoi Magneto refuse-t-il la coexistence pacifique ?"
+  },
+  {
+    "id": "super_heros_446",
+    "question": "Pourquoi Doctor Strange accepte-t-il des risques cosmiques extrêmes ?"
+  },
+  {
+    "id": "super_heros_447",
+    "question": "Pourquoi Bruce Wayne ne quitte-t-il jamais Gotham ?"
+  },
+  {
+    "id": "super_heros_448",
+    "question": "Pourquoi Jean Grey attire-t-elle les forces incontrôlables ?"
+  },
+  {
+    "id": "super_heros_449",
+    "question": "Pourquoi Loki revient-il toujours vers le chaos ?"
+  },
+  {
+    "id": "super_heros_450",
+    "question": "Pourquoi Thor doute-t-il de lui-même ?"
+  },
+  {
+    "id": "super_heros_451",
+    "question": "Pourquoi Wanda cherche-t-elle à recréer une réalité idéale ?"
+  },
+  {
+    "id": "super_heros_452",
+    "question": "Pourquoi Captain America refuse-t-il certains compromis ?"
+  },
+  {
+    "id": "super_heros_453",
+    "question": "Pourquoi Spider-Man assume-t-il toujours la culpabilité ?"
+  },
+  {
+    "id": "super_heros_454",
+    "question": "Pourquoi Homelander a-t-il besoin d’être aimé ?"
+  },
+  {
+    "id": "super_heros_455",
+    "question": "En combat direct 1v1, Spider-Man contre Superman : qui gagne réellement et pourquoi ?"
+  },
+  {
+    "id": "super_heros_456",
+    "question": "Batman contre Iron Man sans préparation : qui l’emporte ?"
+  },
+  {
+    "id": "super_heros_457",
+    "question": "Thor contre Wonder Woman en duel pur : qui domine ?"
+  },
+  {
+    "id": "super_heros_458",
+    "question": "Hulk contre Thanos sans arme : qui gagne ?"
+  },
+  {
+    "id": "super_heros_459",
+    "question": "Scarlet Witch contre Jean Grey au sommet de leur puissance : qui survit ?"
+  },
+  {
+    "id": "super_heros_460",
+    "question": "Wolverine contre Black Panther sans technologie avancée : qui l’emporte ?"
+  },
+  {
+    "id": "super_heros_461",
+    "question": "Daredevil contre Captain America en combat urbain : qui gagne ?"
+  },
+  {
+    "id": "super_heros_462",
+    "question": "Deadpool contre Joker sans préparation : qui sort vivant ?"
+  },
+  {
+    "id": "super_heros_463",
+    "question": "Loki contre Doctor Strange en duel magique : qui maîtrise mieux la situation ?"
+  },
+  {
+    "id": "super_heros_464",
+    "question": "Homelander contre Superman sans retenue morale : qui est le plus dangereux ?"
+  },
+  {
+    "id": "super_heros_465",
+    "question": "Magnéto contre Iron Man : le métal décide-t-il du vainqueur ?"
+  },
+  {
+    "id": "super_heros_466",
+    "question": "Flash contre Quicksilver en vitesse pure : qui est réellement le plus rapide ?"
+  },
+  {
+    "id": "super_heros_467",
+    "question": "Black Widow contre Mystique en infiltration : qui prend l’avantage ?"
+  },
+  {
+    "id": "super_heros_468",
+    "question": "Thor contre Captain Marvel dans l’espace : qui tient le plus longtemps ?"
+  },
+  {
+    "id": "super_heros_469",
+    "question": "Spider-Man contre Wolverine en combat prolongé : qui fatigue en premier ?"
+  },
+  {
+    "id": "super_heros_470",
+    "question": "Batman contre Black Panther en duel tactique : qui prévoit le mieux ?"
+  },
+  {
+    "id": "super_heros_471",
+    "question": "Wonder Woman contre Captain Marvel sans arme : qui s’impose ?"
+  },
+  {
+    "id": "super_heros_472",
+    "question": "Jean Grey contre Doctor Strange : télépathie ou magie, qui gagne ?"
+  },
+  {
+    "id": "super_heros_473",
+    "question": "Supergirl contre Thor : puissance brute contre puissance divine ?"
+  },
+  {
+    "id": "super_heros_474",
+    "question": "Spider-Man contre Aquaman sur terre ferme : qui gagne ?"
+  },
+  {
+    "id": "super_heros_475",
+    "question": "Deadpool contre Wolverine sans facteur guérisseur : qui survit ?"
+  },
+  {
+    "id": "super_heros_476",
+    "question": "Loki contre Joker en duel d’intelligence : qui manipule l’autre ?"
+  },
+  {
+    "id": "super_heros_477",
+    "question": "Captain America contre Daredevil sans bouclier : qui domine ?"
+  },
+  {
+    "id": "super_heros_478",
+    "question": "Black Panther contre Captain America en leadership militaire : qui l’emporte ?"
+  },
+  {
+    "id": "super_heros_479",
+    "question": "Scarlet Witch contre Darkseid : chaos contre tyrannie cosmique ?"
+  },
+  {
+    "id": "super_heros_480",
+    "question": "Homelander contre Thor : qui perd le contrôle en premier ?"
+  },
+  {
+    "id": "super_heros_481",
+    "question": "Batman contre Doctor Strange : préparation ou magie ?"
+  },
+  {
+    "id": "super_heros_482",
+    "question": "Jean Grey contre Captain Marvel : mental ou cosmique ?"
+  },
+  {
+    "id": "super_heros_483",
+    "question": "Wonder Woman contre Superman en duel sans retenue : qui gagne vraiment ?"
+  },
+  {
+    "id": "super_heros_484",
+    "question": "Les Gardiens de la Galaxie contre les X-Men : quelle équipe gagne en affrontement total ?"
+  },
+  {
+    "id": "super_heros_485",
+    "question": "Les Avengers contre la Ligue des Justiciers : qui domine à puissance égale ?"
+  },
+  {
+    "id": "super_heros_486",
+    "question": "La Suicide Squad contre The Boys : qui élimine l’autre en premier ?"
+  },
+  {
+    "id": "super_heros_487",
+    "question": "Les Quatre Fantastiques contre les Gardiens de la Galaxie : qui est le plus cohérent ?"
+  },
+  {
+    "id": "super_heros_488",
+    "question": "Les X-Men contre la Ligue des Justiciers : mutants ou icônes ?"
+  },
+  {
+    "id": "super_heros_489",
+    "question": "Les Avengers sans Thor contre la Ligue sans Superman : qui gagne ?"
+  },
+  {
+    "id": "super_heros_490",
+    "question": "Les Gardiens de la Galaxie contre la Suicide Squad : chaos contre chaos ?"
+  },
+  {
+    "id": "super_heros_491",
+    "question": "The Boys contre les Avengers : stratégie humaine ou puissance brute ?"
+  },
+  {
+    "id": "super_heros_492",
+    "question": "Les X-Men contre les Quatre Fantastiques : qui tient le plus longtemps ?"
+  },
+  {
+    "id": "super_heros_493",
+    "question": "La Ligue des Justiciers contre Thanos et son armée : qui survit ?"
+  },
+  {
+    "id": "super_heros_494",
+    "question": "Les Avengers pourraient-ils battre les X-Men sans divisions internes ?"
+  },
+  {
+    "id": "super_heros_495",
+    "question": "La Ligue des Justiciers pourrait-elle neutraliser les Avengers sans Superman ?"
+  },
+  {
+    "id": "super_heros_496",
+    "question": "Les Gardiens de la Galaxie sont-ils plus imprévisibles que les X-Men ?"
+  },
+  {
+    "id": "super_heros_497",
+    "question": "La Suicide Squad pourrait-elle infiltrer la Ligue des Justiciers ?"
+  },
+  {
+    "id": "super_heros_498",
+    "question": "The Boys pourraient-ils réellement vaincre la Ligue des Justiciers ?"
+  },
+  {
+    "id": "super_heros_499",
+    "question": "Les X-Men seraient-ils plus unis que les Avengers en guerre totale ?"
+  },
+  {
+    "id": "super_heros_500",
+    "question": "Les Avengers pourraient-ils battre Darkseid collectivement ?"
+  },
+  {
+    "id": "super_heros_501",
+    "question": "Les Gardiens de la Galaxie survivraient-ils face à Thanos sans sacrifice ?"
+  },
+  {
+    "id": "super_heros_502",
+    "question": "La Ligue des Justiciers serait-elle invincible face aux mutants ?"
+  },
+  {
+    "id": "super_heros_503",
+    "question": "Une alliance Avengers + X-Men serait-elle imbattable ?"
+  },
+  {
+    "id": "super_heros_504",
+    "question": "Qui gagne un duel de répartie : Deadpool ou Spider-Man ?"
+  },
+  {
+    "id": "super_heros_505",
+    "question": "Qui gagne un duel de charisme : Loki ou Thor ?"
+  },
+  {
+    "id": "super_heros_506",
+    "question": "Qui gagne un duel de stratégie silencieuse : Batman ou Black Widow ?"
+  },
+  {
+    "id": "super_heros_507",
+    "question": "Qui gagne un duel d’endurance : Hulk ou Wolverine ?"
+  },
+  {
+    "id": "super_heros_508",
+    "question": "Qui gagne un duel de leadership : Captain America ou Black Panther ?"
+  },
+  {
+    "id": "super_heros_509",
+    "question": "Qui gagne un duel de popularité publique : Spider-Man ou Superman ?"
+  },
+  {
+    "id": "super_heros_510",
+    "question": "Qui gagne un duel de manipulation médiatique : Homelander ou Lex Luthor ?"
+  },
+  {
+    "id": "super_heros_511",
+    "question": "Qui gagne un duel d’intelligence pure : Tony Stark ou Bruce Wayne ?"
+  },
+  {
+    "id": "super_heros_512",
+    "question": "Qui gagne un duel de conviction morale : Wonder Woman ou Captain America ?"
+  },
+  {
+    "id": "super_heros_513",
+    "question": "Qui gagne un duel d’imprévisibilité : Joker ou Loki ?"
+  },
+  {
+    "id": "super_heros_514",
+    "question": "Spider-Man contre Superman en combat sans retenue : qui gagne réellement ?"
+  },
+  {
+    "id": "super_heros_515",
+    "question": "Scarlet Witch au sommet de sa folie contre Doctor Strange préparé : qui survit ?"
+  },
+  {
+    "id": "super_heros_516",
+    "question": "Batman avec un an de préparation contre Thanos sans armée : qui l’emporte ?"
+  },
+  {
+    "id": "super_heros_517",
+    "question": "Homelander contre Thor dans une ville bondée : qui cause le plus de dégâts ?"
+  },
+  {
+    "id": "super_heros_518",
+    "question": "Jean Grey Phénix contre Darkseid : qui domine l’univers ?"
+  },
+  {
+    "id": "super_heros_519",
+    "question": "Hulk incontrôlable contre Superman sans morale : qui cède en premier ?"
+  },
+  {
+    "id": "super_heros_520",
+    "question": "Deadpool contre Wolverine sans facteur guérisseur : qui reste debout ?"
+  },
+  {
+    "id": "super_heros_521",
+    "question": "Wonder Woman contre Captain Marvel dans l’espace : qui gagne ?"
+  },
+  {
+    "id": "super_heros_522",
+    "question": "Magnéto contre Iron Man avec accès total au métal : match équilibré ?"
+  },
+  {
+    "id": "super_heros_523",
+    "question": "Batman et Wonder Woman auraient-ils pu former le couple le plus puissant ?"
+  },
+  {
+    "id": "super_heros_524",
+    "question": "Deadpool et Harley Quinn seraient-ils un couple toxique ou hilarant ?"
+  },
+  {
+    "id": "super_heros_525",
+    "question": "Loki et Wanda ensemble : chaos romantique ou alliance stratégique ?"
+  },
+  {
+    "id": "super_heros_526",
+    "question": "Spider-Man et Supergirl pourraient-ils construire une relation stable ?"
+  },
+  {
+    "id": "super_heros_527",
+    "question": "Thor et Captain Marvel seraient-ils trop dominants pour coexister ?"
+  },
+  {
+    "id": "super_heros_528",
+    "question": "Jean Grey et Doctor Strange formeraient-ils un couple trop dangereux ?"
+  },
+  {
+    "id": "super_heros_529",
+    "question": "Black Panther et Wonder Woman partageraient-ils une vision royale commune ?"
+  },
+  {
+    "id": "super_heros_530",
+    "question": "Homelander et Catwoman en couple : manipulation mutuelle ou domination totale ?"
+  },
+  {
+    "id": "super_heros_531",
+    "question": "Wolverine et Black Widow en couple, auraient-ils pu durer ?"
+  },
+  {
+    "id": "super_heros_532",
+    "question": "Superman et Captain Marvel en couple : amour ou rivalité permanente ?"
+  },
+  {
+    "id": "super_heros_533",
+    "question": "Qui est le super-héros le plus drôle ?"
+  },
+  {
+    "id": "super_heros_534",
+    "question": "Qui est le plus imprévisible entre Joker et Loki ?"
+  },
+  {
+    "id": "super_heros_535",
+    "question": "Qui est le plus stratégique entre Batman et Magnéto ?"
+  },
+  {
+    "id": "super_heros_536",
+    "question": "Qui est le plus humain malgré ses pouvoirs ?"
+  },
+  {
+    "id": "super_heros_537",
+    "question": "Qui est le plus dangereux sans contrôle moral ?"
+  },
+  {
+    "id": "super_heros_538",
+    "question": "Qui est le plus fidèle à ses principes ?"
+  },
+  {
+    "id": "super_heros_539",
+    "question": "Qui est le plus tragique entre Wanda et Jean Grey ?"
+  },
+  {
+    "id": "super_heros_540",
+    "question": "Qui est le plus sous-estimé dans tout l’univers Marvel et DC ?"
+  },
+  {
+    "id": "super_heros_541",
+    "question": "Qui craque mentalement en premier : Batman ou Wolverine ?"
+  },
+  {
+    "id": "super_heros_542",
+    "question": "Qui manipule mieux l’opinion publique : Lex Luthor ou Homelander ?"
+  },
+  {
+    "id": "super_heros_543",
+    "question": "Qui serait le meilleur mentor : Charles Xavier ou Bruce Wayne ?"
+  },
+  {
+    "id": "super_heros_544",
+    "question": "Qui est le plus dangereux dans l’ombre : Mystique ou Black Widow ?"
+  },
+  {
+    "id": "super_heros_545",
+    "question": "Quel est le super-héros le plus inutile?"
+  },
+  {
+    "id": "super_heros_546",
+    "question": "Qui est le plus difficile à arrêter : Flash ou Quicksilver ?"
+  },
+  {
+    "id": "super_heros_547",
+    "question": "Qui gagnerait un duel de leadership : Wonder Woman ou Captain America ?"
+  },
+  {
+    "id": "super_heros_548",
+    "question": "Qui survivrait le mieux dans un monde sans pouvoirs ?"
+  },
+  {
+    "id": "super_heros_549",
+    "question": "Qui est le plus complexe moralement ?"
+  },
+  {
+    "id": "super_heros_550",
+    "question": "Qui est le plus imprévisible en équipe ?"
+  },
+  {
+    "id": "super_heros_551",
+    "question": "Et si Joker et Harley Quinn se retrouvaient sans violence, pourraient-ils durer ?"
+  },
+  {
+    "id": "super_heros_552",
+    "question": "Batman et Black Widow seraient-ils un duo secret redoutable ?"
+  },
+  {
+    "id": "super_heros_553",
+    "question": "Thor et Valkyrie auraient-ils une relation équilibrée ?"
+  },
+  {
+    "id": "super_heros_554",
+    "question": "Spider-Man et Wanda seraient-ils trop émotionnels ensemble ?"
+  },
+  {
+    "id": "super_heros_555",
+    "question": "Magnéto et Mystique forment-ils déjà le couple idéologique parfait ?"
+  },
+  {
+    "id": "super_heros_556",
+    "question": "Deadpool pourrait-il aimer quelqu’un de totalement sérieux ?"
+  },
+  {
+    "id": "super_heros_557",
+    "question": "Superman pourrait-il aimer quelqu’un qui le défie constamment ?"
+  },
+  {
+    "id": "super_heros_558",
+    "question": "Loki pourrait-il aimer sans trahir ?"
+  },
+  {
+    "id": "super_heros_559",
+    "question": "Hulk pourrait-il construire une relation stable ?"
+  },
+  {
+    "id": "super_heros_560",
+    "question": "Un couple héros/vilain est-il voué à l’échec ?"
+  },
+  {
+    "id": "super_heros_561",
+    "question": "Les Avengers contre les X-Men en guerre totale : qui gagne ?"
+  },
+  {
+    "id": "super_heros_562",
+    "question": "La Ligue des Justiciers contre les Avengers : affrontement équilibré ?"
+  },
+  {
+    "id": "super_heros_563",
+    "question": "Les Gardiens de la Galaxie contre les X-Men : imprévisibilité ou discipline ?"
+  },
+  {
+    "id": "super_heros_564",
+    "question": "The Boys contre la Suicide Squad : qui élimine l’autre en premier ?"
+  },
+  {
+    "id": "super_heros_565",
+    "question": "Les Quatre Fantastiques contre les Avengers : qui tient le plus longtemps ?"
+  },
+  {
+    "id": "super_heros_566",
+    "question": "Une alliance Avengers + Ligue serait-elle imbattable ?"
+  },
+  {
+    "id": "super_heros_567",
+    "question": "Les X-Men pourraient-ils battre Superman collectivement ?"
+  },
+  {
+    "id": "super_heros_568",
+    "question": "La Ligue des Justiciers survivrait-elle face à Thanos et son armée ?"
+  },
+  {
+    "id": "super_heros_569",
+    "question": "Les Avengers sans Thor pourraient-ils battre la Ligue sans Superman ?"
+  },
+  {
+    "id": "super_heros_570",
+    "question": "Les Gardiens de la Galaxie survivraient-ils face à Darkseid ?"
+  },
+  {
+    "id": "super_heros_571",
+    "question": "Qui est le plus puissant sans limite morale ?"
+  },
+  {
+    "id": "super_heros_572",
+    "question": "Qui est le plus dangereux quand il perd le contrôle ?"
+  },
+  {
+    "id": "super_heros_573",
+    "question": "Qui est le plus difficile à arrêter une fois lancé ?"
+  },
+  {
+    "id": "super_heros_574",
+    "question": "Qui est le plus destructeur à pleine puissance ?"
+  },
+  {
+    "id": "super_heros_575",
+    "question": "Qui est le plus imprévisible en combat ?"
+  },
+  {
+    "id": "super_heros_576",
+    "question": "Qui est le plus redoutable sans ses pouvoirs ?"
+  },
+  {
+    "id": "super_heros_577",
+    "question": "Qui est le plus sous-estimé en affrontement direct ?"
+  },
+  {
+    "id": "super_heros_578",
+    "question": "Qui est le plus dangereux pour la planète entière ?"
+  },
+  {
+    "id": "super_heros_579",
+    "question": "Qui est le plus résistant physiquement ?"
+  },
+  {
+    "id": "super_heros_580",
+    "question": "Qui est le plus stratégique en guerre totale ?"
+  },
+  {
+    "id": "super_heros_581",
+    "question": "Qui est le plus intelligent tactiquement ?"
+  },
+  {
+    "id": "super_heros_582",
+    "question": "Qui est le plus manipulateur psychologiquement ?"
+  },
+  {
+    "id": "super_heros_583",
+    "question": "Qui est le plus capable de prévoir dix coups à l’avance ?"
+  },
+  {
+    "id": "super_heros_584",
+    "question": "Qui est le plus apte à gouverner le monde ?"
+  },
+  {
+    "id": "super_heros_585",
+    "question": "Qui est le plus crédible en leader mondial ?"
+  },
+  {
+    "id": "super_heros_586",
+    "question": "Qui est le plus rusé dans l’ombre ?"
+  },
+  {
+    "id": "super_heros_587",
+    "question": "Qui est le plus apte à retourner une situation désespérée ?"
+  },
+  {
+    "id": "super_heros_588",
+    "question": "Qui est le plus brillant scientifiquement ?"
+  },
+  {
+    "id": "super_heros_589",
+    "question": "Qui est le plus visionnaire ?"
+  },
+  {
+    "id": "super_heros_590",
+    "question": "Qui est le plus froid stratégiquement ?"
+  },
+  {
+    "id": "super_heros_591",
+    "question": "Qui est le plus incorruptible ?"
+  },
+  {
+    "id": "super_heros_592",
+    "question": "Qui est le plus prêt à se sacrifier ?"
+  },
+  {
+    "id": "super_heros_593",
+    "question": "Qui est le plus moralement ambigu ?"
+  },
+  {
+    "id": "super_heros_594",
+    "question": "Qui est le plus juste dans ses décisions ?"
+  },
+  {
+    "id": "super_heros_595",
+    "question": "Qui est le plus prêt à franchir la ligne rouge ?"
+  },
+  {
+    "id": "super_heros_596",
+    "question": "Qui est le plus cohérent entre paroles et actes ?"
+  },
+  {
+    "id": "super_heros_597",
+    "question": "Qui est le plus empathique ?"
+  },
+  {
+    "id": "super_heros_598",
+    "question": "Qui est le plus influencé par son passé ?"
+  },
+  {
+    "id": "super_heros_599",
+    "question": "Qui est le plus inspirant pour la jeunesse ?"
+  },
+  {
+    "id": "super_heros_600",
+    "question": "Qui est le plus populaire auprès du public ?"
+  },
+  {
+    "id": "super_heros_601",
+    "question": "Qui est le plus intimidant sans parler ?"
+  },
+  {
+    "id": "super_heros_602",
+    "question": "Qui est le plus iconique visuellement ?"
+  },
+  {
+    "id": "super_heros_603",
+    "question": "Qui est le plus captivant à l’écran ?"
+  },
+  {
+    "id": "super_heros_604",
+    "question": "Qui est le plus mémorable dans l’histoire des super-héros ?"
+  },
+  {
+    "id": "super_heros_605",
+    "question": "Qui est le plus fascinant psychologiquement ?"
+  },
+  {
+    "id": "super_heros_606",
+    "question": "Qui est le plus médiatique ?"
+  },
+  {
+    "id": "super_heros_607",
+    "question": "Qui est le plus magnétique en présence ?"
+  },
+  {
+    "id": "super_heros_608",
+    "question": "Qui est le plus tragique ?"
+  },
+  {
+    "id": "super_heros_609",
+    "question": "Qui est le plus marqué par le trauma ?"
+  },
+  {
+    "id": "super_heros_610",
+    "question": "Qui est le plus solitaire ?"
+  },
+  {
+    "id": "super_heros_611",
+    "question": "Qui est le plus brisé intérieurement ?"
+  },
+  {
+    "id": "super_heros_612",
+    "question": "Qui est le plus complexe émotionnellement ?"
+  },
+  {
+    "id": "super_heros_613",
+    "question": "Qui est le plus en conflit avec lui-même ?"
+  },
+  {
+    "id": "super_heros_614",
+    "question": "Qui est le plus hanté par ses choix ?"
+  },
+  {
+    "id": "super_heros_615",
+    "question": "Qui est le plus instable mentalement ?"
+  },
+  {
+    "id": "super_heros_616",
+    "question": "Qui est le plus tourmenté par la culpabilité ?"
+  },
+  {
+    "id": "super_heros_617",
+    "question": "Qui est le plus difficile à comprendre ?"
+  },
+  {
+    "id": "super_heros_618",
+    "question": "Qui est le plus drôle naturellement ?"
+  },
+  {
+    "id": "super_heros_619",
+    "question": "Qui est le plus sarcastique ?"
+  },
+  {
+    "id": "super_heros_620",
+    "question": "Qui est le plus imprévisible socialement ?"
+  },
+  {
+    "id": "super_heros_621",
+    "question": "Qui est le plus attachant malgré ses défauts ?"
+  },
+  {
+    "id": "super_heros_622",
+    "question": "Qui est le plus excentrique ?"
+  },
+  {
+    "id": "super_heros_623",
+    "question": "Qui est le plus spontané ?"
+  },
+  {
+    "id": "super_heros_624",
+    "question": "Qui est le plus théâtral ?"
+  },
+  {
+    "id": "super_heros_625",
+    "question": "Qui est le plus arrogant ?"
+  },
+  {
+    "id": "super_heros_626",
+    "question": "Qui est le plus humble ?"
+  },
+  {
+    "id": "super_heros_627",
+    "question": "Qui est le plus maladroit socialement ?"
+  },
+  {
+    "id": "super_heros_628",
+    "question": "Qui est le plus apte à unir des équipes rivales ?"
+  },
+  {
+    "id": "super_heros_629",
+    "question": "Qui est le plus crédible en chef d’armée ?"
+  },
+  {
+    "id": "super_heros_630",
+    "question": "Qui est le plus écouté naturellement ?"
+  },
+  {
+    "id": "super_heros_631",
+    "question": "Qui est le plus apte à inspirer confiance ?"
+  },
+  {
+    "id": "super_heros_632",
+    "question": "Qui est le plus diplomate ?"
+  },
+  {
+    "id": "super_heros_633",
+    "question": "Qui est le plus autoritaire ?"
+  },
+  {
+    "id": "super_heros_634",
+    "question": "Qui est le plus stable en situation de crise ?"
+  },
+  {
+    "id": "super_heros_635",
+    "question": "Qui est le plus influent sans utiliser la force ?"
+  },
+  {
+    "id": "super_heros_636",
+    "question": "Qui est le plus légitime pour représenter l’humanité ?"
+  },
+  {
+    "id": "super_heros_637",
+    "question": "Qui est le plus dangereux en politique ?"
+  },
+  {
+    "id": "super_heros_638",
+    "question": "Qui est le plus romantique ?"
+  },
+  {
+    "id": "super_heros_639",
+    "question": "Qui est le plus toxique en couple ?"
+  },
+  {
+    "id": "super_heros_640",
+    "question": "Qui est le plus loyal en amour ?"
+  },
+  {
+    "id": "super_heros_641",
+    "question": "Qui est le plus jaloux ?"
+  },
+  {
+    "id": "super_heros_642",
+    "question": "Qui est le plus prêt à tout pour la personne qu’il aime ?"
+  },
+  {
+    "id": "super_heros_643",
+    "question": "Qui est le plus difficile à aimer ?"
+  },
+  {
+    "id": "super_heros_644",
+    "question": "Qui est le plus susceptible de trahir par amour ?"
+  },
+  {
+    "id": "super_heros_645",
+    "question": "Qui est le plus stable émotionnellement en relation ?"
+  },
+  {
+    "id": "super_heros_646",
+    "question": "Qui est le plus protecteur envers ses proches ?"
+  },
+  {
+    "id": "super_heros_647",
+    "question": "Qui est le plus influencé par ses sentiments ?"
+  },
+  {
+    "id": "super_heros_648",
+    "question": "Qui est le plus adapté au multivers ?"
+  },
+  {
+    "id": "super_heros_649",
+    "question": "Qui est le plus surexploité en adaptations ?"
+  },
+  {
+    "id": "super_heros_650",
+    "question": "Qui est le plus crédible dans un univers sombre ?"
+  },
+  {
+    "id": "super_heros_651",
+    "question": "Qui est le plus intemporel ?"
+  },
+  {
+    "id": "super_heros_652",
+    "question": "Qui est le plus dépendant de son costume ?"
+  },
+  {
+    "id": "super_heros_653",
+    "question": "Qui est le plus représentatif de son époque ?"
+  },
+  {
+    "id": "super_heros_654",
+    "question": "Qui est le plus susceptible d’être rebooté encore ?"
+  },
+  {
+    "id": "super_heros_655",
+    "question": "Qui est le plus emblématique culturellement ?"
+  },
+  {
+    "id": "super_heros_656",
+    "question": "Qui est le plus difficile à moderniser ?"
+  },
+  {
+    "id": "super_heros_657",
+    "question": "Qui est le plus grand super-héros de tous les temps ?"
+  },
+  {
+    "id": "super_heros_658",
+    "question": "Pourquoi Batman refuse-t-il de tuer le Joker malgré les conséquences répétées ?"
+  },
+  {
+    "id": "super_heros_659",
+    "question": "Pourquoi Superman choisit-il la retenue plutôt que l’imposition de sa vision ?"
+  },
+  {
+    "id": "super_heros_660",
+    "question": "Pourquoi Captain America refuse-t-il certains compromis politiques ?"
+  },
+  {
+    "id": "super_heros_661",
+    "question": "Pourquoi Thor doute-t-il de lui-même malgré son héritage divin ?"
+  },
+  {
+    "id": "super_heros_662",
+    "question": "Pourquoi Spider-Man assume-t-il toujours la culpabilité des échecs ?"
+  },
+  {
+    "id": "super_heros_663",
+    "question": "Pourquoi Magnéto privilégie-t-il la confrontation à la coexistence ?"
+  },
+  {
+    "id": "super_heros_664",
+    "question": "Pourquoi Homelander a-t-il besoin d’être adoré en permanence ?"
+  },
+  {
+    "id": "super_heros_665",
+    "question": "Pourquoi Jean Grey attire-t-elle des forces cosmiques incontrôlables ?"
+  },
+  {
+    "id": "super_heros_666",
+    "question": "Pourquoi la Ligue des Justiciers dépend-elle souvent de Superman ?"
+  },
+  {
+    "id": "super_heros_667",
+    "question": "Pourquoi les X-Men restent-ils perçus comme une menace malgré leurs actions héroïques ?"
+  },
+  {
+    "id": "super_heros_668",
+    "question": "Pourquoi la Suicide Squad est-elle utilisée malgré son instabilité ?"
+  },
+  {
+    "id": "super_heros_669",
+    "question": "Pourquoi The Boys refusent-ils toute forme de compromis moral ?"
+  },
+  {
+    "id": "super_heros_670",
+    "question": "Pourquoi Deadpool transforme-t-il tout en blague même face au danger ?"
+  },
+  {
+    "id": "super_heros_671",
+    "question": "Pourquoi Wonder Woman croit-elle autant au pouvoir de la vérité ?"
+  },
+  {
+    "id": "super_heros_672",
+    "question": "Pourquoi Black Panther hésite-t-il entre tradition et ouverture mondiale ?"
+  },
+  {
+    "id": "super_heros_673",
+    "question": "Pourquoi les vilains élaborent-ils des plans complexes au lieu d’agir simplement ?"
+  },
+  {
+    "id": "super_heros_674",
+    "question": "Pourquoi les identités secrètes tiennent-elles aussi longtemps ?"
+  },
+  {
+    "id": "super_heros_675",
+    "question": "Pourquoi les villes se reconstruisent-elles si vite après des destructions massives ?"
+  },
+  {
+    "id": "super_heros_676",
+    "question": "Pourquoi les héros refusent-ils parfois de collaborer entre univers ?"
+  },
+  {
+    "id": "super_heros_677",
+    "question": "Pourquoi Mystique change-t-elle d’allégeance si souvent ?"
+  },
+  {
+    "id": "super_heros_678",
+    "question": "Pourquoi Daredevil oscille-t-il entre foi et violence ?"
+  },
+  {
+    "id": "super_heros_679",
+    "question": "Pourquoi les héros inspirent-ils encore confiance malgré les scandales ?"
+  },
+  {
+    "id": "super_heros_680",
+    "question": "Pourquoi certains vilains deviennent-ils plus populaires que les héros ?"
+  },
+  {
+    "id": "super_heros_681",
+    "question": "Pourquoi les reboots effacent-ils rarement les conséquences majeures ?"
+  },
+  {
+    "id": "super_heros_682",
+    "question": "Pourquoi Cyclope est-il perçu comme rigide ?"
+  },
+  {
+    "id": "super_heros_683",
+    "question": "Pourquoi Harley Quinn attire-t-elle autant la sympathie ?"
+  },
+  {
+    "id": "super_heros_684",
+    "question": "Pourquoi Loki revient-il toujours vers son frère Thor ?"
+  },
+  {
+    "id": "super_heros_685",
+    "question": "Pourquoi Scarlet Witch est-elle jugée plus sévèrement que d’autres héros ?"
+  },
+  {
+    "id": "super_heros_686",
+    "question": "Pourquoi les équipes de héros cachent-elles des secrets internes ?"
+  },
+  {
+    "id": "super_heros_687",
+    "question": "Pourquoi Batman inspire-t-il plus la peur que l’espoir ?"
+  },
+  {
+    "id": "super_heros_688",
+    "question": "Pourquoi Superman reste-t-il attaché à l’humanité malgré sa différence ?"
+  },
+  {
+    "id": "super_heros_689",
+    "question": "Pourquoi les super-héros deviennent-ils des symboles politiques ?"
+  },
+  {
+    "id": "super_heros_690",
+    "question": "Pourquoi certaines romances héroïques sont-elles vouées à l’échec ?"
+  },
+  {
+    "id": "super_heros_691",
+    "question": "Pourquoi les anti-héros séduisent-ils davantage aujourd’hui ?"
+  },
+  {
+    "id": "super_heros_692",
+    "question": "Pourquoi les univers sombres semblent-ils plus crédibles ?"
+  },
+  {
+    "id": "super_heros_693",
+    "question": "Pourquoi les héros vieillissent-ils rarement à l’écran ?"
+  },
+  {
+    "id": "super_heros_694",
+    "question": "Pourquoi la justice héroïque entre-t-elle souvent en conflit avec la loi ?"
+  },
+  {
+    "id": "super_heros_695",
+    "question": "Et si Spider-Man affrontait Superman sans aucune retenue morale ?"
+  },
+  {
+    "id": "super_heros_696",
+    "question": "Et si Batman révélait publiquement son identité ?"
+  },
+  {
+    "id": "super_heros_697",
+    "question": "Et si Loki devenait sincèrement honnête du jour au lendemain ?"
+  },
+  {
+    "id": "super_heros_698",
+    "question": "Et si Wanda renonçait volontairement à ses pouvoirs ?"
+  },
+  {
+    "id": "super_heros_699",
+    "question": "Et si Captain America décidait de se présenter aux élections ?"
+  },
+  {
+    "id": "super_heros_700",
+    "question": "Et si Thor perdait définitivement son marteau ?"
+  },
+  {
+    "id": "super_heros_701",
+    "question": "Et si Jean Grey contrôlait totalement le Phénix ?"
+  },
+  {
+    "id": "super_heros_702",
+    "question": "Et si Homelander perdait tout son public en une semaine ?"
+  },
+  {
+    "id": "super_heros_703",
+    "question": "Et si Magnéto acceptait une paix durable avec les humains ?"
+  },
+  {
+    "id": "super_heros_704",
+    "question": "Et si Deadpool devenait le leader des Avengers ?"
+  },
+  {
+    "id": "super_heros_705",
+    "question": "Et si la Ligue des Justiciers devait rendre des comptes à l’ONU ?"
+  },
+  {
+    "id": "super_heros_706",
+    "question": "Et si les X-Men formaient une nation indépendante ?"
+  },
+  {
+    "id": "super_heros_707",
+    "question": "Et si la Suicide Squad devenait une équipe volontaire ?"
+  },
+  {
+    "id": "super_heros_708",
+    "question": "Et si The Boys obtenaient des pouvoirs ?"
+  },
+  {
+    "id": "super_heros_709",
+    "question": "Et si Bruce Wayne décidait d’être heureux ?"
+  },
+  {
+    "id": "super_heros_710",
+    "question": "Et si Tony Stark n’avait jamais construit l’armure ?"
+  },
+  {
+    "id": "super_heros_711",
+    "question": "Et si Wonder Woman gouvernait un pays moderne ?"
+  },
+  {
+    "id": "super_heros_712",
+    "question": "Et si Black Panther ouvrait totalement le Wakanda au monde ?"
+  },
+  {
+    "id": "super_heros_713",
+    "question": "Et si Hulk disparaissait définitivement ?"
+  },
+  {
+    "id": "super_heros_714",
+    "question": "Et si Daredevil abandonnait sa double vie ?"
+  },
+  {
+    "id": "super_heros_715",
+    "question": "Et si les Avengers combattaient la Ligue des Justiciers ?"
+  },
+  {
+    "id": "super_heros_716",
+    "question": "Et si les Gardiens de la Galaxie affrontaient les X-Men ?"
+  },
+  {
+    "id": "super_heros_717",
+    "question": "Et si Joker devenait réellement comédien célèbre ?"
+  },
+  {
+    "id": "super_heros_718",
+    "question": "Et si Harley Quinn retournait définitivement du côté héroïque ?"
+  },
+  {
+    "id": "super_heros_719",
+    "question": "Et si Mystique prenait l’identité d’un héros majeur ?"
+  },
+  {
+    "id": "super_heros_720",
+    "question": "Et si Aquaman quittait les océans pour toujours ?"
+  },
+  {
+    "id": "super_heros_721",
+    "question": "Et si Captain Marvel restait sur Terre en permanence ?"
+  },
+  {
+    "id": "super_heros_722",
+    "question": "Et si Doctor Strange refusait d’utiliser la magie noire ?"
+  },
+  {
+    "id": "super_heros_723",
+    "question": "Et si Wolverine cessait de se battre ?"
+  },
+  {
+    "id": "super_heros_724",
+    "question": "Et si Superman décidait de ne plus intervenir dans les conflits humains ?"
+  },
+  {
+    "id": "super_heros_725",
+    "question": "Et si les héros perdaient leurs costumes mais pas leurs pouvoirs ?"
+  },
+  {
+    "id": "super_heros_726",
+    "question": "Et si les pouvoirs devenaient accessibles à tout le monde ?"
+  },
+  {
+    "id": "super_heros_727",
+    "question": "Et si le multivers s’effondrait en une seule réalité ?"
+  },
+  {
+    "id": "super_heros_728",
+    "question": "Et si les vilains formaient une alliance durable ?"
+  },
+  {
+    "id": "super_heros_729",
+    "question": "Et si Batman devait travailler officiellement avec la police ?"
+  },
+  {
+    "id": "super_heros_730",
+    "question": "Et si Spider-Man abandonnait définitivement sa culpabilité ?"
+  },
+  {
+    "id": "super_heros_731",
+    "question": "Et si Loki et Wanda formaient une alliance romantique ?"
+  },
+  {
+    "id": "super_heros_732",
+    "question": "Et si Homelander rencontrait Superman en public ?"
+  },
+  {
+    "id": "super_heros_733",
+    "question": "Et si Deadpool devenait narrateur officiel de l’univers Marvel ?"
+  },
+  {
+    "id": "super_heros_734",
+    "question": "Et si Wonder Woman perdait son immortalité ?"
+  },
+  {
+    "id": "super_heros_735",
+    "question": "Et si Jean Grey choisissait une vie totalement ordinaire ?"
+  },
+  {
+    "id": "super_heros_736",
+    "question": "Et si les X-Men révélaient tous leurs secrets au monde ?"
+  },
+  {
+    "id": "super_heros_737",
+    "question": "Et si les Avengers excluaient leur membre le plus puissant ?"
+  },
+  {
+    "id": "super_heros_738",
+    "question": "Et si la Ligue des Justiciers se dissolvait volontairement ?"
+  },
+  {
+    "id": "super_heros_739",
+    "question": "Et si un vilain sauvait le monde sans reconnaissance ?"
+  },
+  {
+    "id": "super_heros_740",
+    "question": "Et si les héros étaient jugés par un tribunal international ?"
+  },
+  {
+    "id": "super_heros_741",
+    "question": "Et si les pouvoirs étaient interdits par la loi mondiale ?"
+  },
+  {
+    "id": "super_heros_742",
+    "question": "Et si un héros choisissait volontairement de devenir vilain ?"
+  },
+  {
+    "id": "super_heros_743",
+    "question": "Et si tous les héros vieillissaient en temps réel ?"
+  },
+  {
+    "id": "super_heros_744",
+    "question": "Et si l’humanité n’avait plus besoin de super-héros ?"
+  }
+]

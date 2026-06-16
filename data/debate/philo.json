@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "philo_001",
+    "question": "Le bonheur dépend-il de nous ou des circonstances ?"
+  },
+  {
+    "id": "philo_002",
+    "question": "Peut-on être heureux sans réussir sa vie ?"
+  },
+  {
+    "id": "philo_003",
+    "question": "Faut-il chercher le bonheur ou le laisser venir ?"
+  },
+  {
+    "id": "philo_004",
+    "question": "Le bonheur est-il un choix ?"
+  },
+  {
+    "id": "philo_005",
+    "question": "Peut-on être heureux sans argent ?"
+  },
+  {
+    "id": "philo_006",
+    "question": "La vie a-t-elle forcément un sens ?"
+  },
+  {
+    "id": "philo_007",
+    "question": "Peut-on vivre sans but ?"
+  },
+  {
+    "id": "philo_008",
+    "question": "Exister, est-ce simplement survivre ?"
+  },
+  {
+    "id": "philo_009",
+    "question": "La peur de la mort donne-t-elle du sens à la vie ?"
+  },
+  {
+    "id": "philo_010",
+    "question": "Faut-il profiter de l’instant présent ?"
+  },
+  {
+    "id": "philo_011",
+    "question": "Le bonheur est-il durable ?"
+  },
+  {
+    "id": "philo_012",
+    "question": "Peut-on être heureux sans amour ?"
+  },
+  {
+    "id": "philo_013",
+    "question": "Le bonheur dépend-il du regard des autres ?"
+  },
+  {
+    "id": "philo_014",
+    "question": "Peut-on être trop lucide pour être heureux ?"
+  },
+  {
+    "id": "philo_015",
+    "question": "Le bonheur est-il différent pour chacun ?"
+  },
+  {
+    "id": "philo_016",
+    "question": "Faut-il mériter son bonheur ?"
+  },
+  {
+    "id": "philo_017",
+    "question": "Le bonheur est-il compatible avec la souffrance ?"
+  },
+  {
+    "id": "philo_018",
+    "question": "Peut-on apprendre à être heureux ?"
+  },
+  {
+    "id": "philo_019",
+    "question": "Être heureux, est-ce être satisfait ?"
+  },
+  {
+    "id": "philo_020",
+    "question": "Le bonheur est-il un idéal inaccessible ?"
+  },
+  {
+    "id": "philo_021",
+    "question": "Sommes-nous vraiment libres de nos choix ?"
+  },
+  {
+    "id": "philo_022",
+    "question": "Être libre, est-ce faire ce que l’on veut ?"
+  },
+  {
+    "id": "philo_023",
+    "question": "La liberté a-t-elle des limites ?"
+  },
+  {
+    "id": "philo_024",
+    "question": "Peut-on être libre en société ?"
+  },
+  {
+    "id": "philo_025",
+    "question": "La liberté implique-t-elle des responsabilités ?"
+  },
+  {
+    "id": "philo_026",
+    "question": "Peut-on perdre sa liberté intérieure ?"
+  },
+  {
+    "id": "philo_027",
+    "question": "Sommes-nous influencés sans le savoir ?"
+  },
+  {
+    "id": "philo_028",
+    "question": "Le doute empêche-t-il d’agir librement ?"
+  },
+  {
+    "id": "philo_029",
+    "question": "Peut-on apprendre à être libre ?"
+  },
+  {
+    "id": "philo_030",
+    "question": "La liberté est-elle un droit ou une conquête ?"
+  },
+  {
+    "id": "philo_031",
+    "question": "Avons-nous un libre arbitre ?"
+  },
+  {
+    "id": "philo_032",
+    "question": "Peut-on renoncer volontairement à sa liberté ?"
+  },
+  {
+    "id": "philo_033",
+    "question": "La loi protège-t-elle ou limite-t-elle la liberté ?"
+  },
+  {
+    "id": "philo_034",
+    "question": "La liberté est-elle compatible avec l’égalité ?"
+  },
+  {
+    "id": "philo_035",
+    "question": "Peut-on être libre sans règles ?"
+  },
+  {
+    "id": "philo_036",
+    "question": "Nos désirs limitent-ils notre liberté ?"
+  },
+  {
+    "id": "philo_037",
+    "question": "La liberté est-elle une illusion ?"
+  },
+  {
+    "id": "philo_038",
+    "question": "Sommes-nous déterminés par notre passé ?"
+  },
+  {
+    "id": "philo_039",
+    "question": "Peut-on être libre si l’on a peur ?"
+  },
+  {
+    "id": "philo_040",
+    "question": "La liberté rend-elle heureux ?"
+  },
+  {
+    "id": "philo_041",
+    "question": "Existe-t-il un bien et un mal universels ?"
+  },
+  {
+    "id": "philo_042",
+    "question": "La morale dépend-elle de l’éducation ?"
+  },
+  {
+    "id": "philo_043",
+    "question": "Une bonne intention suffit-elle ?"
+  },
+  {
+    "id": "philo_044",
+    "question": "Est-il toujours mal de mentir ?"
+  },
+  {
+    "id": "philo_045",
+    "question": "Peut-on être moral sans religion ?"
+  },
+  {
+    "id": "philo_046",
+    "question": "La conscience morale est-elle innée ?"
+  },
+  {
+    "id": "philo_047",
+    "question": "Peut-on juger les autres ?"
+  },
+  {
+    "id": "philo_048",
+    "question": "Le respect est-il une obligation ?"
+  },
+  {
+    "id": "philo_049",
+    "question": "Peut-on faire le mal sans le vouloir ?"
+  },
+  {
+    "id": "philo_050",
+    "question": "Le pardon est-il un devoir ?"
+  },
+  {
+    "id": "philo_051",
+    "question": "Peut-on être trop honnête ?"
+  },
+  {
+    "id": "philo_052",
+    "question": "La sincérité est-elle toujours bonne ?"
+  },
+  {
+    "id": "philo_053",
+    "question": "La morale change-t-elle avec le temps ?"
+  },
+  {
+    "id": "philo_054",
+    "question": "Peut-on agir sans intérêt personnel ?"
+  },
+  {
+    "id": "philo_055",
+    "question": "La culpabilité est-elle utile ?"
+  },
+  {
+    "id": "philo_056",
+    "question": "Peut-on être moral dans un monde injuste ?"
+  },
+  {
+    "id": "philo_057",
+    "question": "La fin justifie-t-elle les moyens ?"
+  },
+  {
+    "id": "philo_058",
+    "question": "Peut-on être juste avec tout le monde ?"
+  },
+  {
+    "id": "philo_059",
+    "question": "Le devoir rend-il libre ?"
+  },
+  {
+    "id": "philo_060",
+    "question": "Peut-on désobéir pour le bien ?"
+  },
+  {
+    "id": "philo_061",
+    "question": "A-t-on besoin des autres pour être soi-même ?"
+  },
+  {
+    "id": "philo_062",
+    "question": "Peut-on vraiment comprendre quelqu’un ?"
+  },
+  {
+    "id": "philo_063",
+    "question": "L’homme est-il naturellement bon ?"
+  },
+  {
+    "id": "philo_064",
+    "question": "Peut-on aimer sans attendre en retour ?"
+  },
+  {
+    "id": "philo_065",
+    "question": "Être respecté est-il plus important qu’être aimé ?"
+  },
+  {
+    "id": "philo_066",
+    "question": "Les autres limitent-ils notre liberté ?"
+  },
+  {
+    "id": "philo_067",
+    "question": "Peut-on vivre sans relations humaines ?"
+  },
+  {
+    "id": "philo_068",
+    "question": "Autrui est-il un miroir de nous-mêmes ?"
+  },
+  {
+    "id": "philo_069",
+    "question": "La solitude est-elle nécessaire ?"
+  },
+  {
+    "id": "philo_070",
+    "question": "Peut-on être soi-même en groupe ?"
+  },
+  {
+    "id": "philo_071",
+    "question": "Les autres nous définissent-ils ?"
+  },
+  {
+    "id": "philo_072",
+    "question": "Peut-on être ami avec tout le monde ?"
+  },
+  {
+    "id": "philo_073",
+    "question": "L’amitié est-elle plus forte que l’amour ?"
+  },
+  {
+    "id": "philo_074",
+    "question": "Peut-on vivre sans reconnaissance ?"
+  },
+  {
+    "id": "philo_075",
+    "question": "Les autres sont-ils une menace ?"
+  },
+  {
+    "id": "philo_076",
+    "question": "Peut-on aimer ses ennemis ?"
+  },
+  {
+    "id": "philo_077",
+    "question": "La société rend-elle meilleur ?"
+  },
+  {
+    "id": "philo_078",
+    "question": "Les différences enrichissent-elles ?"
+  },
+  {
+    "id": "philo_079",
+    "question": "Peut-on être heureux seul ?"
+  },
+  {
+    "id": "philo_080",
+    "question": "Autrui est-il indispensable au bonheur ?"
+  },
+  {
+    "id": "philo_081",
+    "question": "La science dit-elle toujours la vérité ?"
+  },
+  {
+    "id": "philo_082",
+    "question": "Peut-on douter de tout ?"
+  },
+  {
+    "id": "philo_083",
+    "question": "Les faits sont-ils supérieurs aux opinions ?"
+  },
+  {
+    "id": "philo_084",
+    "question": "La vérité est-elle toujours bonne à dire ?"
+  },
+  {
+    "id": "philo_085",
+    "question": "Peut-on se fier à ses sens ?"
+  },
+  {
+    "id": "philo_086",
+    "question": "Les apparences sont-elles trompeuses ?"
+  },
+  {
+    "id": "philo_087",
+    "question": "La science supprime-t-elle les croyances ?"
+  },
+  {
+    "id": "philo_088",
+    "question": "Peut-on prouver n’importe quoi ?"
+  },
+  {
+    "id": "philo_089",
+    "question": "L’objectivité est-elle possible ?"
+  },
+  {
+    "id": "philo_090",
+    "question": "Faut-il croire les experts ?"
+  },
+  {
+    "id": "philo_091",
+    "question": "La vérité dépend-elle du point de vue ?"
+  },
+  {
+    "id": "philo_092",
+    "question": "Peut-on vivre sans vérité ?"
+  },
+  {
+    "id": "philo_093",
+    "question": "Mentir est-il toujours mal ?"
+  },
+  {
+    "id": "philo_094",
+    "question": "La méthode garantit-elle la vérité ?"
+  },
+  {
+    "id": "philo_095",
+    "question": "La science explique-t-elle tout ?"
+  },
+  {
+    "id": "philo_096",
+    "question": "Les émotions empêchent-elles de connaître ?"
+  },
+  {
+    "id": "philo_097",
+    "question": "Peut-on être certain de quelque chose ?"
+  },
+  {
+    "id": "philo_098",
+    "question": "La vérité change-t-elle avec le temps ?"
+  },
+  {
+    "id": "philo_099",
+    "question": "Faut-il chercher la vérité à tout prix ?"
+  },
+  {
+    "id": "philo_100",
+    "question": "L’opinion est-elle inutile ?"
+  },
+  {
+    "id": "philo_101",
+    "question": "Qu’est-ce que la conscience ?"
+  },
+  {
+    "id": "philo_102",
+    "question": "Peut-on se connaître soi-même ?"
+  },
+  {
+    "id": "philo_103",
+    "question": "La conscience nous rend-elle uniques ?"
+  },
+  {
+    "id": "philo_104",
+    "question": "L’inconscient influence-t-il nos choix ?"
+  },
+  {
+    "id": "philo_105",
+    "question": "Le corps et l’esprit sont-ils séparés ?"
+  },
+  {
+    "id": "philo_106",
+    "question": "D’où viennent nos pensées ?"
+  },
+  {
+    "id": "philo_107",
+    "question": "La conscience peut-elle nous tromper ?"
+  },
+  {
+    "id": "philo_108",
+    "question": "Peut-on contrôler ses émotions ?"
+  },
+  {
+    "id": "philo_109",
+    "question": "Le cerveau explique-t-il tout ?"
+  },
+  {
+    "id": "philo_110",
+    "question": "La conscience rend-elle malheureux ?"
+  },
+  {
+    "id": "philo_111",
+    "question": "Peut-on être inconscient et responsable ?"
+  },
+  {
+    "id": "philo_112",
+    "question": "La mémoire définit-elle l’identité ?"
+  },
+  {
+    "id": "philo_113",
+    "question": "Peut-on oublier qui l’on est ?"
+  },
+  {
+    "id": "philo_114",
+    "question": "La conscience est-elle continue ?"
+  },
+  {
+    "id": "philo_115",
+    "question": "Peut-on changer profondément ?"
+  },
+  {
+    "id": "philo_116",
+    "question": "Sommes-nous toujours les mêmes ?"
+  },
+  {
+    "id": "philo_117",
+    "question": "Nos souvenirs sont-ils fiables ?"
+  },
+  {
+    "id": "philo_118",
+    "question": "Peut-on être plusieurs en un ?"
+  },
+  {
+    "id": "philo_119",
+    "question": "La personnalité est-elle stable ?"
+  },
+  {
+    "id": "philo_120",
+    "question": "La conscience définit-elle l’homme ?"
+  },
+  {
+    "id": "philo_121",
+    "question": "Le désir est-il un manque ?"
+  },
+  {
+    "id": "philo_122",
+    "question": "Peut-on vivre sans désirs ?"
+  },
+  {
+    "id": "philo_123",
+    "question": "Faut-il satisfaire tous ses désirs ?"
+  },
+  {
+    "id": "philo_124",
+    "question": "Le désir rend-il heureux ?"
+  },
+  {
+    "id": "philo_125",
+    "question": "Peut-on maîtriser ses passions ?"
+  },
+  {
+    "id": "philo_126",
+    "question": "Existe-t-il de bons et de mauvais désirs ?"
+  },
+  {
+    "id": "philo_127",
+    "question": "L’amour est-il un désir ?"
+  },
+  {
+    "id": "philo_128",
+    "question": "Pourquoi désirons-nous ce que nous n’avons pas ?"
+  },
+  {
+    "id": "philo_129",
+    "question": "Le désir peut-il être infini ?"
+  },
+  {
+    "id": "philo_130",
+    "question": "Faut-il suivre son cœur ou sa raison ?"
+  },
+  {
+    "id": "philo_131",
+    "question": "Les passions rendent-elles aveugles ?"
+  },
+  {
+    "id": "philo_132",
+    "question": "Peut-on choisir ce que l’on désire ?"
+  },
+  {
+    "id": "philo_133",
+    "question": "Le désir crée-t-il la souffrance ?"
+  },
+  {
+    "id": "philo_134",
+    "question": "Peut-on être trop raisonnable ?"
+  },
+  {
+    "id": "philo_135",
+    "question": "La passion donne-t-elle du sens à la vie ?"
+  },
+  {
+    "id": "philo_136",
+    "question": "Faut-il réprimer ses envies ?"
+  },
+  {
+    "id": "philo_137",
+    "question": "Le plaisir est-il une boussole fiable ?"
+  },
+  {
+    "id": "philo_138",
+    "question": "Peut-on désirer le mal ?"
+  },
+  {
+    "id": "philo_139",
+    "question": "Les désirs sont-ils naturels ?"
+  },
+  {
+    "id": "philo_140",
+    "question": "Le manque est-il nécessaire au bonheur ?"
+  },
+  {
+    "id": "philo_141",
+    "question": "Le temps passe-t-il de la même façon pour tous ?"
+  },
+  {
+    "id": "philo_142",
+    "question": "Le passé définit-il qui nous sommes ?"
+  },
+  {
+    "id": "philo_143",
+    "question": "Peut-on oublier pour avancer ?"
+  },
+  {
+    "id": "philo_144",
+    "question": "Le futur existe-t-il déjà ?"
+  },
+  {
+    "id": "philo_145",
+    "question": "Le présent est-il tout ce que nous avons ?"
+  },
+  {
+    "id": "philo_146",
+    "question": "Vieillir est-ce perdre ou gagner ?"
+  },
+  {
+    "id": "philo_147",
+    "question": "La mort donne-t-elle une valeur à la vie ?"
+  },
+  {
+    "id": "philo_148",
+    "question": "Peut-on accepter l’idée de mourir ?"
+  },
+  {
+    "id": "philo_149",
+    "question": "La peur de la mort est-elle naturelle ?"
+  },
+  {
+    "id": "philo_150",
+    "question": "Faut-il penser à la mort pour vivre pleinement ?"
+  },
+  {
+    "id": "philo_151",
+    "question": "Le temps guérit-il tout ?"
+  },
+  {
+    "id": "philo_152",
+    "question": "Peut-on arrêter le temps ?"
+  },
+  {
+    "id": "philo_153",
+    "question": "Le souvenir rend-il immortel ?"
+  },
+  {
+    "id": "philo_154",
+    "question": "La jeunesse est-elle un état d’esprit ?"
+  },
+  {
+    "id": "philo_155",
+    "question": "Peut-on vivre sans mémoire ?"
+  },
+  {
+    "id": "philo_156",
+    "question": "Chaque instant est-il unique ?"
+  },
+  {
+    "id": "philo_157",
+    "question": "Le temps est-il une invention humaine ?"
+  },
+  {
+    "id": "philo_158",
+    "question": "La fin donne-t-elle un sens ?"
+  },
+  {
+    "id": "philo_159",
+    "question": "Peut-on recommencer sa vie ?"
+  },
+  {
+    "id": "philo_160",
+    "question": "La mort est-elle injuste ?"
+  },
+  {
+    "id": "philo_161",
+    "question": "La technologie nous rend-elle plus libres ?"
+  },
+  {
+    "id": "philo_162",
+    "question": "Sommes-nous dépendants du numérique ?"
+  },
+  {
+    "id": "philo_163",
+    "question": "L’intelligence artificielle peut-elle penser ?"
+  },
+  {
+    "id": "philo_164",
+    "question": "Le progrès rend-il meilleur ?"
+  },
+  {
+    "id": "philo_165",
+    "question": "Peut-on vivre heureux sans internet ?"
+  },
+  {
+    "id": "philo_166",
+    "question": "La technologie nous éloigne-t-elle de la nature ?"
+  },
+  {
+    "id": "philo_167",
+    "question": "Les réseaux sociaux changent-ils notre identité ?"
+  },
+  {
+    "id": "philo_168",
+    "question": "Sommes-nous moins patients qu’avant ?"
+  },
+  {
+    "id": "philo_169",
+    "question": "La modernité rend-elle plus heureux ?"
+  },
+  {
+    "id": "philo_170",
+    "question": "La société nous impose-t-elle une façon de vivre ?"
+  },
+  {
+    "id": "philo_171",
+    "question": "L’argent fait-il le bonheur ?"
+  },
+  {
+    "id": "philo_172",
+    "question": "La réussite sociale définit-elle la valeur d’une personne ?"
+  },
+  {
+    "id": "philo_173",
+    "question": "Le travail donne-t-il un sens à la vie ?"
+  },
+  {
+    "id": "philo_174",
+    "question": "La société encourage-t-elle l’individualisme ?"
+  },
+  {
+    "id": "philo_175",
+    "question": "Le progrès est-il toujours positif ?"
+  },
+  {
+    "id": "philo_176",
+    "question": "Peut-on ralentir le monde ?"
+  },
+  {
+    "id": "philo_177",
+    "question": "La consommation rend-elle libre ?"
+  },
+  {
+    "id": "philo_178",
+    "question": "Les machines remplaceront-elles l’homme ?"
+  },
+  {
+    "id": "philo_179",
+    "question": "La modernité efface-t-elle les traditions ?"
+  },
+  {
+    "id": "philo_180",
+    "question": "Vivons-nous dans une illusion numérique ?"
+  },
+  {
+    "id": "philo_181",
+    "question": "Le bonheur dépend-il de nous ou des circonstances vraiment ?"
+  },
+  {
+    "id": "philo_182",
+    "question": "Peut-on être heureux sans réussir sa vie vraiment ?"
+  },
+  {
+    "id": "philo_183",
+    "question": "Faut-il chercher le bonheur ou le laisser venir vraiment ?"
+  },
+  {
+    "id": "philo_184",
+    "question": "Le bonheur est-il un choix vraiment ?"
+  },
+  {
+    "id": "philo_185",
+    "question": "Peut-on être heureux sans argent vraiment ?"
+  },
+  {
+    "id": "philo_186",
+    "question": "La vie a-t-elle forcément un sens vraiment ?"
+  },
+  {
+    "id": "philo_187",
+    "question": "Peut-on vivre sans but vraiment ?"
+  },
+  {
+    "id": "philo_188",
+    "question": "Exister, est-ce simplement survivre vraiment ?"
+  },
+  {
+    "id": "philo_189",
+    "question": "La peur de la mort donne-t-elle du sens à la vie vraiment ?"
+  },
+  {
+    "id": "philo_190",
+    "question": "Faut-il profiter de l’instant présent vraiment ?"
+  },
+  {
+    "id": "philo_191",
+    "question": "Le bonheur est-il durable vraiment ?"
+  },
+  {
+    "id": "philo_192",
+    "question": "Peut-on être heureux sans amour vraiment ?"
+  },
+  {
+    "id": "philo_193",
+    "question": "Le bonheur dépend-il du regard des autres vraiment ?"
+  },
+  {
+    "id": "philo_194",
+    "question": "Peut-on être trop lucide pour être heureux vraiment ?"
+  },
+  {
+    "id": "philo_195",
+    "question": "Le bonheur est-il différent pour chacun vraiment ?"
+  },
+  {
+    "id": "philo_196",
+    "question": "Faut-il mériter son bonheur vraiment ?"
+  },
+  {
+    "id": "philo_197",
+    "question": "Le bonheur est-il compatible avec la souffrance vraiment ?"
+  },
+  {
+    "id": "philo_198",
+    "question": "Peut-on apprendre à être heureux vraiment ?"
+  },
+  {
+    "id": "philo_199",
+    "question": "Être heureux, est-ce être satisfait vraiment ?"
+  },
+  {
+    "id": "philo_200",
+    "question": "Le bonheur est-il un idéal inaccessible vraiment ?"
+  },
+  {
+    "id": "philo_201",
+    "question": "Sommes-nous vraiment libres de nos choix vraiment ?"
+  },
+  {
+    "id": "philo_202",
+    "question": "Être libre, est-ce faire ce que l’on veut vraiment ?"
+  },
+  {
+    "id": "philo_203",
+    "question": "La liberté a-t-elle des limites vraiment ?"
+  },
+  {
+    "id": "philo_204",
+    "question": "Peut-on être libre en société vraiment ?"
+  },
+  {
+    "id": "philo_205",
+    "question": "La liberté implique-t-elle des responsabilités vraiment ?"
+  },
+  {
+    "id": "philo_206",
+    "question": "Peut-on perdre sa liberté intérieure vraiment ?"
+  },
+  {
+    "id": "philo_207",
+    "question": "Sommes-nous influencés sans le savoir vraiment ?"
+  },
+  {
+    "id": "philo_208",
+    "question": "Le doute empêche-t-il d’agir librement vraiment ?"
+  },
+  {
+    "id": "philo_209",
+    "question": "Peut-on apprendre à être libre vraiment ?"
+  },
+  {
+    "id": "philo_210",
+    "question": "La liberté est-elle un droit ou une conquête vraiment ?"
+  },
+  {
+    "id": "philo_211",
+    "question": "Avons-nous un libre arbitre vraiment ?"
+  },
+  {
+    "id": "philo_212",
+    "question": "Peut-on renoncer volontairement à sa liberté vraiment ?"
+  },
+  {
+    "id": "philo_213",
+    "question": "La loi protège-t-elle ou limite-t-elle la liberté vraiment ?"
+  },
+  {
+    "id": "philo_214",
+    "question": "La liberté est-elle compatible avec l’égalité vraiment ?"
+  },
+  {
+    "id": "philo_215",
+    "question": "Peut-on être libre sans règles vraiment ?"
+  },
+  {
+    "id": "philo_216",
+    "question": "Nos désirs limitent-ils notre liberté vraiment ?"
+  },
+  {
+    "id": "philo_217",
+    "question": "La liberté est-elle une illusion vraiment ?"
+  },
+  {
+    "id": "philo_218",
+    "question": "Sommes-nous déterminés par notre passé vraiment ?"
+  },
+  {
+    "id": "philo_219",
+    "question": "Peut-on être libre si l’on a peur vraiment ?"
+  },
+  {
+    "id": "philo_220",
+    "question": "La liberté rend-elle heureux vraiment ?"
+  },
+  {
+    "id": "philo_221",
+    "question": "Existe-t-il un bien et un mal universels vraiment ?"
+  },
+  {
+    "id": "philo_222",
+    "question": "La morale dépend-elle de l’éducation vraiment ?"
+  },
+  {
+    "id": "philo_223",
+    "question": "Une bonne intention suffit-elle vraiment ?"
+  },
+  {
+    "id": "philo_224",
+    "question": "Est-il toujours mal de mentir vraiment ?"
+  },
+  {
+    "id": "philo_225",
+    "question": "Peut-on être moral sans religion vraiment ?"
+  },
+  {
+    "id": "philo_226",
+    "question": "La conscience morale est-elle innée vraiment ?"
+  },
+  {
+    "id": "philo_227",
+    "question": "Peut-on juger les autres vraiment ?"
+  },
+  {
+    "id": "philo_228",
+    "question": "Le respect est-il une obligation vraiment ?"
+  },
+  {
+    "id": "philo_229",
+    "question": "Peut-on faire le mal sans le vouloir vraiment ?"
+  },
+  {
+    "id": "philo_230",
+    "question": "Le pardon est-il un devoir vraiment ?"
+  },
+  {
+    "id": "philo_231",
+    "question": "Peut-on être trop honnête vraiment ?"
+  },
+  {
+    "id": "philo_232",
+    "question": "La sincérité est-elle toujours bonne vraiment ?"
+  },
+  {
+    "id": "philo_233",
+    "question": "La morale change-t-elle avec le temps vraiment ?"
+  },
+  {
+    "id": "philo_234",
+    "question": "Peut-on agir sans intérêt personnel vraiment ?"
+  },
+  {
+    "id": "philo_235",
+    "question": "La culpabilité est-elle utile vraiment ?"
+  },
+  {
+    "id": "philo_236",
+    "question": "Peut-on être moral dans un monde injuste vraiment ?"
+  },
+  {
+    "id": "philo_237",
+    "question": "La fin justifie-t-elle les moyens vraiment ?"
+  },
+  {
+    "id": "philo_238",
+    "question": "Peut-on être juste avec tout le monde vraiment ?"
+  },
+  {
+    "id": "philo_239",
+    "question": "Le devoir rend-il libre vraiment ?"
+  },
+  {
+    "id": "philo_240",
+    "question": "Peut-on désobéir pour le bien vraiment ?"
+  },
+  {
+    "id": "philo_241",
+    "question": "A-t-on besoin des autres pour être soi-même vraiment ?"
+  },
+  {
+    "id": "philo_242",
+    "question": "Peut-on vraiment comprendre quelqu’un vraiment ?"
+  },
+  {
+    "id": "philo_243",
+    "question": "L’homme est-il naturellement bon vraiment ?"
+  },
+  {
+    "id": "philo_244",
+    "question": "Peut-on aimer sans attendre en retour vraiment ?"
+  },
+  {
+    "id": "philo_245",
+    "question": "Être respecté est-il plus important qu’être aimé vraiment ?"
+  },
+  {
+    "id": "philo_246",
+    "question": "Les autres limitent-ils notre liberté vraiment ?"
+  },
+  {
+    "id": "philo_247",
+    "question": "Peut-on vivre sans relations humaines vraiment ?"
+  },
+  {
+    "id": "philo_248",
+    "question": "Autrui est-il un miroir de nous-mêmes vraiment ?"
+  },
+  {
+    "id": "philo_249",
+    "question": "La solitude est-elle nécessaire vraiment ?"
+  },
+  {
+    "id": "philo_250",
+    "question": "Peut-on être soi-même en groupe vraiment ?"
+  },
+  {
+    "id": "philo_251",
+    "question": "Les autres nous définissent-ils vraiment ?"
+  },
+  {
+    "id": "philo_252",
+    "question": "Peut-on être ami avec tout le monde vraiment ?"
+  },
+  {
+    "id": "philo_253",
+    "question": "L’amitié est-elle plus forte que l’amour vraiment ?"
+  },
+  {
+    "id": "philo_254",
+    "question": "Peut-on vivre sans reconnaissance vraiment ?"
+  },
+  {
+    "id": "philo_255",
+    "question": "Les autres sont-ils une menace vraiment ?"
+  },
+  {
+    "id": "philo_256",
+    "question": "Peut-on aimer ses ennemis vraiment ?"
+  },
+  {
+    "id": "philo_257",
+    "question": "La société rend-elle meilleur vraiment ?"
+  },
+  {
+    "id": "philo_258",
+    "question": "Les différences enrichissent-elles vraiment ?"
+  },
+  {
+    "id": "philo_259",
+    "question": "Peut-on être heureux seul vraiment ?"
+  },
+  {
+    "id": "philo_260",
+    "question": "Autrui est-il indispensable au bonheur vraiment ?"
+  },
+  {
+    "id": "philo_261",
+    "question": "La science dit-elle toujours la vérité vraiment ?"
+  },
+  {
+    "id": "philo_262",
+    "question": "Peut-on douter de tout vraiment ?"
+  },
+  {
+    "id": "philo_263",
+    "question": "Les faits sont-ils supérieurs aux opinions vraiment ?"
+  },
+  {
+    "id": "philo_264",
+    "question": "La vérité est-elle toujours bonne à dire vraiment ?"
+  },
+  {
+    "id": "philo_265",
+    "question": "Peut-on se fier à ses sens vraiment ?"
+  },
+  {
+    "id": "philo_266",
+    "question": "Les apparences sont-elles trompeuses vraiment ?"
+  },
+  {
+    "id": "philo_267",
+    "question": "La science supprime-t-elle les croyances vraiment ?"
+  },
+  {
+    "id": "philo_268",
+    "question": "Peut-on prouver n’importe quoi vraiment ?"
+  },
+  {
+    "id": "philo_269",
+    "question": "L’objectivité est-elle possible vraiment ?"
+  },
+  {
+    "id": "philo_270",
+    "question": "Faut-il croire les experts vraiment ?"
+  },
+  {
+    "id": "philo_271",
+    "question": "La vérité dépend-elle du point de vue vraiment ?"
+  },
+  {
+    "id": "philo_272",
+    "question": "Peut-on vivre sans vérité vraiment ?"
+  },
+  {
+    "id": "philo_273",
+    "question": "Mentir est-il toujours mal vraiment ?"
+  },
+  {
+    "id": "philo_274",
+    "question": "La méthode garantit-elle la vérité vraiment ?"
+  },
+  {
+    "id": "philo_275",
+    "question": "La science explique-t-elle tout vraiment ?"
+  },
+  {
+    "id": "philo_276",
+    "question": "Les émotions empêchent-elles de connaître vraiment ?"
+  },
+  {
+    "id": "philo_277",
+    "question": "Peut-on être certain de quelque chose vraiment ?"
+  },
+  {
+    "id": "philo_278",
+    "question": "La vérité change-t-elle avec le temps vraiment ?"
+  },
+  {
+    "id": "philo_279",
+    "question": "Faut-il chercher la vérité à tout prix vraiment ?"
+  },
+  {
+    "id": "philo_280",
+    "question": "L’opinion est-elle inutile vraiment ?"
+  },
+  {
+    "id": "philo_281",
+    "question": "Qu’est-ce que la conscience vraiment ?"
+  },
+  {
+    "id": "philo_282",
+    "question": "Peut-on se connaître soi-même vraiment ?"
+  },
+  {
+    "id": "philo_283",
+    "question": "La conscience nous rend-elle uniques vraiment ?"
+  },
+  {
+    "id": "philo_284",
+    "question": "L’inconscient influence-t-il nos choix vraiment ?"
+  },
+  {
+    "id": "philo_285",
+    "question": "Le corps et l’esprit sont-ils séparés vraiment ?"
+  },
+  {
+    "id": "philo_286",
+    "question": "D’où viennent nos pensées vraiment ?"
+  },
+  {
+    "id": "philo_287",
+    "question": "La conscience peut-elle nous tromper vraiment ?"
+  },
+  {
+    "id": "philo_288",
+    "question": "Peut-on contrôler ses émotions vraiment ?"
+  },
+  {
+    "id": "philo_289",
+    "question": "Le cerveau explique-t-il tout vraiment ?"
+  },
+  {
+    "id": "philo_290",
+    "question": "La conscience rend-elle malheureux vraiment ?"
+  },
+  {
+    "id": "philo_291",
+    "question": "Peut-on être inconscient et responsable vraiment ?"
+  },
+  {
+    "id": "philo_292",
+    "question": "La mémoire définit-elle l’identité vraiment ?"
+  },
+  {
+    "id": "philo_293",
+    "question": "Peut-on oublier qui l’on est vraiment ?"
+  },
+  {
+    "id": "philo_294",
+    "question": "La conscience est-elle continue vraiment ?"
+  },
+  {
+    "id": "philo_295",
+    "question": "Peut-on changer profondément vraiment ?"
+  },
+  {
+    "id": "philo_296",
+    "question": "Sommes-nous toujours les mêmes vraiment ?"
+  },
+  {
+    "id": "philo_297",
+    "question": "Nos souvenirs sont-ils fiables vraiment ?"
+  },
+  {
+    "id": "philo_298",
+    "question": "Peut-on être plusieurs en un vraiment ?"
+  },
+  {
+    "id": "philo_299",
+    "question": "La personnalité est-elle stable vraiment ?"
+  },
+  {
+    "id": "philo_300",
+    "question": "La conscience définit-elle l’homme vraiment ?"
+  },
+  {
+    "id": "philo_301",
+    "question": "Peut-on être heureux sans liberté ?"
+  },
+  {
+    "id": "philo_302",
+    "question": "Le bonheur dépend-il des autres ?"
+  },
+  {
+    "id": "philo_303",
+    "question": "Peut-on être trop ambitieux ?"
+  },
+  {
+    "id": "philo_304",
+    "question": "Faut-il toujours suivre ses rêves ?"
+  },
+  {
+    "id": "philo_305",
+    "question": "Peut-on réussir sa vie sans être célèbre ?"
+  },
+  {
+    "id": "philo_306",
+    "question": "La souffrance fait-elle grandir ?"
+  },
+  {
+    "id": "philo_307",
+    "question": "Peut-on être heureux sans comprendre le monde ?"
+  },
+  {
+    "id": "philo_308",
+    "question": "La peur est-elle nécessaire ?"
+  },
+  {
+    "id": "philo_309",
+    "question": "Peut-on aimer sans comprendre ?"
+  },
+  {
+    "id": "philo_310",
+    "question": "Le silence peut-il être une réponse ?"
+  },
+  {
+    "id": "philo_311",
+    "question": "Sommes-nous responsables de ce que nous pensons ?"
+  },
+  {
+    "id": "philo_312",
+    "question": "Peut-on changer d’avis sans être incohérent ?"
+  },
+  {
+    "id": "philo_313",
+    "question": "Le courage est-il inné ?"
+  },
+  {
+    "id": "philo_314",
+    "question": "Peut-on être sincère tout le temps ?"
+  },
+  {
+    "id": "philo_315",
+    "question": "Les émotions sont-elles des faiblesses ?"
+  },
+  {
+    "id": "philo_316",
+    "question": "Peut-on vivre sans regret ?"
+  },
+  {
+    "id": "philo_317",
+    "question": "La honte est-elle utile ?"
+  },
+  {
+    "id": "philo_318",
+    "question": "Peut-on être trop gentil ?"
+  },
+  {
+    "id": "philo_319",
+    "question": "La colère peut-elle être juste ?"
+  },
+  {
+    "id": "philo_320",
+    "question": "Peut-on être fort sans être dur ?"
+  },
+  {
+    "id": "philo_321",
+    "question": "L’égalité est-elle possible ?"
+  },
+  {
+    "id": "philo_322",
+    "question": "La justice est-elle la même partout ?"
+  },
+  {
+    "id": "philo_323",
+    "question": "Peut-on être neutre face à l’injustice ?"
+  },
+  {
+    "id": "philo_324",
+    "question": "Les lois reflètent-elles toujours la morale ?"
+  },
+  {
+    "id": "philo_325",
+    "question": "La démocratie est-elle le meilleur système ?"
+  },
+  {
+    "id": "philo_326",
+    "question": "Peut-on vivre sans règles ?"
+  },
+  {
+    "id": "philo_327",
+    "question": "La liberté d’expression doit-elle avoir des limites ?"
+  },
+  {
+    "id": "philo_328",
+    "question": "Peut-on être tolérant avec tout ?"
+  },
+  {
+    "id": "philo_329",
+    "question": "La paix est-elle toujours préférable au conflit ?"
+  },
+  {
+    "id": "philo_330",
+    "question": "La violence peut-elle être justifiée ?"
+  },
+  {
+    "id": "philo_331",
+    "question": "La beauté dépend-elle du regard ?"
+  },
+  {
+    "id": "philo_332",
+    "question": "Peut-on aimer une œuvre sans la comprendre ?"
+  },
+  {
+    "id": "philo_333",
+    "question": "L’art doit-il choquer ?"
+  },
+  {
+    "id": "philo_334",
+    "question": "La musique influence-t-elle nos émotions ?"
+  },
+  {
+    "id": "philo_335",
+    "question": "Peut-on créer sans souffrir ?"
+  },
+  {
+    "id": "philo_336",
+    "question": "L’art peut-il changer le monde ?"
+  },
+  {
+    "id": "philo_337",
+    "question": "La créativité s’apprend-elle ?"
+  },
+  {
+    "id": "philo_338",
+    "question": "Peut-on vivre sans art ?"
+  },
+  {
+    "id": "philo_339",
+    "question": "L’imagination est-elle plus importante que la connaissance ?"
+  },
+  {
+    "id": "philo_340",
+    "question": "L’art est-il universel ?"
+  },
+  {
+    "id": "philo_341",
+    "question": "Le progrès rend-il plus humain ?"
+  },
+  {
+    "id": "philo_342",
+    "question": "La technologie nous rapproche-t-elle ou nous éloigne-t-elle ?"
+  },
+  {
+    "id": "philo_343",
+    "question": "Peut-on faire confiance aux algorithmes ?"
+  },
+  {
+    "id": "philo_344",
+    "question": "La science doit-elle avoir des limites ?"
+  },
+  {
+    "id": "philo_345",
+    "question": "Le confort rend-il paresseux ?"
+  },
+  {
+    "id": "philo_346",
+    "question": "Sommes-nous dépendants du progrès ?"
+  },
+  {
+    "id": "philo_347",
+    "question": "Peut-on ralentir le temps ?"
+  },
+  {
+    "id": "philo_348",
+    "question": "La nature est-elle supérieure à la culture ?"
+  },
+  {
+    "id": "philo_349",
+    "question": "Peut-on vivre sans consommer ?"
+  },
+  {
+    "id": "philo_350",
+    "question": "La modernité rend-elle superficiel ?"
+  },
+  {
+    "id": "philo_351",
+    "question": "Le passé détermine-t-il notre avenir ?"
+  },
+  {
+    "id": "philo_352",
+    "question": "Peut-on effacer ses erreurs ?"
+  },
+  {
+    "id": "philo_353",
+    "question": "Le souvenir est-il fidèle ?"
+  },
+  {
+    "id": "philo_354",
+    "question": "La nostalgie est-elle dangereuse ?"
+  },
+  {
+    "id": "philo_355",
+    "question": "Peut-on recommencer à zéro ?"
+  },
+  {
+    "id": "philo_356",
+    "question": "La mort est-elle une fin ou un passage ?"
+  },
+  {
+    "id": "philo_357",
+    "question": "Le temps est-il notre ennemi ?"
+  },
+  {
+    "id": "philo_358",
+    "question": "Peut-on vivre sans penser au futur ?"
+  },
+  {
+    "id": "philo_359",
+    "question": "La peur du jugement influence-t-elle nos choix ?"
+  },
+  {
+    "id": "philo_360",
+    "question": "Peut-on être heureux en étant lucide ?"
+  },
+  {
+    "id": "philo_361",
+    "question": "Le désir est-il infini ?"
+  },
+  {
+    "id": "philo_362",
+    "question": "Peut-on être heureux sans désir ?"
+  },
+  {
+    "id": "philo_363",
+    "question": "La passion est-elle une force ou une faiblesse ?"
+  },
+  {
+    "id": "philo_364",
+    "question": "Peut-on contrôler l’amour ?"
+  },
+  {
+    "id": "philo_365",
+    "question": "L’envie est-elle naturelle ?"
+  },
+  {
+    "id": "philo_366",
+    "question": "Le plaisir est-il un guide fiable ?"
+  },
+  {
+    "id": "philo_367",
+    "question": "Peut-on aimer trop ?"
+  },
+  {
+    "id": "philo_368",
+    "question": "Les rêves sont-ils essentiels ?"
+  },
+  {
+    "id": "philo_369",
+    "question": "Peut-on choisir d’être optimiste ?"
+  },
+  {
+    "id": "philo_370",
+    "question": "Le bonheur est-il chimique ?"
+  },
+  {
+    "id": "philo_371",
+    "question": "Sommes-nous notre corps ?"
+  },
+  {
+    "id": "philo_372",
+    "question": "L’esprit peut-il exister sans le corps ?"
+  },
+  {
+    "id": "philo_373",
+    "question": "Peut-on être inconscient de soi-même ?"
+  },
+  {
+    "id": "philo_374",
+    "question": "Les souvenirs définissent-ils l’identité ?"
+  },
+  {
+    "id": "philo_375",
+    "question": "Peut-on être la même personne toute sa vie ?"
+  },
+  {
+    "id": "philo_376",
+    "question": "Peut-on mentir à soi-même ?"
+  },
+  {
+    "id": "philo_377",
+    "question": "Nos pensées sont-elles vraiment les nôtres ?"
+  },
+  {
+    "id": "philo_378",
+    "question": "La personnalité peut-elle changer radicalement ?"
+  },
+  {
+    "id": "philo_379",
+    "question": "Peut-on vivre sans croire en quelque chose ?"
+  },
+  {
+    "id": "philo_380",
+    "question": "La foi est-elle un besoin humain ?"
+  },
+  {
+    "id": "philo_381",
+    "question": "La religion rassure-t-elle ?"
+  },
+  {
+    "id": "philo_382",
+    "question": "Peut-on être spirituel sans religion ?"
+  },
+  {
+    "id": "philo_383",
+    "question": "La science remplace-t-elle la foi ?"
+  },
+  {
+    "id": "philo_384",
+    "question": "Croit-on par peur ?"
+  },
+  {
+    "id": "philo_385",
+    "question": "La croyance est-elle un choix ?"
+  },
+  {
+    "id": "philo_386",
+    "question": "Peut-on respecter une croyance différente ?"
+  },
+  {
+    "id": "philo_387",
+    "question": "La raison suffit-elle ?"
+  },
+  {
+    "id": "philo_388",
+    "question": "Le doute est-il sain ?"
+  },
+  {
+    "id": "philo_389",
+    "question": "Peut-on être heureux dans un monde injuste ?"
+  },
+  {
+    "id": "philo_390",
+    "question": "La société nous conditionne-t-elle ?"
+  },
+  {
+    "id": "philo_391",
+    "question": "Sommes-nous libres face aux normes sociales ?"
+  },
+  {
+    "id": "philo_392",
+    "question": "Le regard des autres nous définit-il ?"
+  },
+  {
+    "id": "philo_393",
+    "question": "Peut-on vivre en marge de la société ?"
+  },
+  {
+    "id": "philo_394",
+    "question": "La réussite sociale est-elle importante ?"
+  },
+  {
+    "id": "philo_395",
+    "question": "L’argent est-il une illusion de bonheur ?"
+  },
+  {
+    "id": "philo_396",
+    "question": "Peut-on vivre simplement ?"
+  },
+  {
+    "id": "philo_397",
+    "question": "La compétition est-elle naturelle ?"
+  },
+  {
+    "id": "philo_398",
+    "question": "La solidarité est-elle instinctive ?"
+  },
+  {
+    "id": "philo_399",
+    "question": "Est-il possible de être heureux sans liberté ?"
+  },
+  {
+    "id": "philo_400",
+    "question": "Est-il possible de être trop ambitieux ?"
+  },
+  {
+    "id": "philo_401",
+    "question": "Est-il possible de réussir sa vie sans être célèbre ?"
+  },
+  {
+    "id": "philo_402",
+    "question": "La question suivante est-elle essentielle : la souffrance fait-elle grandir ?"
+  },
+  {
+    "id": "philo_403",
+    "question": "Est-il possible de être heureux sans comprendre le monde ?"
+  },
+  {
+    "id": "philo_404",
+    "question": "La question suivante est-elle essentielle : la peur est-elle nécessaire ?"
+  },
+  {
+    "id": "philo_405",
+    "question": "Est-il possible de aimer sans comprendre ?"
+  },
+  {
+    "id": "philo_406",
+    "question": "Avons-nous l'impression d'être responsables de ce que nous pensons ?"
+  },
+  {
+    "id": "philo_407",
+    "question": "Est-il possible de changer d’avis sans être incohérent ?"
+  },
+  {
+    "id": "philo_408",
+    "question": "Est-il possible de être sincère tout le temps ?"
+  },
+  {
+    "id": "philo_409",
+    "question": "Est-il possible de vivre sans regret ?"
+  },
+  {
+    "id": "philo_410",
+    "question": "La question suivante est-elle essentielle : la honte est-elle utile ?"
+  },
+  {
+    "id": "philo_411",
+    "question": "Est-il possible de être trop gentil ?"
+  },
+  {
+    "id": "philo_412",
+    "question": "La question suivante est-elle essentielle : la colère peut-elle être juste ?"
+  },
+  {
+    "id": "philo_413",
+    "question": "Est-il possible de être fort sans être dur ?"
+  },
+  {
+    "id": "philo_414",
+    "question": "La question suivante est-elle essentielle : la justice est-elle la même partout ?"
+  },
+  {
+    "id": "philo_415",
+    "question": "Est-il possible de être neutre face à l’injustice ?"
+  },
+  {
+    "id": "philo_416",
+    "question": "La question suivante est-elle essentielle : la démocratie est-elle le meilleur système ?"
+  },
+  {
+    "id": "philo_417",
+    "question": "Est-il possible de vivre sans règles ?"
+  },
+  {
+    "id": "philo_418",
+    "question": "La question suivante est-elle essentielle : la liberté d’expression doit-elle avoir des limites ?"
+  },
+  {
+    "id": "philo_419",
+    "question": "Est-il possible de être tolérant avec tout ?"
+  },
+  {
+    "id": "philo_420",
+    "question": "La question suivante est-elle essentielle : la paix est-elle toujours préférable au conflit ?"
+  },
+  {
+    "id": "philo_421",
+    "question": "La question suivante est-elle essentielle : la violence peut-elle être justifiée ?"
+  },
+  {
+    "id": "philo_422",
+    "question": "La question suivante est-elle essentielle : la beauté dépend-elle du regard ?"
+  },
+  {
+    "id": "philo_423",
+    "question": "Est-il possible de aimer une œuvre sans la comprendre ?"
+  },
+  {
+    "id": "philo_424",
+    "question": "La question suivante est-elle essentielle : la musique influence-t-elle nos émotions ?"
+  },
+  {
+    "id": "philo_425",
+    "question": "Est-il possible de créer sans souffrir ?"
+  },
+  {
+    "id": "philo_426",
+    "question": "La question suivante est-elle essentielle : la créativité s’apprend-elle ?"
+  },
+  {
+    "id": "philo_427",
+    "question": "Est-il possible de vivre sans art ?"
+  },
+  {
+    "id": "philo_428",
+    "question": "La question suivante est-elle essentielle : la technologie nous rapproche-t-elle ou nous éloigne-t-elle ?"
+  },
+  {
+    "id": "philo_429",
+    "question": "Est-il possible de faire confiance aux algorithmes ?"
+  },
+  {
+    "id": "philo_430",
+    "question": "La question suivante est-elle essentielle : la science doit-elle avoir des limites ?"
+  },
+  {
+    "id": "philo_431",
+    "question": "Avons-nous l'impression d'être dépendants du progrès ?"
+  },
+  {
+    "id": "philo_432",
+    "question": "Est-il possible de ralentir le temps ?"
+  },
+  {
+    "id": "philo_433",
+    "question": "La question suivante est-elle essentielle : la nature est-elle supérieure à la culture ?"
+  },
+  {
+    "id": "philo_434",
+    "question": "Est-il possible de vivre sans consommer ?"
+  },
+  {
+    "id": "philo_435",
+    "question": "La question suivante est-elle essentielle : la modernité rend-elle superficiel ?"
+  },
+  {
+    "id": "philo_436",
+    "question": "Est-il possible de effacer ses erreurs ?"
+  },
+  {
+    "id": "philo_437",
+    "question": "La question suivante est-elle essentielle : la nostalgie est-elle dangereuse ?"
+  },
+  {
+    "id": "philo_438",
+    "question": "Est-il possible de recommencer à zéro ?"
+  },
+  {
+    "id": "philo_439",
+    "question": "La question suivante est-elle essentielle : la mort est-elle une fin ou un passage ?"
+  },
+  {
+    "id": "philo_440",
+    "question": "Est-il possible de vivre sans penser au futur ?"
+  },
+  {
+    "id": "philo_441",
+    "question": "La question suivante est-elle essentielle : la peur du jugement influence-t-elle nos choix ?"
+  },
+  {
+    "id": "philo_442",
+    "question": "Est-il possible de être heureux en étant lucide ?"
+  },
+  {
+    "id": "philo_443",
+    "question": "Est-il possible de être heureux sans désir ?"
+  },
+  {
+    "id": "philo_444",
+    "question": "La question suivante est-elle essentielle : la passion est-elle une force ou une faiblesse ?"
+  },
+  {
+    "id": "philo_445",
+    "question": "Est-il possible de contrôler l’amour ?"
+  },
+  {
+    "id": "philo_446",
+    "question": "Est-il possible de aimer trop ?"
+  },
+  {
+    "id": "philo_447",
+    "question": "Est-il possible de choisir d’être optimiste ?"
+  },
+  {
+    "id": "philo_448",
+    "question": "Avons-nous l'impression d'être notre corps ?"
+  },
+  {
+    "id": "philo_449",
+    "question": "La question suivante est-elle essentielle : la conscience est-elle continue ?"
+  },
+  {
+    "id": "philo_450",
+    "question": "Est-il possible de être inconscient de soi-même ?"
+  },
+  {
+    "id": "philo_451",
+    "question": "Est-il possible de être la même personne toute sa vie ?"
+  },
+  {
+    "id": "philo_452",
+    "question": "Est-il possible de mentir à soi-même ?"
+  },
+  {
+    "id": "philo_453",
+    "question": "La question suivante est-elle essentielle : la personnalité peut-elle changer radicalement ?"
+  },
+  {
+    "id": "philo_454",
+    "question": "Est-il possible de vivre sans croire en quelque chose ?"
+  },
+  {
+    "id": "philo_455",
+    "question": "La question suivante est-elle essentielle : la foi est-elle un besoin humain ?"
+  },
+  {
+    "id": "philo_456",
+    "question": "La question suivante est-elle essentielle : la religion rassure-t-elle ?"
+  },
+  {
+    "id": "philo_457",
+    "question": "Est-il possible de être spirituel sans religion ?"
+  },
+  {
+    "id": "philo_458",
+    "question": "La question suivante est-elle essentielle : la science remplace-t-elle la foi ?"
+  },
+  {
+    "id": "philo_459",
+    "question": "La question suivante est-elle essentielle : la croyance est-elle un choix ?"
+  },
+  {
+    "id": "philo_460",
+    "question": "Est-il possible de respecter une croyance différente ?"
+  },
+  {
+    "id": "philo_461",
+    "question": "La question suivante est-elle essentielle : la raison suffit-elle ?"
+  },
+  {
+    "id": "philo_462",
+    "question": "Est-il possible de être heureux dans un monde injuste ?"
+  },
+  {
+    "id": "philo_463",
+    "question": "La question suivante est-elle essentielle : la société nous conditionne-t-elle ?"
+  },
+  {
+    "id": "philo_464",
+    "question": "Avons-nous l'impression d'être libres face aux normes sociales ?"
+  },
+  {
+    "id": "philo_465",
+    "question": "Est-il possible de vivre en marge de la société ?"
+  },
+  {
+    "id": "philo_466",
+    "question": "La question suivante est-elle essentielle : la réussite sociale est-elle importante ?"
+  },
+  {
+    "id": "philo_467",
+    "question": "Est-il possible de vivre simplement ?"
+  },
+  {
+    "id": "philo_468",
+    "question": "La question suivante est-elle essentielle : la compétition est-elle naturelle ?"
+  },
+  {
+    "id": "philo_469",
+    "question": "La question suivante est-elle essentielle : la solidarité est-elle instinctive ?"
+  },
+  {
+    "id": "philo_470",
+    "question": "Dans quelle mesure le bonheur dépend-il de nous ou des circonstances ?"
+  },
+  {
+    "id": "philo_471",
+    "question": "Dans quelle mesure peut-on être heureux sans réussir sa vie ?"
+  },
+  {
+    "id": "philo_472",
+    "question": "Dans quelle mesure faut-il chercher le bonheur ou le laisser venir ?"
+  },
+  {
+    "id": "philo_473",
+    "question": "Dans quelle mesure le bonheur est-il un choix ?"
+  },
+  {
+    "id": "philo_474",
+    "question": "Dans quelle mesure peut-on être heureux sans argent ?"
+  },
+  {
+    "id": "philo_475",
+    "question": "Dans quelle mesure la vie a-t-elle forcément un sens ?"
+  },
+  {
+    "id": "philo_476",
+    "question": "Dans quelle mesure peut-on vivre sans but ?"
+  },
+  {
+    "id": "philo_477",
+    "question": "Dans quelle mesure exister, est-ce simplement survivre ?"
+  },
+  {
+    "id": "philo_478",
+    "question": "Dans quelle mesure la peur de la mort donne-t-elle du sens à la vie ?"
+  },
+  {
+    "id": "philo_479",
+    "question": "Dans quelle mesure faut-il profiter de l’instant présent ?"
+  },
+  {
+    "id": "philo_480",
+    "question": "Dans quelle mesure le bonheur est-il durable ?"
+  },
+  {
+    "id": "philo_481",
+    "question": "Dans quelle mesure peut-on être heureux sans amour ?"
+  },
+  {
+    "id": "philo_482",
+    "question": "Dans quelle mesure le bonheur dépend-il du regard des autres ?"
+  },
+  {
+    "id": "philo_483",
+    "question": "Dans quelle mesure peut-on être trop lucide pour être heureux ?"
+  },
+  {
+    "id": "philo_484",
+    "question": "Dans quelle mesure le bonheur est-il différent pour chacun ?"
+  },
+  {
+    "id": "philo_485",
+    "question": "Dans quelle mesure faut-il mériter son bonheur ?"
+  },
+  {
+    "id": "philo_486",
+    "question": "Dans quelle mesure le bonheur est-il compatible avec la souffrance ?"
+  },
+  {
+    "id": "philo_487",
+    "question": "Dans quelle mesure peut-on apprendre à être heureux ?"
+  },
+  {
+    "id": "philo_488",
+    "question": "Dans quelle mesure être heureux, est-ce être satisfait ?"
+  },
+  {
+    "id": "philo_489",
+    "question": "Dans quelle mesure le bonheur est-il un idéal inaccessible ?"
+  },
+  {
+    "id": "philo_490",
+    "question": "Dans quelle mesure sommes-nous vraiment libres de nos choix ?"
+  },
+  {
+    "id": "philo_491",
+    "question": "Dans quelle mesure être libre, est-ce faire ce que l’on veut ?"
+  },
+  {
+    "id": "philo_492",
+    "question": "Dans quelle mesure la liberté a-t-elle des limites ?"
+  },
+  {
+    "id": "philo_493",
+    "question": "Dans quelle mesure peut-on être libre en société ?"
+  },
+  {
+    "id": "philo_494",
+    "question": "Dans quelle mesure la liberté implique-t-elle des responsabilités ?"
+  },
+  {
+    "id": "philo_495",
+    "question": "Dans quelle mesure peut-on perdre sa liberté intérieure ?"
+  },
+  {
+    "id": "philo_496",
+    "question": "Dans quelle mesure sommes-nous influencés sans le savoir ?"
+  },
+  {
+    "id": "philo_497",
+    "question": "Dans quelle mesure le doute empêche-t-il d’agir librement ?"
+  },
+  {
+    "id": "philo_498",
+    "question": "Dans quelle mesure peut-on apprendre à être libre ?"
+  },
+  {
+    "id": "philo_499",
+    "question": "Dans quelle mesure la liberté est-elle un droit ou une conquête ?"
+  },
+  {
+    "id": "philo_500",
+    "question": "Dans quelle mesure avons-nous un libre arbitre ?"
+  },
+  {
+    "id": "philo_501",
+    "question": "Dans quelle mesure peut-on renoncer volontairement à sa liberté ?"
+  },
+  {
+    "id": "philo_502",
+    "question": "Dans quelle mesure la loi protège-t-elle ou limite-t-elle la liberté ?"
+  },
+  {
+    "id": "philo_503",
+    "question": "Dans quelle mesure la liberté est-elle compatible avec l’égalité ?"
+  },
+  {
+    "id": "philo_504",
+    "question": "Dans quelle mesure peut-on être libre sans règles ?"
+  },
+  {
+    "id": "philo_505",
+    "question": "Dans quelle mesure nos désirs limitent-ils notre liberté ?"
+  },
+  {
+    "id": "philo_506",
+    "question": "Dans quelle mesure la liberté est-elle une illusion ?"
+  },
+  {
+    "id": "philo_507",
+    "question": "Dans quelle mesure sommes-nous déterminés par notre passé ?"
+  },
+  {
+    "id": "philo_508",
+    "question": "Dans quelle mesure peut-on être libre si l’on a peur ?"
+  },
+  {
+    "id": "philo_509",
+    "question": "Dans quelle mesure la liberté rend-elle heureux ?"
+  },
+  {
+    "id": "philo_510",
+    "question": "Dans quelle mesure existe-t-il un bien et un mal universels ?"
+  },
+  {
+    "id": "philo_511",
+    "question": "Dans quelle mesure la morale dépend-elle de l’éducation ?"
+  },
+  {
+    "id": "philo_512",
+    "question": "Dans quelle mesure une bonne intention suffit-elle ?"
+  },
+  {
+    "id": "philo_513",
+    "question": "Dans quelle mesure est-il toujours mal de mentir ?"
+  },
+  {
+    "id": "philo_514",
+    "question": "Dans quelle mesure peut-on être moral sans religion ?"
+  },
+  {
+    "id": "philo_515",
+    "question": "Dans quelle mesure la conscience morale est-elle innée ?"
+  },
+  {
+    "id": "philo_516",
+    "question": "Dans quelle mesure peut-on juger les autres ?"
+  },
+  {
+    "id": "philo_517",
+    "question": "Dans quelle mesure le respect est-il une obligation ?"
+  },
+  {
+    "id": "philo_518",
+    "question": "Dans quelle mesure peut-on faire le mal sans le vouloir ?"
+  },
+  {
+    "id": "philo_519",
+    "question": "Dans quelle mesure le pardon est-il un devoir ?"
+  },
+  {
+    "id": "philo_520",
+    "question": "Dans quelle mesure peut-on être trop honnête ?"
+  },
+  {
+    "id": "philo_521",
+    "question": "Dans quelle mesure la sincérité est-elle toujours bonne ?"
+  },
+  {
+    "id": "philo_522",
+    "question": "Dans quelle mesure la morale change-t-elle avec le temps ?"
+  },
+  {
+    "id": "philo_523",
+    "question": "Dans quelle mesure peut-on agir sans intérêt personnel ?"
+  },
+  {
+    "id": "philo_524",
+    "question": "Dans quelle mesure la culpabilité est-elle utile ?"
+  },
+  {
+    "id": "philo_525",
+    "question": "Dans quelle mesure peut-on être moral dans un monde injuste ?"
+  },
+  {
+    "id": "philo_526",
+    "question": "Dans quelle mesure la fin justifie-t-elle les moyens ?"
+  },
+  {
+    "id": "philo_527",
+    "question": "Dans quelle mesure peut-on être juste avec tout le monde ?"
+  },
+  {
+    "id": "philo_528",
+    "question": "Dans quelle mesure le devoir rend-il libre ?"
+  },
+  {
+    "id": "philo_529",
+    "question": "Dans quelle mesure peut-on désobéir pour le bien ?"
+  },
+  {
+    "id": "philo_530",
+    "question": "Dans quelle mesure a-t-on besoin des autres pour être soi-même ?"
+  },
+  {
+    "id": "philo_531",
+    "question": "Dans quelle mesure peut-on vraiment comprendre quelqu’un ?"
+  },
+  {
+    "id": "philo_532",
+    "question": "Dans quelle mesure l’homme est-il naturellement bon ?"
+  },
+  {
+    "id": "philo_533",
+    "question": "Dans quelle mesure peut-on aimer sans attendre en retour ?"
+  },
+  {
+    "id": "philo_534",
+    "question": "Dans quelle mesure être respecté est-il plus important qu’être aimé ?"
+  },
+  {
+    "id": "philo_535",
+    "question": "Dans quelle mesure les autres limitent-ils notre liberté ?"
+  },
+  {
+    "id": "philo_536",
+    "question": "Dans quelle mesure peut-on vivre sans relations humaines ?"
+  },
+  {
+    "id": "philo_537",
+    "question": "Dans quelle mesure autrui est-il un miroir de nous-mêmes ?"
+  },
+  {
+    "id": "philo_538",
+    "question": "Dans quelle mesure la solitude est-elle nécessaire ?"
+  },
+  {
+    "id": "philo_539",
+    "question": "Dans quelle mesure peut-on être soi-même en groupe ?"
+  },
+  {
+    "id": "philo_540",
+    "question": "Dans quelle mesure les autres nous définissent-ils ?"
+  },
+  {
+    "id": "philo_541",
+    "question": "Dans quelle mesure peut-on être ami avec tout le monde ?"
+  },
+  {
+    "id": "philo_542",
+    "question": "Dans quelle mesure l’amitié est-elle plus forte que l’amour ?"
+  },
+  {
+    "id": "philo_543",
+    "question": "Dans quelle mesure peut-on vivre sans reconnaissance ?"
+  },
+  {
+    "id": "philo_544",
+    "question": "Dans quelle mesure les autres sont-ils une menace ?"
+  },
+  {
+    "id": "philo_545",
+    "question": "Dans quelle mesure peut-on aimer ses ennemis ?"
+  },
+  {
+    "id": "philo_546",
+    "question": "Dans quelle mesure la société rend-elle meilleur ?"
+  },
+  {
+    "id": "philo_547",
+    "question": "Dans quelle mesure les différences enrichissent-elles ?"
+  },
+  {
+    "id": "philo_548",
+    "question": "Dans quelle mesure peut-on être heureux seul ?"
+  },
+  {
+    "id": "philo_549",
+    "question": "Dans quelle mesure autrui est-il indispensable au bonheur ?"
+  },
+  {
+    "id": "philo_550",
+    "question": "Dans quelle mesure la science dit-elle toujours la vérité ?"
+  }
+]

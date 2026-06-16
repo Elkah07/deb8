@@ -1,0 +1,1990 @@
+[
+  {
+    "id": "classiques_001",
+    "question": "Les jeux de société sont-ils mieux que les jeux vidéo ?"
+  },
+  {
+    "id": "classiques_002",
+    "question": "Le cinéma en 3D est-il une bonne idée ou un gadget inutile ?"
+  },
+  {
+    "id": "classiques_003",
+    "question": "Lire un livre est-il plus enrichissant que regarder un film ?"
+  },
+  {
+    "id": "classiques_004",
+    "question": "Les séries sont-elles devenues meilleures que le cinéma ?"
+  },
+  {
+    "id": "classiques_005",
+    "question": "Le streaming a-t-il tué la magie des salles de cinéma ?"
+  },
+  {
+    "id": "classiques_006",
+    "question": "Les remakes devraient-ils exister ?"
+  },
+  {
+    "id": "classiques_007",
+    "question": "La télé-réalité est-elle un divertissement légitime ?"
+  },
+  {
+    "id": "classiques_008",
+    "question": "Les réseaux sociaux ont-ils amélioré notre façon de consommer la culture ?"
+  },
+  {
+    "id": "classiques_009",
+    "question": "Faut-il séparer l’artiste de son œuvre ?"
+  },
+  {
+    "id": "classiques_010",
+    "question": "Les concerts sont-ils mieux que les festivals ?"
+  },
+  {
+    "id": "classiques_011",
+    "question": "Vacances plage ou vacances montagne ?"
+  },
+  {
+    "id": "classiques_012",
+    "question": "Ville ou campagne pour vivre heureux ?"
+  },
+  {
+    "id": "classiques_013",
+    "question": "Été ou hiver ?"
+  },
+  {
+    "id": "classiques_014",
+    "question": "Matin ou nuit ?"
+  },
+  {
+    "id": "classiques_015",
+    "question": "Voyager seul ou en groupe ?"
+  },
+  {
+    "id": "classiques_016",
+    "question": "Partir à l’aventure ou tout planifier ?"
+  },
+  {
+    "id": "classiques_017",
+    "question": "Explorer l’espace ou les profondeurs de l’océan ?"
+  },
+  {
+    "id": "classiques_018",
+    "question": "Rester dans son pays ou s’expatrier ?"
+  },
+  {
+    "id": "classiques_019",
+    "question": "Dîner au restaurant ou cuisiner chez soi ?"
+  },
+  {
+    "id": "classiques_020",
+    "question": "Travailler à distance ou au bureau ?"
+  },
+  {
+    "id": "classiques_021",
+    "question": "Mentir pour ne pas blesser est-ce acceptable ?"
+  },
+  {
+    "id": "classiques_022",
+    "question": "Peut-on aimer quelqu’un qui ne nous plaît pas physiquement ?"
+  },
+  {
+    "id": "classiques_023",
+    "question": "Un bébé renforce-t-il forcément un couple ?"
+  },
+  {
+    "id": "classiques_024",
+    "question": "Un couple peut-il réellement durer toute une vie ?"
+  },
+  {
+    "id": "classiques_025",
+    "question": "Faut-il tout partager dans un couple ?"
+  },
+  {
+    "id": "classiques_026",
+    "question": "L’amour est-il plus important que la stabilité financière ?"
+  },
+  {
+    "id": "classiques_027",
+    "question": "Peut-on rester ami avec son ex ?"
+  },
+  {
+    "id": "classiques_028",
+    "question": "La jalousie est-elle une preuve d’amour ?"
+  },
+  {
+    "id": "classiques_029",
+    "question": "Le coup de foudre existe-t-il vraiment ?"
+  },
+  {
+    "id": "classiques_030",
+    "question": "Peut-on être heureux sans être en couple ?"
+  },
+  {
+    "id": "classiques_031",
+    "question": "Les parents doivent-ils être les meilleurs amis de leurs enfants ?"
+  },
+  {
+    "id": "classiques_032",
+    "question": "Faut-il imposer des limites strictes aux enfants ?"
+  },
+  {
+    "id": "classiques_033",
+    "question": "Les grands-parents devraient-ils intervenir dans l’éducation ?"
+  },
+  {
+    "id": "classiques_034",
+    "question": "Avoir un enfant est-il un choix égoïste ou altruiste ?"
+  },
+  {
+    "id": "classiques_035",
+    "question": "Peut-on réussir sa vie sans avoir d’enfant ?"
+  },
+  {
+    "id": "classiques_036",
+    "question": "Les familles nombreuses sont-elles plus heureuses ?"
+  },
+  {
+    "id": "classiques_037",
+    "question": "Les écrans sont-ils dangereux pour les enfants ?"
+  },
+  {
+    "id": "classiques_038",
+    "question": "Faut-il interdire les téléphones à l’école ?"
+  },
+  {
+    "id": "classiques_039",
+    "question": "Les notes scolaires sont-elles utiles ?"
+  },
+  {
+    "id": "classiques_040",
+    "question": "L’école prépare-t-elle vraiment à la vie ?"
+  },
+  {
+    "id": "classiques_041",
+    "question": "Être youtubeur est-ce un vrai métier ?"
+  },
+  {
+    "id": "classiques_042",
+    "question": "Les influenceurs méritent-ils leur succès ?"
+  },
+  {
+    "id": "classiques_043",
+    "question": "Le télétravail est-il l’avenir ?"
+  },
+  {
+    "id": "classiques_044",
+    "question": "Travailler pour passion ou pour l’argent ?"
+  },
+  {
+    "id": "classiques_045",
+    "question": "Faut-il séparer totalement vie pro et vie perso ?"
+  },
+  {
+    "id": "classiques_046",
+    "question": "Les diplômes sont-ils encore essentiels ?"
+  },
+  {
+    "id": "classiques_047",
+    "question": "L’intelligence artificielle menace-t-elle nos emplois ?"
+  },
+  {
+    "id": "classiques_048",
+    "question": "Peut-on réussir sans études supérieures ?"
+  },
+  {
+    "id": "classiques_049",
+    "question": "Le salaire doit-il refléter l’utilité sociale ?"
+  },
+  {
+    "id": "classiques_050",
+    "question": "Faut-il travailler moins pour vivre mieux ?"
+  },
+  {
+    "id": "classiques_051",
+    "question": "Mentir est-il parfois nécessaire ?"
+  },
+  {
+    "id": "classiques_052",
+    "question": "Dire toujours la vérité est-ce courageux ou brutal ?"
+  },
+  {
+    "id": "classiques_053",
+    "question": "Peut-on pardonner une trahison ?"
+  },
+  {
+    "id": "classiques_054",
+    "question": "La vengeance est-elle parfois justifiée ?"
+  },
+  {
+    "id": "classiques_055",
+    "question": "Faut-il toujours défendre ses proches, même quand ils ont tort ?"
+  },
+  {
+    "id": "classiques_056",
+    "question": "Peut-on être ami avec quelqu’un qui pense totalement différemment ?"
+  },
+  {
+    "id": "classiques_057",
+    "question": "La liberté d’expression doit-elle avoir des limites ?"
+  },
+  {
+    "id": "classiques_058",
+    "question": "Le bonheur dépend-il de l’argent ?"
+  },
+  {
+    "id": "classiques_059",
+    "question": "Faut-il aider quelqu’un qui refuse de s’aider lui-même ?"
+  },
+  {
+    "id": "classiques_060",
+    "question": "Peut-on changer vraiment ?"
+  },
+  {
+    "id": "classiques_061",
+    "question": "Les réseaux sociaux rapprochent-ils ou isolent-ils ?"
+  },
+  {
+    "id": "classiques_062",
+    "question": "Les smartphones nous rendent-ils moins patients ?"
+  },
+  {
+    "id": "classiques_063",
+    "question": "Faut-il limiter le temps d’écran ?"
+  },
+  {
+    "id": "classiques_064",
+    "question": "L’IA est-elle une opportunité ou une menace ?"
+  },
+  {
+    "id": "classiques_065",
+    "question": "Les rencontres en ligne sont-elles aussi sincères que les rencontres réelles ?"
+  },
+  {
+    "id": "classiques_066",
+    "question": "Les influenceurs ont-ils trop de pouvoir ?"
+  },
+  {
+    "id": "classiques_067",
+    "question": "La vie était-elle mieux sans Internet ?"
+  },
+  {
+    "id": "classiques_068",
+    "question": "Les avis en ligne sont-ils fiables ?"
+  },
+  {
+    "id": "classiques_069",
+    "question": "Les caméras de surveillance sont-elles rassurantes ou inquiétantes ?"
+  },
+  {
+    "id": "classiques_070",
+    "question": "Les algorithmes contrôlent-ils nos choix ?"
+  },
+  {
+    "id": "classiques_071",
+    "question": "Les jeunes ont-ils la vie plus facile qu’avant ?"
+  },
+  {
+    "id": "classiques_072",
+    "question": "Les adultes comprennent-ils vraiment les ados ?"
+  },
+  {
+    "id": "classiques_073",
+    "question": "Les études longues garantissent-elles la réussite ?"
+  },
+  {
+    "id": "classiques_074",
+    "question": "Faut-il suivre ses rêves à tout prix ?"
+  },
+  {
+    "id": "classiques_075",
+    "question": "Le talent est-il plus important que le travail ?"
+  },
+  {
+    "id": "classiques_076",
+    "question": "Peut-on réussir sans réseau ?"
+  },
+  {
+    "id": "classiques_077",
+    "question": "Les stages non payés devraient-ils être interdits ?"
+  },
+  {
+    "id": "classiques_078",
+    "question": "L’école devrait-elle enseigner la gestion de l’argent ?"
+  },
+  {
+    "id": "classiques_079",
+    "question": "Les notes reflètent-elles l’intelligence ?"
+  },
+  {
+    "id": "classiques_080",
+    "question": "Les jeunes sont-ils plus engagés que les générations précédentes ?"
+  },
+  {
+    "id": "classiques_081",
+    "question": "L’argent fait-il le bonheur ?"
+  },
+  {
+    "id": "classiques_082",
+    "question": "Le mariage est-il encore utile ?"
+  },
+  {
+    "id": "classiques_083",
+    "question": "Avoir raison est-il plus important que préserver une relation ?"
+  },
+  {
+    "id": "classiques_084",
+    "question": "Faut-il interdire certaines opinions ?"
+  },
+  {
+    "id": "classiques_085",
+    "question": "Peut-on être heureux sans ambition ?"
+  },
+  {
+    "id": "classiques_086",
+    "question": "Le sport professionnel est-il trop payé ?"
+  },
+  {
+    "id": "classiques_087",
+    "question": "Les vacances sont-elles indispensables ?"
+  },
+  {
+    "id": "classiques_088",
+    "question": "Faut-il toujours sortir de sa zone de confort ?"
+  },
+  {
+    "id": "classiques_089",
+    "question": "Les surprises sont-elles toujours une bonne idée ?"
+  },
+  {
+    "id": "classiques_090",
+    "question": "Vaut-il mieux être aimé ou respecté ?"
+  },
+  {
+    "id": "classiques_091",
+    "question": "Faut-il répondre immédiatement aux messages ?"
+  },
+  {
+    "id": "classiques_092",
+    "question": "Les traditions doivent-elles être conservées ?"
+  },
+  {
+    "id": "classiques_093",
+    "question": "Les tatouages sont-ils une bonne idée ?"
+  },
+  {
+    "id": "classiques_094",
+    "question": "Peut-on être ami avec son patron ?"
+  },
+  {
+    "id": "classiques_095",
+    "question": "Les fêtes de famille sont-elles nécessaires ?"
+  },
+  {
+    "id": "classiques_096",
+    "question": "Faut-il prêter de l’argent à ses proches ?"
+  },
+  {
+    "id": "classiques_097",
+    "question": "Les disputes renforcent-elles les relations ?"
+  },
+  {
+    "id": "classiques_098",
+    "question": "L’humour peut-il tout excuser ?"
+  },
+  {
+    "id": "classiques_099",
+    "question": "Chat ou chien ?"
+  },
+  {
+    "id": "classiques_100",
+    "question": "Café ou thé ?"
+  },
+  {
+    "id": "classiques_101",
+    "question": "Netflix ou cinéma ?"
+  },
+  {
+    "id": "classiques_102",
+    "question": "Mer ou piscine ?"
+  },
+  {
+    "id": "classiques_103",
+    "question": "Sucré ou salé ?"
+  },
+  {
+    "id": "classiques_104",
+    "question": "Apple ou Android ?"
+  },
+  {
+    "id": "classiques_105",
+    "question": "Plutôt épargne ou plaisir immédiat ?"
+  },
+  {
+    "id": "classiques_106",
+    "question": "Sortir souvent ou rester chez soi ?"
+  },
+  {
+    "id": "classiques_107",
+    "question": "Musique en fond ou silence total ?"
+  },
+  {
+    "id": "classiques_108",
+    "question": "Improviser ou planifier ?"
+  },
+  {
+    "id": "classiques_109",
+    "question": "Vivre en appartement ou en maison ?"
+  },
+  {
+    "id": "classiques_110",
+    "question": "Travailler seul ou en équipe ?"
+  },
+  {
+    "id": "classiques_111",
+    "question": "Transport en commun ou voiture personnelle ?"
+  },
+  {
+    "id": "classiques_112",
+    "question": "Plutôt carrière ambitieuse ou vie tranquille ?"
+  },
+  {
+    "id": "classiques_113",
+    "question": "Faire du sport le matin ou le soir ?"
+  },
+  {
+    "id": "classiques_114",
+    "question": "Écouter ou parler davantage ?"
+  },
+  {
+    "id": "classiques_115",
+    "question": "Être célèbre ou être anonyme ?"
+  },
+  {
+    "id": "classiques_116",
+    "question": "Grand mariage ou cérémonie intime ?"
+  },
+  {
+    "id": "classiques_117",
+    "question": "Rester dans sa zone de confort ou tout quitter ?"
+  },
+  {
+    "id": "classiques_118",
+    "question": "Plutôt logique ou intuition ?"
+  },
+  {
+    "id": "classiques_119",
+    "question": "Peut-on aimer deux personnes en même temps ?"
+  },
+  {
+    "id": "classiques_120",
+    "question": "Faut-il tout dire dans un couple ?"
+  },
+  {
+    "id": "classiques_121",
+    "question": "Le mariage change-t-il vraiment une relation ?"
+  },
+  {
+    "id": "classiques_122",
+    "question": "La distance renforce-t-elle les sentiments ?"
+  },
+  {
+    "id": "classiques_123",
+    "question": "Un couple peut-il survivre sans confiance totale ?"
+  },
+  {
+    "id": "classiques_124",
+    "question": "Peut-on reconstruire après une infidélité ?"
+  },
+  {
+    "id": "classiques_125",
+    "question": "L’amour suffit-il à surmonter les différences culturelles ?"
+  },
+  {
+    "id": "classiques_126",
+    "question": "Faut-il vivre ensemble avant de se marier ?"
+  },
+  {
+    "id": "classiques_127",
+    "question": "Un couple sans disputes est-il suspect ?"
+  },
+  {
+    "id": "classiques_128",
+    "question": "Les opposés s’attirent-ils vraiment ?"
+  },
+  {
+    "id": "classiques_129",
+    "question": "L’âge est-il important en amour ?"
+  },
+  {
+    "id": "classiques_130",
+    "question": "Peut-on rester amoureux toute une vie ?"
+  },
+  {
+    "id": "classiques_131",
+    "question": "Faut-il choisir la raison plutôt que la passion ?"
+  },
+  {
+    "id": "classiques_132",
+    "question": "Un couple doit-il partager les mêmes ambitions ?"
+  },
+  {
+    "id": "classiques_133",
+    "question": "Les réseaux sociaux fragilisent-ils les relations ?"
+  },
+  {
+    "id": "classiques_134",
+    "question": "Peut-on être heureux en amour sans stabilité financière ?"
+  },
+  {
+    "id": "classiques_135",
+    "question": "L’amitié homme-femme sans ambiguïté est-elle possible ?"
+  },
+  {
+    "id": "classiques_136",
+    "question": "Faut-il pardonner une trahison par amour ?"
+  },
+  {
+    "id": "classiques_137",
+    "question": "Un couple doit-il tout faire ensemble ?"
+  },
+  {
+    "id": "classiques_138",
+    "question": "L’amour peut-il renaître après une rupture ?"
+  },
+  {
+    "id": "classiques_139",
+    "question": "Le travail doit-il passer avant la famille ?"
+  },
+  {
+    "id": "classiques_140",
+    "question": "Changer souvent de travail est-il un signe d’instabilité ?"
+  },
+  {
+    "id": "classiques_141",
+    "question": "Un bon patron doit-il être strict ou bienveillant ?"
+  },
+  {
+    "id": "classiques_142",
+    "question": "Peut-on réussir sans ambition ?"
+  },
+  {
+    "id": "classiques_143",
+    "question": "Faut-il aimer son métier pour être heureux ?"
+  },
+  {
+    "id": "classiques_144",
+    "question": "Le salaire fait-il la motivation ?"
+  },
+  {
+    "id": "classiques_145",
+    "question": "Les pauses au travail sont-elles trop nombreuses ?"
+  },
+  {
+    "id": "classiques_146",
+    "question": "Travailler à l’étranger est-il toujours une bonne idée ?"
+  },
+  {
+    "id": "classiques_147",
+    "question": "Un diplôme garantit-il la compétence ?"
+  },
+  {
+    "id": "classiques_148",
+    "question": "L’expérience vaut-elle plus que les études ?"
+  },
+  {
+    "id": "classiques_149",
+    "question": "Les horaires flexibles augmentent-ils la productivité ?"
+  },
+  {
+    "id": "classiques_150",
+    "question": "Faut-il interdire les mails professionnels le week-end ?"
+  },
+  {
+    "id": "classiques_151",
+    "question": "Un métier passion peut-il devenir un poids ?"
+  },
+  {
+    "id": "classiques_152",
+    "question": "Les reconversions professionnelles sont-elles risquées ?"
+  },
+  {
+    "id": "classiques_153",
+    "question": "Faut-il choisir un métier utile ou rentable ?"
+  },
+  {
+    "id": "classiques_154",
+    "question": "La réussite est-elle une question de chance ?"
+  },
+  {
+    "id": "classiques_155",
+    "question": "Peut-on être riche et éthique ?"
+  },
+  {
+    "id": "classiques_156",
+    "question": "Le chômage est-il mal perçu injustement ?"
+  },
+  {
+    "id": "classiques_157",
+    "question": "Les jeunes doivent-ils créer leur entreprise ?"
+  },
+  {
+    "id": "classiques_158",
+    "question": "Faut-il réduire la semaine de travail à 4 jours ?"
+  },
+  {
+    "id": "classiques_159",
+    "question": "La société est-elle trop sensible aujourd’hui ?"
+  },
+  {
+    "id": "classiques_160",
+    "question": "Peut-on rire de tout ?"
+  },
+  {
+    "id": "classiques_161",
+    "question": "La liberté d’expression a-t-elle trop de limites ?"
+  },
+  {
+    "id": "classiques_162",
+    "question": "Faut-il interdire certaines blagues ?"
+  },
+  {
+    "id": "classiques_163",
+    "question": "L’égalité parfaite est-elle possible ?"
+  },
+  {
+    "id": "classiques_164",
+    "question": "Les traditions doivent-elles évoluer ?"
+  },
+  {
+    "id": "classiques_165",
+    "question": "La réussite individuelle prime-t-elle sur le collectif ?"
+  },
+  {
+    "id": "classiques_166",
+    "question": "Les lois sont-elles toujours justes ?"
+  },
+  {
+    "id": "classiques_167",
+    "question": "Les médias influencent-ils trop l’opinion ?"
+  },
+  {
+    "id": "classiques_168",
+    "question": "Peut-on vivre sans juger les autres ?"
+  },
+  {
+    "id": "classiques_169",
+    "question": "La compétition est-elle nécessaire ?"
+  },
+  {
+    "id": "classiques_170",
+    "question": "Les réseaux sociaux créent-ils une pression sociale ?"
+  },
+  {
+    "id": "classiques_171",
+    "question": "La solidarité est-elle en baisse ?"
+  },
+  {
+    "id": "classiques_172",
+    "question": "Le respect se mérite-t-il ou s’impose-t-il ?"
+  },
+  {
+    "id": "classiques_173",
+    "question": "Faut-il aider en priorité ses proches ?"
+  },
+  {
+    "id": "classiques_174",
+    "question": "La société valorise-t-elle trop l’apparence ?"
+  },
+  {
+    "id": "classiques_175",
+    "question": "L’éducation doit-elle être plus stricte ?"
+  },
+  {
+    "id": "classiques_176",
+    "question": "Les débats publics sont-ils encore constructifs ?"
+  },
+  {
+    "id": "classiques_177",
+    "question": "La réussite est-elle mesurée par l’argent ?"
+  },
+  {
+    "id": "classiques_178",
+    "question": "La vie était-elle plus simple avant ?"
+  },
+  {
+    "id": "classiques_179",
+    "question": "L’intelligence artificielle remplacera-t-elle l’humain ?"
+  },
+  {
+    "id": "classiques_180",
+    "question": "Les robots doivent-ils avoir des droits ?"
+  },
+  {
+    "id": "classiques_181",
+    "question": "Le numérique isole-t-il les générations ?"
+  },
+  {
+    "id": "classiques_182",
+    "question": "Les écrans nuisent-ils à la créativité ?"
+  },
+  {
+    "id": "classiques_183",
+    "question": "Le télétravail affaiblit-il le lien social ?"
+  },
+  {
+    "id": "classiques_184",
+    "question": "La technologie simplifie-t-elle vraiment la vie ?"
+  },
+  {
+    "id": "classiques_185",
+    "question": "Faut-il déconnecter totalement pendant les vacances ?"
+  },
+  {
+    "id": "classiques_186",
+    "question": "Les smartphones rendent-ils dépendants ?"
+  },
+  {
+    "id": "classiques_187",
+    "question": "Les données personnelles sont-elles suffisamment protégées ?"
+  },
+  {
+    "id": "classiques_188",
+    "question": "Le futur sera-t-il plus stressant ?"
+  },
+  {
+    "id": "classiques_189",
+    "question": "La réalité virtuelle remplacera-t-elle les voyages ?"
+  },
+  {
+    "id": "classiques_190",
+    "question": "Les jeux vidéo développent-ils des compétences utiles ?"
+  },
+  {
+    "id": "classiques_191",
+    "question": "Les enfants devraient-ils apprendre à coder tôt ?"
+  },
+  {
+    "id": "classiques_192",
+    "question": "Les assistants vocaux écoutent-ils trop ?"
+  },
+  {
+    "id": "classiques_193",
+    "question": "Les deepfakes sont-ils un danger majeur ?"
+  },
+  {
+    "id": "classiques_194",
+    "question": "La technologie détruit-elle l’attention ?"
+  },
+  {
+    "id": "classiques_195",
+    "question": "Faut-il interdire les téléphones aux moins de 12 ans ?"
+  },
+  {
+    "id": "classiques_196",
+    "question": "L’IA devrait-elle être régulée mondialement ?"
+  },
+  {
+    "id": "classiques_197",
+    "question": "Le progrès technologique est-il toujours positif ?"
+  },
+  {
+    "id": "classiques_198",
+    "question": "Les réseaux sociaux devraient-ils être payants ?"
+  },
+  {
+    "id": "classiques_199",
+    "question": "Faut-il toujours dire ce que l’on pense ?"
+  },
+  {
+    "id": "classiques_200",
+    "question": "Être gentil est-il une faiblesse ?"
+  },
+  {
+    "id": "classiques_201",
+    "question": "Le silence est-il parfois plus puissant que les mots ?"
+  },
+  {
+    "id": "classiques_202",
+    "question": "Peut-on vivre sans regret ?"
+  },
+  {
+    "id": "classiques_203",
+    "question": "Changer radicalement de vie est-il courageux ou imprudent ?"
+  },
+  {
+    "id": "classiques_204",
+    "question": "Les habitudes rassurent-elles ou enferment-elles ?"
+  },
+  {
+    "id": "classiques_205",
+    "question": "Le confort rend-il paresseux ?"
+  },
+  {
+    "id": "classiques_206",
+    "question": "Faut-il sortir souvent de sa zone de confort ?"
+  },
+  {
+    "id": "classiques_207",
+    "question": "Les critiques font-elles grandir ?"
+  },
+  {
+    "id": "classiques_208",
+    "question": "Peut-on être heureux sans objectifs ?"
+  },
+  {
+    "id": "classiques_209",
+    "question": "Les réseaux sociaux faussent-ils l’estime de soi ?"
+  },
+  {
+    "id": "classiques_210",
+    "question": "Le minimalisme rend-il plus libre ?"
+  },
+  {
+    "id": "classiques_211",
+    "question": "Accumuler des souvenirs est-il plus important qu’accumuler de l’argent ?"
+  },
+  {
+    "id": "classiques_212",
+    "question": "La routine est-elle nécessaire ?"
+  },
+  {
+    "id": "classiques_213",
+    "question": "Faut-il toujours finir ce que l’on commence ?"
+  },
+  {
+    "id": "classiques_214",
+    "question": "Être spontané est-il risqué ?"
+  },
+  {
+    "id": "classiques_215",
+    "question": "Le pardon libère-t-il toujours ?"
+  },
+  {
+    "id": "classiques_216",
+    "question": "Les secrets protègent-ils ou détruisent-ils ?"
+  },
+  {
+    "id": "classiques_217",
+    "question": "Peut-on être ami avec quelqu’un de très différent ?"
+  },
+  {
+    "id": "classiques_218",
+    "question": "Les compromis sont-ils essentiels dans la vie ?"
+  },
+  {
+    "id": "classiques_219",
+    "question": "L’amour peut-il survivre sans confiance totale ?"
+  },
+  {
+    "id": "classiques_220",
+    "question": "Faut-il tout partager dans un couple, y compris ses pensées les plus sombres ?"
+  },
+  {
+    "id": "classiques_221",
+    "question": "Un couple doit-il avoir des projets communs pour durer ?"
+  },
+  {
+    "id": "classiques_222",
+    "question": "Peut-on aimer quelqu’un sans l’admirer ?"
+  },
+  {
+    "id": "classiques_223",
+    "question": "Le manque de communication est-il la première cause des ruptures ?"
+  },
+  {
+    "id": "classiques_224",
+    "question": "L’amour est-il un choix quotidien ou un sentiment spontané ?"
+  },
+  {
+    "id": "classiques_225",
+    "question": "Peut-on aimer sincèrement après une grosse trahison ?"
+  },
+  {
+    "id": "classiques_226",
+    "question": "Un couple peut-il survivre sans intimité physique ?"
+  },
+  {
+    "id": "classiques_227",
+    "question": "La routine détruit-elle forcément le désir ?"
+  },
+  {
+    "id": "classiques_228",
+    "question": "La jalousie est-elle toujours toxique ?"
+  },
+  {
+    "id": "classiques_229",
+    "question": "Regarder le téléphone de son/sa partenaire est-il inacceptable ?"
+  },
+  {
+    "id": "classiques_230",
+    "question": "Peut-on pardonner une infidélité émotionnelle ?"
+  },
+  {
+    "id": "classiques_231",
+    "question": "L’infidélité détruit-elle toujours un couple ?"
+  },
+  {
+    "id": "classiques_232",
+    "question": "Un flirt est-il déjà une trahison ?"
+  },
+  {
+    "id": "classiques_233",
+    "question": "Faut-il avouer une faute si personne ne la découvrira ?"
+  },
+  {
+    "id": "classiques_234",
+    "question": "Peut-on rester ami avec une personne avec qui on a trompé ?"
+  },
+  {
+    "id": "classiques_235",
+    "question": "La fidélité est-elle naturelle ou culturelle ?"
+  },
+  {
+    "id": "classiques_236",
+    "question": "Un couple ouvert peut-il fonctionner durablement ?"
+  },
+  {
+    "id": "classiques_237",
+    "question": "Les réseaux sociaux favorisent-ils l’infidélité ?"
+  },
+  {
+    "id": "classiques_238",
+    "question": "Le mariage est-il encore utile aujourd’hui ?"
+  },
+  {
+    "id": "classiques_239",
+    "question": "Se marier par tradition est-il une mauvaise raison ?"
+  },
+  {
+    "id": "classiques_240",
+    "question": "Un mariage sans amour peut-il fonctionner ?"
+  },
+  {
+    "id": "classiques_241",
+    "question": "Le mariage protège-t-il vraiment un couple ?"
+  },
+  {
+    "id": "classiques_242",
+    "question": "Un contrat prénuptial est-il un manque de confiance ?"
+  },
+  {
+    "id": "classiques_243",
+    "question": "Le divorce est-il trop banalisé ?"
+  },
+  {
+    "id": "classiques_244",
+    "question": "Peut-on s’engager pour la vie à 20 ans ?"
+  },
+  {
+    "id": "classiques_245",
+    "question": "Le mariage change-t-il réellement la dynamique d’un couple ?"
+  },
+  {
+    "id": "classiques_246",
+    "question": "Un couple peut-il être aussi solide sans mariage ?"
+  },
+  {
+    "id": "classiques_247",
+    "question": "Faut-il avoir une situation stable avant d’avoir un enfant ?"
+  },
+  {
+    "id": "classiques_248",
+    "question": "Peut-on être heureux sans vouloir d’enfant ?"
+  },
+  {
+    "id": "classiques_249",
+    "question": "Un parent doit-il être strict ou compréhensif ?"
+  },
+  {
+    "id": "classiques_250",
+    "question": "Les parents doivent-ils tout sacrifier pour leurs enfants ?"
+  },
+  {
+    "id": "classiques_251",
+    "question": "Peut-on aimer tous ses enfants de la même façon ?"
+  },
+  {
+    "id": "classiques_252",
+    "question": "Faut-il imposer des règles strictes aux adolescents ?"
+  },
+  {
+    "id": "classiques_253",
+    "question": "Les écrans sont-ils le plus grand danger pour les enfants ?"
+  },
+  {
+    "id": "classiques_254",
+    "question": "Les parents doivent-ils surveiller les réseaux sociaux de leurs enfants ?"
+  },
+  {
+    "id": "classiques_255",
+    "question": "L’éducation doit-elle être plus sévère aujourd’hui ?"
+  },
+  {
+    "id": "classiques_256",
+    "question": "Les grands-parents doivent-ils intervenir dans l’éducation ?"
+  },
+  {
+    "id": "classiques_257",
+    "question": "Faut-il couper les ponts avec un membre toxique de la famille ?"
+  },
+  {
+    "id": "classiques_258",
+    "question": "La famille doit-elle passer avant tout ?"
+  },
+  {
+    "id": "classiques_259",
+    "question": "Les repas de famille renforcent-ils vraiment les liens ?"
+  },
+  {
+    "id": "classiques_260",
+    "question": "Peut-on aimer sa famille sans l’apprécier ?"
+  },
+  {
+    "id": "classiques_261",
+    "question": "Les secrets de famille doivent-ils toujours être révélés ?"
+  },
+  {
+    "id": "classiques_262",
+    "question": "Faut-il pardonner à un parent absent ?"
+  },
+  {
+    "id": "classiques_263",
+    "question": "La famille influence-t-elle trop nos choix amoureux ?"
+  },
+  {
+    "id": "classiques_264",
+    "question": "Peut-on être heureux loin de sa famille ?"
+  },
+  {
+    "id": "classiques_265",
+    "question": "Les traditions familiales sont-elles importantes ?"
+  },
+  {
+    "id": "classiques_266",
+    "question": "Les applications de rencontre facilitent-elles l’amour ou le compliquent-elles ?"
+  },
+  {
+    "id": "classiques_267",
+    "question": "Peut-on tomber amoureux en ligne ?"
+  },
+  {
+    "id": "classiques_268",
+    "question": "Les relations à distance peuvent-elles durer ?"
+  },
+  {
+    "id": "classiques_269",
+    "question": "Les réseaux sociaux fragilisent-ils les couples ?"
+  },
+  {
+    "id": "classiques_270",
+    "question": "Publier son couple en ligne est-il une bonne idée ?"
+  },
+  {
+    "id": "classiques_271",
+    "question": "Un couple doit-il partager ses mots de passe ?"
+  },
+  {
+    "id": "classiques_272",
+    "question": "Les attentes amoureuses sont-elles trop élevées aujourd’hui ?"
+  },
+  {
+    "id": "classiques_273",
+    "question": "Le romantisme est-il en voie de disparition ?"
+  },
+  {
+    "id": "classiques_274",
+    "question": "Les relations modernes sont-elles moins solides qu’avant ?"
+  },
+  {
+    "id": "classiques_275",
+    "question": "Peut-on aimer sans étiquette officielle ?"
+  },
+  {
+    "id": "classiques_276",
+    "question": "Les opposés s’attirent-ils vraiment sur le long terme ?"
+  },
+  {
+    "id": "classiques_277",
+    "question": "Les différences religieuses fragilisent-elles un couple ?"
+  },
+  {
+    "id": "classiques_278",
+    "question": "Les différences politiques empêchent-elles l’amour ?"
+  },
+  {
+    "id": "classiques_279",
+    "question": "L’écart d’âge est-il un problème ?"
+  },
+  {
+    "id": "classiques_280",
+    "question": "Un couple peut-il durer sans intérêts communs ?"
+  },
+  {
+    "id": "classiques_281",
+    "question": "Un couple doit-il avoir le même niveau d’ambition ?"
+  },
+  {
+    "id": "classiques_282",
+    "question": "Peut-on aimer quelqu’un qui veut une vie totalement différente ?"
+  },
+  {
+    "id": "classiques_283",
+    "question": "Les différences financières créent-elles un déséquilibre ?"
+  },
+  {
+    "id": "classiques_284",
+    "question": "Faut-il accepter totalement la famille de l’autre ?"
+  },
+  {
+    "id": "classiques_285",
+    "question": "Rester pour les enfants est-il une bonne décision ?"
+  },
+  {
+    "id": "classiques_286",
+    "question": "Peut-on être ami avec son ex ?"
+  },
+  {
+    "id": "classiques_287",
+    "question": "Couper tout contact après une rupture est-il nécessaire ?"
+  },
+  {
+    "id": "classiques_288",
+    "question": "Une rupture peut-elle être bénéfique ?"
+  },
+  {
+    "id": "classiques_289",
+    "question": "Peut-on aimer encore quelqu’un et le quitter ?"
+  },
+  {
+    "id": "classiques_290",
+    "question": "La souffrance après une rupture est-elle inévitable ?"
+  },
+  {
+    "id": "classiques_291",
+    "question": "Revenir avec son ex est-il une erreur ?"
+  },
+  {
+    "id": "classiques_292",
+    "question": "Le temps guérit-il vraiment toutes les blessures amoureuses ?"
+  },
+  {
+    "id": "classiques_293",
+    "question": "Les ruptures rendent-elles plus fort ?"
+  },
+  {
+    "id": "classiques_294",
+    "question": "Faut-il se battre pour sauver un couple à tout prix ?"
+  },
+  {
+    "id": "classiques_295",
+    "question": "Peut-on aimer quelqu’un qui ne nous respecte pas ?"
+  },
+  {
+    "id": "classiques_296",
+    "question": "Peut-on être heureux seul toute sa vie ?"
+  },
+  {
+    "id": "classiques_297",
+    "question": "L’amour rend-il vulnérable ou plus fort ?"
+  },
+  {
+    "id": "classiques_298",
+    "question": "Le bonheur dépend-il du couple ?"
+  },
+  {
+    "id": "classiques_299",
+    "question": "Peut-on changer par amour ?"
+  },
+  {
+    "id": "classiques_300",
+    "question": "Un couple doit-il tout affronter ensemble ?"
+  },
+  {
+    "id": "classiques_301",
+    "question": "Le sacrifice est-il une preuve d’amour ?"
+  },
+  {
+    "id": "classiques_302",
+    "question": "Un amour passionnel est-il forcément instable ?"
+  },
+  {
+    "id": "classiques_303",
+    "question": "Si ton partenaire gagne beaucoup plus d’argent que toi, est-ce un problème ?"
+  },
+  {
+    "id": "classiques_304",
+    "question": "Si ton partenaire veut déménager loin, dois-tu suivre ?"
+  },
+  {
+    "id": "classiques_305",
+    "question": "Si ton partenaire ne veut pas d’enfant, faut-il partir ?"
+  },
+  {
+    "id": "classiques_306",
+    "question": "Si ton partenaire change radicalement de personnalité, restes-tu ?"
+  },
+  {
+    "id": "classiques_307",
+    "question": "Si ton partenaire traverse une dépression longue, peux-tu tenir ?"
+  },
+  {
+    "id": "classiques_308",
+    "question": "Si la belle-famille est toxique, faut-il rompre ?"
+  },
+  {
+    "id": "classiques_309",
+    "question": "Si l’amour disparaît mais le respect reste, faut-il continuer ?"
+  },
+  {
+    "id": "classiques_310",
+    "question": "Si ton partenaire ment une seule fois, peux-tu encore lui faire confiance ?"
+  },
+  {
+    "id": "classiques_311",
+    "question": "Si la passion disparaît mais l’amitié reste, est-ce suffisant ?"
+  },
+  {
+    "id": "classiques_312",
+    "question": "Si tout va bien sauf un point important, faut-il accepter ?"
+  },
+  {
+    "id": "classiques_313",
+    "question": "Faut-il se coucher en même temps que son/sa partenaire ?"
+  },
+  {
+    "id": "classiques_314",
+    "question": "Un couple doit-il avoir des activités séparées ?"
+  },
+  {
+    "id": "classiques_315",
+    "question": "Partager les tâches ménagères à 50/50 est-il réaliste ?"
+  },
+  {
+    "id": "classiques_316",
+    "question": "Faut-il fixer des règles claires dans un couple ?"
+  },
+  {
+    "id": "classiques_317",
+    "question": "Un couple doit-il tout planifier ensemble ?"
+  },
+  {
+    "id": "classiques_318",
+    "question": "Est-il important de garder des moments entre amis sans son/sa partenaire ?"
+  },
+  {
+    "id": "classiques_319",
+    "question": "Les petites attentions comptent-elles plus que les grandes déclarations ?"
+  },
+  {
+    "id": "classiques_320",
+    "question": "Un couple doit-il avoir un compte bancaire commun ?"
+  },
+  {
+    "id": "classiques_321",
+    "question": "Les disputes doivent-elles être réglées immédiatement ?"
+  },
+  {
+    "id": "classiques_322",
+    "question": "Vivre ensemble trop tôt fragilise-t-il une relation ?"
+  },
+  {
+    "id": "classiques_323",
+    "question": "Faut-il tout dire même si cela peut blesser ?"
+  },
+  {
+    "id": "classiques_324",
+    "question": "Les non-dits protègent-ils parfois la relation ?"
+  },
+  {
+    "id": "classiques_325",
+    "question": "Exprimer sa jalousie est-il sain ?"
+  },
+  {
+    "id": "classiques_326",
+    "question": "Un couple doit-il consulter un thérapeute en cas de crise ?"
+  },
+  {
+    "id": "classiques_327",
+    "question": "Les messages écrits créent-ils plus de malentendus ?"
+  },
+  {
+    "id": "classiques_328",
+    "question": "Faut-il toujours demander pardon même si l’on pense avoir raison ?"
+  },
+  {
+    "id": "classiques_329",
+    "question": "Parler d’argent dès le début est-il nécessaire ?"
+  },
+  {
+    "id": "classiques_330",
+    "question": "Les excuses suffisent-elles à réparer une blessure ?"
+  },
+  {
+    "id": "classiques_331",
+    "question": "Un couple peut-il fonctionner sans discussions profondes ?"
+  },
+  {
+    "id": "classiques_332",
+    "question": "La communication est-elle plus importante que la passion ?"
+  },
+  {
+    "id": "classiques_333",
+    "question": "Faut-il avoir les mêmes objectifs de vie pour durer ?"
+  },
+  {
+    "id": "classiques_334",
+    "question": "Un couple doit-il planifier son avenir très tôt ?"
+  },
+  {
+    "id": "classiques_335",
+    "question": "Changer pour faire plaisir à son/sa partenaire est-il acceptable ?"
+  },
+  {
+    "id": "classiques_336",
+    "question": "Les compromis sont-ils la base d’un couple solide ?"
+  },
+  {
+    "id": "classiques_337",
+    "question": "Un couple doit-il partager les mêmes valeurs morales ?"
+  },
+  {
+    "id": "classiques_338",
+    "question": "Peut-on construire un avenir sans certitudes ?"
+  },
+  {
+    "id": "classiques_339",
+    "question": "L’indépendance est-elle compatible avec l’engagement ?"
+  },
+  {
+    "id": "classiques_340",
+    "question": "Un couple doit-il fixer des projets communs chaque année ?"
+  },
+  {
+    "id": "classiques_341",
+    "question": "Le soutien mutuel est-il plus important que l’amour ?"
+  },
+  {
+    "id": "classiques_342",
+    "question": "Peut-on évoluer différemment et rester ensemble ?"
+  },
+  {
+    "id": "classiques_343",
+    "question": "Faut-il privilégier l’autorité ou le dialogue avec un enfant ?"
+  },
+  {
+    "id": "classiques_344",
+    "question": "Les punitions sont-elles nécessaires dans l’éducation ?"
+  },
+  {
+    "id": "classiques_345",
+    "question": "Un enfant doit-il participer aux tâches ménagères ?"
+  },
+  {
+    "id": "classiques_346",
+    "question": "Les devoirs à la maison sont-ils utiles ?"
+  },
+  {
+    "id": "classiques_347",
+    "question": "Les activités extrascolaires sont-elles trop nombreuses ?"
+  },
+  {
+    "id": "classiques_348",
+    "question": "Faut-il comparer ses enfants aux autres ?"
+  },
+  {
+    "id": "classiques_349",
+    "question": "Les parents doivent-ils surveiller les fréquentations ?"
+  },
+  {
+    "id": "classiques_350",
+    "question": "Donner de l’argent de poche est-il une bonne idée ?"
+  },
+  {
+    "id": "classiques_351",
+    "question": "Un enfant doit-il choisir seul ses études ?"
+  },
+  {
+    "id": "classiques_352",
+    "question": "Les écrans doivent-ils être strictement limités ?"
+  },
+  {
+    "id": "classiques_353",
+    "question": "Faut-il voir sa famille régulièrement par obligation ?"
+  },
+  {
+    "id": "classiques_354",
+    "question": "Les traditions familiales renforcent-elles les liens ?"
+  },
+  {
+    "id": "classiques_355",
+    "question": "Partager les vacances en famille est-il essentiel ?"
+  },
+  {
+    "id": "classiques_356",
+    "question": "Les conflits familiaux doivent-ils être réglés publiquement ?"
+  },
+  {
+    "id": "classiques_357",
+    "question": "Faut-il toujours inviter toute la famille aux événements ?"
+  },
+  {
+    "id": "classiques_358",
+    "question": "Peut-on refuser une réunion de famille sans culpabiliser ?"
+  },
+  {
+    "id": "classiques_359",
+    "question": "Les secrets de famille doivent-ils rester secrets ?"
+  },
+  {
+    "id": "classiques_360",
+    "question": "Les différences politiques doivent-elles être évitées en famille ?"
+  },
+  {
+    "id": "classiques_361",
+    "question": "Les amis peuvent-ils remplacer la famille ?"
+  },
+  {
+    "id": "classiques_362",
+    "question": "La famille influence-t-elle trop nos choix professionnels ?"
+  },
+  {
+    "id": "classiques_363",
+    "question": "Peut-on garder les mêmes amis toute sa vie ?"
+  },
+  {
+    "id": "classiques_364",
+    "question": "Les amitiés d’enfance sont-elles les plus sincères ?"
+  },
+  {
+    "id": "classiques_365",
+    "question": "Faut-il dire la vérité à un ami même si cela le blesse ?"
+  },
+  {
+    "id": "classiques_366",
+    "question": "Un ami doit-il toujours prendre notre défense ?"
+  },
+  {
+    "id": "classiques_367",
+    "question": "Les amitiés à distance peuvent-elles durer ?"
+  },
+  {
+    "id": "classiques_368",
+    "question": "Un couple doit-il partager les mêmes amis ?"
+  },
+  {
+    "id": "classiques_369",
+    "question": "Faut-il couper les ponts avec un ami toxique ?"
+  },
+  {
+    "id": "classiques_370",
+    "question": "L’amitié est-elle plus stable que l’amour ?"
+  },
+  {
+    "id": "classiques_371",
+    "question": "Les réseaux sociaux renforcent-ils vraiment les amitiés ?"
+  },
+  {
+    "id": "classiques_372",
+    "question": "Faut-il privilégier son bonheur personnel avant celui des autres ?"
+  },
+  {
+    "id": "classiques_373",
+    "question": "Le temps seul est-il indispensable dans une relation ?"
+  },
+  {
+    "id": "classiques_374",
+    "question": "Peut-on être épanoui sans reconnaissance ?"
+  },
+  {
+    "id": "classiques_375",
+    "question": "L’équilibre vie pro / vie perso est-il atteignable ?"
+  },
+  {
+    "id": "classiques_376",
+    "question": "Les objectifs personnels doivent-ils passer avant le couple ?"
+  },
+  {
+    "id": "classiques_377",
+    "question": "Le développement personnel améliore-t-il les relations ?"
+  },
+  {
+    "id": "classiques_378",
+    "question": "Changer de ville pour se retrouver est-il une bonne idée ?"
+  },
+  {
+    "id": "classiques_379",
+    "question": "Les passions individuelles renforcent-elles le couple ?"
+  },
+  {
+    "id": "classiques_380",
+    "question": "Peut-on être heureux sans stabilité ?"
+  },
+  {
+    "id": "classiques_381",
+    "question": "Les habitudes sont-elles rassurantes ?"
+  },
+  {
+    "id": "classiques_382",
+    "question": "Faut-il parler d’argent dès le début d’une relation ?"
+  },
+  {
+    "id": "classiques_383",
+    "question": "Un couple doit-il avoir un budget commun ?"
+  },
+  {
+    "id": "classiques_384",
+    "question": "Les différences de revenus créent-elles un déséquilibre ?"
+  },
+  {
+    "id": "classiques_385",
+    "question": "Prêter de l’argent à la famille est-il risqué ?"
+  },
+  {
+    "id": "classiques_386",
+    "question": "Faut-il tout partager financièrement ?"
+  },
+  {
+    "id": "classiques_387",
+    "question": "Économiser est-il plus important que profiter ?"
+  },
+  {
+    "id": "classiques_388",
+    "question": "Les dépenses impulsives créent-elles des tensions ?"
+  },
+  {
+    "id": "classiques_389",
+    "question": "Un couple doit-il fixer des objectifs financiers ?"
+  },
+  {
+    "id": "classiques_390",
+    "question": "L’argent est-il une cause majeure de disputes ?"
+  },
+  {
+    "id": "classiques_391",
+    "question": "La transparence financière est-elle indispensable ?"
+  },
+  {
+    "id": "classiques_392",
+    "question": "Peut-on rester amoureux après 20 ans ?"
+  },
+  {
+    "id": "classiques_393",
+    "question": "La routine est-elle inévitable dans un couple ?"
+  },
+  {
+    "id": "classiques_394",
+    "question": "Les petites disputes renforcent-elles la relation ?"
+  },
+  {
+    "id": "classiques_395",
+    "question": "Faut-il célébrer chaque anniversaire de rencontre ?"
+  },
+  {
+    "id": "classiques_396",
+    "question": "Un couple doit-il se surprendre régulièrement ?"
+  },
+  {
+    "id": "classiques_397",
+    "question": "Les projets communs renforcent-ils l’attachement ?"
+  },
+  {
+    "id": "classiques_398",
+    "question": "Peut-on aimer sans passion ?"
+  },
+  {
+    "id": "classiques_399",
+    "question": "Le respect est-il plus important que l’amour ?"
+  },
+  {
+    "id": "classiques_400",
+    "question": "Un couple solide doit-il affronter des épreuves ?"
+  },
+  {
+    "id": "classiques_401",
+    "question": "Le temps renforce-t-il toujours les sentiments ?"
+  },
+  {
+    "id": "classiques_402",
+    "question": "Faut-il privilégier la stabilité ou l’aventure ?"
+  },
+  {
+    "id": "classiques_403",
+    "question": "Vivre près de sa famille est-il important ?"
+  },
+  {
+    "id": "classiques_404",
+    "question": "Changer de pays pour une relation est-il raisonnable ?"
+  },
+  {
+    "id": "classiques_405",
+    "question": "Un couple doit-il acheter un bien immobilier ensemble ?"
+  },
+  {
+    "id": "classiques_406",
+    "question": "Les voyages renforcent-ils une relation ?"
+  },
+  {
+    "id": "classiques_407",
+    "question": "Peut-on construire une vie commune sans mariage ?"
+  },
+  {
+    "id": "classiques_408",
+    "question": "Le couple doit-il être la priorité absolue ?"
+  },
+  {
+    "id": "classiques_409",
+    "question": "Faut-il fixer des limites claires avec ses amis quand on est en couple ?"
+  },
+  {
+    "id": "classiques_410",
+    "question": "Peut-on rester indépendant dans une vie de famille ?"
+  },
+  {
+    "id": "classiques_411",
+    "question": "La confiance se construit-elle lentement ou rapidement ?"
+  },
+  {
+    "id": "classiques_412",
+    "question": "La ponctualité est-elle une marque de respect ?"
+  },
+  {
+    "id": "classiques_413",
+    "question": "Faut-il toujours tenir ses promesses ?"
+  },
+  {
+    "id": "classiques_414",
+    "question": "Dire non est-il plus difficile que dire oui ?"
+  },
+  {
+    "id": "classiques_415",
+    "question": "Le respect se mérite-t-il ou est-il automatique ?"
+  },
+  {
+    "id": "classiques_416",
+    "question": "Les habitudes sont-elles rassurantes ou limitantes ?"
+  },
+  {
+    "id": "classiques_417",
+    "question": "Peut-on réussir sans discipline ?"
+  },
+  {
+    "id": "classiques_418",
+    "question": "La gentillesse est-elle toujours récompensée ?"
+  },
+  {
+    "id": "classiques_419",
+    "question": "Faut-il exprimer toutes ses émotions ?"
+  },
+  {
+    "id": "classiques_420",
+    "question": "Le silence vaut-il parfois mieux qu’une explication ?"
+  },
+  {
+    "id": "classiques_421",
+    "question": "Les critiques font-elles progresser ?"
+  },
+  {
+    "id": "classiques_422",
+    "question": "Vaut-il mieux regretter d’avoir essayé ou de ne pas avoir tenté ?"
+  },
+  {
+    "id": "classiques_423",
+    "question": "Changer souvent d’avis est-il un signe d’ouverture ou d’instabilité ?"
+  },
+  {
+    "id": "classiques_424",
+    "question": "Faut-il suivre son intuition ?"
+  },
+  {
+    "id": "classiques_425",
+    "question": "Le confort empêche-t-il de grandir ?"
+  },
+  {
+    "id": "classiques_426",
+    "question": "Prendre des risques est-il indispensable pour réussir ?"
+  },
+  {
+    "id": "classiques_427",
+    "question": "Peut-on être heureux sans objectif précis ?"
+  },
+  {
+    "id": "classiques_428",
+    "question": "Les échecs sont-ils nécessaires pour évoluer ?"
+  },
+  {
+    "id": "classiques_429",
+    "question": "La stabilité est-elle sous-estimée ?"
+  },
+  {
+    "id": "classiques_430",
+    "question": "Faut-il privilégier la sécurité financière ?"
+  },
+  {
+    "id": "classiques_431",
+    "question": "Le bonheur est-il un choix ?"
+  },
+  {
+    "id": "classiques_432",
+    "question": "Un vrai ami doit-il tout accepter ?"
+  },
+  {
+    "id": "classiques_433",
+    "question": "L’amitié peut-elle survivre aux grandes distances ?"
+  },
+  {
+    "id": "classiques_434",
+    "question": "Faut-il confronter un ami quand il a tort ?"
+  },
+  {
+    "id": "classiques_435",
+    "question": "Les amitiés évoluent-elles forcément avec le temps ?"
+  },
+  {
+    "id": "classiques_436",
+    "question": "Peut-on avoir trop d’amis ?"
+  },
+  {
+    "id": "classiques_437",
+    "question": "Les amis doivent-ils se voir régulièrement ?"
+  },
+  {
+    "id": "classiques_438",
+    "question": "L’amitié est-elle plus simple que l’amour ?"
+  },
+  {
+    "id": "classiques_439",
+    "question": "Faut-il mélanger travail et amitié ?"
+  },
+  {
+    "id": "classiques_440",
+    "question": "Un ami doit-il être totalement honnête ?"
+  },
+  {
+    "id": "classiques_441",
+    "question": "Les réseaux sociaux remplacent-ils les vraies amitiés ?"
+  },
+  {
+    "id": "classiques_442",
+    "question": "Faut-il aimer son travail pour être heureux ?"
+  },
+  {
+    "id": "classiques_443",
+    "question": "La réussite professionnelle définit-elle la réussite personnelle ?"
+  },
+  {
+    "id": "classiques_444",
+    "question": "Un bon équilibre vie pro / vie perso est-il possible ?"
+  },
+  {
+    "id": "classiques_445",
+    "question": "Faut-il accepter un travail bien payé mais stressant ?"
+  },
+  {
+    "id": "classiques_446",
+    "question": "La passion doit-elle guider le choix de carrière ?"
+  },
+  {
+    "id": "classiques_447",
+    "question": "Changer de métier est-il un signe de courage ?"
+  },
+  {
+    "id": "classiques_448",
+    "question": "Le mérite est-il toujours récompensé ?"
+  },
+  {
+    "id": "classiques_449",
+    "question": "Faut-il viser toujours plus haut ?"
+  },
+  {
+    "id": "classiques_450",
+    "question": "Le travail en équipe est-il plus efficace ?"
+  },
+  {
+    "id": "classiques_451",
+    "question": "Les pauses augmentent-elles la productivité ?"
+  },
+  {
+    "id": "classiques_452",
+    "question": "Les smartphones améliorent-ils vraiment la communication ?"
+  },
+  {
+    "id": "classiques_453",
+    "question": "Les réseaux sociaux créent-ils une comparaison permanente ?"
+  },
+  {
+    "id": "classiques_454",
+    "question": "Faut-il limiter son temps d’écran ?"
+  },
+  {
+    "id": "classiques_455",
+    "question": "La technologie simplifie-t-elle réellement la vie ?"
+  },
+  {
+    "id": "classiques_456",
+    "question": "Les notifications perturbent-elles la concentration ?"
+  },
+  {
+    "id": "classiques_457",
+    "question": "Faut-il déconnecter régulièrement ?"
+  },
+  {
+    "id": "classiques_458",
+    "question": "Le numérique rapproche-t-il les générations ?"
+  },
+  {
+    "id": "classiques_459",
+    "question": "L’intelligence artificielle est-elle un progrès inévitable ?"
+  },
+  {
+    "id": "classiques_460",
+    "question": "La vie privée est-elle menacée ?"
+  },
+  {
+    "id": "classiques_461",
+    "question": "L’argent apporte-t-il la liberté ?"
+  },
+  {
+    "id": "classiques_462",
+    "question": "Faut-il épargner ou profiter du moment présent ?"
+  },
+  {
+    "id": "classiques_463",
+    "question": "Les achats impulsifs sont-ils toujours négatifs ?"
+  },
+  {
+    "id": "classiques_464",
+    "question": "Partager ses finances renforce-t-il la confiance ?"
+  },
+  {
+    "id": "classiques_465",
+    "question": "Les marques influencent-elles trop nos choix ?"
+  },
+  {
+    "id": "classiques_466",
+    "question": "Consommer moins rend-il plus heureux ?"
+  },
+  {
+    "id": "classiques_467",
+    "question": "L’apparence financière est-elle importante ?"
+  },
+  {
+    "id": "classiques_468",
+    "question": "Faut-il prêter de l’argent aux amis ?"
+  },
+  {
+    "id": "classiques_469",
+    "question": "L’argent est-il un sujet tabou ?"
+  },
+  {
+    "id": "classiques_470",
+    "question": "La réussite se mesure-t-elle au patrimoine ?"
+  },
+  {
+    "id": "classiques_471",
+    "question": "Les devoirs sont-ils utiles ?"
+  },
+  {
+    "id": "classiques_472",
+    "question": "Les notes reflètent-elles vraiment les compétences ?"
+  },
+  {
+    "id": "classiques_473",
+    "question": "Faut-il encourager la compétition à l’école ?"
+  },
+  {
+    "id": "classiques_474",
+    "question": "Les écrans devraient-ils être limités chez les enfants ?"
+  },
+  {
+    "id": "classiques_475",
+    "question": "L’école prépare-t-elle au monde réel ?"
+  },
+  {
+    "id": "classiques_476",
+    "question": "Les activités extrascolaires sont-elles essentielles ?"
+  },
+  {
+    "id": "classiques_477",
+    "question": "Les jeunes ont-ils plus de pression qu’avant ?"
+  },
+  {
+    "id": "classiques_478",
+    "question": "Faut-il laisser les enfants faire des erreurs ?"
+  },
+  {
+    "id": "classiques_479",
+    "question": "L’éducation doit-elle évoluer avec la société ?"
+  },
+  {
+    "id": "classiques_480",
+    "question": "Les parents doivent-ils surveiller les réseaux sociaux ?"
+  },
+  {
+    "id": "classiques_481",
+    "question": "Faut-il planifier ses journées à l’avance ?"
+  },
+  {
+    "id": "classiques_482",
+    "question": "La routine est-elle rassurante ?"
+  },
+  {
+    "id": "classiques_483",
+    "question": "Accumuler des souvenirs est-il plus important que des objets ?"
+  },
+  {
+    "id": "classiques_484",
+    "question": "Les surprises sont-elles toujours positives ?"
+  },
+  {
+    "id": "classiques_485",
+    "question": "Le rangement influence-t-il le bien-être ?"
+  },
+  {
+    "id": "classiques_486",
+    "question": "Le confort rend-il moins ambitieux ?"
+  },
+  {
+    "id": "classiques_487",
+    "question": "Le sport est-il indispensable pour être en bonne santé ?"
+  },
+  {
+    "id": "classiques_488",
+    "question": "Le sommeil est-il sous-estimé ?"
+  },
+  {
+    "id": "classiques_489",
+    "question": "Faut-il manger équilibré en permanence ?"
+  },
+  {
+    "id": "classiques_490",
+    "question": "La méditation améliore-t-elle vraiment le quotidien ?"
+  },
+  {
+    "id": "classiques_491",
+    "question": "Le stress est-il toujours négatif ?"
+  },
+  {
+    "id": "classiques_492",
+    "question": "Les pauses régulières améliorent-elles la concentration ?"
+  },
+  {
+    "id": "classiques_493",
+    "question": "Le bonheur dépend-il de la santé ?"
+  },
+  {
+    "id": "classiques_494",
+    "question": "Les habitudes alimentaires influencent-elles l’humeur ?"
+  },
+  {
+    "id": "classiques_495",
+    "question": "Faut-il privilégier la santé mentale ?"
+  },
+  {
+    "id": "classiques_496",
+    "question": "Le repos est-il aussi important que l’effort ?"
+  },
+  {
+    "id": "classiques_497",
+    "question": "La société est-elle trop individualiste ?"
+  }
+]

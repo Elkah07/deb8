@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "famille_001",
+    "question": "Les parents ont-ils toujours raison ?"
+  },
+  {
+    "id": "famille_002",
+    "question": "Les enfants devraient-ils participer aux décisions familiales ?"
+  },
+  {
+    "id": "famille_003",
+    "question": "Une règle sans explication est-elle juste ?"
+  },
+  {
+    "id": "famille_004",
+    "question": "Faut-il obéir même quand on n’est pas d’accord ?"
+  },
+  {
+    "id": "famille_005",
+    "question": "Les parents devraient-ils reconnaître leurs erreurs ?"
+  },
+  {
+    "id": "famille_006",
+    "question": "Les enfants ont-ils parfois plus de bon sens que les adultes ?"
+  },
+  {
+    "id": "famille_007",
+    "question": "Faut-il négocier les punitions ?"
+  },
+  {
+    "id": "famille_008",
+    "question": "Une punition est-elle plus efficace qu’une discussion ?"
+  },
+  {
+    "id": "famille_009",
+    "question": "Les règles devraient-elles évoluer avec l’âge ?"
+  },
+  {
+    "id": "famille_010",
+    "question": "Les parents devraient-ils demander l’avis des enfants plus souvent ?"
+  },
+  {
+    "id": "famille_011",
+    "question": "Les enfants devraient-ils avoir des responsabilités fixes ?"
+  },
+  {
+    "id": "famille_012",
+    "question": "Une règle injuste doit-elle être respectée ?"
+  },
+  {
+    "id": "famille_013",
+    "question": "Les parents sont-ils trop protecteurs aujourd’hui ?"
+  },
+  {
+    "id": "famille_014",
+    "question": "Les enfants comprennent-ils toujours les limites ?"
+  },
+  {
+    "id": "famille_015",
+    "question": "Une famille a-t-elle besoin de règles strictes ?"
+  },
+  {
+    "id": "famille_016",
+    "question": "Peut-on éduquer sans punir ?"
+  },
+  {
+    "id": "famille_017",
+    "question": "Les parents devraient-ils expliquer toutes leurs décisions ?"
+  },
+  {
+    "id": "famille_018",
+    "question": "Les enfants devraient-ils pouvoir contester une règle ?"
+  },
+  {
+    "id": "famille_019",
+    "question": "L’autorité se mérite-t-elle ?"
+  },
+  {
+    "id": "famille_020",
+    "question": "Faut-il obéir par respect ou par peur ?"
+  },
+  {
+    "id": "famille_021",
+    "question": "Les parents ont-ils le droit de fouiller le téléphone ?"
+  },
+  {
+    "id": "famille_022",
+    "question": "Les enfants doivent-ils toujours dire la vérité ?"
+  },
+  {
+    "id": "famille_023",
+    "question": "Les règles devraient-elles être les mêmes pour tous les enfants ?"
+  },
+  {
+    "id": "famille_024",
+    "question": "Les parents devraient-ils être plus flexibles ?"
+  },
+  {
+    "id": "famille_025",
+    "question": "Un parent peut-il être aussi un ami ?"
+  },
+  {
+    "id": "famille_026",
+    "question": "Les enfants comprennent-ils vraiment les sacrifices des parents ?"
+  },
+  {
+    "id": "famille_027",
+    "question": "Faut-il adapter les règles à chaque enfant ?"
+  },
+  {
+    "id": "famille_028",
+    "question": "Les parents devraient-ils montrer l’exemple en tout ?"
+  },
+  {
+    "id": "famille_029",
+    "question": "Une famille sans règles peut-elle fonctionner ?"
+  },
+  {
+    "id": "famille_030",
+    "question": "Les enfants devraient-ils participer aux tâches ménagères ?"
+  },
+  {
+    "id": "famille_031",
+    "question": "Les parents devraient-ils fixer un couvre-feu strict ?"
+  },
+  {
+    "id": "famille_032",
+    "question": "Une punition collective est-elle juste ?"
+  },
+  {
+    "id": "famille_033",
+    "question": "Les enfants devraient-ils choisir leurs activités ?"
+  },
+  {
+    "id": "famille_034",
+    "question": "Les parents doivent-ils toujours être cohérents ?"
+  },
+  {
+    "id": "famille_035",
+    "question": "Peut-on apprendre sans contraintes ?"
+  },
+  {
+    "id": "famille_036",
+    "question": "Les règles protègent-elles ou limitent-elles ?"
+  },
+  {
+    "id": "famille_037",
+    "question": "Les enfants devraient-ils avoir un droit de veto ?"
+  },
+  {
+    "id": "famille_038",
+    "question": "L’autorité change-t-elle avec la confiance ?"
+  },
+  {
+    "id": "famille_039",
+    "question": "Les parents devraient-ils expliquer leurs propres erreurs ?"
+  },
+  {
+    "id": "famille_040",
+    "question": "Faut-il toujours respecter les décisions familiales ?"
+  },
+  {
+    "id": "famille_041",
+    "question": "Les enfants devraient-ils gérer une petite somme d’argent ?"
+  },
+  {
+    "id": "famille_042",
+    "question": "Les parents doivent-ils tout savoir ?"
+  },
+  {
+    "id": "famille_043",
+    "question": "Une règle doit-elle être la même à la maison et ailleurs ?"
+  },
+  {
+    "id": "famille_044",
+    "question": "Les enfants devraient-ils participer aux choix de vacances ?"
+  },
+  {
+    "id": "famille_045",
+    "question": "Faut-il imposer des horaires fixes ?"
+  },
+  {
+    "id": "famille_046",
+    "question": "Les parents devraient-ils laisser plus d’autonomie ?"
+  },
+  {
+    "id": "famille_047",
+    "question": "Les enfants doivent-ils justifier leurs choix ?"
+  },
+  {
+    "id": "famille_048",
+    "question": "Une famille doit-elle fonctionner comme une équipe ?"
+  },
+  {
+    "id": "famille_049",
+    "question": "Les règles devraient-elles être votées en famille ?"
+  },
+  {
+    "id": "famille_050",
+    "question": "Les parents peuvent-ils changer d’avis sans perdre en crédibilité ?"
+  },
+  {
+    "id": "famille_051",
+    "question": "Les enfants doivent-ils aider sans qu’on leur demande ?"
+  },
+  {
+    "id": "famille_052",
+    "question": "Les parents devraient-ils écouter jusqu’au bout avant de juger ?"
+  },
+  {
+    "id": "famille_053",
+    "question": "Une règle peut-elle être négociable ?"
+  },
+  {
+    "id": "famille_054",
+    "question": "L’autorité vient-elle de l’âge ?"
+  },
+  {
+    "id": "famille_055",
+    "question": "Les enfants doivent-ils participer aux décisions importantes ?"
+  },
+  {
+    "id": "famille_056",
+    "question": "Les parents doivent-ils toujours rester calmes ?"
+  },
+  {
+    "id": "famille_057",
+    "question": "Une sanction peut-elle être injuste sans le vouloir ?"
+  },
+  {
+    "id": "famille_058",
+    "question": "Les règles doivent-elles être écrites noir sur blanc ?"
+  },
+  {
+    "id": "famille_059",
+    "question": "Les enfants peuvent-ils apprendre à gérer un conflit familial ?"
+  },
+  {
+    "id": "famille_060",
+    "question": "Les parents devraient-ils admettre quand ils ont tort ?"
+  },
+  {
+    "id": "famille_061",
+    "question": "Les enfants doivent-ils respecter une règle qu’ils ne comprennent pas ?"
+  },
+  {
+    "id": "famille_062",
+    "question": "Les parents devraient-ils laisser les enfants se tromper ?"
+  },
+  {
+    "id": "famille_063",
+    "question": "Une règle trop stricte pousse-t-elle à mentir ?"
+  },
+  {
+    "id": "famille_064",
+    "question": "Les enfants devraient-ils avoir un espace privé inviolable ?"
+  },
+  {
+    "id": "famille_065",
+    "question": "Les parents doivent-ils surveiller les fréquentations ?"
+  },
+  {
+    "id": "famille_066",
+    "question": "Une famille a-t-elle besoin d’un “chef” ?"
+  },
+  {
+    "id": "famille_067",
+    "question": "Les enfants doivent-ils obéir même si un parent n’est pas d’accord avec l’autre ?"
+  },
+  {
+    "id": "famille_068",
+    "question": "Les règles doivent-elles être les mêmes selon l’âge ?"
+  },
+  {
+    "id": "famille_069",
+    "question": "Les parents devraient-ils consulter les enfants pour les grandes décisions ?"
+  },
+  {
+    "id": "famille_070",
+    "question": "L’autorité peut-elle être douce ?"
+  },
+  {
+    "id": "famille_071",
+    "question": "Les enfants doivent-ils mériter leur liberté ?"
+  },
+  {
+    "id": "famille_072",
+    "question": "Les parents doivent-ils protéger même contre l’expérience ?"
+  },
+  {
+    "id": "famille_073",
+    "question": "Une règle peut-elle être remise en question ?"
+  },
+  {
+    "id": "famille_074",
+    "question": "Les enfants doivent-ils être sanctionnés pour chaque erreur ?"
+  },
+  {
+    "id": "famille_075",
+    "question": "Les parents doivent-ils adapter leur autorité selon le caractère ?"
+  },
+  {
+    "id": "famille_076",
+    "question": "Une famille peut-elle fonctionner sans hiérarchie ?"
+  },
+  {
+    "id": "famille_077",
+    "question": "Les enfants doivent-ils comprendre les finances familiales ?"
+  },
+  {
+    "id": "famille_078",
+    "question": "Les parents doivent-ils être cohérents à tout prix ?"
+  },
+  {
+    "id": "famille_079",
+    "question": "Une règle peut-elle être injuste mais nécessaire ?"
+  },
+  {
+    "id": "famille_080",
+    "question": "Les enfants doivent-ils participer à l’organisation de la maison ?"
+  },
+  {
+    "id": "famille_081",
+    "question": "Les parents doivent-ils être exemplaires en tout ?"
+  },
+  {
+    "id": "famille_082",
+    "question": "Une sanction doit-elle être immédiate ?"
+  },
+  {
+    "id": "famille_083",
+    "question": "Les enfants doivent-ils apprendre par l’erreur ?"
+  },
+  {
+    "id": "famille_084",
+    "question": "Les parents doivent-ils faire confiance par défaut ?"
+  },
+  {
+    "id": "famille_085",
+    "question": "Une règle doit-elle être expliquée à chaque fois ?"
+  },
+  {
+    "id": "famille_086",
+    "question": "Les enfants doivent-ils accepter les décisions sans débat ?"
+  },
+  {
+    "id": "famille_087",
+    "question": "Les parents doivent-ils être plus fermes ou plus souples ?"
+  },
+  {
+    "id": "famille_088",
+    "question": "Une famille doit-elle fixer des limites claires ?"
+  },
+  {
+    "id": "famille_089",
+    "question": "Les enfants doivent-ils comprendre les conséquences ?"
+  },
+  {
+    "id": "famille_090",
+    "question": "Les parents doivent-ils écouter même s’ils ne sont pas d’accord ?"
+  },
+  {
+    "id": "famille_091",
+    "question": "Les règles doivent-elles évoluer avec le temps ?"
+  },
+  {
+    "id": "famille_092",
+    "question": "Les enfants doivent-ils avoir des responsabilités fixes ?"
+  },
+  {
+    "id": "famille_093",
+    "question": "Les parents doivent-ils justifier leurs interdictions ?"
+  },
+  {
+    "id": "famille_094",
+    "question": "Une famille peut-elle fonctionner sans compromis ?"
+  },
+  {
+    "id": "famille_095",
+    "question": "Les enfants doivent-ils participer aux discussions importantes ?"
+  },
+  {
+    "id": "famille_096",
+    "question": "Les parents doivent-ils adapter les règles selon la maturité ?"
+  },
+  {
+    "id": "famille_097",
+    "question": "Une règle injuste peut-elle créer de la révolte ?"
+  },
+  {
+    "id": "famille_098",
+    "question": "Les enfants doivent-ils apprendre à accepter les limites ?"
+  },
+  {
+    "id": "famille_099",
+    "question": "Les parents doivent-ils toujours avoir le dernier mot ?"
+  },
+  {
+    "id": "famille_100",
+    "question": "Une famille fonctionne-t-elle mieux avec dialogue ou autorité ?"
+  },
+  {
+    "id": "famille_101",
+    "question": "Les parents ont-ils toujours raison ?"
+  },
+  {
+    "id": "famille_102",
+    "question": "Les enfants devraient-ils participer aux décisions familiales ?"
+  },
+  {
+    "id": "famille_103",
+    "question": "Une règle sans explication est-elle juste ?"
+  },
+  {
+    "id": "famille_104",
+    "question": "Faut-il obéir même quand on n’est pas d’accord ?"
+  },
+  {
+    "id": "famille_105",
+    "question": "Les parents devraient-ils reconnaître leurs erreurs ?"
+  },
+  {
+    "id": "famille_106",
+    "question": "Les enfants ont-ils parfois plus de bon sens que les adultes ?"
+  },
+  {
+    "id": "famille_107",
+    "question": "Faut-il négocier les punitions ?"
+  },
+  {
+    "id": "famille_108",
+    "question": "Une punition est-elle plus efficace qu’une discussion ?"
+  },
+  {
+    "id": "famille_109",
+    "question": "Les règles devraient-elles évoluer avec l’âge ?"
+  },
+  {
+    "id": "famille_110",
+    "question": "Les parents devraient-ils demander l’avis des enfants plus souvent ?"
+  },
+  {
+    "id": "famille_111",
+    "question": "Les enfants devraient-ils avoir des responsabilités fixes ?"
+  },
+  {
+    "id": "famille_112",
+    "question": "Une règle injuste doit-elle être respectée ?"
+  },
+  {
+    "id": "famille_113",
+    "question": "Les parents sont-ils trop protecteurs aujourd’hui ?"
+  },
+  {
+    "id": "famille_114",
+    "question": "Les enfants comprennent-ils toujours les limites ?"
+  },
+  {
+    "id": "famille_115",
+    "question": "Une famille a-t-elle besoin de règles strictes ?"
+  },
+  {
+    "id": "famille_116",
+    "question": "Peut-on éduquer sans punir ?"
+  },
+  {
+    "id": "famille_117",
+    "question": "Les parents devraient-ils expliquer toutes leurs décisions ?"
+  },
+  {
+    "id": "famille_118",
+    "question": "Les enfants devraient-ils pouvoir contester une règle ?"
+  },
+  {
+    "id": "famille_119",
+    "question": "L’autorité se mérite-t-elle ?"
+  },
+  {
+    "id": "famille_120",
+    "question": "Faut-il obéir par respect ou par peur ?"
+  },
+  {
+    "id": "famille_121",
+    "question": "Les parents ont-ils le droit de fouiller le téléphone ?"
+  },
+  {
+    "id": "famille_122",
+    "question": "Les enfants doivent-ils toujours dire la vérité ?"
+  },
+  {
+    "id": "famille_123",
+    "question": "Les règles devraient-elles être les mêmes pour tous les enfants ?"
+  },
+  {
+    "id": "famille_124",
+    "question": "Les parents devraient-ils être plus flexibles ?"
+  },
+  {
+    "id": "famille_125",
+    "question": "Un parent peut-il être aussi un ami ?"
+  },
+  {
+    "id": "famille_126",
+    "question": "Les enfants comprennent-ils vraiment les sacrifices des parents ?"
+  },
+  {
+    "id": "famille_127",
+    "question": "Faut-il adapter les règles à chaque enfant ?"
+  },
+  {
+    "id": "famille_128",
+    "question": "Les parents devraient-ils montrer l’exemple en tout ?"
+  },
+  {
+    "id": "famille_129",
+    "question": "Une famille sans règles peut-elle fonctionner ?"
+  },
+  {
+    "id": "famille_130",
+    "question": "Les enfants devraient-ils participer aux tâches ménagères ?"
+  },
+  {
+    "id": "famille_131",
+    "question": "Les parents devraient-ils fixer un couvre-feu strict ?"
+  },
+  {
+    "id": "famille_132",
+    "question": "Une punition collective est-elle juste ?"
+  },
+  {
+    "id": "famille_133",
+    "question": "Les enfants devraient-ils choisir leurs activités ?"
+  },
+  {
+    "id": "famille_134",
+    "question": "Les parents doivent-ils toujours être cohérents ?"
+  },
+  {
+    "id": "famille_135",
+    "question": "Peut-on apprendre sans contraintes ?"
+  },
+  {
+    "id": "famille_136",
+    "question": "Les règles protègent-elles ou limitent-elles ?"
+  },
+  {
+    "id": "famille_137",
+    "question": "Les enfants devraient-ils avoir un droit de veto ?"
+  },
+  {
+    "id": "famille_138",
+    "question": "L’autorité change-t-elle avec la confiance ?"
+  },
+  {
+    "id": "famille_139",
+    "question": "Les parents devraient-ils expliquer leurs propres erreurs ?"
+  },
+  {
+    "id": "famille_140",
+    "question": "Faut-il toujours respecter les décisions familiales ?"
+  },
+  {
+    "id": "famille_141",
+    "question": "Les enfants devraient-ils gérer une petite somme d’argent ?"
+  },
+  {
+    "id": "famille_142",
+    "question": "Les parents doivent-ils tout savoir ?"
+  },
+  {
+    "id": "famille_143",
+    "question": "Une règle doit-elle être la même à la maison et ailleurs ?"
+  },
+  {
+    "id": "famille_144",
+    "question": "Les enfants devraient-ils participer aux choix de vacances ?"
+  },
+  {
+    "id": "famille_145",
+    "question": "Faut-il imposer des horaires fixes ?"
+  },
+  {
+    "id": "famille_146",
+    "question": "Les parents devraient-ils laisser plus d’autonomie ?"
+  },
+  {
+    "id": "famille_147",
+    "question": "Les enfants doivent-ils justifier leurs choix ?"
+  },
+  {
+    "id": "famille_148",
+    "question": "Une famille doit-elle fonctionner comme une équipe ?"
+  },
+  {
+    "id": "famille_149",
+    "question": "Les règles devraient-elles être votées en famille ?"
+  },
+  {
+    "id": "famille_150",
+    "question": "Les parents peuvent-ils changer d’avis sans perdre en crédibilité ?"
+  },
+  {
+    "id": "famille_151",
+    "question": "Les enfants doivent-ils aider sans qu’on leur demande ?"
+  },
+  {
+    "id": "famille_152",
+    "question": "Les parents devraient-ils écouter jusqu’au bout avant de juger ?"
+  },
+  {
+    "id": "famille_153",
+    "question": "Une règle peut-elle être négociable ?"
+  },
+  {
+    "id": "famille_154",
+    "question": "L’autorité vient-elle de l’âge ?"
+  },
+  {
+    "id": "famille_155",
+    "question": "Les enfants doivent-ils participer aux décisions importantes ?"
+  },
+  {
+    "id": "famille_156",
+    "question": "Les parents doivent-ils toujours rester calmes ?"
+  },
+  {
+    "id": "famille_157",
+    "question": "Une sanction peut-elle être injuste sans le vouloir ?"
+  },
+  {
+    "id": "famille_158",
+    "question": "Les règles doivent-elles être écrites noir sur blanc ?"
+  },
+  {
+    "id": "famille_159",
+    "question": "Les enfants peuvent-ils apprendre à gérer un conflit familial ?"
+  },
+  {
+    "id": "famille_160",
+    "question": "Les parents devraient-ils admettre quand ils ont tort ?"
+  },
+  {
+    "id": "famille_161",
+    "question": "Les enfants doivent-ils respecter une règle qu’ils ne comprennent pas ?"
+  },
+  {
+    "id": "famille_162",
+    "question": "Les parents devraient-ils laisser les enfants se tromper ?"
+  },
+  {
+    "id": "famille_163",
+    "question": "Une règle trop stricte pousse-t-elle à mentir ?"
+  },
+  {
+    "id": "famille_164",
+    "question": "Les enfants devraient-ils avoir un espace privé inviolable ?"
+  },
+  {
+    "id": "famille_165",
+    "question": "Les parents doivent-ils surveiller les fréquentations ?"
+  },
+  {
+    "id": "famille_166",
+    "question": "Une famille a-t-elle besoin d’un “chef” ?"
+  },
+  {
+    "id": "famille_167",
+    "question": "Les enfants doivent-ils obéir même si un parent n’est pas d’accord avec l’autre ?"
+  },
+  {
+    "id": "famille_168",
+    "question": "Les règles doivent-elles être les mêmes selon l’âge ?"
+  },
+  {
+    "id": "famille_169",
+    "question": "Les parents devraient-ils consulter les enfants pour les grandes décisions ?"
+  },
+  {
+    "id": "famille_170",
+    "question": "L’autorité peut-elle être douce ?"
+  },
+  {
+    "id": "famille_171",
+    "question": "Les enfants doivent-ils mériter leur liberté ?"
+  },
+  {
+    "id": "famille_172",
+    "question": "Les parents doivent-ils protéger même contre l’expérience ?"
+  },
+  {
+    "id": "famille_173",
+    "question": "Une règle peut-elle être remise en question ?"
+  },
+  {
+    "id": "famille_174",
+    "question": "Les enfants doivent-ils être sanctionnés pour chaque erreur ?"
+  },
+  {
+    "id": "famille_175",
+    "question": "Les parents doivent-ils adapter leur autorité selon le caractère ?"
+  },
+  {
+    "id": "famille_176",
+    "question": "Une famille peut-elle fonctionner sans hiérarchie ?"
+  },
+  {
+    "id": "famille_177",
+    "question": "Les enfants doivent-ils comprendre les finances familiales ?"
+  },
+  {
+    "id": "famille_178",
+    "question": "Les parents doivent-ils être cohérents à tout prix ?"
+  },
+  {
+    "id": "famille_179",
+    "question": "Une règle peut-elle être injuste mais nécessaire ?"
+  },
+  {
+    "id": "famille_180",
+    "question": "Les enfants doivent-ils participer à l’organisation de la maison ?"
+  },
+  {
+    "id": "famille_181",
+    "question": "Les parents doivent-ils être exemplaires en tout ?"
+  },
+  {
+    "id": "famille_182",
+    "question": "Une sanction doit-elle être immédiate ?"
+  },
+  {
+    "id": "famille_183",
+    "question": "Les enfants doivent-ils apprendre par l’erreur ?"
+  },
+  {
+    "id": "famille_184",
+    "question": "Les parents doivent-ils faire confiance par défaut ?"
+  },
+  {
+    "id": "famille_185",
+    "question": "Une règle doit-elle être expliquée à chaque fois ?"
+  },
+  {
+    "id": "famille_186",
+    "question": "Les enfants doivent-ils accepter les décisions sans débat ?"
+  },
+  {
+    "id": "famille_187",
+    "question": "Les parents doivent-ils être plus fermes ou plus souples ?"
+  },
+  {
+    "id": "famille_188",
+    "question": "Une famille doit-elle fixer des limites claires ?"
+  },
+  {
+    "id": "famille_189",
+    "question": "Les enfants doivent-ils comprendre les conséquences ?"
+  },
+  {
+    "id": "famille_190",
+    "question": "Les parents doivent-ils écouter même s’ils ne sont pas d’accord ?"
+  },
+  {
+    "id": "famille_191",
+    "question": "Les règles doivent-elles évoluer avec le temps ?"
+  },
+  {
+    "id": "famille_192",
+    "question": "Les enfants doivent-ils avoir des responsabilités fixes ?"
+  },
+  {
+    "id": "famille_193",
+    "question": "Les parents doivent-ils justifier leurs interdictions ?"
+  },
+  {
+    "id": "famille_194",
+    "question": "Une famille peut-elle fonctionner sans compromis ?"
+  },
+  {
+    "id": "famille_195",
+    "question": "Les enfants doivent-ils participer aux discussions importantes ?"
+  },
+  {
+    "id": "famille_196",
+    "question": "Les parents doivent-ils adapter les règles selon la maturité ?"
+  },
+  {
+    "id": "famille_197",
+    "question": "Une règle injuste peut-elle créer de la révolte ?"
+  },
+  {
+    "id": "famille_198",
+    "question": "Les enfants doivent-ils apprendre à accepter les limites ?"
+  },
+  {
+    "id": "famille_199",
+    "question": "Les parents doivent-ils toujours avoir le dernier mot ?"
+  },
+  {
+    "id": "famille_200",
+    "question": "Une famille fonctionne-t-elle mieux avec dialogue ou autorité ?"
+  },
+  {
+    "id": "famille_201",
+    "question": "Les enfants ont-ils un téléphone trop tôt ?"
+  },
+  {
+    "id": "famille_202",
+    "question": "Les parents passent-ils trop de temps sur leur écran ?"
+  },
+  {
+    "id": "famille_203",
+    "question": "Les écrans rapprochent-ils ou éloignent-ils la famille ?"
+  },
+  {
+    "id": "famille_204",
+    "question": "Faut-il interdire les téléphones à table ?"
+  },
+  {
+    "id": "famille_205",
+    "question": "Les réseaux sociaux influencent-ils les relations familiales ?"
+  },
+  {
+    "id": "famille_206",
+    "question": "Les parents comprennent-ils vraiment internet ?"
+  },
+  {
+    "id": "famille_207",
+    "question": "Les enfants comprennent-ils les dangers du numérique ?"
+  },
+  {
+    "id": "famille_208",
+    "question": "Faut-il limiter le temps d’écran pour tous ?"
+  },
+  {
+    "id": "famille_209",
+    "question": "Les jeux vidéo sont-ils une perte de temps ?"
+  },
+  {
+    "id": "famille_210",
+    "question": "La technologie rend-elle plus paresseux ?"
+  },
+  {
+    "id": "famille_211",
+    "question": "Les enfants apprennent-ils mieux grâce aux écrans ?"
+  },
+  {
+    "id": "famille_212",
+    "question": "Les parents devraient-ils montrer l’exemple avec leur téléphone ?"
+  },
+  {
+    "id": "famille_213",
+    "question": "Faut-il partager les mots de passe en famille ?"
+  },
+  {
+    "id": "famille_214",
+    "question": "Les écrans remplacent-ils les conversations ?"
+  },
+  {
+    "id": "famille_215",
+    "question": "Les parents exagèrent-ils les dangers d’internet ?"
+  },
+  {
+    "id": "famille_216",
+    "question": "Les enfants savent-ils mieux utiliser la technologie que les adultes ?"
+  },
+  {
+    "id": "famille_217",
+    "question": "Faut-il surveiller l’activité en ligne des enfants ?"
+  },
+  {
+    "id": "famille_218",
+    "question": "Les réseaux sociaux sont-ils nécessaires aujourd’hui ?"
+  },
+  {
+    "id": "famille_219",
+    "question": "Les jeux en ligne créent-ils de vraies amitiés ?"
+  },
+  {
+    "id": "famille_220",
+    "question": "La technologie rend-elle plus isolé ?"
+  },
+  {
+    "id": "famille_221",
+    "question": "Les parents doivent-ils fouiller les téléphones ?"
+  },
+  {
+    "id": "famille_222",
+    "question": "Les enfants devraient-ils avoir accès libre à internet ?"
+  },
+  {
+    "id": "famille_223",
+    "question": "Les écrans empêchent-ils de s’ennuyer utilement ?"
+  },
+  {
+    "id": "famille_224",
+    "question": "Les parents sont-ils dépassés par la technologie ?"
+  },
+  {
+    "id": "famille_225",
+    "question": "Les enfants comprennent-ils les risques des réseaux ?"
+  },
+  {
+    "id": "famille_226",
+    "question": "Faut-il fixer des horaires numériques pour toute la famille ?"
+  },
+  {
+    "id": "famille_227",
+    "question": "Les discussions en ligne remplacent-elles les vraies discussions ?"
+  },
+  {
+    "id": "famille_228",
+    "question": "Les écrans rendent-ils plus stressé ?"
+  },
+  {
+    "id": "famille_229",
+    "question": "Les parents critiquent-ils trop les jeux vidéo ?"
+  },
+  {
+    "id": "famille_230",
+    "question": "Les enfants passent-ils trop de temps connectés ?"
+  },
+  {
+    "id": "famille_231",
+    "question": "Faut-il couper le wifi la nuit ?"
+  },
+  {
+    "id": "famille_232",
+    "question": "Les parents utilisent-ils trop leur téléphone ?"
+  },
+  {
+    "id": "famille_233",
+    "question": "Les écrans peuvent-ils être éducatifs ?"
+  },
+  {
+    "id": "famille_234",
+    "question": "Les générations comprennent-elles leurs différences ?"
+  },
+  {
+    "id": "famille_235",
+    "question": "Faut-il interdire les réseaux avant un certain âge ?"
+  },
+  {
+    "id": "famille_236",
+    "question": "Les écrans empêchent-ils de profiter du moment présent ?"
+  },
+  {
+    "id": "famille_237",
+    "question": "Les parents doivent-ils apprendre des enfants sur la technologie ?"
+  },
+  {
+    "id": "famille_238",
+    "question": "Les enfants comprennent-ils l’importance de la vie privée ?"
+  },
+  {
+    "id": "famille_239",
+    "question": "La technologie rapproche-t-elle les générations ?"
+  },
+  {
+    "id": "famille_240",
+    "question": "Les écrans remplacent-ils les souvenirs ?"
+  },
+  {
+    "id": "famille_241",
+    "question": "Les parents devraient-ils jouer aux jeux vidéo avec leurs enfants ?"
+  },
+  {
+    "id": "famille_242",
+    "question": "Les enfants devraient-ils apprendre à coder tôt ?"
+  },
+  {
+    "id": "famille_243",
+    "question": "Faut-il imposer des règles numériques identiques pour tous ?"
+  },
+  {
+    "id": "famille_244",
+    "question": "Les écrans rendent-ils plus impatient ?"
+  },
+  {
+    "id": "famille_245",
+    "question": "Les parents comprennent-ils TikTok ?"
+  },
+  {
+    "id": "famille_246",
+    "question": "Les enfants comprennent-ils la valeur des données personnelles ?"
+  },
+  {
+    "id": "famille_247",
+    "question": "Les écrans favorisent-ils la créativité ?"
+  },
+  {
+    "id": "famille_248",
+    "question": "Les parents dramatisent-ils l’impact des réseaux ?"
+  },
+  {
+    "id": "famille_249",
+    "question": "Les enfants minimisent-ils les dangers ?"
+  },
+  {
+    "id": "famille_250",
+    "question": "Faut-il instaurer des moments “sans écran” obligatoires ?"
+  },
+  {
+    "id": "famille_251",
+    "question": "La technologie rend-elle plus dépendant ?"
+  },
+  {
+    "id": "famille_252",
+    "question": "Les parents doivent-ils être amis avec leurs enfants sur les réseaux ?"
+  },
+  {
+    "id": "famille_253",
+    "question": "Les enfants comprennent-ils les fake news ?"
+  },
+  {
+    "id": "famille_254",
+    "question": "Les écrans favorisent-ils l’apprentissage autonome ?"
+  },
+  {
+    "id": "famille_255",
+    "question": "Les parents devraient-ils faire confiance par défaut ?"
+  },
+  {
+    "id": "famille_256",
+    "question": "Les jeux vidéo peuvent-ils développer des compétences ?"
+  },
+  {
+    "id": "famille_257",
+    "question": "Les écrans diminuent-ils l’attention ?"
+  },
+  {
+    "id": "famille_258",
+    "question": "Les parents devraient-ils limiter aussi leur temps d’écran ?"
+  },
+  {
+    "id": "famille_259",
+    "question": "Les enfants comprennent-ils les conséquences d’un post ?"
+  },
+  {
+    "id": "famille_260",
+    "question": "La technologie rend-elle plus ouvert au monde ?"
+  },
+  {
+    "id": "famille_261",
+    "question": "Faut-il interdire le téléphone à l’école ?"
+  },
+  {
+    "id": "famille_262",
+    "question": "Les parents exagèrent-ils la dépendance aux écrans ?"
+  },
+  {
+    "id": "famille_263",
+    "question": "Les écrans remplacent-ils l’imagination ?"
+  },
+  {
+    "id": "famille_264",
+    "question": "Les enfants comprennent-ils les dangers du cyberharcèlement ?"
+  },
+  {
+    "id": "famille_265",
+    "question": "Les parents devraient-ils suivre les tendances numériques ?"
+  },
+  {
+    "id": "famille_266",
+    "question": "Les écrans favorisent-ils la solitude ?"
+  },
+  {
+    "id": "famille_267",
+    "question": "Les enfants savent-ils mieux gérer le numérique que les adultes ?"
+  },
+  {
+    "id": "famille_268",
+    "question": "La technologie crée-t-elle une barrière générationnelle ?"
+  },
+  {
+    "id": "famille_269",
+    "question": "Faut-il fixer un âge minimum pour les réseaux sociaux ?"
+  },
+  {
+    "id": "famille_270",
+    "question": "Les écrans sont-ils devenus indispensables ?"
+  },
+  {
+    "id": "famille_271",
+    "question": "Les parents doivent-ils interdire certains contenus ?"
+  },
+  {
+    "id": "famille_272",
+    "question": "Les enfants comprennent-ils la permanence d’internet ?"
+  },
+  {
+    "id": "famille_273",
+    "question": "Les écrans empêchent-ils les discussions familiales ?"
+  },
+  {
+    "id": "famille_274",
+    "question": "Les parents doivent-ils contrôler les applications ?"
+  },
+  {
+    "id": "famille_275",
+    "question": "Les enfants devraient-ils avoir des règles numériques claires ?"
+  },
+  {
+    "id": "famille_276",
+    "question": "Les écrans remplacent-ils les jeux traditionnels ?"
+  },
+  {
+    "id": "famille_277",
+    "question": "Les parents devraient-ils apprendre les codes numériques ?"
+  },
+  {
+    "id": "famille_278",
+    "question": "Les enfants comprennent-ils les risques de dépendance ?"
+  },
+  {
+    "id": "famille_279",
+    "question": "La technologie facilite-t-elle la communication familiale ?"
+  },
+  {
+    "id": "famille_280",
+    "question": "Les écrans sont-ils responsables des conflits familiaux ?"
+  },
+  {
+    "id": "famille_281",
+    "question": "Les parents devraient-ils donner l’exemple numérique ?"
+  },
+  {
+    "id": "famille_282",
+    "question": "Les enfants savent-ils mieux filtrer l’information ?"
+  },
+  {
+    "id": "famille_283",
+    "question": "Les écrans créent-ils des comparaisons inutiles ?"
+  },
+  {
+    "id": "famille_284",
+    "question": "Les parents devraient-ils imposer des pauses numériques ?"
+  },
+  {
+    "id": "famille_285",
+    "question": "Les enfants comprennent-ils l’impact de leurs publications ?"
+  },
+  {
+    "id": "famille_286",
+    "question": "La technologie rend-elle plus rapide mais moins profond ?"
+  },
+  {
+    "id": "famille_287",
+    "question": "Les parents sont-ils trop stricts avec les écrans ?"
+  },
+  {
+    "id": "famille_288",
+    "question": "Les enfants sont-ils trop confiants en ligne ?"
+  },
+  {
+    "id": "famille_289",
+    "question": "Les écrans favorisent-ils l’ouverture culturelle ?"
+  },
+  {
+    "id": "famille_290",
+    "question": "La technologie change-t-elle les valeurs familiales ?"
+  },
+  {
+    "id": "famille_291",
+    "question": "Les parents doivent-ils surveiller sans espionner ?"
+  },
+  {
+    "id": "famille_292",
+    "question": "Les enfants comprennent-ils la notion de trace numérique ?"
+  },
+  {
+    "id": "famille_293",
+    "question": "Les écrans réduisent-ils la patience ?"
+  },
+  {
+    "id": "famille_294",
+    "question": "Les parents devraient-ils s’adapter plus vite ?"
+  },
+  {
+    "id": "famille_295",
+    "question": "Les enfants devraient-ils apprendre la cybersécurité ?"
+  },
+  {
+    "id": "famille_296",
+    "question": "La technologie rapproche-t-elle les familles éloignées ?"
+  },
+  {
+    "id": "famille_297",
+    "question": "Les écrans sont-ils un outil ou un problème ?"
+  },
+  {
+    "id": "famille_298",
+    "question": "Les parents doivent-ils imposer des limites strictes ?"
+  },
+  {
+    "id": "famille_299",
+    "question": "Les enfants comprennent-ils les conséquences à long terme ?"
+  },
+  {
+    "id": "famille_300",
+    "question": "La technologie améliore-t-elle vraiment la vie familiale ?"
+  },
+  {
+    "id": "famille_301",
+    "question": "Faut-il réussir à l’école pour réussir sa vie ?"
+  },
+  {
+    "id": "famille_302",
+    "question": "Les parents mettent-ils trop de pression scolaire ?"
+  },
+  {
+    "id": "famille_303",
+    "question": "Les notes reflètent-elles vraiment l’intelligence ?"
+  },
+  {
+    "id": "famille_304",
+    "question": "Faut-il choisir un métier par passion ?"
+  },
+  {
+    "id": "famille_305",
+    "question": "La stabilité est-elle plus importante que le rêve ?"
+  },
+  {
+    "id": "famille_306",
+    "question": "Les parents devraient-ils influencer l’orientation ?"
+  },
+  {
+    "id": "famille_307",
+    "question": "L’échec est-il nécessaire pour apprendre ?"
+  },
+  {
+    "id": "famille_308",
+    "question": "Les enfants devraient-ils choisir leurs activités ?"
+  },
+  {
+    "id": "famille_309",
+    "question": "Les études longues garantissent-elles le succès ?"
+  },
+  {
+    "id": "famille_310",
+    "question": "La réussite est-elle différente pour chacun ?"
+  },
+  {
+    "id": "famille_311",
+    "question": "Faut-il privilégier un métier bien payé ?"
+  },
+  {
+    "id": "famille_312",
+    "question": "Les parents comprennent-ils la pression scolaire actuelle ?"
+  },
+  {
+    "id": "famille_313",
+    "question": "Les enfants devraient-ils travailler pendant les vacances ?"
+  },
+  {
+    "id": "famille_314",
+    "question": "La compétition motive-t-elle ou stresse-t-elle ?"
+  },
+  {
+    "id": "famille_315",
+    "question": "Les diplômes sont-ils indispensables ?"
+  },
+  {
+    "id": "famille_316",
+    "question": "Les parents devraient-ils accepter tous les choix d’orientation ?"
+  },
+  {
+    "id": "famille_317",
+    "question": "Faut-il viser l’excellence à tout prix ?"
+  },
+  {
+    "id": "famille_318",
+    "question": "Les talents artistiques sont-ils sous-estimés ?"
+  },
+  {
+    "id": "famille_319",
+    "question": "L’école prépare-t-elle vraiment à la vie ?"
+  },
+  {
+    "id": "famille_320",
+    "question": "Les parents devraient-ils encourager l’indépendance tôt ?"
+  },
+  {
+    "id": "famille_321",
+    "question": "Faut-il choisir un métier stable plutôt qu’un métier passion ?"
+  },
+  {
+    "id": "famille_322",
+    "question": "Les parents projettent-ils leurs rêves sur leurs enfants ?"
+  },
+  {
+    "id": "famille_323",
+    "question": "Les enfants devraient-ils apprendre la gestion de l’argent tôt ?"
+  },
+  {
+    "id": "famille_324",
+    "question": "Les études sont-elles la seule voie vers la réussite ?"
+  },
+  {
+    "id": "famille_325",
+    "question": "L’ambition est-elle toujours positive ?"
+  },
+  {
+    "id": "famille_326",
+    "question": "Les parents doivent-ils imposer un cadre strict ?"
+  },
+  {
+    "id": "famille_327",
+    "question": "Les enfants devraient-ils explorer plusieurs passions ?"
+  },
+  {
+    "id": "famille_328",
+    "question": "Le travail doit-il passer avant les loisirs ?"
+  },
+  {
+    "id": "famille_329",
+    "question": "Les parents comprennent-ils les nouvelles carrières numériques ?"
+  },
+  {
+    "id": "famille_330",
+    "question": "Faut-il écouter son instinct pour l’avenir ?"
+  },
+  {
+    "id": "famille_331",
+    "question": "La réussite dépend-elle plus de l’effort que du talent ?"
+  },
+  {
+    "id": "famille_332",
+    "question": "Les parents doivent-ils accepter les échecs scolaires ?"
+  },
+  {
+    "id": "famille_333",
+    "question": "Les enfants devraient-ils apprendre à gérer le stress tôt ?"
+  },
+  {
+    "id": "famille_334",
+    "question": "Les métiers traditionnels sont-ils plus sûrs ?"
+  },
+  {
+    "id": "famille_335",
+    "question": "Les études artistiques sont-elles risquées ?"
+  },
+  {
+    "id": "famille_336",
+    "question": "Les parents devraient-ils fixer des objectifs élevés ?"
+  },
+  {
+    "id": "famille_337",
+    "question": "Les enfants doivent-ils planifier leur avenir tôt ?"
+  },
+  {
+    "id": "famille_338",
+    "question": "Le bonheur est-il plus important que la réussite ?"
+  },
+  {
+    "id": "famille_339",
+    "question": "Les parents devraient-ils parler d’argent ouvertement ?"
+  },
+  {
+    "id": "famille_340",
+    "question": "Faut-il viser une carrière internationale ?"
+  },
+  {
+    "id": "famille_341",
+    "question": "Les enfants devraient-ils avoir le droit de se tromper ?"
+  },
+  {
+    "id": "famille_342",
+    "question": "Les parents doivent-ils encourager la prise de risque ?"
+  },
+  {
+    "id": "famille_343",
+    "question": "L’école valorise-t-elle tous les profils ?"
+  },
+  {
+    "id": "famille_344",
+    "question": "Les études sont-elles un investissement sûr ?"
+  },
+  {
+    "id": "famille_345",
+    "question": "Les parents doivent-ils surveiller les devoirs de près ?"
+  },
+  {
+    "id": "famille_346",
+    "question": "Les enfants devraient-ils apprendre à entreprendre ?"
+  },
+  {
+    "id": "famille_347",
+    "question": "Le talent naturel est-il plus important que le travail ?"
+  },
+  {
+    "id": "famille_348",
+    "question": "Les parents doivent-ils laisser l’enfant choisir seul ?"
+  },
+  {
+    "id": "famille_349",
+    "question": "La réussite est-elle subjective ?"
+  },
+  {
+    "id": "famille_350",
+    "question": "Faut-il accepter un métier simple pour être heureux ?"
+  },
+  {
+    "id": "famille_351",
+    "question": "Les parents doivent-ils parler de leurs propres échecs ?"
+  },
+  {
+    "id": "famille_352",
+    "question": "Les enfants devraient-ils travailler pour gagner de l’expérience ?"
+  },
+  {
+    "id": "famille_353",
+    "question": "Le système scolaire est-il adapté au monde actuel ?"
+  },
+  {
+    "id": "famille_354",
+    "question": "Les études supérieures sont-elles nécessaires ?"
+  },
+  {
+    "id": "famille_355",
+    "question": "Les parents devraient-ils fixer des limites strictes sur le temps libre ?"
+  },
+  {
+    "id": "famille_356",
+    "question": "Les enfants devraient-ils choisir leur orientation sans pression ?"
+  },
+  {
+    "id": "famille_357",
+    "question": "La réussite est-elle une question d’opportunités ?"
+  },
+  {
+    "id": "famille_358",
+    "question": "Les parents doivent-ils valoriser l’effort plus que le résultat ?"
+  },
+  {
+    "id": "famille_359",
+    "question": "Les enfants doivent-ils comprendre les sacrifices financiers ?"
+  },
+  {
+    "id": "famille_360",
+    "question": "Faut-il privilégier la sécurité financière ?"
+  },
+  {
+    "id": "famille_361",
+    "question": "Les parents doivent-ils accepter un parcours atypique ?"
+  },
+  {
+    "id": "famille_362",
+    "question": "Les enfants devraient-ils apprendre des compétences pratiques ?"
+  },
+  {
+    "id": "famille_363",
+    "question": "L’avenir est-il plus incertain qu’avant ?"
+  },
+  {
+    "id": "famille_364",
+    "question": "Les parents devraient-ils encourager l’expatriation ?"
+  },
+  {
+    "id": "famille_365",
+    "question": "Les enfants doivent-ils choisir un métier qui a du sens ?"
+  },
+  {
+    "id": "famille_366",
+    "question": "La passion suffit-elle pour réussir ?"
+  },
+  {
+    "id": "famille_367",
+    "question": "Les parents doivent-ils intervenir dans les choix scolaires ?"
+  },
+  {
+    "id": "famille_368",
+    "question": "Les enfants devraient-ils apprendre à gérer l’échec ?"
+  },
+  {
+    "id": "famille_369",
+    "question": "La réussite sociale est-elle essentielle ?"
+  },
+  {
+    "id": "famille_370",
+    "question": "Les parents doivent-ils accepter les changements d’orientation ?"
+  },
+  {
+    "id": "famille_371",
+    "question": "Les enfants doivent-ils viser la stabilité ?"
+  },
+  {
+    "id": "famille_372",
+    "question": "Les parents doivent-ils soutenir financièrement longtemps ?"
+  },
+  {
+    "id": "famille_373",
+    "question": "Le succès dépend-il plus du réseau que des diplômes ?"
+  },
+  {
+    "id": "famille_374",
+    "question": "Les enfants devraient-ils apprendre l’autonomie tôt ?"
+  },
+  {
+    "id": "famille_375",
+    "question": "Les parents doivent-ils valoriser la créativité ?"
+  },
+  {
+    "id": "famille_376",
+    "question": "Les études longues sont-elles toujours rentables ?"
+  },
+  {
+    "id": "famille_377",
+    "question": "Les enfants doivent-ils accepter des compromis ?"
+  },
+  {
+    "id": "famille_378",
+    "question": "Les parents doivent-ils parler des réalités du marché du travail ?"
+  },
+  {
+    "id": "famille_379",
+    "question": "Le bonheur professionnel est-il prioritaire ?"
+  },
+  {
+    "id": "famille_380",
+    "question": "Les enfants devraient-ils suivre la voie familiale ?"
+  },
+  {
+    "id": "famille_381",
+    "question": "Les parents doivent-ils préparer aux difficultés du monde réel ?"
+  },
+  {
+    "id": "famille_382",
+    "question": "Les enfants devraient-ils être encouragés à voyager pour apprendre ?"
+  },
+  {
+    "id": "famille_383",
+    "question": "La réussite financière est-elle un objectif prioritaire ?"
+  },
+  {
+    "id": "famille_384",
+    "question": "Les parents doivent-ils valoriser l’équilibre vie pro / perso ?"
+  },
+  {
+    "id": "famille_385",
+    "question": "Les enfants doivent-ils choisir un métier utile à la société ?"
+  },
+  {
+    "id": "famille_386",
+    "question": "Les parents doivent-ils imposer une discipline stricte ?"
+  },
+  {
+    "id": "famille_387",
+    "question": "Les études doivent-elles être adaptées à chaque enfant ?"
+  },
+  {
+    "id": "famille_388",
+    "question": "Les parents doivent-ils accepter les choix non conventionnels ?"
+  },
+  {
+    "id": "famille_389",
+    "question": "Le succès est-il plus qu’un salaire ?"
+  },
+  {
+    "id": "famille_390",
+    "question": "Les enfants doivent-ils viser l’indépendance rapide ?"
+  },
+  {
+    "id": "famille_391",
+    "question": "Les parents doivent-ils soutenir tous les rêves ?"
+  },
+  {
+    "id": "famille_392",
+    "question": "Les enfants doivent-ils comprendre les réalités économiques ?"
+  },
+  {
+    "id": "famille_393",
+    "question": "La réussite peut-elle être redéfinie ?"
+  },
+  {
+    "id": "famille_394",
+    "question": "Les parents doivent-ils encourager l’esprit critique ?"
+  },
+  {
+    "id": "famille_395",
+    "question": "Les enfants doivent-ils apprendre à rebondir ?"
+  },
+  {
+    "id": "famille_396",
+    "question": "Le système scolaire doit-il évoluer ?"
+  },
+  {
+    "id": "famille_397",
+    "question": "Les parents doivent-ils préparer à un monde numérique ?"
+  },
+  {
+    "id": "famille_398",
+    "question": "Les enfants doivent-ils choisir leur voie seuls ?"
+  },
+  {
+    "id": "famille_399",
+    "question": "La réussite doit-elle être comparée aux autres ?"
+  },
+  {
+    "id": "famille_400",
+    "question": "Réussir sa vie, c’est quoi en famille ?"
+  },
+  {
+    "id": "famille_401",
+    "question": "Les enfants devraient-ils recevoir de l’argent de poche ?"
+  },
+  {
+    "id": "famille_402",
+    "question": "L’argent rend-il plus libre ?"
+  },
+  {
+    "id": "famille_403",
+    "question": "Les parents doivent-ils expliquer les finances familiales ?"
+  },
+  {
+    "id": "famille_404",
+    "question": "Faut-il mériter son argent ?"
+  },
+  {
+    "id": "famille_405",
+    "question": "L’argent est-il tabou en famille ?"
+  },
+  {
+    "id": "famille_406",
+    "question": "Les enfants devraient-ils travailler tôt pour apprendre la valeur de l’argent ?"
+  },
+  {
+    "id": "famille_407",
+    "question": "Dépenser ou économiser : que faut-il privilégier ?"
+  },
+  {
+    "id": "famille_408",
+    "question": "Les parents doivent-ils tout payer ?"
+  },
+  {
+    "id": "famille_409",
+    "question": "L’argent rend-il plus heureux ?"
+  },
+  {
+    "id": "famille_410",
+    "question": "Les enfants comprennent-ils vraiment la valeur de l’argent ?"
+  },
+  {
+    "id": "famille_411",
+    "question": "Faut-il récompenser les bonnes notes financièrement ?"
+  },
+  {
+    "id": "famille_412",
+    "question": "Les parents doivent-ils fixer un budget aux enfants ?"
+  },
+  {
+    "id": "famille_413",
+    "question": "L’argent crée-t-il des inégalités entre amis ?"
+  },
+  {
+    "id": "famille_414",
+    "question": "Les enfants devraient-ils apprendre à investir ?"
+  },
+  {
+    "id": "famille_415",
+    "question": "L’argent est-il source de conflits familiaux ?"
+  },
+  {
+    "id": "famille_416",
+    "question": "Les parents doivent-ils aider financièrement longtemps ?"
+  },
+  {
+    "id": "famille_417",
+    "question": "Faut-il partager l’argent équitablement entre frères et sœurs ?"
+  },
+  {
+    "id": "famille_418",
+    "question": "L’argent influence-t-il les choix de vie ?"
+  },
+  {
+    "id": "famille_419",
+    "question": "Les enfants devraient-ils payer leurs propres loisirs ?"
+  },
+  {
+    "id": "famille_420",
+    "question": "L’argent est-il un sujet à discuter ouvertement ?"
+  },
+  {
+    "id": "famille_421",
+    "question": "Faut-il économiser pour l’avenir ou profiter du présent ?"
+  },
+  {
+    "id": "famille_422",
+    "question": "Les parents doivent-ils contrôler les dépenses des enfants ?"
+  },
+  {
+    "id": "famille_423",
+    "question": "L’argent change-t-il les relations familiales ?"
+  },
+  {
+    "id": "famille_424",
+    "question": "Les enfants devraient-ils apprendre à gérer un budget ?"
+  },
+  {
+    "id": "famille_425",
+    "question": "Les cadeaux doivent-ils avoir une limite ?"
+  },
+  {
+    "id": "famille_426",
+    "question": "Les parents doivent-ils expliquer leurs sacrifices financiers ?"
+  },
+  {
+    "id": "famille_427",
+    "question": "L’argent peut-il créer de la jalousie entre enfants ?"
+  },
+  {
+    "id": "famille_428",
+    "question": "Les enfants doivent-ils comprendre les factures ?"
+  },
+  {
+    "id": "famille_429",
+    "question": "Faut-il parler d’argent dès le plus jeune âge ?"
+  },
+  {
+    "id": "famille_430",
+    "question": "L’argent est-il plus important que le temps passé ensemble ?"
+  },
+  {
+    "id": "famille_431",
+    "question": "Les parents doivent-ils payer les études supérieures ?"
+  },
+  {
+    "id": "famille_432",
+    "question": "Les enfants devraient-ils participer aux dépenses familiales plus tard ?"
+  },
+  {
+    "id": "famille_433",
+    "question": "L’argent doit-il être récompense ou responsabilité ?"
+  },
+  {
+    "id": "famille_434",
+    "question": "Les parents doivent-ils fixer une limite aux dépenses inutiles ?"
+  },
+  {
+    "id": "famille_435",
+    "question": "Les enfants devraient-ils apprendre à faire des choix financiers ?"
+  },
+  {
+    "id": "famille_436",
+    "question": "L’argent influence-t-il le respect ?"
+  },
+  {
+    "id": "famille_437",
+    "question": "Les parents doivent-ils montrer leurs propres erreurs financières ?"
+  },
+  {
+    "id": "famille_438",
+    "question": "Les enfants devraient-ils comprendre les impôts ?"
+  },
+  {
+    "id": "famille_439",
+    "question": "L’argent est-il une source de stress familial ?"
+  },
+  {
+    "id": "famille_440",
+    "question": "Faut-il privilégier l’expérience ou le matériel ?"
+  },
+  {
+    "id": "famille_441",
+    "question": "Les parents doivent-ils être stricts sur les dépenses ?"
+  },
+  {
+    "id": "famille_442",
+    "question": "Les enfants devraient-ils comprendre la notion d’épargne ?"
+  },
+  {
+    "id": "famille_443",
+    "question": "L’argent peut-il diviser une famille ?"
+  },
+  {
+    "id": "famille_444",
+    "question": "Les parents doivent-ils refuser certaines demandes même s’ils peuvent payer ?"
+  },
+  {
+    "id": "famille_445",
+    "question": "Les enfants devraient-ils apprendre à donner aux autres ?"
+  },
+  {
+    "id": "famille_446",
+    "question": "L’argent définit-il la réussite ?"
+  },
+  {
+    "id": "famille_447",
+    "question": "Les parents doivent-ils enseigner l’indépendance financière tôt ?"
+  },
+  {
+    "id": "famille_448",
+    "question": "Les enfants devraient-ils comprendre les crédits ?"
+  },
+  {
+    "id": "famille_449",
+    "question": "L’argent est-il un outil ou une fin ?"
+  },
+  {
+    "id": "famille_450",
+    "question": "Faut-il fixer des objectifs financiers en famille ?"
+  },
+  {
+    "id": "famille_451",
+    "question": "Les parents doivent-ils imposer des limites budgétaires strictes ?"
+  },
+  {
+    "id": "famille_452",
+    "question": "Les enfants devraient-ils apprendre la différence entre besoin et envie ?"
+  },
+  {
+    "id": "famille_453",
+    "question": "L’argent influence-t-il les valeurs familiales ?"
+  },
+  {
+    "id": "famille_454",
+    "question": "Les parents doivent-ils encourager l’esprit d’entreprendre ?"
+  },
+  {
+    "id": "famille_455",
+    "question": "Les enfants devraient-ils gérer leur propre argent librement ?"
+  },
+  {
+    "id": "famille_456",
+    "question": "L’argent peut-il renforcer la responsabilité ?"
+  },
+  {
+    "id": "famille_457",
+    "question": "Les parents doivent-ils discuter des grandes dépenses avec les enfants ?"
+  },
+  {
+    "id": "famille_458",
+    "question": "Les enfants devraient-ils comprendre les inégalités économiques ?"
+  },
+  {
+    "id": "famille_459",
+    "question": "L’argent peut-il être source de fierté ?"
+  },
+  {
+    "id": "famille_460",
+    "question": "Faut-il partager les dépenses équitablement ?"
+  },
+  {
+    "id": "famille_461",
+    "question": "Les parents doivent-ils financer tous les loisirs ?"
+  },
+  {
+    "id": "famille_462",
+    "question": "Les enfants devraient-ils travailler pour des extras ?"
+  },
+  {
+    "id": "famille_463",
+    "question": "L’argent peut-il influencer les relations fraternelles ?"
+  },
+  {
+    "id": "famille_464",
+    "question": "Les parents doivent-ils fixer un plafond de dépenses ?"
+  },
+  {
+    "id": "famille_465",
+    "question": "Les enfants devraient-ils apprendre à planifier financièrement ?"
+  },
+  {
+    "id": "famille_466",
+    "question": "L’argent peut-il devenir une obsession ?"
+  },
+  {
+    "id": "famille_467",
+    "question": "Les parents doivent-ils parler ouvertement de salaire ?"
+  },
+  {
+    "id": "famille_468",
+    "question": "Les enfants devraient-ils comprendre le coût de la vie ?"
+  },
+  {
+    "id": "famille_469",
+    "question": "L’argent influence-t-il la confiance en soi ?"
+  },
+  {
+    "id": "famille_470",
+    "question": "Faut-il privilégier la sécurité financière ?"
+  },
+  {
+    "id": "famille_471",
+    "question": "Les parents doivent-ils encourager l’autonomie financière ?"
+  },
+  {
+    "id": "famille_472",
+    "question": "Les enfants devraient-ils apprendre à économiser pour un projet ?"
+  },
+  {
+    "id": "famille_473",
+    "question": "L’argent est-il un indicateur de réussite ?"
+  },
+  {
+    "id": "famille_474",
+    "question": "Les parents doivent-ils expliquer les dettes ?"
+  },
+  {
+    "id": "famille_475",
+    "question": "Les enfants devraient-ils comprendre la notion d’investissement ?"
+  },
+  {
+    "id": "famille_476",
+    "question": "L’argent influence-t-il les priorités familiales ?"
+  },
+  {
+    "id": "famille_477",
+    "question": "Les parents doivent-ils fixer des règles financières claires ?"
+  },
+  {
+    "id": "famille_478",
+    "question": "Les enfants devraient-ils apprendre à refuser des dépenses inutiles ?"
+  },
+  {
+    "id": "famille_479",
+    "question": "L’argent peut-il rapprocher une famille ?"
+  },
+  {
+    "id": "famille_480",
+    "question": "Faut-il apprendre la générosité financière ?"
+  },
+  {
+    "id": "famille_481",
+    "question": "Les parents doivent-ils limiter les achats impulsifs ?"
+  },
+  {
+    "id": "famille_482",
+    "question": "Les enfants devraient-ils comprendre la différence entre luxe et nécessité ?"
+  },
+  {
+    "id": "famille_483",
+    "question": "L’argent influence-t-il la liberté personnelle ?"
+  },
+  {
+    "id": "famille_484",
+    "question": "Les parents doivent-ils valoriser l’effort plutôt que le cadeau ?"
+  },
+  {
+    "id": "famille_485",
+    "question": "Les enfants devraient-ils comprendre la valeur du travail ?"
+  },
+  {
+    "id": "famille_486",
+    "question": "L’argent est-il une responsabilité ?"
+  },
+  {
+    "id": "famille_487",
+    "question": "Les parents doivent-ils enseigner la prudence financière ?"
+  },
+  {
+    "id": "famille_488",
+    "question": "Les enfants devraient-ils apprendre à faire des choix budgétaires ?"
+  },
+  {
+    "id": "famille_489",
+    "question": "L’argent peut-il renforcer l’indépendance ?"
+  },
+  {
+    "id": "famille_490",
+    "question": "Faut-il planifier l’avenir financier en famille ?"
+  },
+  {
+    "id": "famille_491",
+    "question": "Les parents doivent-ils fixer des priorités financières claires ?"
+  },
+  {
+    "id": "famille_492",
+    "question": "Les enfants devraient-ils comprendre les sacrifices économiques ?"
+  },
+  {
+    "id": "famille_493",
+    "question": "L’argent influence-t-il les décisions familiales ?"
+  },
+  {
+    "id": "famille_494",
+    "question": "Les parents doivent-ils enseigner la patience financière ?"
+  },
+  {
+    "id": "famille_495",
+    "question": "Les enfants devraient-ils comprendre la notion de dette ?"
+  },
+  {
+    "id": "famille_496",
+    "question": "L’argent peut-il être un outil éducatif ?"
+  },
+  {
+    "id": "famille_497",
+    "question": "Les parents doivent-ils préparer à l’indépendance financière ?"
+  },
+  {
+    "id": "famille_498",
+    "question": "Les enfants devraient-ils apprendre à donner avant de recevoir ?"
+  },
+  {
+    "id": "famille_499",
+    "question": "L’argent est-il un sujet à débattre régulièrement ?"
+  },
+  {
+    "id": "famille_500",
+    "question": "L’argent rend-il une famille plus forte ou plus fragile ?"
+  },
+  {
+    "id": "famille_501",
+    "question": "Le respect se mérite-t-il ou se doit-il ?"
+  },
+  {
+    "id": "famille_502",
+    "question": "Le bonheur est-il plus important que la réussite ?"
+  },
+  {
+    "id": "famille_503",
+    "question": "Une famille doit-elle toujours passer en priorité ?"
+  },
+  {
+    "id": "famille_504",
+    "question": "Les traditions familiales sont-elles importantes ?"
+  },
+  {
+    "id": "famille_505",
+    "question": "Faut-il toujours dire la vérité en famille ?"
+  },
+  {
+    "id": "famille_506",
+    "question": "Les repas en famille sont-ils essentiels ?"
+  },
+  {
+    "id": "famille_507",
+    "question": "Le pardon est-il indispensable ?"
+  },
+  {
+    "id": "famille_508",
+    "question": "Le respect doit-il être automatique ?"
+  },
+  {
+    "id": "famille_509",
+    "question": "Les différences d’opinion doivent-elles être acceptées ?"
+  },
+  {
+    "id": "famille_510",
+    "question": "Le bonheur est-il une responsabilité personnelle ?"
+  },
+  {
+    "id": "famille_511",
+    "question": "Une famille doit-elle tout partager ?"
+  },
+  {
+    "id": "famille_512",
+    "question": "Les souvenirs sont-ils plus importants que les objets ?"
+  },
+  {
+    "id": "famille_513",
+    "question": "Faut-il imposer des traditions ?"
+  },
+  {
+    "id": "famille_514",
+    "question": "Le dialogue est-il plus fort que l’autorité ?"
+  },
+  {
+    "id": "famille_515",
+    "question": "Une famille peut-elle fonctionner sans compromis ?"
+  },
+  {
+    "id": "famille_516",
+    "question": "Les différences de génération enrichissent-elles ?"
+  },
+  {
+    "id": "famille_517",
+    "question": "Faut-il toujours écouter avant de juger ?"
+  },
+  {
+    "id": "famille_518",
+    "question": "Le respect est-il plus important que l’amour ?"
+  },
+  {
+    "id": "famille_519",
+    "question": "Les valeurs se transmettent-elles naturellement ?"
+  },
+  {
+    "id": "famille_520",
+    "question": "Une famille doit-elle évoluer avec son époque ?"
+  },
+  {
+    "id": "famille_521",
+    "question": "Faut-il préserver les traditions coûte que coûte ?"
+  },
+  {
+    "id": "famille_522",
+    "question": "Le bonheur familial dépend-il de chacun ?"
+  },
+  {
+    "id": "famille_523",
+    "question": "Les règles doivent-elles s’adapter aux circonstances ?"
+  },
+  {
+    "id": "famille_524",
+    "question": "Une famille doit-elle partager les mêmes valeurs ?"
+  },
+  {
+    "id": "famille_525",
+    "question": "Le pardon est-il une force ?"
+  },
+  {
+    "id": "famille_526",
+    "question": "Les discussions familiales doivent-elles être régulières ?"
+  },
+  {
+    "id": "famille_527",
+    "question": "Le respect passe-t-il par l’écoute ?"
+  },
+  {
+    "id": "famille_528",
+    "question": "Une famille peut-elle être heureuse sans être parfaite ?"
+  },
+  {
+    "id": "famille_529",
+    "question": "Les différences renforcent-elles les liens ?"
+  },
+  {
+    "id": "famille_530",
+    "question": "Le temps passé ensemble est-il plus précieux que l’argent ?"
+  },
+  {
+    "id": "famille_531",
+    "question": "Faut-il imposer des moments en famille ?"
+  },
+  {
+    "id": "famille_532",
+    "question": "Les disputes sont-elles normales ?"
+  },
+  {
+    "id": "famille_533",
+    "question": "Le respect doit-il être réciproque ?"
+  },
+  {
+    "id": "famille_534",
+    "question": "Une famille doit-elle protéger chacun de ses membres ?"
+  },
+  {
+    "id": "famille_535",
+    "question": "Le bonheur dépend-il des petites choses ?"
+  },
+  {
+    "id": "famille_536",
+    "question": "Les traditions doivent-elles être modernisées ?"
+  },
+  {
+    "id": "famille_537",
+    "question": "Le dialogue est-il toujours la meilleure solution ?"
+  },
+  {
+    "id": "famille_538",
+    "question": "Une famille doit-elle partager ses problèmes ?"
+  },
+  {
+    "id": "famille_539",
+    "question": "Les valeurs se transmettent-elles par l’exemple ?"
+  },
+  {
+    "id": "famille_540",
+    "question": "Le respect peut-il être perdu ?"
+  },
+  {
+    "id": "famille_541",
+    "question": "Faut-il garder les secrets familiaux ?"
+  },
+  {
+    "id": "famille_542",
+    "question": "Les souvenirs construisent-ils l’identité familiale ?"
+  },
+  {
+    "id": "famille_543",
+    "question": "Le bonheur familial dépend-il de la communication ?"
+  },
+  {
+    "id": "famille_544",
+    "question": "Une famille doit-elle s’adapter aux nouvelles réalités ?"
+  },
+  {
+    "id": "famille_545",
+    "question": "Le respect doit-il être enseigné ou vécu ?"
+  },
+  {
+    "id": "famille_546",
+    "question": "Les valeurs évoluent-elles avec le temps ?"
+  },
+  {
+    "id": "famille_547",
+    "question": "Une famille doit-elle prioriser la stabilité ?"
+  },
+  {
+    "id": "famille_548",
+    "question": "Le pardon doit-il être immédiat ?"
+  },
+  {
+    "id": "famille_549",
+    "question": "Le dialogue évite-t-il les conflits ?"
+  },
+  {
+    "id": "famille_550",
+    "question": "Une famille peut-elle être forte malgré les désaccords ?"
+  },
+  {
+    "id": "famille_551",
+    "question": "Faut-il imposer des règles communes ?"
+  },
+  {
+    "id": "famille_552",
+    "question": "Les différences de caractère enrichissent-elles ?"
+  },
+  {
+    "id": "famille_553",
+    "question": "Le respect est-il la base de tout ?"
+  },
+  {
+    "id": "famille_554",
+    "question": "Une famille doit-elle s’exprimer librement ?"
+  },
+  {
+    "id": "famille_555",
+    "question": "Les traditions créent-elles un sentiment d’appartenance ?"
+  },
+  {
+    "id": "famille_556",
+    "question": "Le bonheur familial est-il un choix ?"
+  },
+  {
+    "id": "famille_557",
+    "question": "Les disputes peuvent-elles rapprocher ?"
+  },
+  {
+    "id": "famille_558",
+    "question": "Le respect doit-il être constant ?"
+  },
+  {
+    "id": "famille_559",
+    "question": "Une famille doit-elle accepter les changements ?"
+  },
+  {
+    "id": "famille_560",
+    "question": "Les valeurs sont-elles universelles ?"
+  },
+  {
+    "id": "famille_561",
+    "question": "Faut-il toujours protéger l’harmonie ?"
+  },
+  {
+    "id": "famille_562",
+    "question": "Les différences d’âge créent-elles des tensions ?"
+  },
+  {
+    "id": "famille_563",
+    "question": "Le respect passe-t-il par les actes ?"
+  },
+  {
+    "id": "famille_564",
+    "question": "Une famille doit-elle évoluer ensemble ?"
+  },
+  {
+    "id": "famille_565",
+    "question": "Le bonheur familial dépend-il de la confiance ?"
+  },
+  {
+    "id": "famille_566",
+    "question": "Les traditions doivent-elles être transmises ?"
+  },
+  {
+    "id": "famille_567",
+    "question": "Le dialogue peut-il résoudre tout ?"
+  },
+  {
+    "id": "famille_568",
+    "question": "Une famille doit-elle rester unie quoi qu’il arrive ?"
+  },
+  {
+    "id": "famille_569",
+    "question": "Le respect peut-il être imposé ?"
+  },
+  {
+    "id": "famille_570",
+    "question": "Les valeurs familiales sont-elles personnelles ?"
+  },
+  {
+    "id": "famille_571",
+    "question": "Faut-il accepter toutes les différences ?"
+  },
+  {
+    "id": "famille_572",
+    "question": "Les habitudes quotidiennes créent-elles la stabilité ?"
+  },
+  {
+    "id": "famille_573",
+    "question": "Le respect est-il plus important que l’opinion ?"
+  },
+  {
+    "id": "famille_574",
+    "question": "Une famille doit-elle toujours se soutenir ?"
+  },
+  {
+    "id": "famille_575",
+    "question": "Le bonheur familial est-il fragile ?"
+  },
+  {
+    "id": "famille_576",
+    "question": "Les traditions renforcent-elles les liens ?"
+  },
+  {
+    "id": "famille_577",
+    "question": "Le dialogue est-il un effort constant ?"
+  },
+  {
+    "id": "famille_578",
+    "question": "Une famille doit-elle s’adapter aux générations ?"
+  },
+  {
+    "id": "famille_579",
+    "question": "Le respect passe-t-il par la patience ?"
+  },
+  {
+    "id": "famille_580",
+    "question": "Les valeurs doivent-elles être discutées ?"
+  },
+  {
+    "id": "famille_581",
+    "question": "Faut-il imposer un cadre commun ?"
+  },
+  {
+    "id": "famille_582",
+    "question": "Les différences peuvent-elles diviser ?"
+  },
+  {
+    "id": "famille_583",
+    "question": "Le respect doit-il être appris jeune ?"
+  },
+  {
+    "id": "famille_584",
+    "question": "Une famille peut-elle évoluer sans perdre son identité ?"
+  },
+  {
+    "id": "famille_585",
+    "question": "Le bonheur familial dépend-il de l’équilibre ?"
+  },
+  {
+    "id": "famille_586",
+    "question": "Les traditions doivent-elles être choisies ?"
+  },
+  {
+    "id": "famille_587",
+    "question": "Le dialogue renforce-t-il la confiance ?"
+  },
+  {
+    "id": "famille_588",
+    "question": "Une famille doit-elle partager les responsabilités ?"
+  },
+  {
+    "id": "famille_589",
+    "question": "Le respect doit-il être mutuel ?"
+  },
+  {
+    "id": "famille_590",
+    "question": "Les valeurs doivent-elles être réévaluées ?"
+  },
+  {
+    "id": "famille_591",
+    "question": "Faut-il toujours chercher le compromis ?"
+  },
+  {
+    "id": "famille_592",
+    "question": "Les différences enrichissent-elles la famille ?"
+  },
+  {
+    "id": "famille_593",
+    "question": "Le respect construit-il la confiance ?"
+  },
+  {
+    "id": "famille_594",
+    "question": "Une famille doit-elle se soutenir publiquement ?"
+  },
+  {
+    "id": "famille_595",
+    "question": "Le bonheur familial dépend-il de l’effort de chacun ?"
+  },
+  {
+    "id": "famille_596",
+    "question": "Les traditions créent-elles une identité ?"
+  },
+  {
+    "id": "famille_597",
+    "question": "Le dialogue évite-t-il les malentendus ?"
+  },
+  {
+    "id": "famille_598",
+    "question": "Une famille doit-elle accepter les désaccords ?"
+  },
+  {
+    "id": "famille_599",
+    "question": "Le respect est-il la base de l’amour ?"
+  },
+  {
+    "id": "famille_600",
+    "question": "Qu’est-ce qui rend une famille vraiment forte ?"
+  }
+]

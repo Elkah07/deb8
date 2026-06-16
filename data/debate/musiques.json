@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "musiques_001",
+    "question": "Comme Francis Cabrel, faut-il écrire ses textes soi-même pour être crédible ?"
+  },
+  {
+    "id": "musiques_002",
+    "question": "Jul a-t-il changé le rap français pour le meilleur ?"
+  },
+  {
+    "id": "musiques_003",
+    "question": "Aya Nakamura est-elle plus influente que certaines légendes de la variété ?"
+  },
+  {
+    "id": "musiques_004",
+    "question": "Stromae est-il plus artiste que chanteur ?"
+  },
+  {
+    "id": "musiques_005",
+    "question": "Taylor Swift est-elle une artiste ou une marque ?"
+  },
+  {
+    "id": "musiques_006",
+    "question": "Damso est-il plus poète que rappeur ?"
+  },
+  {
+    "id": "musiques_007",
+    "question": "Les Beatles sont-ils encore au-dessus de tout ?"
+  },
+  {
+    "id": "musiques_008",
+    "question": "Drake est-il un génie marketing ou un vrai artiste ?"
+  },
+  {
+    "id": "musiques_009",
+    "question": "PNL ont-ils révolutionné le rap français ?"
+  },
+  {
+    "id": "musiques_010",
+    "question": "Céline Dion est-elle intemporelle ?"
+  },
+  {
+    "id": "musiques_011",
+    "question": "L’autotune est-il une triche ou un instrument ?"
+  },
+  {
+    "id": "musiques_012",
+    "question": "Orelsan est-il la voix d’une génération ?"
+  },
+  {
+    "id": "musiques_013",
+    "question": "Michael Jackson reste-t-il le roi incontesté ?"
+  },
+  {
+    "id": "musiques_014",
+    "question": "Billie Eilish a-t-elle redéfini la pop moderne ?"
+  },
+  {
+    "id": "musiques_015",
+    "question": "Johnny Hallyday était-il plus symbole qu’artiste ?"
+  },
+  {
+    "id": "musiques_016",
+    "question": "Booba est-il plus stratège que musicien ?"
+  },
+  {
+    "id": "musiques_017",
+    "question": "Les artistes TikTok sont-ils de “vrais” artistes ?"
+  },
+  {
+    "id": "musiques_018",
+    "question": "Indochine traverse-t-il mieux le temps que les rappeurs actuels ?"
+  },
+  {
+    "id": "musiques_019",
+    "question": "Beyoncé est-elle surcotée ?"
+  },
+  {
+    "id": "musiques_020",
+    "question": "Les années 90 étaient-elles meilleures musicalement ?"
+  },
+  {
+    "id": "musiques_021",
+    "question": "Un artiste doit-il écrire pour durer ?"
+  },
+  {
+    "id": "musiques_022",
+    "question": "Les rappeurs dominent-ils trop l’industrie ?"
+  },
+  {
+    "id": "musiques_023",
+    "question": "La variété française est-elle sous-estimée ?"
+  },
+  {
+    "id": "musiques_024",
+    "question": "Les artistes indépendants sont-ils plus authentiques ?"
+  },
+  {
+    "id": "musiques_025",
+    "question": "La musique actuelle manque-t-elle de profondeur ?"
+  },
+  {
+    "id": "musiques_026",
+    "question": "Les artistes doivent-ils s’engager politiquement ?"
+  },
+  {
+    "id": "musiques_027",
+    "question": "Les featuring sont-ils une stratégie plus qu’un choix artistique ?"
+  },
+  {
+    "id": "musiques_028",
+    "question": "La musique était-elle meilleure avant le streaming ?"
+  },
+  {
+    "id": "musiques_029",
+    "question": "Les tubes d’été sont-ils de la “vraie” musique ?"
+  },
+  {
+    "id": "musiques_030",
+    "question": "Le rap est-il la nouvelle variété ?"
+  },
+  {
+    "id": "musiques_031",
+    "question": "Les concerts live sont-ils la vraie preuve de talent ?"
+  },
+  {
+    "id": "musiques_032",
+    "question": "Les artistes doivent-ils tout donner sur scène ?"
+  },
+  {
+    "id": "musiques_033",
+    "question": "Un artiste peut-il durer sans évoluer ?"
+  },
+  {
+    "id": "musiques_034",
+    "question": "Les paroles sont-elles plus importantes que la mélodie ?"
+  },
+  {
+    "id": "musiques_035",
+    "question": "Le succès commercial définit-il le talent ?"
+  },
+  {
+    "id": "musiques_036",
+    "question": "Les artistes doivent-ils rester mystérieux ?"
+  },
+  {
+    "id": "musiques_037",
+    "question": "La nostalgie influence-t-elle trop nos goûts ?"
+  },
+  {
+    "id": "musiques_038",
+    "question": "Les remix détruisent-ils les classiques ?"
+  },
+  {
+    "id": "musiques_039",
+    "question": "La musique est-elle plus visuelle qu’avant ?"
+  },
+  {
+    "id": "musiques_040",
+    "question": "Les artistes doivent-ils être irréprochables moralement ?"
+  },
+  {
+    "id": "musiques_041",
+    "question": "Un bon chanteur est-il forcément un bon artiste ?"
+  },
+  {
+    "id": "musiques_042",
+    "question": "Les producteurs sont-ils plus importants que les chanteurs ?"
+  },
+  {
+    "id": "musiques_043",
+    "question": "Le rap français dépasse-t-il le rap américain aujourd’hui ?"
+  },
+  {
+    "id": "musiques_044",
+    "question": "Les artistes doivent-ils parler de leur vie privée ?"
+  },
+  {
+    "id": "musiques_045",
+    "question": "Les plateformes de streaming ont-elles tué l’album ?"
+  },
+  {
+    "id": "musiques_046",
+    "question": "La musique engagée est-elle plus respectable ?"
+  },
+  {
+    "id": "musiques_047",
+    "question": "Les artistes doivent-ils répondre aux critiques ?"
+  },
+  {
+    "id": "musiques_048",
+    "question": "La longévité est-elle le vrai test du talent ?"
+  },
+  {
+    "id": "musiques_049",
+    "question": "Les jeunes artistes respectent-ils assez les anciens ?"
+  },
+  {
+    "id": "musiques_050",
+    "question": "La musique actuelle est-elle trop rapide à consommer ?"
+  },
+  {
+    "id": "musiques_051",
+    "question": "Les artistes doivent-ils innover à chaque album ?"
+  },
+  {
+    "id": "musiques_052",
+    "question": "Les classiques sont-ils intouchables ?"
+  },
+  {
+    "id": "musiques_053",
+    "question": "Le rap est-il devenu mainstream ?"
+  },
+  {
+    "id": "musiques_054",
+    "question": "Les artistes internationaux dominent-ils trop le marché français ?"
+  },
+  {
+    "id": "musiques_055",
+    "question": "La musique triste est-elle plus profonde ?"
+  },
+  {
+    "id": "musiques_056",
+    "question": "Les artistes doivent-ils rester fidèles à leur style ?"
+  },
+  {
+    "id": "musiques_057",
+    "question": "Le buzz est-il plus important que la qualité ?"
+  },
+  {
+    "id": "musiques_058",
+    "question": "Les artistes doivent-ils contrôler leur image ?"
+  },
+  {
+    "id": "musiques_059",
+    "question": "Les collaborations internationales enrichissent-elles la musique ?"
+  },
+  {
+    "id": "musiques_060",
+    "question": "Le public décide-t-il du talent ?"
+  },
+  {
+    "id": "musiques_061",
+    "question": "Les artistes doivent-ils être polyvalents ?"
+  },
+  {
+    "id": "musiques_062",
+    "question": "La musique est-elle devenue trop commerciale ?"
+  },
+  {
+    "id": "musiques_063",
+    "question": "Les artistes féminines sont-elles plus critiquées ?"
+  },
+  {
+    "id": "musiques_064",
+    "question": "Les artistes doivent-ils être engagés socialement ?"
+  },
+  {
+    "id": "musiques_065",
+    "question": "La musique influence-t-elle le comportement ?"
+  },
+  {
+    "id": "musiques_066",
+    "question": "Les artistes doivent-ils évoluer avec leur génération ?"
+  },
+  {
+    "id": "musiques_067",
+    "question": "Les labels contrôlent-ils trop la création ?"
+  },
+  {
+    "id": "musiques_068",
+    "question": "Le succès viral est-il durable ?"
+  },
+  {
+    "id": "musiques_069",
+    "question": "Les artistes doivent-ils tout produire eux-mêmes ?"
+  },
+  {
+    "id": "musiques_070",
+    "question": "Les artistes des années 2000 étaient-ils plus marquants ?"
+  },
+  {
+    "id": "musiques_071",
+    "question": "Le rap a-t-il pris la place du rock ?"
+  },
+  {
+    "id": "musiques_072",
+    "question": "Les artistes doivent-ils privilégier le live ou le studio ?"
+  },
+  {
+    "id": "musiques_073",
+    "question": "Les plateformes favorisent-elles certains styles ?"
+  },
+  {
+    "id": "musiques_074",
+    "question": "Les artistes doivent-ils répondre aux attentes des fans ?"
+  },
+  {
+    "id": "musiques_075",
+    "question": "La musique est-elle devenue jetable ?"
+  },
+  {
+    "id": "musiques_076",
+    "question": "Les artistes doivent-ils défendre leurs paroles ?"
+  },
+  {
+    "id": "musiques_077",
+    "question": "La musique crée-t-elle une identité ?"
+  },
+  {
+    "id": "musiques_078",
+    "question": "Les artistes doivent-ils rester proches du public ?"
+  },
+  {
+    "id": "musiques_079",
+    "question": "Le talent brut vaut-il plus que la technique ?"
+  },
+  {
+    "id": "musiques_080",
+    "question": "Les artistes doivent-ils s’adapter aux tendances ?"
+  },
+  {
+    "id": "musiques_081",
+    "question": "Les albums conceptuels sont-ils supérieurs aux singles ?"
+  },
+  {
+    "id": "musiques_082",
+    "question": "La musique engagée touche-t-elle plus ?"
+  },
+  {
+    "id": "musiques_083",
+    "question": "Les artistes doivent-ils collaborer pour rester visibles ?"
+  },
+  {
+    "id": "musiques_084",
+    "question": "Le rap domine-t-il trop les charts ?"
+  },
+  {
+    "id": "musiques_085",
+    "question": "Les artistes doivent-ils se réinventer constamment ?"
+  },
+  {
+    "id": "musiques_086",
+    "question": "La musique est-elle devenue plus superficielle ?"
+  },
+  {
+    "id": "musiques_087",
+    "question": "Les artistes doivent-ils accepter la critique publique ?"
+  },
+  {
+    "id": "musiques_088",
+    "question": "Le streaming favorise-t-il la quantité plutôt que la qualité ?"
+  },
+  {
+    "id": "musiques_089",
+    "question": "Les artistes doivent-ils séparer vie privée et carrière ?"
+  },
+  {
+    "id": "musiques_090",
+    "question": "La musique est-elle plus influente que le cinéma ?"
+  },
+  {
+    "id": "musiques_091",
+    "question": "Les artistes doivent-ils être des modèles ?"
+  },
+  {
+    "id": "musiques_092",
+    "question": "La musique rassemble-t-elle plus que la politique ?"
+  },
+  {
+    "id": "musiques_093",
+    "question": "Les artistes doivent-ils parler d’actualité ?"
+  },
+  {
+    "id": "musiques_094",
+    "question": "La longévité est-elle plus importante que le buzz ?"
+  },
+  {
+    "id": "musiques_095",
+    "question": "Les artistes doivent-ils rester fidèles à leurs débuts ?"
+  },
+  {
+    "id": "musiques_096",
+    "question": "La musique influence-t-elle les générations ?"
+  },
+  {
+    "id": "musiques_097",
+    "question": "Les artistes doivent-ils refuser certaines collaborations ?"
+  },
+  {
+    "id": "musiques_098",
+    "question": "La musique peut-elle changer une société ?"
+  },
+  {
+    "id": "musiques_099",
+    "question": "Les artistes doivent-ils viser l’international ?"
+  },
+  {
+    "id": "musiques_100",
+    "question": "Qu’est-ce qui fait un artiste légendaire ?"
+  },
+  {
+    "id": "musiques_101",
+    "question": "Francis Cabrel vs Jul : poésie ou efficacité ?"
+  },
+  {
+    "id": "musiques_102",
+    "question": "Orelsan vs Damso : introspection ou brutalité ?"
+  },
+  {
+    "id": "musiques_103",
+    "question": "Aya Nakamura vs Angèle : influence ou finesse ?"
+  },
+  {
+    "id": "musiques_104",
+    "question": "Booba vs Kaaris : qui a vraiment marqué le rap français ?"
+  },
+  {
+    "id": "musiques_105",
+    "question": "PNL vs Ninho : ambiance ou technique ?"
+  },
+  {
+    "id": "musiques_106",
+    "question": "Stromae vs Maître Gims : univers ou hits ?"
+  },
+  {
+    "id": "musiques_107",
+    "question": "Taylor Swift vs Beyoncé : écriture ou performance ?"
+  },
+  {
+    "id": "musiques_108",
+    "question": "Drake vs Kanye West : stratégie ou génie créatif ?"
+  },
+  {
+    "id": "musiques_109",
+    "question": "Eminem vs Jay-Z : technique ou longévité ?"
+  },
+  {
+    "id": "musiques_110",
+    "question": "The Weeknd vs Bruno Mars : vibe ou show ?"
+  },
+  {
+    "id": "musiques_111",
+    "question": "Michael Jackson vs Prince : icône ou musicien pur ?"
+  },
+  {
+    "id": "musiques_112",
+    "question": "Rihanna vs Lady Gaga : pop ou excentricité ?"
+  },
+  {
+    "id": "musiques_113",
+    "question": "Johnny Hallyday vs Eddy Mitchell : mythe ou musique ?"
+  },
+  {
+    "id": "musiques_114",
+    "question": "Indochine vs Téléphone : qui traverse mieux le temps ?"
+  },
+  {
+    "id": "musiques_115",
+    "question": "Bigflo & Oli vs SCH : sincérité ou aura ?"
+  },
+  {
+    "id": "musiques_116",
+    "question": "Nekfeu vs Damso : plume ou intensité ?"
+  },
+  {
+    "id": "musiques_117",
+    "question": "Cardi B vs Nicki Minaj : impact ou technique ?"
+  },
+  {
+    "id": "musiques_118",
+    "question": "Travis Scott vs Kendrick Lamar : ambiance ou profondeur ?"
+  },
+  {
+    "id": "musiques_119",
+    "question": "Dua Lipa vs Billie Eilish : pop dansante ou minimaliste ?"
+  },
+  {
+    "id": "musiques_120",
+    "question": "Céline Dion vs Lara Fabian : puissance ou émotion ?"
+  },
+  {
+    "id": "musiques_121",
+    "question": "Jul vs Naps : productivité ou qualité ?"
+  },
+  {
+    "id": "musiques_122",
+    "question": "Orelsan vs Nekfeu : génération ou évolution ?"
+  },
+  {
+    "id": "musiques_123",
+    "question": "PNL vs Booba : mystère ou domination ?"
+  },
+  {
+    "id": "musiques_124",
+    "question": "Angèle vs Clara Luciani : modernité ou tradition ?"
+  },
+  {
+    "id": "musiques_125",
+    "question": "Drake vs The Weeknd : mélodie ou hit machine ?"
+  },
+  {
+    "id": "musiques_126",
+    "question": "Eminem vs Drake : technique ou influence ?"
+  },
+  {
+    "id": "musiques_127",
+    "question": "Coldplay vs Imagine Dragons : émotion ou énergie ?"
+  },
+  {
+    "id": "musiques_128",
+    "question": "AC/DC vs Metallica : rock pur ou heavy technique ?"
+  },
+  {
+    "id": "musiques_129",
+    "question": "Madonna vs Britney Spears : pionnière ou héritière ?"
+  },
+  {
+    "id": "musiques_130",
+    "question": "Beyoncé vs Rihanna : carrière ou polyvalence ?"
+  },
+  {
+    "id": "musiques_131",
+    "question": "SCH vs Ninho : esthétique ou efficacité ?"
+  },
+  {
+    "id": "musiques_132",
+    "question": "Damso vs Booba : disciple ou maître ?"
+  },
+  {
+    "id": "musiques_133",
+    "question": "Jul vs PNL : ambiance ou punchlines ?"
+  },
+  {
+    "id": "musiques_134",
+    "question": "Stromae vs Orelsan : réflexion ou ironie ?"
+  },
+  {
+    "id": "musiques_135",
+    "question": "Angèle vs Aya Nakamura : subtilité ou impact mondial ?"
+  },
+  {
+    "id": "musiques_136",
+    "question": "Travis Scott vs Drake : production ou domination ?"
+  },
+  {
+    "id": "musiques_137",
+    "question": "Kendrick Lamar vs J. Cole : plume ou cohérence ?"
+  },
+  {
+    "id": "musiques_138",
+    "question": "Jay-Z vs Kanye West : businessman ou visionnaire ?"
+  },
+  {
+    "id": "musiques_139",
+    "question": "The Beatles vs Rolling Stones : mélodie ou attitude ?"
+  },
+  {
+    "id": "musiques_140",
+    "question": "Queen vs Led Zeppelin : puissance ou virtuosité ?"
+  },
+  {
+    "id": "musiques_141",
+    "question": "Michael Jackson vs Beyoncé : performance ou héritage ?"
+  },
+  {
+    "id": "musiques_142",
+    "question": "Taylor Swift vs Adele : écriture ou voix ?"
+  },
+  {
+    "id": "musiques_143",
+    "question": "Booba vs Rohff : longévité ou technique ?"
+  },
+  {
+    "id": "musiques_144",
+    "question": "Ninho vs Gazo : efficacité ou style ?"
+  },
+  {
+    "id": "musiques_145",
+    "question": "PNL vs SCH : univers ou storytelling ?"
+  },
+  {
+    "id": "musiques_146",
+    "question": "Jul vs Ninho : volume ou constance ?"
+  },
+  {
+    "id": "musiques_147",
+    "question": "Drake vs Eminem : chiffres ou technique ?"
+  },
+  {
+    "id": "musiques_148",
+    "question": "Billie Eilish vs Olivia Rodrigo : minimalisme ou intensité ?"
+  },
+  {
+    "id": "musiques_149",
+    "question": "Rihanna vs Beyoncé : influence ou longévité ?"
+  },
+  {
+    "id": "musiques_150",
+    "question": "Orelsan vs Bigflo & Oli : maturité ou accessibilité ?"
+  },
+  {
+    "id": "musiques_151",
+    "question": "Cabrel vs Goldman : poésie ou mélodie ?"
+  },
+  {
+    "id": "musiques_152",
+    "question": "Stromae vs Vianney : originalité ou douceur ?"
+  },
+  {
+    "id": "musiques_153",
+    "question": "Damso vs Nekfeu : introspection ou brutalité ?"
+  },
+  {
+    "id": "musiques_154",
+    "question": "Booba vs PNL : aura ou mystère ?"
+  },
+  {
+    "id": "musiques_155",
+    "question": "Jul vs SCH : productivité ou esthétique ?"
+  },
+  {
+    "id": "musiques_156",
+    "question": "Drake vs Kanye : domination ou innovation ?"
+  },
+  {
+    "id": "musiques_157",
+    "question": "Eminem vs Kendrick Lamar : technique ou profondeur ?"
+  },
+  {
+    "id": "musiques_158",
+    "question": "Taylor Swift vs Ariana Grande : plume ou performance ?"
+  },
+  {
+    "id": "musiques_159",
+    "question": "Angèle vs Louane : modernité ou variété ?"
+  },
+  {
+    "id": "musiques_160",
+    "question": "Aya Nakamura vs Rihanna : influence ou univers ?"
+  },
+  {
+    "id": "musiques_161",
+    "question": "Ninho vs Damso : efficacité ou écriture ?"
+  },
+  {
+    "id": "musiques_162",
+    "question": "Booba vs Damso : mentor ou élève surpassant ?"
+  },
+  {
+    "id": "musiques_163",
+    "question": "PNL vs Jul : ambiance ou popularité ?"
+  },
+  {
+    "id": "musiques_164",
+    "question": "Stromae vs Maître Gims : concept ou tubes ?"
+  },
+  {
+    "id": "musiques_165",
+    "question": "Beyoncé vs Taylor Swift : empire ou narration ?"
+  },
+  {
+    "id": "musiques_166",
+    "question": "Drake vs The Weeknd : domination ou identité ?"
+  },
+  {
+    "id": "musiques_167",
+    "question": "Travis Scott vs Kanye West : production ou vision ?"
+  },
+  {
+    "id": "musiques_168",
+    "question": "Adele vs Céline Dion : émotion ou puissance ?"
+  },
+  {
+    "id": "musiques_169",
+    "question": "Indochine vs Coldplay : longévité ou universalité ?"
+  },
+  {
+    "id": "musiques_170",
+    "question": "Metallica vs Nirvana : technique ou révolution ?"
+  },
+  {
+    "id": "musiques_171",
+    "question": "Damso vs SCH : univers ou punchlines ?"
+  },
+  {
+    "id": "musiques_172",
+    "question": "Ninho vs Gazo : chiffres ou style ?"
+  },
+  {
+    "id": "musiques_173",
+    "question": "Jul vs Orelsan : efficacité ou écriture ?"
+  },
+  {
+    "id": "musiques_174",
+    "question": "Angèle vs Stromae : modernité belge au sommet ?"
+  },
+  {
+    "id": "musiques_175",
+    "question": "Drake vs Jay-Z : chiffres ou empire ?"
+  },
+  {
+    "id": "musiques_176",
+    "question": "Eminem vs Kanye : flow ou créativité ?"
+  },
+  {
+    "id": "musiques_177",
+    "question": "Rihanna vs Lady Gaga : image ou voix ?"
+  },
+  {
+    "id": "musiques_178",
+    "question": "Beyoncé vs Michael Jackson : héritage ou icône suprême ?"
+  },
+  {
+    "id": "musiques_179",
+    "question": "Cabrel vs Vianney : poésie d’hier ou d’aujourd’hui ?"
+  },
+  {
+    "id": "musiques_180",
+    "question": "PNL vs Booba : mystère ou domination historique ?"
+  },
+  {
+    "id": "musiques_181",
+    "question": "Damso vs Orelsan : introspection ou storytelling ?"
+  },
+  {
+    "id": "musiques_182",
+    "question": "SCH vs Ninho : univers sombre ou efficacité brute ?"
+  },
+  {
+    "id": "musiques_183",
+    "question": "Jul vs PNL : simplicité ou atmosphère ?"
+  },
+  {
+    "id": "musiques_184",
+    "question": "Taylor Swift vs Billie Eilish : narration ou minimalisme ?"
+  },
+  {
+    "id": "musiques_185",
+    "question": "Drake vs Kendrick Lamar : mainstream ou profondeur ?"
+  },
+  {
+    "id": "musiques_186",
+    "question": "Jay-Z vs Eminem : empire ou technique ?"
+  },
+  {
+    "id": "musiques_187",
+    "question": "Queen vs Michael Jackson : show ou légende ?"
+  },
+  {
+    "id": "musiques_188",
+    "question": "Nirvana vs Foo Fighters : révolution ou continuité ?"
+  },
+  {
+    "id": "musiques_189",
+    "question": "Aya Nakamura vs Angèle : hit mondial ou finesse pop ?"
+  },
+  {
+    "id": "musiques_190",
+    "question": "Booba vs Jul : ancien roi ou nouvelle ère ?"
+  },
+  {
+    "id": "musiques_191",
+    "question": "Damso vs Drake : introspection francophone ou domination mondiale ?"
+  },
+  {
+    "id": "musiques_192",
+    "question": "PNL vs Travis Scott : ambiance française ou US ?"
+  },
+  {
+    "id": "musiques_193",
+    "question": "Orelsan vs Stromae : plume ou concept ?"
+  },
+  {
+    "id": "musiques_194",
+    "question": "Beyoncé vs Rihanna : performance ou polyvalence ?"
+  },
+  {
+    "id": "musiques_195",
+    "question": "Taylor Swift vs Adele : écriture ou émotion pure ?"
+  },
+  {
+    "id": "musiques_196",
+    "question": "Eminem vs Kendrick Lamar : technique pure ou profondeur sociale ?"
+  },
+  {
+    "id": "musiques_197",
+    "question": "Jul vs Ninho : productivité ou efficacité ?"
+  },
+  {
+    "id": "musiques_198",
+    "question": "Cabrel vs Goldman : héritage ou modernité ?"
+  },
+  {
+    "id": "musiques_199",
+    "question": "Drake vs Kanye West : longévité ou vision ?"
+  },
+  {
+    "id": "musiques_200",
+    "question": "Qui est l’artiste le plus influent des 20 dernières années ?"
+  },
+  {
+    "id": "musiques_201",
+    "question": "Les années 80 étaient-elles meilleures musicalement ?"
+  },
+  {
+    "id": "musiques_202",
+    "question": "Les années 90 ont-elles créé les vraies légendes ?"
+  },
+  {
+    "id": "musiques_203",
+    "question": "Les années 2000 étaient-elles l’âge d’or du RnB ?"
+  },
+  {
+    "id": "musiques_204",
+    "question": "La musique 2020 est-elle plus efficace mais moins profonde ?"
+  },
+  {
+    "id": "musiques_205",
+    "question": "Avant le streaming, écoutait-on mieux la musique ?"
+  },
+  {
+    "id": "musiques_206",
+    "question": "Les albums avaient-ils plus de sens avant ?"
+  },
+  {
+    "id": "musiques_207",
+    "question": "Les artistes d’avant duraient-ils plus longtemps ?"
+  },
+  {
+    "id": "musiques_208",
+    "question": "Les jeunes respectent-ils assez les classiques ?"
+  },
+  {
+    "id": "musiques_209",
+    "question": "La nostalgie embellit-elle le passé musical ?"
+  },
+  {
+    "id": "musiques_210",
+    "question": "La musique actuelle est-elle trop rapide à consommer ?"
+  },
+  {
+    "id": "musiques_211",
+    "question": "Avant YouTube, les artistes étaient-ils plus rares ?"
+  },
+  {
+    "id": "musiques_212",
+    "question": "Les années 90 ont-elles inventé le rap moderne ?"
+  },
+  {
+    "id": "musiques_213",
+    "question": "Les années 2000 ont-elles démocratisé la pop ?"
+  },
+  {
+    "id": "musiques_214",
+    "question": "Les artistes d’aujourd’hui sont-ils trop dépendants des réseaux ?"
+  },
+  {
+    "id": "musiques_215",
+    "question": "Avant TikTok, les hits duraient-ils plus longtemps ?"
+  },
+  {
+    "id": "musiques_216",
+    "question": "La musique était-elle plus authentique avant ?"
+  },
+  {
+    "id": "musiques_217",
+    "question": "Les artistes actuels travaillent-ils moins leurs albums ?"
+  },
+  {
+    "id": "musiques_218",
+    "question": "Les clips étaient-ils plus marquants avant ?"
+  },
+  {
+    "id": "musiques_219",
+    "question": "Les plateformes ont-elles tué le mystère des artistes ?"
+  },
+  {
+    "id": "musiques_220",
+    "question": "Les générations actuelles sont-elles trop critiques ?"
+  },
+  {
+    "id": "musiques_221",
+    "question": "Les années 80 avaient-elles plus d’originalité ?"
+  },
+  {
+    "id": "musiques_222",
+    "question": "Les années 90 étaient-elles plus engagées ?"
+  },
+  {
+    "id": "musiques_223",
+    "question": "Les années 2000 ont-elles lancé la culture mainstream mondiale ?"
+  },
+  {
+    "id": "musiques_224",
+    "question": "Les années 2020 privilégient-elles la viralité ?"
+  },
+  {
+    "id": "musiques_225",
+    "question": "Les artistes d’avant écrivaient-ils mieux ?"
+  },
+  {
+    "id": "musiques_226",
+    "question": "La musique actuelle est-elle plus accessible ?"
+  },
+  {
+    "id": "musiques_227",
+    "question": "Avant internet, découvrait-on mieux la musique ?"
+  },
+  {
+    "id": "musiques_228",
+    "question": "Les radios avaient-elles plus de pouvoir avant ?"
+  },
+  {
+    "id": "musiques_229",
+    "question": "Les jeunes artistes ont-ils moins de pression qu’avant ?"
+  },
+  {
+    "id": "musiques_230",
+    "question": "Les hits d’aujourd’hui sont-ils oubliés trop vite ?"
+  },
+  {
+    "id": "musiques_231",
+    "question": "Les albums conceptuels ont-ils disparu ?"
+  },
+  {
+    "id": "musiques_232",
+    "question": "Avant le streaming, écoutait-on un album en entier ?"
+  },
+  {
+    "id": "musiques_233",
+    "question": "Les artistes d’avant étaient-ils plus iconiques ?"
+  },
+  {
+    "id": "musiques_234",
+    "question": "Les réseaux sociaux ont-ils tué le mystère ?"
+  },
+  {
+    "id": "musiques_235",
+    "question": "Les années 90 ont-elles créé plus de styles ?"
+  },
+  {
+    "id": "musiques_236",
+    "question": "La musique actuelle est-elle trop formatée ?"
+  },
+  {
+    "id": "musiques_237",
+    "question": "Les artistes d’avant avaient-ils plus de liberté ?"
+  },
+  {
+    "id": "musiques_238",
+    "question": "Les plateformes favorisent-elles la quantité ?"
+  },
+  {
+    "id": "musiques_239",
+    "question": "Les jeunes consomment-ils la musique différemment ?"
+  },
+  {
+    "id": "musiques_240",
+    "question": "La nostalgie influence-t-elle nos goûts ?"
+  },
+  {
+    "id": "musiques_241",
+    "question": "Les artistes actuels sont-ils trop exposés ?"
+  },
+  {
+    "id": "musiques_242",
+    "question": "Les classiques sont-ils intouchables ?"
+  },
+  {
+    "id": "musiques_243",
+    "question": "La musique actuelle est-elle plus internationale ?"
+  },
+  {
+    "id": "musiques_244",
+    "question": "Les générations d’avant respectaient-elles plus les artistes ?"
+  },
+  {
+    "id": "musiques_245",
+    "question": "Les années 2000 ont-elles marqué un tournant numérique ?"
+  },
+  {
+    "id": "musiques_246",
+    "question": "Les artistes d’aujourd’hui sont-ils plus polyvalents ?"
+  },
+  {
+    "id": "musiques_247",
+    "question": "Les années 90 étaient-elles plus créatives ?"
+  },
+  {
+    "id": "musiques_248",
+    "question": "Les artistes actuels travaillent-ils trop pour les charts ?"
+  },
+  {
+    "id": "musiques_249",
+    "question": "Avant Spotify, la découverte était-elle plus magique ?"
+  },
+  {
+    "id": "musiques_250",
+    "question": "Les hits d’été existaient-ils vraiment avant ?"
+  },
+  {
+    "id": "musiques_251",
+    "question": "Les artistes d’avant étaient-ils plus mystérieux ?"
+  },
+  {
+    "id": "musiques_252",
+    "question": "Les générations actuelles ont-elles plus d’options musicales ?"
+  },
+  {
+    "id": "musiques_253",
+    "question": "Les années 80 ont-elles posé les bases modernes ?"
+  },
+  {
+    "id": "musiques_254",
+    "question": "Les artistes d’aujourd’hui sont-ils trop dépendants du buzz ?"
+  },
+  {
+    "id": "musiques_255",
+    "question": "Les fans étaient-ils plus fidèles avant ?"
+  },
+  {
+    "id": "musiques_256",
+    "question": "Les artistes d’avant prenaient-ils plus de risques ?"
+  },
+  {
+    "id": "musiques_257",
+    "question": "Les années 2000 ont-elles changé le rap mondial ?"
+  },
+  {
+    "id": "musiques_258",
+    "question": "Les jeunes artistes respectent-ils les codes ?"
+  },
+  {
+    "id": "musiques_259",
+    "question": "Les classiques traversent-ils mieux le temps ?"
+  },
+  {
+    "id": "musiques_260",
+    "question": "La musique actuelle manque-t-elle de profondeur ?"
+  },
+  {
+    "id": "musiques_261",
+    "question": "Les artistes actuels ont-ils plus de pression ?"
+  },
+  {
+    "id": "musiques_262",
+    "question": "Avant internet, les carrières étaient-elles plus stables ?"
+  },
+  {
+    "id": "musiques_263",
+    "question": "Les années 90 ont-elles produit plus de chefs-d’œuvre ?"
+  },
+  {
+    "id": "musiques_264",
+    "question": "Les plateformes donnent-elles plus de chance aux nouveaux talents ?"
+  },
+  {
+    "id": "musiques_265",
+    "question": "La musique actuelle est-elle plus démocratique ?"
+  },
+  {
+    "id": "musiques_266",
+    "question": "Les artistes d’avant avaient-ils plus d’impact culturel ?"
+  },
+  {
+    "id": "musiques_267",
+    "question": "Les générations actuelles sont-elles trop critiques ?"
+  },
+  {
+    "id": "musiques_268",
+    "question": "Les années 2020 produisent-elles de futurs classiques ?"
+  },
+  {
+    "id": "musiques_269",
+    "question": "Les artistes d’aujourd’hui sont-ils plus accessibles ?"
+  },
+  {
+    "id": "musiques_270",
+    "question": "Les albums physiques avaient-ils plus de valeur ?"
+  },
+  {
+    "id": "musiques_271",
+    "question": "Les jeunes redécouvrent-ils trop tard les classiques ?"
+  },
+  {
+    "id": "musiques_272",
+    "question": "Les artistes d’avant étaient-ils moins nombreux mais plus marquants ?"
+  },
+  {
+    "id": "musiques_273",
+    "question": "Les années 2000 ont-elles démocratisé l’autotune ?"
+  },
+  {
+    "id": "musiques_274",
+    "question": "La musique actuelle est-elle trop courte ?"
+  },
+  {
+    "id": "musiques_275",
+    "question": "Les artistes d’aujourd’hui doivent-ils produire plus vite ?"
+  },
+  {
+    "id": "musiques_276",
+    "question": "Les années 90 étaient-elles plus engagées politiquement ?"
+  },
+  {
+    "id": "musiques_277",
+    "question": "Les plateformes favorisent-elles la diversité ?"
+  },
+  {
+    "id": "musiques_278",
+    "question": "Les artistes actuels sont-ils plus créatifs grâce à la technologie ?"
+  },
+  {
+    "id": "musiques_279",
+    "question": "La nostalgie est-elle une illusion collective ?"
+  },
+  {
+    "id": "musiques_280",
+    "question": "Les jeunes écoutent-ils moins d’albums complets ?"
+  },
+  {
+    "id": "musiques_281",
+    "question": "Les artistes d’avant avaient-ils plus d’aura ?"
+  },
+  {
+    "id": "musiques_282",
+    "question": "Les années 2020 produisent-elles des légendes futures ?"
+  },
+  {
+    "id": "musiques_283",
+    "question": "Les années 80 avaient-elles plus de personnalité ?"
+  },
+  {
+    "id": "musiques_284",
+    "question": "Les artistes actuels sont-ils plus stratèges ?"
+  },
+  {
+    "id": "musiques_285",
+    "question": "Les réseaux sociaux changent-ils la longévité ?"
+  },
+  {
+    "id": "musiques_286",
+    "question": "Les générations d’avant consommaient-elles mieux ?"
+  },
+  {
+    "id": "musiques_287",
+    "question": "La musique actuelle est-elle trop influencée par les tendances ?"
+  },
+  {
+    "id": "musiques_288",
+    "question": "Les artistes d’avant travaillaient-ils plus longtemps un album ?"
+  },
+  {
+    "id": "musiques_289",
+    "question": "Les années 2000 étaient-elles l’équilibre parfait ?"
+  },
+  {
+    "id": "musiques_290",
+    "question": "Les plateformes ont-elles créé une saturation musicale ?"
+  },
+  {
+    "id": "musiques_291",
+    "question": "Les jeunes artistes ont-ils moins de pression créative ?"
+  },
+  {
+    "id": "musiques_292",
+    "question": "Les années 90 ont-elles marqué un sommet du rap ?"
+  },
+  {
+    "id": "musiques_293",
+    "question": "La musique actuelle est-elle plus diversifiée ?"
+  },
+  {
+    "id": "musiques_294",
+    "question": "Les artistes d’avant avaient-ils plus de charisme naturel ?"
+  },
+  {
+    "id": "musiques_295",
+    "question": "Les hits actuels dureront-ils 30 ans ?"
+  },
+  {
+    "id": "musiques_296",
+    "question": "Les générations anciennes sont-elles trop nostalgiques ?"
+  },
+  {
+    "id": "musiques_297",
+    "question": "Les artistes actuels sont-ils plus internationaux ?"
+  },
+  {
+    "id": "musiques_298",
+    "question": "Les albums d’avant racontaient-ils plus d’histoires ?"
+  },
+  {
+    "id": "musiques_299",
+    "question": "Les années 2020 sont-elles sous-estimées ?"
+  },
+  {
+    "id": "musiques_300",
+    "question": "Quelle génération musicale dominera l’histoire ?"
+  },
+  {
+    "id": "musiques_301",
+    "question": "Un artiste doit-il écrire ses propres textes ?"
+  },
+  {
+    "id": "musiques_302",
+    "question": "Le producteur est-il plus important que le chanteur ?"
+  },
+  {
+    "id": "musiques_303",
+    "question": "L’autotune est-il un instrument ou une triche ?"
+  },
+  {
+    "id": "musiques_304",
+    "question": "Les maisons de disques contrôlent-elles trop la création ?"
+  },
+  {
+    "id": "musiques_305",
+    "question": "Le streaming a-t-il tué l’album ?"
+  },
+  {
+    "id": "musiques_306",
+    "question": "Les artistes indépendants sont-ils plus authentiques ?"
+  },
+  {
+    "id": "musiques_307",
+    "question": "Le buzz est-il devenu plus important que la qualité ?"
+  },
+  {
+    "id": "musiques_308",
+    "question": "Les singles dominent-ils trop l’industrie ?"
+  },
+  {
+    "id": "musiques_309",
+    "question": "Un album doit-il raconter une histoire ?"
+  },
+  {
+    "id": "musiques_310",
+    "question": "Les labels fabriquent-ils les stars ?"
+  },
+  {
+    "id": "musiques_311",
+    "question": "La musique est-elle devenue trop commerciale ?"
+  },
+  {
+    "id": "musiques_312",
+    "question": "Un artiste doit-il refuser certaines collaborations ?"
+  },
+  {
+    "id": "musiques_313",
+    "question": "Les plateformes favorisent-elles la quantité plutôt que la qualité ?"
+  },
+  {
+    "id": "musiques_314",
+    "question": "Le succès TikTok garantit-il une carrière ?"
+  },
+  {
+    "id": "musiques_315",
+    "question": "Les artistes doivent-ils sortir un album chaque année ?"
+  },
+  {
+    "id": "musiques_316",
+    "question": "Le marketing est-il plus important que le talent ?"
+  },
+  {
+    "id": "musiques_317",
+    "question": "Les artistes doivent-ils s’adapter aux tendances ?"
+  },
+  {
+    "id": "musiques_318",
+    "question": "Les featurings sont-ils stratégiques plutôt qu’artistiques ?"
+  },
+  {
+    "id": "musiques_319",
+    "question": "Les artistes ont-ils encore une liberté totale ?"
+  },
+  {
+    "id": "musiques_320",
+    "question": "Le streaming rémunère-t-il justement les artistes ?"
+  },
+  {
+    "id": "musiques_321",
+    "question": "Un artiste doit-il tout produire lui-même ?"
+  },
+  {
+    "id": "musiques_322",
+    "question": "Les ghostwriters enlèvent-ils de la crédibilité ?"
+  },
+  {
+    "id": "musiques_323",
+    "question": "Le public décide-t-il du talent ?"
+  },
+  {
+    "id": "musiques_324",
+    "question": "Les chiffres définissent-ils la réussite ?"
+  },
+  {
+    "id": "musiques_325",
+    "question": "Les artistes doivent-ils viser l’international ?"
+  },
+  {
+    "id": "musiques_326",
+    "question": "Le marketing peut-il transformer un artiste moyen en star ?"
+  },
+  {
+    "id": "musiques_327",
+    "question": "Les plateformes influencent-elles les goûts ?"
+  },
+  {
+    "id": "musiques_328",
+    "question": "Les artistes doivent-ils être entrepreneurs ?"
+  },
+  {
+    "id": "musiques_329",
+    "question": "Le succès viral est-il éphémère ?"
+  },
+  {
+    "id": "musiques_330",
+    "question": "L’image est-elle plus importante que la musique ?"
+  },
+  {
+    "id": "musiques_331",
+    "question": "Les labels prennent-ils trop de contrôle artistique ?"
+  },
+  {
+    "id": "musiques_332",
+    "question": "Un artiste doit-il évoluer à chaque album ?"
+  },
+  {
+    "id": "musiques_333",
+    "question": "Les artistes doivent-ils écouter les critiques ?"
+  },
+  {
+    "id": "musiques_334",
+    "question": "Les playlists influencent-elles trop les carrières ?"
+  },
+  {
+    "id": "musiques_335",
+    "question": "Le streaming a-t-il démocratisé la musique ?"
+  },
+  {
+    "id": "musiques_336",
+    "question": "Les artistes doivent-ils rester fidèles à leur style ?"
+  },
+  {
+    "id": "musiques_337",
+    "question": "La créativité est-elle limitée par le business ?"
+  },
+  {
+    "id": "musiques_338",
+    "question": "Les artistes doivent-ils être stratèges ?"
+  },
+  {
+    "id": "musiques_339",
+    "question": "Le succès dépend-il plus du réseau que du talent ?"
+  },
+  {
+    "id": "musiques_340",
+    "question": "Les artistes doivent-ils maîtriser leur communication ?"
+  },
+  {
+    "id": "musiques_341",
+    "question": "Un album conceptuel est-il supérieur à une suite de singles ?"
+  },
+  {
+    "id": "musiques_342",
+    "question": "Les artistes doivent-ils être actifs sur les réseaux ?"
+  },
+  {
+    "id": "musiques_343",
+    "question": "Le public consomme-t-il la musique trop vite ?"
+  },
+  {
+    "id": "musiques_344",
+    "question": "Les plateformes favorisent-elles les mêmes profils ?"
+  },
+  {
+    "id": "musiques_345",
+    "question": "Les artistes doivent-ils privilégier le streaming ou les ventes physiques ?"
+  },
+  {
+    "id": "musiques_346",
+    "question": "Le business tue-t-il l’art ?"
+  },
+  {
+    "id": "musiques_347",
+    "question": "Les artistes doivent-ils tout contrôler eux-mêmes ?"
+  },
+  {
+    "id": "musiques_348",
+    "question": "Les chiffres sont-ils une illusion de succès ?"
+  },
+  {
+    "id": "musiques_349",
+    "question": "Les labels créent-ils des tendances artificielles ?"
+  },
+  {
+    "id": "musiques_350",
+    "question": "La musique est-elle devenue un produit ?"
+  },
+  {
+    "id": "musiques_351",
+    "question": "Les artistes doivent-ils viser les charts ?"
+  },
+  {
+    "id": "musiques_352",
+    "question": "Le public est-il trop exigeant ?"
+  },
+  {
+    "id": "musiques_353",
+    "question": "Les réseaux sociaux dictent-ils les styles ?"
+  },
+  {
+    "id": "musiques_354",
+    "question": "Un artiste peut-il réussir sans label ?"
+  },
+  {
+    "id": "musiques_355",
+    "question": "Les artistes doivent-ils prendre des risques créatifs ?"
+  },
+  {
+    "id": "musiques_356",
+    "question": "Le succès commercial garantit-il la qualité ?"
+  },
+  {
+    "id": "musiques_357",
+    "question": "Les plateformes donnent-elles une chance aux talents cachés ?"
+  },
+  {
+    "id": "musiques_358",
+    "question": "Les artistes doivent-ils être transparents ?"
+  },
+  {
+    "id": "musiques_359",
+    "question": "La musique est-elle trop influencée par les algorithmes ?"
+  },
+  {
+    "id": "musiques_360",
+    "question": "Les chiffres remplacent-ils la critique artistique ?"
+  },
+  {
+    "id": "musiques_361",
+    "question": "Les artistes doivent-ils tout révéler de leur processus créatif ?"
+  },
+  {
+    "id": "musiques_362",
+    "question": "Les albums longs sont-ils dépassés ?"
+  },
+  {
+    "id": "musiques_363",
+    "question": "Les artistes doivent-ils sortir des deluxe pour survivre ?"
+  },
+  {
+    "id": "musiques_364",
+    "question": "Les collaborations boostent-elles artificiellement les streams ?"
+  },
+  {
+    "id": "musiques_365",
+    "question": "Le public consomme-t-il la musique comme un snack ?"
+  },
+  {
+    "id": "musiques_366",
+    "question": "Les artistes doivent-ils suivre la mode ou la créer ?"
+  },
+  {
+    "id": "musiques_367",
+    "question": "Le streaming favorise-t-il la standardisation ?"
+  },
+  {
+    "id": "musiques_368",
+    "question": "Les artistes doivent-ils accepter la pression des chiffres ?"
+  },
+  {
+    "id": "musiques_369",
+    "question": "Le succès dépend-il du timing ?"
+  },
+  {
+    "id": "musiques_370",
+    "question": "La musique indépendante est-elle l’avenir ?"
+  },
+  {
+    "id": "musiques_371",
+    "question": "Les artistes doivent-ils rester mystérieux ?"
+  },
+  {
+    "id": "musiques_372",
+    "question": "Le marketing crée-t-il les tendances ?"
+  },
+  {
+    "id": "musiques_373",
+    "question": "Les artistes doivent-ils privilégier l’authenticité ?"
+  },
+  {
+    "id": "musiques_374",
+    "question": "Les labels favorisent-ils les profils bankables ?"
+  },
+  {
+    "id": "musiques_375",
+    "question": "Les plateformes influencent-elles la durée des morceaux ?"
+  },
+  {
+    "id": "musiques_376",
+    "question": "Les artistes doivent-ils sortir des singles courts pour les streams ?"
+  },
+  {
+    "id": "musiques_377",
+    "question": "Le streaming favorise-t-il les artistes jeunes ?"
+  },
+  {
+    "id": "musiques_378",
+    "question": "Les artistes doivent-ils penser aux algorithmes ?"
+  },
+  {
+    "id": "musiques_379",
+    "question": "Les chiffres remplacent-ils le talent brut ?"
+  },
+  {
+    "id": "musiques_380",
+    "question": "Les labels sont-ils encore indispensables ?"
+  },
+  {
+    "id": "musiques_381",
+    "question": "Les artistes doivent-ils créer pour eux ou pour le public ?"
+  },
+  {
+    "id": "musiques_382",
+    "question": "Les réseaux sociaux ont-ils changé la créativité ?"
+  },
+  {
+    "id": "musiques_383",
+    "question": "Les albums physiques ont-ils encore une valeur ?"
+  },
+  {
+    "id": "musiques_384",
+    "question": "Les artistes doivent-ils privilégier la scène au studio ?"
+  },
+  {
+    "id": "musiques_385",
+    "question": "Les plateformes ont-elles nivelé la musique ?"
+  },
+  {
+    "id": "musiques_386",
+    "question": "Les artistes doivent-ils défendre leurs choix artistiques ?"
+  },
+  {
+    "id": "musiques_387",
+    "question": "Le streaming favorise-t-il la découverte ?"
+  },
+  {
+    "id": "musiques_388",
+    "question": "Les artistes doivent-ils accepter les compromis commerciaux ?"
+  },
+  {
+    "id": "musiques_389",
+    "question": "Le succès est-il devenu trop rapide ?"
+  },
+  {
+    "id": "musiques_390",
+    "question": "La musique est-elle devenue jetable ?"
+  },
+  {
+    "id": "musiques_391",
+    "question": "Les artistes doivent-ils maîtriser le business musical ?"
+  },
+  {
+    "id": "musiques_392",
+    "question": "Les labels créent-ils des carrières ou des produits ?"
+  },
+  {
+    "id": "musiques_393",
+    "question": "Le public influence-t-il trop la création ?"
+  },
+  {
+    "id": "musiques_394",
+    "question": "Les artistes doivent-ils sortir plus souvent ?"
+  },
+  {
+    "id": "musiques_395",
+    "question": "Les plateformes décident-elles du succès ?"
+  },
+  {
+    "id": "musiques_396",
+    "question": "La musique indépendante peut-elle rivaliser avec les majors ?"
+  },
+  {
+    "id": "musiques_397",
+    "question": "Les artistes doivent-ils s’entourer d’une équipe forte ?"
+  },
+  {
+    "id": "musiques_398",
+    "question": "Le succès viral est-il durable ?"
+  },
+  {
+    "id": "musiques_399",
+    "question": "La créativité peut-elle survivre au business ?"
+  },
+  {
+    "id": "musiques_400",
+    "question": "L’industrie musicale protège-t-elle vraiment les artistes ?"
+  },
+  {
+    "id": "musiques_401",
+    "question": "Un artiste est-il jugé d’abord sur le live ?"
+  },
+  {
+    "id": "musiques_402",
+    "question": "Le playback devrait-il être interdit en concert ?"
+  },
+  {
+    "id": "musiques_403",
+    "question": "Une grande voix suffit-elle sans présence scénique ?"
+  },
+  {
+    "id": "musiques_404",
+    "question": "Le show est-il plus important que la musique ?"
+  },
+  {
+    "id": "musiques_405",
+    "question": "Un concert en stade est-il meilleur qu’en petite salle ?"
+  },
+  {
+    "id": "musiques_406",
+    "question": "Les festivals valent-ils un vrai concert solo ?"
+  },
+  {
+    "id": "musiques_407",
+    "question": "L’énergie est-elle plus importante que la justesse ?"
+  },
+  {
+    "id": "musiques_408",
+    "question": "Un artiste doit-il chanter parfaitement en live ?"
+  },
+  {
+    "id": "musiques_409",
+    "question": "Les effets visuels compensent-ils un manque de talent ?"
+  },
+  {
+    "id": "musiques_410",
+    "question": "La performance scénique définit-elle la légende ?"
+  },
+  {
+    "id": "musiques_411",
+    "question": "Un artiste studio peut-il être mauvais en live ?"
+  },
+  {
+    "id": "musiques_412",
+    "question": "Les concerts sont-ils devenus trop scénarisés ?"
+  },
+  {
+    "id": "musiques_413",
+    "question": "L’improvisation rend-elle un concert meilleur ?"
+  },
+  {
+    "id": "musiques_414",
+    "question": "Un artiste doit-il toujours interagir avec le public ?"
+  },
+  {
+    "id": "musiques_415",
+    "question": "Les concerts acoustiques sont-ils plus authentiques ?"
+  },
+  {
+    "id": "musiques_416",
+    "question": "La danse est-elle essentielle pour un show pop ?"
+  },
+  {
+    "id": "musiques_417",
+    "question": "Un artiste doit-il réinventer ses morceaux en live ?"
+  },
+  {
+    "id": "musiques_418",
+    "question": "Le public influence-t-il la performance ?"
+  },
+  {
+    "id": "musiques_419",
+    "question": "Les tournées mondiales sont-elles le vrai test ?"
+  },
+  {
+    "id": "musiques_420",
+    "question": "Le live prouve-t-il le talent brut ?"
+  },
+  {
+    "id": "musiques_421",
+    "question": "Les concerts sont-ils trop chers aujourd’hui ?"
+  },
+  {
+    "id": "musiques_422",
+    "question": "Un artiste doit-il tout donner physiquement sur scène ?"
+  },
+  {
+    "id": "musiques_423",
+    "question": "Les festivals favorisent-ils l’ambiance plutôt que la qualité ?"
+  },
+  {
+    "id": "musiques_424",
+    "question": "Le charisme compte-t-il plus que la technique ?"
+  },
+  {
+    "id": "musiques_425",
+    "question": "Un artiste peut-il devenir légendaire sans grand live ?"
+  },
+  {
+    "id": "musiques_426",
+    "question": "Les shows actuels sont-ils trop technologiques ?"
+  },
+  {
+    "id": "musiques_427",
+    "question": "L’intimité d’une petite salle est-elle supérieure ?"
+  },
+  {
+    "id": "musiques_428",
+    "question": "Les artistes doivent-ils chanter 100% en direct ?"
+  },
+  {
+    "id": "musiques_429",
+    "question": "Les grandes scènes créent-elles plus d’émotion ?"
+  },
+  {
+    "id": "musiques_430",
+    "question": "La performance live doit-elle dépasser la version studio ?"
+  },
+  {
+    "id": "musiques_431",
+    "question": "Un artiste doit-il improviser avec le public ?"
+  },
+  {
+    "id": "musiques_432",
+    "question": "Les concerts sont-ils devenus des spectacles visuels avant tout ?"
+  },
+  {
+    "id": "musiques_433",
+    "question": "Le live révèle-t-il les faiblesses ?"
+  },
+  {
+    "id": "musiques_434",
+    "question": "Les artistes doivent-ils toujours évoluer en tournée ?"
+  },
+  {
+    "id": "musiques_435",
+    "question": "La performance scénique est-elle plus importante que les ventes ?"
+  },
+  {
+    "id": "musiques_436",
+    "question": "Les shows pop sont-ils trop chorégraphiés ?"
+  },
+  {
+    "id": "musiques_437",
+    "question": "Le public d’aujourd’hui est-il plus exigeant ?"
+  },
+  {
+    "id": "musiques_438",
+    "question": "Les concerts filmés remplacent-ils l’expérience réelle ?"
+  },
+  {
+    "id": "musiques_439",
+    "question": "Un artiste doit-il adapter son show selon le pays ?"
+  },
+  {
+    "id": "musiques_440",
+    "question": "La scène est-elle l’essence de la musique ?"
+  },
+  {
+    "id": "musiques_441",
+    "question": "Les artistes doivent-ils parler entre les chansons ?"
+  },
+  {
+    "id": "musiques_442",
+    "question": "Les festivals sont-ils plus mémorables que les tournées ?"
+  },
+  {
+    "id": "musiques_443",
+    "question": "Le live peut-il sauver une chanson moyenne ?"
+  },
+  {
+    "id": "musiques_444",
+    "question": "Les concerts sont-ils devenus trop courts ?"
+  },
+  {
+    "id": "musiques_445",
+    "question": "Un artiste doit-il créer une expérience immersive ?"
+  },
+  {
+    "id": "musiques_446",
+    "question": "Le live est-il le vrai moment de vérité ?"
+  },
+  {
+    "id": "musiques_447",
+    "question": "Les artistes doivent-ils privilégier la voix au show ?"
+  },
+  {
+    "id": "musiques_448",
+    "question": "Les shows géants créent-ils moins d’émotion ?"
+  },
+  {
+    "id": "musiques_449",
+    "question": "Le public moderne filme-t-il trop au lieu de vivre ?"
+  },
+  {
+    "id": "musiques_450",
+    "question": "Le live est-il plus sincère que le studio ?"
+  },
+  {
+    "id": "musiques_451",
+    "question": "Les artistes doivent-ils surprendre en concert ?"
+  },
+  {
+    "id": "musiques_452",
+    "question": "Le playback partiel est-il acceptable ?"
+  },
+  {
+    "id": "musiques_453",
+    "question": "Les artistes doivent-ils varier leur setlist ?"
+  },
+  {
+    "id": "musiques_454",
+    "question": "Les concerts sont-ils devenus trop formatés ?"
+  },
+  {
+    "id": "musiques_455",
+    "question": "Le live crée-t-il une connexion unique ?"
+  },
+  {
+    "id": "musiques_456",
+    "question": "Un artiste peut-il être grand sans tournée mondiale ?"
+  },
+  {
+    "id": "musiques_457",
+    "question": "Les performances live influencent-elles la carrière ?"
+  },
+  {
+    "id": "musiques_458",
+    "question": "Les shows d’aujourd’hui sont-ils trop calibrés ?"
+  },
+  {
+    "id": "musiques_459",
+    "question": "Le live est-il plus important que les streams ?"
+  },
+  {
+    "id": "musiques_460",
+    "question": "Les artistes doivent-ils s’adapter à l’énergie du public ?"
+  },
+  {
+    "id": "musiques_461",
+    "question": "Un concert acoustique est-il plus authentique ?"
+  },
+  {
+    "id": "musiques_462",
+    "question": "Les grandes scènes diluent-elles l’émotion ?"
+  },
+  {
+    "id": "musiques_463",
+    "question": "Le public est-il co-créateur du live ?"
+  },
+  {
+    "id": "musiques_464",
+    "question": "Les shows doivent-ils être différents chaque soir ?"
+  },
+  {
+    "id": "musiques_465",
+    "question": "Le live est-il la vraie mesure du talent ?"
+  },
+  {
+    "id": "musiques_466",
+    "question": "Les artistes doivent-ils privilégier la performance physique ?"
+  },
+  {
+    "id": "musiques_467",
+    "question": "Les concerts créent-ils des souvenirs plus forts que les albums ?"
+  },
+  {
+    "id": "musiques_468",
+    "question": "Les shows technologiques impressionnent-ils plus qu’ils n’émeuvent ?"
+  },
+  {
+    "id": "musiques_469",
+    "question": "Le live permet-il de redécouvrir un artiste ?"
+  },
+  {
+    "id": "musiques_470",
+    "question": "Les artistes doivent-ils se réinventer sur scène ?"
+  },
+  {
+    "id": "musiques_471",
+    "question": "Les tournées épuisent-elles la créativité ?"
+  },
+  {
+    "id": "musiques_472",
+    "question": "Les concerts intimistes sont-ils supérieurs aux stades ?"
+  },
+  {
+    "id": "musiques_473",
+    "question": "Le live est-il plus spontané qu’avant ?"
+  },
+  {
+    "id": "musiques_474",
+    "question": "Les artistes doivent-ils faire participer le public ?"
+  },
+  {
+    "id": "musiques_475",
+    "question": "Les shows modernes sont-ils trop prévisibles ?"
+  },
+  {
+    "id": "musiques_476",
+    "question": "La performance live peut-elle dépasser la version originale ?"
+  },
+  {
+    "id": "musiques_477",
+    "question": "Les concerts sont-ils devenus trop commerciaux ?"
+  },
+  {
+    "id": "musiques_478",
+    "question": "Les artistes doivent-ils repousser leurs limites sur scène ?"
+  },
+  {
+    "id": "musiques_479",
+    "question": "Le live est-il la vraie preuve d’endurance ?"
+  },
+  {
+    "id": "musiques_480",
+    "question": "Les shows actuels misent-ils trop sur la technologie ?"
+  },
+  {
+    "id": "musiques_481",
+    "question": "Le public doit-il être plus respectueux en concert ?"
+  },
+  {
+    "id": "musiques_482",
+    "question": "Les festivals offrent-ils une meilleure ambiance collective ?"
+  },
+  {
+    "id": "musiques_483",
+    "question": "Les artistes doivent-ils jouer leurs anciens hits à chaque concert ?"
+  },
+  {
+    "id": "musiques_484",
+    "question": "Le live crée-t-il une communauté ?"
+  },
+  {
+    "id": "musiques_485",
+    "question": "Les shows d’aujourd’hui sont-ils plus spectaculaires qu’avant ?"
+  },
+  {
+    "id": "musiques_486",
+    "question": "Les artistes doivent-ils improviser davantage ?"
+  },
+  {
+    "id": "musiques_487",
+    "question": "La scène révèle-t-elle la personnalité réelle ?"
+  },
+  {
+    "id": "musiques_488",
+    "question": "Les concerts sont-ils devenus des événements sociaux ?"
+  },
+  {
+    "id": "musiques_489",
+    "question": "Le live est-il irremplaçable ?"
+  },
+  {
+    "id": "musiques_490",
+    "question": "Les artistes doivent-ils se réinventer en tournée ?"
+  },
+  {
+    "id": "musiques_491",
+    "question": "Les concerts valent-ils leur prix actuel ?"
+  },
+  {
+    "id": "musiques_492",
+    "question": "Le live est-il plus intense que le studio ?"
+  },
+  {
+    "id": "musiques_493",
+    "question": "Les artistes doivent-ils privilégier l’émotion au show ?"
+  },
+  {
+    "id": "musiques_494",
+    "question": "Les grandes scènes créent-elles une distance ?"
+  },
+  {
+    "id": "musiques_495",
+    "question": "Le live est-il plus important que les chiffres ?"
+  },
+  {
+    "id": "musiques_496",
+    "question": "Les artistes doivent-ils tout chanter sans aide technique ?"
+  },
+  {
+    "id": "musiques_497",
+    "question": "Les concerts sont-ils l’aboutissement d’un album ?"
+  },
+  {
+    "id": "musiques_498",
+    "question": "La performance live peut-elle créer une légende ?"
+  },
+  {
+    "id": "musiques_499",
+    "question": "Les shows actuels sont-ils trop courts ?"
+  },
+  {
+    "id": "musiques_500",
+    "question": "Qu’est-ce qui fait un concert inoubliable ?"
+  },
+  {
+    "id": "musiques_501",
+    "question": "La musique influence-t-elle le comportement ?"
+  },
+  {
+    "id": "musiques_502",
+    "question": "La musique peut-elle changer une société ?"
+  },
+  {
+    "id": "musiques_503",
+    "question": "Les artistes doivent-ils s’engager politiquement ?"
+  },
+  {
+    "id": "musiques_504",
+    "question": "Le rap reflète-t-il mieux la réalité sociale que les autres styles ?"
+  },
+  {
+    "id": "musiques_505",
+    "question": "La musique rassemble-t-elle plus que la politique ?"
+  },
+  {
+    "id": "musiques_506",
+    "question": "Les artistes sont-ils des modèles malgré eux ?"
+  },
+  {
+    "id": "musiques_507",
+    "question": "La musique peut-elle apaiser les conflits ?"
+  },
+  {
+    "id": "musiques_508",
+    "question": "Les chansons engagées ont-elles plus d’impact ?"
+  },
+  {
+    "id": "musiques_509",
+    "question": "La musique influence-t-elle la mode ?"
+  },
+  {
+    "id": "musiques_510",
+    "question": "Les artistes doivent-ils prendre position publiquement ?"
+  },
+  {
+    "id": "musiques_511",
+    "question": "La musique façonne-t-elle l’identité d’une génération ?"
+  },
+  {
+    "id": "musiques_512",
+    "question": "Les artistes ont-ils une responsabilité sociale ?"
+  },
+  {
+    "id": "musiques_513",
+    "question": "La musique peut-elle diviser une société ?"
+  },
+  {
+    "id": "musiques_514",
+    "question": "Les paroles influencent-elles les mentalités ?"
+  },
+  {
+    "id": "musiques_515",
+    "question": "Le rap est-il trop critiqué socialement ?"
+  },
+  {
+    "id": "musiques_516",
+    "question": "La musique influence-t-elle le langage ?"
+  },
+  {
+    "id": "musiques_517",
+    "question": "Les artistes doivent-ils éviter les sujets sensibles ?"
+  },
+  {
+    "id": "musiques_518",
+    "question": "La musique peut-elle créer des mouvements culturels ?"
+  },
+  {
+    "id": "musiques_519",
+    "question": "Les artistes sont-ils plus influents que les politiciens ?"
+  },
+  {
+    "id": "musiques_520",
+    "question": "La musique peut-elle normaliser certains comportements ?"
+  },
+  {
+    "id": "musiques_521",
+    "question": "La musique crée-t-elle des communautés fortes ?"
+  },
+  {
+    "id": "musiques_522",
+    "question": "Les artistes doivent-ils utiliser leur notoriété pour défendre des causes ?"
+  },
+  {
+    "id": "musiques_523",
+    "question": "La musique influence-t-elle la vision de l’amour ?"
+  },
+  {
+    "id": "musiques_524",
+    "question": "Les chansons engagées sont-elles plus respectables ?"
+  },
+  {
+    "id": "musiques_525",
+    "question": "La musique est-elle un miroir de la société ?"
+  },
+  {
+    "id": "musiques_526",
+    "question": "Les artistes ont-ils trop de pouvoir médiatique ?"
+  },
+  {
+    "id": "musiques_527",
+    "question": "La musique peut-elle renforcer les stéréotypes ?"
+  },
+  {
+    "id": "musiques_528",
+    "question": "Les festivals créent-ils du lien social ?"
+  },
+  {
+    "id": "musiques_529",
+    "question": "Les artistes doivent-ils être exemplaires ?"
+  },
+  {
+    "id": "musiques_530",
+    "question": "La musique est-elle un outil d’expression sociale ?"
+  },
+  {
+    "id": "musiques_531",
+    "question": "Le rap est-il devenu la voix principale des jeunes ?"
+  },
+  {
+    "id": "musiques_532",
+    "question": "La musique peut-elle dénoncer les injustices ?"
+  },
+  {
+    "id": "musiques_533",
+    "question": "Les artistes influencent-ils les opinions politiques ?"
+  },
+  {
+    "id": "musiques_534",
+    "question": "La musique rassemble-t-elle au-delà des cultures ?"
+  },
+  {
+    "id": "musiques_535",
+    "question": "Les artistes doivent-ils séparer art et politique ?"
+  },
+  {
+    "id": "musiques_536",
+    "question": "La musique influence-t-elle la manière de penser ?"
+  },
+  {
+    "id": "musiques_537",
+    "question": "Les chansons peuvent-elles faire évoluer les mentalités ?"
+  },
+  {
+    "id": "musiques_538",
+    "question": "La musique est-elle plus puissante que le cinéma ?"
+  },
+  {
+    "id": "musiques_539",
+    "question": "Les artistes doivent-ils être responsables de leurs paroles ?"
+  },
+  {
+    "id": "musiques_540",
+    "question": "La musique influence-t-elle les valeurs ?"
+  },
+  {
+    "id": "musiques_541",
+    "question": "Les artistes sont-ils des leaders d’opinion ?"
+  },
+  {
+    "id": "musiques_542",
+    "question": "La musique peut-elle réduire les tensions sociales ?"
+  },
+  {
+    "id": "musiques_543",
+    "question": "Les paroles violentes influencent-elles les comportements ?"
+  },
+  {
+    "id": "musiques_544",
+    "question": "La musique reflète-t-elle les crises sociales ?"
+  },
+  {
+    "id": "musiques_545",
+    "question": "Les artistes doivent-ils être prudents avec leur image ?"
+  },
+  {
+    "id": "musiques_546",
+    "question": "La musique peut-elle inspirer des révolutions culturelles ?"
+  },
+  {
+    "id": "musiques_547",
+    "question": "Les artistes ont-ils un devoir moral ?"
+  },
+  {
+    "id": "musiques_548",
+    "question": "La musique peut-elle unir des générations ?"
+  },
+  {
+    "id": "musiques_549",
+    "question": "Les chansons engagées vieillissent-elles mieux ?"
+  },
+  {
+    "id": "musiques_550",
+    "question": "La musique est-elle un langage universel ?"
+  },
+  {
+    "id": "musiques_551",
+    "question": "Les artistes influencent-ils les tendances sociales ?"
+  },
+  {
+    "id": "musiques_552",
+    "question": "La musique peut-elle renforcer l’identité culturelle ?"
+  },
+  {
+    "id": "musiques_553",
+    "question": "Les artistes doivent-ils parler des injustices ?"
+  },
+  {
+    "id": "musiques_554",
+    "question": "La musique influence-t-elle la perception de la réussite ?"
+  },
+  {
+    "id": "musiques_555",
+    "question": "Les artistes sont-ils plus écoutés que les experts ?"
+  },
+  {
+    "id": "musiques_556",
+    "question": "La musique peut-elle créer un sentiment d’appartenance ?"
+  },
+  {
+    "id": "musiques_557",
+    "question": "Les paroles doivent-elles être censurées ?"
+  },
+  {
+    "id": "musiques_558",
+    "question": "La musique peut-elle normaliser certaines idées ?"
+  },
+  {
+    "id": "musiques_559",
+    "question": "Les artistes doivent-ils défendre leurs fans ?"
+  },
+  {
+    "id": "musiques_560",
+    "question": "La musique est-elle un outil de liberté d’expression ?"
+  },
+  {
+    "id": "musiques_561",
+    "question": "Le rap est-il un outil de contestation ?"
+  },
+  {
+    "id": "musiques_562",
+    "question": "La musique peut-elle changer une génération ?"
+  },
+  {
+    "id": "musiques_563",
+    "question": "Les artistes influencent-ils la culture populaire ?"
+  },
+  {
+    "id": "musiques_564",
+    "question": "La musique peut-elle renforcer la solidarité ?"
+  },
+  {
+    "id": "musiques_565",
+    "question": "Les artistes doivent-ils être conscients de leur influence ?"
+  },
+  {
+    "id": "musiques_566",
+    "question": "La musique est-elle un reflet des inégalités ?"
+  },
+  {
+    "id": "musiques_567",
+    "question": "Les artistes ont-ils trop de pouvoir culturel ?"
+  },
+  {
+    "id": "musiques_568",
+    "question": "La musique peut-elle éduquer ?"
+  },
+  {
+    "id": "musiques_569",
+    "question": "Les artistes doivent-ils éviter la polémique ?"
+  },
+  {
+    "id": "musiques_570",
+    "question": "La musique est-elle un outil de résistance ?"
+  },
+  {
+    "id": "musiques_571",
+    "question": "Les artistes doivent-ils défendre certaines causes ?"
+  },
+  {
+    "id": "musiques_572",
+    "question": "La musique influence-t-elle les comportements sociaux ?"
+  },
+  {
+    "id": "musiques_573",
+    "question": "Les artistes sont-ils des ambassadeurs culturels ?"
+  },
+  {
+    "id": "musiques_574",
+    "question": "La musique peut-elle rapprocher des cultures opposées ?"
+  },
+  {
+    "id": "musiques_575",
+    "question": "Les artistes doivent-ils répondre aux attentes sociales ?"
+  },
+  {
+    "id": "musiques_576",
+    "question": "La musique peut-elle influencer les élections ?"
+  },
+  {
+    "id": "musiques_577",
+    "question": "Les artistes doivent-ils assumer l’impact de leurs paroles ?"
+  },
+  {
+    "id": "musiques_578",
+    "question": "La musique est-elle plus forte que les discours politiques ?"
+  },
+  {
+    "id": "musiques_579",
+    "question": "Les artistes doivent-ils être engagés ?"
+  },
+  {
+    "id": "musiques_580",
+    "question": "La musique peut-elle créer un changement durable ?"
+  },
+  {
+    "id": "musiques_581",
+    "question": "Les artistes influencent-ils les jeunes plus que l’école ?"
+  },
+  {
+    "id": "musiques_582",
+    "question": "La musique peut-elle changer une perception sociale ?"
+  },
+  {
+    "id": "musiques_583",
+    "question": "Les artistes doivent-ils défendre la liberté d’expression ?"
+  },
+  {
+    "id": "musiques_584",
+    "question": "La musique peut-elle réduire les divisions sociales ?"
+  },
+  {
+    "id": "musiques_585",
+    "question": "Les artistes doivent-ils être neutres ?"
+  },
+  {
+    "id": "musiques_586",
+    "question": "La musique influence-t-elle la culture mondiale ?"
+  },
+  {
+    "id": "musiques_587",
+    "question": "Les artistes doivent-ils représenter leur génération ?"
+  },
+  {
+    "id": "musiques_588",
+    "question": "La musique peut-elle inspirer des mouvements ?"
+  },
+  {
+    "id": "musiques_589",
+    "question": "Les artistes ont-ils une responsabilité envers la société ?"
+  },
+  {
+    "id": "musiques_590",
+    "question": "La musique peut-elle unir des opinions opposées ?"
+  },
+  {
+    "id": "musiques_591",
+    "question": "Les artistes doivent-ils défendre leurs convictions publiquement ?"
+  },
+  {
+    "id": "musiques_592",
+    "question": "La musique influence-t-elle les débats sociaux ?"
+  },
+  {
+    "id": "musiques_593",
+    "question": "Les artistes sont-ils des acteurs culturels majeurs ?"
+  },
+  {
+    "id": "musiques_594",
+    "question": "La musique peut-elle influencer les valeurs d’une génération ?"
+  },
+  {
+    "id": "musiques_595",
+    "question": "Les artistes doivent-ils être cohérents avec leurs paroles ?"
+  },
+  {
+    "id": "musiques_596",
+    "question": "La musique peut-elle rapprocher les peuples ?"
+  },
+  {
+    "id": "musiques_597",
+    "question": "Les artistes doivent-ils prendre des risques sociaux ?"
+  },
+  {
+    "id": "musiques_598",
+    "question": "La musique peut-elle servir de thérapie collective ?"
+  },
+  {
+    "id": "musiques_599",
+    "question": "Les artistes ont-ils un rôle politique indirect ?"
+  },
+  {
+    "id": "musiques_600",
+    "question": "La musique peut-elle réellement changer le monde ?"
+  }
+]

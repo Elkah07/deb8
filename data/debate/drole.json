@@ -1,0 +1,2398 @@
+[
+  {
+    "id": "drole_001",
+    "question": "Si les plantes pouvaient parler, elles nous demanderaient plus d’eau ou moins de conversations ?"
+  },
+  {
+    "id": "drole_002",
+    "question": "Pourquoi les gens courent-ils sous la pluie alors que ça ne change rien ?"
+  },
+  {
+    "id": "drole_003",
+    "question": "Est-ce qu’un chat considère qu’on est son colocataire ou son employé ?"
+  },
+  {
+    "id": "drole_004",
+    "question": "Pourquoi le mot “queue” a-t-il autant de sens différents ?"
+  },
+  {
+    "id": "drole_005",
+    "question": "Si les escargots avaient des motos, seraient-ils toujours lents ?"
+  },
+  {
+    "id": "drole_006",
+    "question": "Pourquoi on regarde l’heure plusieurs fois quand on attend un message ?"
+  },
+  {
+    "id": "drole_007",
+    "question": "Les mouettes sont-elles les vraies patronnes des plages ?"
+  },
+  {
+    "id": "drole_008",
+    "question": "Pourquoi on goûte toujours quelque chose de brûlant en sachant que ça va brûler ?"
+  },
+  {
+    "id": "drole_009",
+    "question": "Si les poissons pouvaient marcher, envahiraient-ils les trottoirs ?"
+  },
+  {
+    "id": "drole_010",
+    "question": "Pourquoi les gens disent “je suis en route” alors qu’ils sont encore chez eux ?"
+  },
+  {
+    "id": "drole_011",
+    "question": "Les zombies préfèreraient-ils LinkedIn ou Tinder ?"
+  },
+  {
+    "id": "drole_012",
+    "question": "Si on met un pull à un serpent, est-ce un col roulé infini ?"
+  },
+  {
+    "id": "drole_013",
+    "question": "Pourquoi on parle à son GPS quand il se trompe ?"
+  },
+  {
+    "id": "drole_014",
+    "question": "Si les fantômes existent, pourquoi ils n’ont jamais de vêtements modernes ?"
+  },
+  {
+    "id": "drole_015",
+    "question": "Pourquoi on ouvre Instagram sans savoir pourquoi on l’ouvre ?"
+  },
+  {
+    "id": "drole_016",
+    "question": "Les chiens pensent-ils que la voiture est un animal géant ?"
+  },
+  {
+    "id": "drole_017",
+    "question": "Pourquoi les gens tapent plus fort sur une télécommande quand elle bug ?"
+  },
+  {
+    "id": "drole_018",
+    "question": "Si les dragons existaient, seraient-ils végétariens par mode ?"
+  },
+  {
+    "id": "drole_019",
+    "question": "Pourquoi on regarde dans le frigo toutes les 10 minutes comme si quelque chose allait apparaître ?"
+  },
+  {
+    "id": "drole_020",
+    "question": "Est-ce que le dimanche soir devrait être interdit par la loi ?"
+  },
+  {
+    "id": "drole_021",
+    "question": "Si les poules avaient des bras, feraient-elles des pompes ?"
+  },
+  {
+    "id": "drole_022",
+    "question": "Pourquoi les gens applaudissent-ils dans un cinéma à la fin d’un film ?"
+  },
+  {
+    "id": "drole_023",
+    "question": "Les vampires ont-ils des problèmes de vitamine D ?"
+  },
+  {
+    "id": "drole_024",
+    "question": "Pourquoi on dit “c’est pas faux” au lieu de dire “t’as raison” ?"
+  },
+  {
+    "id": "drole_025",
+    "question": "Si les pigeons sont des drones, qui change leurs batteries ?"
+  },
+  {
+    "id": "drole_026",
+    "question": "Pourquoi les moustiques ignorent certaines personnes ?"
+  },
+  {
+    "id": "drole_027",
+    "question": "Les super-héros paient-ils des impôts ?"
+  },
+  {
+    "id": "drole_028",
+    "question": "Pourquoi on répond “ça va” même quand ça ne va pas ?"
+  },
+  {
+    "id": "drole_029",
+    "question": "Si un poisson rouge a une mémoire courte, comment il sait qu’il est triste ?"
+  },
+  {
+    "id": "drole_030",
+    "question": "Pourquoi les alarmes sonnent-elles toujours dans les rêves ?"
+  },
+  {
+    "id": "drole_031",
+    "question": "Les extraterrestres nous regardent-ils comme une téléréalité ?"
+  },
+  {
+    "id": "drole_032",
+    "question": "Pourquoi on met la musique plus fort quand on est perdu en voiture ?"
+  },
+  {
+    "id": "drole_033",
+    "question": "Si un robot tombe amoureux, il bug ou il évolue ?"
+  },
+  {
+    "id": "drole_034",
+    "question": "Pourquoi on ferme les yeux quand on se lave les cheveux alors que ce n’est pas obligatoire ?"
+  },
+  {
+    "id": "drole_035",
+    "question": "Les licornes seraient-elles snobs ?"
+  },
+  {
+    "id": "drole_036",
+    "question": "Pourquoi les gens parlent-ils aux bébés avec une voix bizarre ?"
+  },
+  {
+    "id": "drole_037",
+    "question": "Si les squelettes n’ont pas d’estomac, comment mangent-ils en dessin animé ?"
+  },
+  {
+    "id": "drole_038",
+    "question": "Pourquoi on lit les conditions d’utilisation qu’on n’a jamais lues ?"
+  },
+  {
+    "id": "drole_039",
+    "question": "Les momies sont-elles toujours en retard parce qu’elles sont mal emballées ?"
+  },
+  {
+    "id": "drole_040",
+    "question": "Pourquoi on secoue un stylo qui ne marche plus ?"
+  },
+  {
+    "id": "drole_041",
+    "question": "Les chats complotent-ils la nuit ?"
+  },
+  {
+    "id": "drole_042",
+    "question": "Si les chaussettes disparaissent, est-ce une organisation secrète ?"
+  },
+  {
+    "id": "drole_043",
+    "question": "Pourquoi on regarde la météo alors qu’on voit déjà le ciel ?"
+  },
+  {
+    "id": "drole_044",
+    "question": "Les poissons s’ennuient-ils dans les aquariums ?"
+  },
+  {
+    "id": "drole_045",
+    "question": "Pourquoi les gens écrivent “vu” sans répondre ?"
+  },
+  {
+    "id": "drole_046",
+    "question": "Si les nuages avaient une personnalité, laquelle serait la plus toxique ?"
+  },
+  {
+    "id": "drole_047",
+    "question": "Pourquoi on fait semblant de chercher quand quelqu’un nous aide déjà ?"
+  },
+  {
+    "id": "drole_048",
+    "question": "Les super-vilains ont-ils un service RH ?"
+  },
+  {
+    "id": "drole_049",
+    "question": "Pourquoi les gens disent “j’arrive” quand ils partent à peine ?"
+  },
+  {
+    "id": "drole_050",
+    "question": "Si les arbres avaient internet, se plaindraient-ils de nous ?"
+  },
+  {
+    "id": "drole_051",
+    "question": "Pourquoi on souffle sur quelque chose de froid par réflexe ?"
+  },
+  {
+    "id": "drole_052",
+    "question": "Les dinosaures auraient-ils aimé TikTok ?"
+  },
+  {
+    "id": "drole_053",
+    "question": "Pourquoi on se sent productif après avoir rangé juste un tiroir ?"
+  },
+  {
+    "id": "drole_054",
+    "question": "Si les miroirs pouvaient juger, seraient-ils méchants ?"
+  },
+  {
+    "id": "drole_055",
+    "question": "Pourquoi on vérifie 3 fois qu’on a fermé la porte ?"
+  },
+  {
+    "id": "drole_056",
+    "question": "Les sirènes ont-elles des problèmes de cheveux mouillés ?"
+  },
+  {
+    "id": "drole_057",
+    "question": "Pourquoi les gens regardent le micro-ondes pendant qu’il chauffe ?"
+  },
+  {
+    "id": "drole_058",
+    "question": "Si un fantôme traverse un mur, il paye un loyer ?"
+  },
+  {
+    "id": "drole_059",
+    "question": "Pourquoi on sourit au téléphone alors que personne ne nous voit ?"
+  },
+  {
+    "id": "drole_060",
+    "question": "Les dragons feraient-ils des barbecue accidents ?"
+  },
+  {
+    "id": "drole_061",
+    "question": "Pourquoi on clique sur “je ne suis pas un robot” alors que ça pourrait être suspect ?"
+  },
+  {
+    "id": "drole_062",
+    "question": "Si les fourmis avaient une économie, seraient-elles capitalistes ?"
+  },
+  {
+    "id": "drole_063",
+    "question": "Pourquoi on fait semblant de lire un message long en 2 secondes ?"
+  },
+  {
+    "id": "drole_064",
+    "question": "Les robots rêvent-ils de congés payés ?"
+  },
+  {
+    "id": "drole_065",
+    "question": "Pourquoi on dit “dernière vidéo” 12 fois avant de dormir ?"
+  },
+  {
+    "id": "drole_066",
+    "question": "Si les super-héros perdaient leurs pouvoirs, garderaient-ils leur confiance ?"
+  },
+  {
+    "id": "drole_067",
+    "question": "Pourquoi les gens aiment-ils les films tristes ?"
+  },
+  {
+    "id": "drole_068",
+    "question": "Les fantômes ont-ils peur du noir ?"
+  },
+  {
+    "id": "drole_069",
+    "question": "Pourquoi on s’excuse quand quelqu’un nous marche dessus ?"
+  },
+  {
+    "id": "drole_070",
+    "question": "Si les canards pouvaient parler, seraient-ils arrogants ?"
+  },
+  {
+    "id": "drole_071",
+    "question": "Pourquoi on remet la même chanson en boucle ?"
+  },
+  {
+    "id": "drole_072",
+    "question": "Les aliens trouvent-ils notre mode “costume-cravate” ridicule ?"
+  },
+  {
+    "id": "drole_073",
+    "question": "Pourquoi les gens applaudissent-ils un discours qu’ils n’ont pas compris ?"
+  },
+  {
+    "id": "drole_074",
+    "question": "Si les cactus avaient des sentiments, seraient-ils susceptibles ?"
+  },
+  {
+    "id": "drole_075",
+    "question": "Pourquoi on vérifie le frigo après avoir déjà décidé de ne rien manger ?"
+  },
+  {
+    "id": "drole_076",
+    "question": "Les zombies préfèrent-ils les philosophes ou les sportifs ?"
+  },
+  {
+    "id": "drole_077",
+    "question": "Pourquoi on hoche la tête même quand on n’est pas d’accord ?"
+  },
+  {
+    "id": "drole_078",
+    "question": "Si les chaussures avaient une opinion, elles jugeraient notre style ?"
+  },
+  {
+    "id": "drole_079",
+    "question": "Pourquoi les gens courent-ils vers les portes du métro déjà pleines ?"
+  },
+  {
+    "id": "drole_080",
+    "question": "Les super-vilains ont-ils un plan B ?"
+  },
+  {
+    "id": "drole_081",
+    "question": "Pourquoi on parle aux animaux comme s’ils comprenaient tout ?"
+  },
+  {
+    "id": "drole_082",
+    "question": "Si les étoiles pouvaient faire des vœux, que demanderaient-elles ?"
+  },
+  {
+    "id": "drole_083",
+    "question": "Pourquoi on rit quand quelqu’un tombe sans se faire mal ?"
+  },
+  {
+    "id": "drole_084",
+    "question": "Les vampires utilisent-ils du fond de teint SPF 0 ?"
+  },
+  {
+    "id": "drole_085",
+    "question": "Pourquoi on dit “ça sent bon” même quand on ne sait pas ce que c’est ?"
+  },
+  {
+    "id": "drole_086",
+    "question": "Si les meubles pouvaient se venger, lequel commencerait ?"
+  },
+  {
+    "id": "drole_087",
+    "question": "Pourquoi on met des guillemets avec les doigts en parlant ?"
+  },
+  {
+    "id": "drole_088",
+    "question": "Les fantômes ont-ils un planning ?"
+  },
+  {
+    "id": "drole_089",
+    "question": "Pourquoi on dit “je commence demain” pour tout ?"
+  },
+  {
+    "id": "drole_090",
+    "question": "Si les robots prennent le pouvoir, garderont-ils les jours fériés ?"
+  },
+  {
+    "id": "drole_091",
+    "question": "Pourquoi on parle plus fort quand quelqu’un ne comprend pas ?"
+  },
+  {
+    "id": "drole_092",
+    "question": "Les licornes auraient-elles un compte Instagram ?"
+  },
+  {
+    "id": "drole_093",
+    "question": "Pourquoi on vérifie son téléphone sans notification ?"
+  },
+  {
+    "id": "drole_094",
+    "question": "Si les miroirs inversaient aussi la personnalité, que deviendrait-on ?"
+  },
+  {
+    "id": "drole_095",
+    "question": "Pourquoi on croit que 5 minutes de plus changent tout ?"
+  },
+  {
+    "id": "drole_096",
+    "question": "Les aliens trouvent-ils les humains mignons ?"
+  },
+  {
+    "id": "drole_097",
+    "question": "Pourquoi on a peur de parler au téléphone mais pas en message ?"
+  },
+  {
+    "id": "drole_098",
+    "question": "Si les nuages pleurent, est-ce qu’ils sont sensibles ?"
+  },
+  {
+    "id": "drole_099",
+    "question": "Pourquoi on lit les débats inutiles alors qu’on sait que ça va nous énerver ?"
+  },
+  {
+    "id": "drole_100",
+    "question": "Peut-on laisser quelqu’un en “vu” sans explication ?"
+  },
+  {
+    "id": "drole_101",
+    "question": "Dire “on se tient au courant” est-ce un mensonge poli ?"
+  },
+  {
+    "id": "drole_102",
+    "question": "Les gens qui marchent lentement en groupe méritent-ils une amende ?"
+  },
+  {
+    "id": "drole_103",
+    "question": "Faut-il enlever ses chaussures chez tout le monde ?"
+  },
+  {
+    "id": "drole_104",
+    "question": "Peut-on annuler un plan à la dernière minute sans culpabiliser ?"
+  },
+  {
+    "id": "drole_105",
+    "question": "Les gens qui répondent par note vocale abusent-ils ?"
+  },
+  {
+    "id": "drole_106",
+    "question": "Arriver 10 minutes en retard est-ce acceptable ?"
+  },
+  {
+    "id": "drole_107",
+    "question": "Le “je t’envoie ça ce soir” est-il crédible ?"
+  },
+  {
+    "id": "drole_108",
+    "question": "Faut-il toujours partager la dernière part ?"
+  },
+  {
+    "id": "drole_109",
+    "question": "Les gens qui ne remettent pas le chariot sont-ils suspects ?"
+  },
+  {
+    "id": "drole_110",
+    "question": "Peut-on manger dans le lit ?"
+  },
+  {
+    "id": "drole_111",
+    "question": "Les couples qui ont un compte Instagram commun, red flag ?"
+  },
+  {
+    "id": "drole_112",
+    "question": "Regarder une série sans la personne avec qui on a commencé, trahison ?"
+  },
+  {
+    "id": "drole_113",
+    "question": "Mettre son téléphone sur la table au resto, impoli ?"
+  },
+  {
+    "id": "drole_114",
+    "question": "Faut-il répondre immédiatement aux messages ?"
+  },
+  {
+    "id": "drole_115",
+    "question": "Les gens qui écrivent “cc” méritent-ils une réponse ?"
+  },
+  {
+    "id": "drole_116",
+    "question": "Peut-on ghoster quelqu’un sans explication ?"
+  },
+  {
+    "id": "drole_117",
+    "question": "Les gens qui disent “je suis cash” sont-ils juste méchants ?"
+  },
+  {
+    "id": "drole_118",
+    "question": "Faut-il dire bonjour à tout le monde dans l’ascenseur ?"
+  },
+  {
+    "id": "drole_119",
+    "question": "Les gens qui mangent bruyamment, exclusion sociale ?"
+  },
+  {
+    "id": "drole_120",
+    "question": "Peut-on corriger quelqu’un en public ?"
+  },
+  {
+    "id": "drole_121",
+    "question": "Les gens qui parlent au cinéma devraient-ils être expulsés ?"
+  },
+  {
+    "id": "drole_122",
+    "question": "Faut-il prévenir quand on est en retard de 5 minutes ?"
+  },
+  {
+    "id": "drole_123",
+    "question": "Laisser quelqu’un en attente au téléphone, violence moderne ?"
+  },
+  {
+    "id": "drole_124",
+    "question": "Les gens qui mettent le haut-parleur dans les transports, illégaux ?"
+  },
+  {
+    "id": "drole_125",
+    "question": "Peut-on dire “non” sans se justifier ?"
+  },
+  {
+    "id": "drole_126",
+    "question": "Les gens qui mettent 40 minutes à choisir un plat abusent-ils ?"
+  },
+  {
+    "id": "drole_127",
+    "question": "Faut-il toujours ramener quelque chose quand on est invité ?"
+  },
+  {
+    "id": "drole_128",
+    "question": "Les couples qui s’appellent “bébé” en public, gênant ?"
+  },
+  {
+    "id": "drole_129",
+    "question": "Peut-on finir le pot de Nutella qui ne nous appartient pas ?"
+  },
+  {
+    "id": "drole_130",
+    "question": "Les gens qui applaudissent quand quelqu’un casse un verre, drôle ou gênant ?"
+  },
+  {
+    "id": "drole_131",
+    "question": "Faut-il liker les photos de son ex ?"
+  },
+  {
+    "id": "drole_132",
+    "question": "Peut-on quitter un groupe WhatsApp sans prévenir ?"
+  },
+  {
+    "id": "drole_133",
+    "question": "Les gens qui ne disent pas merci, blacklist ?"
+  },
+  {
+    "id": "drole_134",
+    "question": "Faut-il répondre aux mails le week-end ?"
+  },
+  {
+    "id": "drole_135",
+    "question": "Les gens qui mettent “vu à 02:37” la nuit, suspects ?"
+  },
+  {
+    "id": "drole_136",
+    "question": "Peut-on juger quelqu’un sur son fond d’écran ?"
+  },
+  {
+    "id": "drole_137",
+    "question": "Les gens qui mangent les frites des autres sans demander, inacceptables ?"
+  },
+  {
+    "id": "drole_138",
+    "question": "Faut-il toujours partager son chargeur ?"
+  },
+  {
+    "id": "drole_139",
+    "question": "Les gens qui regardent l’écran de ton téléphone, crime ?"
+  },
+  {
+    "id": "drole_140",
+    "question": "Peut-on partir d’une soirée sans dire au revoir ?"
+  },
+  {
+    "id": "drole_141",
+    "question": "Les gens qui disent “on verra” veulent-ils dire “non” ?"
+  },
+  {
+    "id": "drole_142",
+    "question": "Faut-il attendre que tout le monde soit servi pour manger ?"
+  },
+  {
+    "id": "drole_143",
+    "question": "Les gens qui prennent toute la couverture, rupture immédiate ?"
+  },
+  {
+    "id": "drole_144",
+    "question": "Peut-on refuser un appel et répondre par message ?"
+  },
+  {
+    "id": "drole_145",
+    "question": "Les gens qui parlent de leur régime pendant le repas, lourds ?"
+  },
+  {
+    "id": "drole_146",
+    "question": "Faut-il rendre la monnaie exacte entre amis ?"
+  },
+  {
+    "id": "drole_147",
+    "question": "Les gens qui ne répondent jamais aux stories, indifférents ?"
+  },
+  {
+    "id": "drole_148",
+    "question": "Peut-on regarder le téléphone de son partenaire ?"
+  },
+  {
+    "id": "drole_149",
+    "question": "Les gens qui corrigent l’orthographe en plein débat, agaçants ?"
+  },
+  {
+    "id": "drole_150",
+    "question": "Faut-il toujours proposer son aide ?"
+  },
+  {
+    "id": "drole_151",
+    "question": "Les gens qui marchent pieds nus chez toi, irrespectueux ?"
+  },
+  {
+    "id": "drole_152",
+    "question": "Peut-on dire qu’on n’aime pas le cadeau reçu ?"
+  },
+  {
+    "id": "drole_153",
+    "question": "Les gens qui arrivent les mains vides, notés ?"
+  },
+  {
+    "id": "drole_154",
+    "question": "Faut-il prévenir avant d’appeler ?"
+  },
+  {
+    "id": "drole_155",
+    "question": "Les gens qui mettent le chauffage à 25°, dangereux ?"
+  },
+  {
+    "id": "drole_156",
+    "question": "Peut-on mentir pour éviter une sortie ?"
+  },
+  {
+    "id": "drole_157",
+    "question": "Les gens qui répondent “ok” sont-ils secs ?"
+  },
+  {
+    "id": "drole_158",
+    "question": "Faut-il tout dire dans un couple ?"
+  },
+  {
+    "id": "drole_159",
+    "question": "Les gens qui prennent 15 selfies avant de sortir, excessifs ?"
+  },
+  {
+    "id": "drole_160",
+    "question": "Peut-on commander un plat différent après avoir goûté celui des autres ?"
+  },
+  {
+    "id": "drole_161",
+    "question": "Les gens qui ne rendent pas les affaires prêtées, blacklist à vie ?"
+  },
+  {
+    "id": "drole_162",
+    "question": "Faut-il partager ses mots de passe en couple ?"
+  },
+  {
+    "id": "drole_163",
+    "question": "Les gens qui mangent dans le métro, abus ?"
+  },
+  {
+    "id": "drole_164",
+    "question": "Peut-on dormir pendant qu’un invité est encore chez soi ?"
+  },
+  {
+    "id": "drole_165",
+    "question": "Les gens qui disent “je suis comme ça”, excuse facile ?"
+  },
+  {
+    "id": "drole_166",
+    "question": "Faut-il répondre aux messages professionnels hors horaires ?"
+  },
+  {
+    "id": "drole_167",
+    "question": "Les gens qui écrivent en majuscules, agressifs ?"
+  },
+  {
+    "id": "drole_168",
+    "question": "Peut-on ignorer quelqu’un qu’on croise par hasard ?"
+  },
+  {
+    "id": "drole_169",
+    "question": "Les gens qui disent “c’est pas moi” alors que si, crédibles ?"
+  },
+  {
+    "id": "drole_170",
+    "question": "Faut-il toujours trinquer en regardant dans les yeux ?"
+  },
+  {
+    "id": "drole_171",
+    "question": "Les gens qui lisent par-dessus ton épaule, inacceptables ?"
+  },
+  {
+    "id": "drole_172",
+    "question": "Peut-on dire qu’on n’a pas aimé un film que tout le monde adore ?"
+  },
+  {
+    "id": "drole_173",
+    "question": "Les gens qui se plaignent tout le temps, fatigants ?"
+  },
+  {
+    "id": "drole_174",
+    "question": "Faut-il répondre aux appels inconnus ?"
+  },
+  {
+    "id": "drole_175",
+    "question": "Les gens qui font des stories de tout, envahissants ?"
+  },
+  {
+    "id": "drole_176",
+    "question": "Peut-on refuser un câlin ?"
+  },
+  {
+    "id": "drole_177",
+    "question": "Les gens qui laissent la lumière allumée, irresponsables ?"
+  },
+  {
+    "id": "drole_178",
+    "question": "Faut-il toujours dire “désolé” même quand ce n’est pas notre faute ?"
+  },
+  {
+    "id": "drole_179",
+    "question": "Les gens qui disent “je t’explique vite fait” pendant 20 minutes, coupables ?"
+  },
+  {
+    "id": "drole_180",
+    "question": "Peut-on couper la parole si c’est pour aller plus vite ?"
+  },
+  {
+    "id": "drole_181",
+    "question": "Les gens qui arrivent trop en avance, stressants ?"
+  },
+  {
+    "id": "drole_182",
+    "question": "Faut-il tout partager entre amis proches ?"
+  },
+  {
+    "id": "drole_183",
+    "question": "Les gens qui mettent la musique trop fort chez eux, expulsables ?"
+  },
+  {
+    "id": "drole_184",
+    "question": "Peut-on juger quelqu’un sur son rire ?"
+  },
+  {
+    "id": "drole_185",
+    "question": "Les gens qui disent “je suis honnête” avant d’être blessants, suspects ?"
+  },
+  {
+    "id": "drole_186",
+    "question": "Faut-il répondre aux messages à 3h du matin ?"
+  },
+  {
+    "id": "drole_187",
+    "question": "Les gens qui posent trop de questions, intrusifs ?"
+  },
+  {
+    "id": "drole_188",
+    "question": "Peut-on quitter une conversation sans prévenir ?"
+  },
+  {
+    "id": "drole_189",
+    "question": "Les gens qui disent “ça va ?” sans attendre la réponse, hypocrites ?"
+  },
+  {
+    "id": "drole_190",
+    "question": "Faut-il tout filmer en concert ?"
+  },
+  {
+    "id": "drole_191",
+    "question": "Les gens qui ne mettent pas le clignotant, exclus de la société ?"
+  },
+  {
+    "id": "drole_192",
+    "question": "Peut-on dire non à un service sans se sentir coupable ?"
+  },
+  {
+    "id": "drole_193",
+    "question": "Les gens qui parlent en FaceTime en public, trop ?"
+  },
+  {
+    "id": "drole_194",
+    "question": "Faut-il partager l’addition équitablement même si on n’a pas pris la même chose ?"
+  },
+  {
+    "id": "drole_195",
+    "question": "Les gens qui répondent une semaine plus tard, radiés ?"
+  },
+  {
+    "id": "drole_196",
+    "question": "Peut-on refuser de prêter de l’argent ?"
+  },
+  {
+    "id": "drole_197",
+    "question": "Les gens qui font semblant de ne pas avoir vu ton message, repérés ?"
+  },
+  {
+    "id": "drole_198",
+    "question": "Faut-il toujours dire la vérité ?"
+  },
+  {
+    "id": "drole_199",
+    "question": "Les gens qui disent “je déteste les dramas” mais en créent, paradoxaux ?"
+  },
+  {
+    "id": "drole_200",
+    "question": "Si ton frigo avait une personnalité, serait-il passif-agressif ?"
+  },
+  {
+    "id": "drole_201",
+    "question": "Le grille-pain se sent-il rejeté quand on choisit des céréales ?"
+  },
+  {
+    "id": "drole_202",
+    "question": "Si les chaises pouvaient se plaindre, de quoi parleraient-elles ?"
+  },
+  {
+    "id": "drole_203",
+    "question": "Ton oreiller pense-t-il que tu dramatises trop la nuit ?"
+  },
+  {
+    "id": "drole_204",
+    "question": "Si ton miroir avait une opinion, serait-il honnête ou cruel ?"
+  },
+  {
+    "id": "drole_205",
+    "question": "La porte des toilettes se sent-elle sous-estimée ?"
+  },
+  {
+    "id": "drole_206",
+    "question": "Si ton chargeur avait un caractère, serait-il toxique ?"
+  },
+  {
+    "id": "drole_207",
+    "question": "La télé te juge-t-elle quand tu lances le 5e épisode ?"
+  },
+  {
+    "id": "drole_208",
+    "question": "Si les escargots avaient des motos, seraient-ils toujours lents ?"
+  },
+  {
+    "id": "drole_209",
+    "question": "Ton canapé se sent-il utilisé ou valorisé ?"
+  },
+  {
+    "id": "drole_210",
+    "question": "Si les nuages avaient des humeurs, lequel serait le plus dramatique ?"
+  },
+  {
+    "id": "drole_211",
+    "question": "Le soleil est-il narcissique ?"
+  },
+  {
+    "id": "drole_212",
+    "question": "Si la lune avait Instagram, serait-elle mystérieuse ou influenceuse ?"
+  },
+  {
+    "id": "drole_213",
+    "question": "Le vent est-il juste quelqu’un qui souffle trop fort ?"
+  },
+  {
+    "id": "drole_214",
+    "question": "Si la pluie avait une playlist, serait-elle mélancolique ?"
+  },
+  {
+    "id": "drole_215",
+    "question": "L’arc-en-ciel est-il un show-off cosmique ?"
+  },
+  {
+    "id": "drole_216",
+    "question": "Si l’hiver parlait, serait-il cynique ?"
+  },
+  {
+    "id": "drole_217",
+    "question": "L’été est-il un extraverti insupportable ?"
+  },
+  {
+    "id": "drole_218",
+    "question": "Si le brouillard avait une intention, serait-elle suspecte ?"
+  },
+  {
+    "id": "drole_219",
+    "question": "Le tonnerre cherche-t-il juste l’attention ?"
+  },
+  {
+    "id": "drole_220",
+    "question": "Si les fourmis avaient un syndicat, seraient-elles en grève ?"
+  },
+  {
+    "id": "drole_221",
+    "question": "Le pigeon du quartier est-il un espion sous couverture ?"
+  },
+  {
+    "id": "drole_222",
+    "question": "Si les chats tenaient un journal intime, parleraient-ils de nous ?"
+  },
+  {
+    "id": "drole_223",
+    "question": "Les chiens pensent-ils qu’on est mal dressés ?"
+  },
+  {
+    "id": "drole_224",
+    "question": "Si les poissons rouges pouvaient voter, choisiraient-ils l’aquarium plus grand ?"
+  },
+  {
+    "id": "drole_225",
+    "question": "Les vaches jugent-elles les humains végétariens ?"
+  },
+  {
+    "id": "drole_226",
+    "question": "Si les moustiques avaient une conscience, culpabiliseraient-ils ?"
+  },
+  {
+    "id": "drole_227",
+    "question": "Les escargots sont-ils philosophes par défaut ?"
+  },
+  {
+    "id": "drole_228",
+    "question": "Si les serpents pouvaient applaudir, comment feraient-ils ?"
+  },
+  {
+    "id": "drole_229",
+    "question": "Les poules nous trouvent-elles bizarres ?"
+  },
+  {
+    "id": "drole_230",
+    "question": "Si ton téléphone avait un ego, serait-il fragile ?"
+  },
+  {
+    "id": "drole_231",
+    "question": "L’autocorrect se moque-t-il de toi volontairement ?"
+  },
+  {
+    "id": "drole_232",
+    "question": "Si ton GPS avait une voix intérieure, serait-elle condescendante ?"
+  },
+  {
+    "id": "drole_233",
+    "question": "Le Wi-Fi se venge-t-il quand tu le critiques ?"
+  },
+  {
+    "id": "drole_234",
+    "question": "Si ton ordinateur avait des sentiments, ferait-il un burn-out ?"
+  },
+  {
+    "id": "drole_235",
+    "question": "Les notifications sont-elles jalouses de ton attention ?"
+  },
+  {
+    "id": "drole_236",
+    "question": "Si les emojis avaient une hiérarchie, lequel serait tyran ?"
+  },
+  {
+    "id": "drole_237",
+    "question": "Le bouton “ignorer” se sent-il sous-utilisé ?"
+  },
+  {
+    "id": "drole_238",
+    "question": "Si les mots de passe avaient une personnalité, seraient-ils paranoïaques ?"
+  },
+  {
+    "id": "drole_239",
+    "question": "Ton clavier t’en veut-il pour les fautes ?"
+  },
+  {
+    "id": "drole_240",
+    "question": "Si la table de cuisine pouvait voter, choisirait-elle le silence ?"
+  },
+  {
+    "id": "drole_241",
+    "question": "Les rideaux aiment-ils les commérages ?"
+  },
+  {
+    "id": "drole_242",
+    "question": "Si la douche avait une opinion, serait-elle critique ?"
+  },
+  {
+    "id": "drole_243",
+    "question": "Le tapis a-t-il des secrets qu’il garde depuis trop longtemps ?"
+  },
+  {
+    "id": "drole_244",
+    "question": "Si ton lit avait une ambition, voudrait-il être canapé ?"
+  },
+  {
+    "id": "drole_245",
+    "question": "Les placards organisent-ils des réunions la nuit ?"
+  },
+  {
+    "id": "drole_246",
+    "question": "Si la poubelle avait un seuil de tolérance, serait-il bas ?"
+  },
+  {
+    "id": "drole_247",
+    "question": "La lampe se sent-elle inutile en plein jour ?"
+  },
+  {
+    "id": "drole_248",
+    "question": "Si la cafetière avait un caractère, serait-elle impatiente ?"
+  },
+  {
+    "id": "drole_249",
+    "question": "Les escaliers jugent-ils ton cardio ?"
+  },
+  {
+    "id": "drole_250",
+    "question": "Si les horloges pouvaient ralentir le temps, seraient-elles corrompues ?"
+  },
+  {
+    "id": "drole_251",
+    "question": "Le calendrier se moque-t-il de tes résolutions ?"
+  },
+  {
+    "id": "drole_252",
+    "question": "Si les mois avaient des personnalités, lequel serait toxique ?"
+  },
+  {
+    "id": "drole_253",
+    "question": "Le lundi est-il un manipulateur professionnel ?"
+  },
+  {
+    "id": "drole_254",
+    "question": "Si le vendredi parlait, serait-il arrogant ?"
+  },
+  {
+    "id": "drole_255",
+    "question": "Le dimanche est-il un drama queen ?"
+  },
+  {
+    "id": "drole_256",
+    "question": "Si les saisons formaient un groupe, qui serait le leader ?"
+  },
+  {
+    "id": "drole_257",
+    "question": "Le temps est-il sarcastique ?"
+  },
+  {
+    "id": "drole_258",
+    "question": "Si les années pouvaient se comparer, laquelle serait jalouse ?"
+  },
+  {
+    "id": "drole_259",
+    "question": "Les anniversaires aiment-ils mettre la pression ?"
+  },
+  {
+    "id": "drole_260",
+    "question": "Si l’argent avait une voix, serait-elle tentatrice ?"
+  },
+  {
+    "id": "drole_261",
+    "question": "Les pièces de monnaie se sentent-elles oubliées ?"
+  },
+  {
+    "id": "drole_262",
+    "question": "Si ta carte bancaire avait une limite morale, te jugerait-elle ?"
+  },
+  {
+    "id": "drole_263",
+    "question": "Les billets se sentent-ils trahis quand on les dépense ?"
+  },
+  {
+    "id": "drole_264",
+    "question": "Si les soldes avaient une stratégie, serait-elle agressive ?"
+  },
+  {
+    "id": "drole_265",
+    "question": "Les factures ont-elles une joie secrète ?"
+  },
+  {
+    "id": "drole_266",
+    "question": "Si le découvert bancaire avait une personnalité, serait-elle toxique ?"
+  },
+  {
+    "id": "drole_267",
+    "question": "Les tickets de caisse ont-ils un complexe d’inutilité ?"
+  },
+  {
+    "id": "drole_268",
+    "question": "Si le portefeuille pouvait parler, se plaindrait-il ?"
+  },
+  {
+    "id": "drole_269",
+    "question": "Les impôts dorment-ils bien la nuit ?"
+  },
+  {
+    "id": "drole_270",
+    "question": "Si les livres pouvaient choisir leurs lecteurs, te prendraient-ils ?"
+  },
+  {
+    "id": "drole_271",
+    "question": "Les stylos se sentent-ils ignorés à l’ère numérique ?"
+  },
+  {
+    "id": "drole_272",
+    "question": "Si ton agenda avait une opinion, serait-elle sévère ?"
+  },
+  {
+    "id": "drole_273",
+    "question": "Les diplômes ont-ils un ego ?"
+  },
+  {
+    "id": "drole_274",
+    "question": "Si les devoirs avaient une mission secrète, laquelle serait-elle ?"
+  },
+  {
+    "id": "drole_275",
+    "question": "Les examens prennent-ils du plaisir ?"
+  },
+  {
+    "id": "drole_276",
+    "question": "Si les notes avaient une personnalité, laquelle serait la plus arrogante ?"
+  },
+  {
+    "id": "drole_277",
+    "question": "Les profs sont-ils espionnés par les tableaux ?"
+  },
+  {
+    "id": "drole_278",
+    "question": "Si les salles de classe avaient des souvenirs, seraient-ils traumatisés ?"
+  },
+  {
+    "id": "drole_279",
+    "question": "Les cartables ont-ils un passé lourd ?"
+  },
+  {
+    "id": "drole_280",
+    "question": "Si les miroirs se parlaient entre eux, diraient-ils du mal de nous ?"
+  },
+  {
+    "id": "drole_281",
+    "question": "Les chaussures ont-elles des préférences de destination ?"
+  },
+  {
+    "id": "drole_282",
+    "question": "Si les lunettes avaient une opinion, jugeraient-elles ton style ?"
+  },
+  {
+    "id": "drole_283",
+    "question": "Les parapluies sont-ils rancuniers quand on les oublie ?"
+  },
+  {
+    "id": "drole_284",
+    "question": "Si les manteaux avaient des ambitions, voudraient-ils être capes ?"
+  },
+  {
+    "id": "drole_285",
+    "question": "Les sacs à dos ont-ils un instinct protecteur ?"
+  },
+  {
+    "id": "drole_286",
+    "question": "Si les casquettes avaient une personnalité, seraient-elles confiantes ?"
+  },
+  {
+    "id": "drole_287",
+    "question": "Les gants se sentent-ils inutiles en été ?"
+  },
+  {
+    "id": "drole_288",
+    "question": "Si les montres pouvaient arrêter le temps, pour qui le feraient-elles ?"
+  },
+  {
+    "id": "drole_289",
+    "question": "Les clés aiment-elles se cacher volontairement ?"
+  },
+  {
+    "id": "drole_290",
+    "question": "Si les feux rouges avaient un sens de l’humour, seraient-ils cruels ?"
+  },
+  {
+    "id": "drole_291",
+    "question": "Les trottoirs en ont-ils marre des gens lents ?"
+  },
+  {
+    "id": "drole_292",
+    "question": "Si les bancs publics avaient une mémoire, que raconteraient-ils ?"
+  },
+  {
+    "id": "drole_293",
+    "question": "Les distributeurs automatiques jugent-ils tes choix ?"
+  },
+  {
+    "id": "drole_294",
+    "question": "Si les caméras de surveillance avaient une conscience, seraient-elles gênées ?"
+  },
+  {
+    "id": "drole_295",
+    "question": "Les parkings ont-ils une préférence pour certaines voitures ?"
+  },
+  {
+    "id": "drole_296",
+    "question": "Si les ascenseurs avaient des émotions, seraient-ils claustrophobes ?"
+  },
+  {
+    "id": "drole_297",
+    "question": "Les escalators se sentent-ils supérieurs aux escaliers ?"
+  },
+  {
+    "id": "drole_298",
+    "question": "Si les panneaux “interdit” pouvaient parler, crieraient-ils ?"
+  },
+  {
+    "id": "drole_299",
+    "question": "Les portes automatiques ont-elles un sens du timing sarcastique ?"
+  },
+  {
+    "id": "drole_300",
+    "question": "Si on inventait un bouton “annuler” pour la vraie vie, l’utiliserait-on trop ?"
+  },
+  {
+    "id": "drole_301",
+    "question": "Peut-on être nostalgique d’un moment qu’on n’a jamais vécu ?"
+  },
+  {
+    "id": "drole_302",
+    "question": "Si le silence était une application, serait-elle payante ?"
+  },
+  {
+    "id": "drole_303",
+    "question": "Est-ce qu’on serait plus heureux si on ne savait pas l’heure ?"
+  },
+  {
+    "id": "drole_304",
+    "question": "Si les rêves étaient diffusés en streaming, les regarderait-on ?"
+  },
+  {
+    "id": "drole_305",
+    "question": "Peut-on être jaloux d’une version future de soi-même ?"
+  },
+  {
+    "id": "drole_306",
+    "question": "Si la chance était une compétence, pourrait-on s’entraîner ?"
+  },
+  {
+    "id": "drole_307",
+    "question": "Est-ce que le hasard a un sens de l’humour ?"
+  },
+  {
+    "id": "drole_308",
+    "question": "Si les coïncidences étaient organisées, qui serait le manager ?"
+  },
+  {
+    "id": "drole_309",
+    "question": "Peut-on être fatigué de ne rien faire ?"
+  },
+  {
+    "id": "drole_310",
+    "question": "Si la mémoire avait une corbeille, que supprimerait-on en premier ?"
+  },
+  {
+    "id": "drole_311",
+    "question": "Peut-on se mentir en toute honnêteté ?"
+  },
+  {
+    "id": "drole_312",
+    "question": "Si le stress était une personne, serait-elle productive ?"
+  },
+  {
+    "id": "drole_313",
+    "question": "Est-ce que la procrastination est une stratégie sous-estimée ?"
+  },
+  {
+    "id": "drole_314",
+    "question": "Si la flemme était un super-pouvoir, serait-il dangereux ?"
+  },
+  {
+    "id": "drole_315",
+    "question": "Peut-on être en retard sur sa propre vie ?"
+  },
+  {
+    "id": "drole_316",
+    "question": "Si les regrets pouvaient parler, chuchoteraient-ils ou crieraient-ils ?"
+  },
+  {
+    "id": "drole_317",
+    "question": "Est-ce que l’embarras est une preuve d’intelligence sociale ?"
+  },
+  {
+    "id": "drole_318",
+    "question": "Si le doute était une application, serait-elle notée 5 étoiles ?"
+  },
+  {
+    "id": "drole_319",
+    "question": "Peut-on être trop lucide pour être détendu ?"
+  },
+  {
+    "id": "drole_320",
+    "question": "Si l’univers avait un service client, répondrait-il ?"
+  },
+  {
+    "id": "drole_321",
+    "question": "Peut-on être hors-sujet dans sa propre existence ?"
+  },
+  {
+    "id": "drole_322",
+    "question": "Si la réalité avait un filtre, lequel choisirait-on ?"
+  },
+  {
+    "id": "drole_323",
+    "question": "Est-ce que le temps avance ou est-ce qu’on le pousse ?"
+  },
+  {
+    "id": "drole_324",
+    "question": "Si les décisions avaient un goût, lequel serait le plus amer ?"
+  },
+  {
+    "id": "drole_325",
+    "question": "Peut-on être fier d’un hasard ?"
+  },
+  {
+    "id": "drole_326",
+    "question": "Si les idées avaient un poids, certaines seraient-elles lourdes à porter ?"
+  },
+  {
+    "id": "drole_327",
+    "question": "Est-ce que l’intuition est une théorie sans preuves ?"
+  },
+  {
+    "id": "drole_328",
+    "question": "Si la vérité était un animal, serait-elle sauvage ?"
+  },
+  {
+    "id": "drole_329",
+    "question": "Peut-on être courageux sans public ?"
+  },
+  {
+    "id": "drole_330",
+    "question": "Si les excuses avaient une durée de validité, combien de temps tiendraient-elles ?"
+  },
+  {
+    "id": "drole_331",
+    "question": "Peut-on être influencé sans influenceur ?"
+  },
+  {
+    "id": "drole_332",
+    "question": "Si le futur envoyait des notifications, les ouvrirait-on ?"
+  },
+  {
+    "id": "drole_333",
+    "question": "Est-ce que le confort rend paresseux ou lucide ?"
+  },
+  {
+    "id": "drole_334",
+    "question": "Si la motivation avait une batterie, combien de % nous reste-t-il ?"
+  },
+  {
+    "id": "drole_335",
+    "question": "Peut-on être en désaccord avec soi-même ?"
+  },
+  {
+    "id": "drole_336",
+    "question": "Si les souvenirs étaient modifiables, deviendrait-on scénariste ?"
+  },
+  {
+    "id": "drole_337",
+    "question": "Est-ce que la logique est toujours raisonnable ?"
+  },
+  {
+    "id": "drole_338",
+    "question": "Si l’égo était visible, serait-il gênant ?"
+  },
+  {
+    "id": "drole_339",
+    "question": "Peut-on être authentique volontairement ?"
+  },
+  {
+    "id": "drole_340",
+    "question": "Si les opinions avaient un prix, certaines seraient-elles gratuites ?"
+  },
+  {
+    "id": "drole_341",
+    "question": "Peut-on être objectif sur ce qu’on aime ?"
+  },
+  {
+    "id": "drole_342",
+    "question": "Si la vérité faisait mal physiquement, parlerait-on moins ?"
+  },
+  {
+    "id": "drole_343",
+    "question": "Est-ce que l’ennui est une forme cachée de créativité ?"
+  },
+  {
+    "id": "drole_344",
+    "question": "Si le hasard avait un CV, serait-il crédible ?"
+  },
+  {
+    "id": "drole_345",
+    "question": "Peut-on être mature trop tôt ?"
+  },
+  {
+    "id": "drole_346",
+    "question": "Si la routine était une personne, serait-elle rassurante ou étouffante ?"
+  },
+  {
+    "id": "drole_347",
+    "question": "Est-ce que la peur est parfois lucide ?"
+  },
+  {
+    "id": "drole_348",
+    "question": "Si l’ambition avait une odeur, serait-elle forte ?"
+  },
+  {
+    "id": "drole_349",
+    "question": "Peut-on être trop rationnel ?"
+  },
+  {
+    "id": "drole_350",
+    "question": "Si la liberté avait une limite visible, la dépasserait-on ?"
+  },
+  {
+    "id": "drole_351",
+    "question": "Peut-on regretter un choix qu’on referait quand même ?"
+  },
+  {
+    "id": "drole_352",
+    "question": "Si les émotions avaient un code couleur, lequel dominerait ?"
+  },
+  {
+    "id": "drole_353",
+    "question": "Est-ce que l’intelligence protège du ridicule ?"
+  },
+  {
+    "id": "drole_354",
+    "question": "Si la curiosité était un virus, serait-il bénéfique ?"
+  },
+  {
+    "id": "drole_355",
+    "question": "Peut-on être heureux sans comprendre pourquoi ?"
+  },
+  {
+    "id": "drole_356",
+    "question": "Si les erreurs rapportaient des points d’expérience, deviendrions-nous experts ?"
+  },
+  {
+    "id": "drole_357",
+    "question": "Est-ce que le silence peut gagner un débat ?"
+  },
+  {
+    "id": "drole_358",
+    "question": "Si la confiance était une monnaie, serait-elle rare ?"
+  },
+  {
+    "id": "drole_359",
+    "question": "Peut-on être raisonnable et passionné ?"
+  },
+  {
+    "id": "drole_360",
+    "question": "Si le courage était contagieux, qui l’attraperait en premier ?"
+  },
+  {
+    "id": "drole_361",
+    "question": "Peut-on être en avance sur une époque qui n’existe pas encore ?"
+  },
+  {
+    "id": "drole_362",
+    "question": "Si le doute était obligatoire, serions-nous plus sages ?"
+  },
+  {
+    "id": "drole_363",
+    "question": "Est-ce que la simplicité est une forme d’intelligence ?"
+  },
+  {
+    "id": "drole_364",
+    "question": "Si les rêves avaient un GPS, iraient-ils au même endroit ?"
+  },
+  {
+    "id": "drole_365",
+    "question": "Peut-on être fatigué d’être soi-même ?"
+  },
+  {
+    "id": "drole_366",
+    "question": "Si l’humour était une défense, serait-elle blindée ?"
+  },
+  {
+    "id": "drole_367",
+    "question": "Est-ce que l’optimisme est une illusion utile ?"
+  },
+  {
+    "id": "drole_368",
+    "question": "Si la vérité changeait selon l’heure, quand parlerait-on ?"
+  },
+  {
+    "id": "drole_369",
+    "question": "Peut-on être libre dans une routine choisie ?"
+  },
+  {
+    "id": "drole_370",
+    "question": "Si les pensées étaient audibles, parlerait-on moins ?"
+  },
+  {
+    "id": "drole_371",
+    "question": "Peut-on être fier d’avoir changé d’avis ?"
+  },
+  {
+    "id": "drole_372",
+    "question": "Si l’absurde avait un sens caché, voudrait-on le découvrir ?"
+  },
+  {
+    "id": "drole_373",
+    "question": "Est-ce que la cohérence est surévaluée ?"
+  },
+  {
+    "id": "drole_374",
+    "question": "Si la patience était une monnaie, serions-nous riches ?"
+  },
+  {
+    "id": "drole_375",
+    "question": "Peut-on être sérieux en parlant de choses ridicules ?"
+  },
+  {
+    "id": "drole_376",
+    "question": "Si le temps ralentissait quand on est heureux, serait-ce injuste ?"
+  },
+  {
+    "id": "drole_377",
+    "question": "Est-ce que l’oubli est parfois un talent ?"
+  },
+  {
+    "id": "drole_378",
+    "question": "Si la vérité était un jeu, gagnerait-on souvent ?"
+  },
+  {
+    "id": "drole_379",
+    "question": "Peut-on être original en essayant de l’être ?"
+  },
+  {
+    "id": "drole_380",
+    "question": "Si la réussite était une illusion collective, continuerait-on ?"
+  },
+  {
+    "id": "drole_381",
+    "question": "Peut-on être brillant et confus en même temps ?"
+  },
+  {
+    "id": "drole_382",
+    "question": "Si la vie avait un tutoriel, le lirait-on ?"
+  },
+  {
+    "id": "drole_383",
+    "question": "Est-ce que le doute est une preuve de réflexion ?"
+  },
+  {
+    "id": "drole_384",
+    "question": "Si l’échec était obligatoire, réussirait-on mieux ?"
+  },
+  {
+    "id": "drole_385",
+    "question": "Peut-on être sincère et stratégique ?"
+  },
+  {
+    "id": "drole_386",
+    "question": "Si les décisions se prenaient seules, serions-nous soulagés ?"
+  },
+  {
+    "id": "drole_387",
+    "question": "Est-ce que la logique peut être absurde ?"
+  },
+  {
+    "id": "drole_388",
+    "question": "Si l’expérience était transférable par câble, le ferait-on ?"
+  },
+  {
+    "id": "drole_389",
+    "question": "Peut-on être influent sans parler ?"
+  },
+  {
+    "id": "drole_390",
+    "question": "Si la vérité était trop simple, la croirait-on ?"
+  },
+  {
+    "id": "drole_391",
+    "question": "Peut-on être heureux dans l’incertitude ?"
+  },
+  {
+    "id": "drole_392",
+    "question": "Si le passé pouvait répondre, poserait-on encore des questions ?"
+  },
+  {
+    "id": "drole_393",
+    "question": "Est-ce que la réflexion ralentit l’action ?"
+  },
+  {
+    "id": "drole_394",
+    "question": "Si les convictions avaient une date d’expiration, changerait-on plus vite ?"
+  },
+  {
+    "id": "drole_395",
+    "question": "Peut-on être fidèle à une idée qui évolue ?"
+  },
+  {
+    "id": "drole_396",
+    "question": "Si l’absurde était une matière à l’école, aurait-on 20 ?"
+  },
+  {
+    "id": "drole_397",
+    "question": "Est-ce que le bon sens est si commun que ça ?"
+  },
+  {
+    "id": "drole_398",
+    "question": "Si la conscience avait un interrupteur, l’utiliserait-on ?"
+  },
+  {
+    "id": "drole_399",
+    "question": "Peut-on être profondément sérieux en étant ridicule ?"
+  },
+  {
+    "id": "drole_400",
+    "question": "Pourquoi les méchants expliquent-ils toujours leur plan au lieu de le faire ?"
+  },
+  {
+    "id": "drole_401",
+    "question": "Comment les héros trouvent-ils toujours une place pour se garer devant le bâtiment important ?"
+  },
+  {
+    "id": "drole_402",
+    "question": "Pourquoi personne ne va jamais aux toilettes dans les films ?"
+  },
+  {
+    "id": "drole_403",
+    "question": "Comment une explosion projette-t-elle toujours les héros sans les brûler ?"
+  },
+  {
+    "id": "drole_404",
+    "question": "Pourquoi les ordinateurs se piratent-ils en 12 secondes ?"
+  },
+  {
+    "id": "drole_405",
+    "question": "Comment les personnages se réveillent-ils coiffés parfaitement ?"
+  },
+  {
+    "id": "drole_406",
+    "question": "Pourquoi les batteries de téléphone tiennent-elles 3 jours en apocalypse ?"
+  },
+  {
+    "id": "drole_407",
+    "question": "Comment les héros courent-ils plus vite que les explosions ?"
+  },
+  {
+    "id": "drole_408",
+    "question": "Pourquoi les aliens attaquent-ils toujours les États-Unis en premier ?"
+  },
+  {
+    "id": "drole_409",
+    "question": "Comment les couples se reconnaissent-ils au milieu d’une foule en courant au ralenti ?"
+  },
+  {
+    "id": "drole_410",
+    "question": "Pourquoi les voitures explosent-elles au moindre choc ?"
+  },
+  {
+    "id": "drole_411",
+    "question": "Comment un murmure suffit-il pour être entendu dans un hélicoptère ?"
+  },
+  {
+    "id": "drole_412",
+    "question": "Pourquoi les policiers arrivent-ils toujours après la bagarre ?"
+  },
+  {
+    "id": "drole_413",
+    "question": "Comment les héros ne se font-ils jamais mal aux mains en frappant 40 personnes ?"
+  },
+  {
+    "id": "drole_414",
+    "question": "Pourquoi les lunettes suffisent-elles à rendre quelqu’un méconnaissable ?"
+  },
+  {
+    "id": "drole_415",
+    "question": "Comment les personnages comprennent-ils instantanément une langue alien ?"
+  },
+  {
+    "id": "drole_416",
+    "question": "Pourquoi les zombies sont-ils lents sauf quand c’est pratique ?"
+  },
+  {
+    "id": "drole_417",
+    "question": "Comment un plan “improvisé” est-il toujours parfaitement synchronisé ?"
+  },
+  {
+    "id": "drole_418",
+    "question": "Pourquoi les hackers tapent-ils super vite sans regarder le clavier ?"
+  },
+  {
+    "id": "drole_419",
+    "question": "Comment personne ne remarque un héros déguisé maladroitement ?"
+  },
+  {
+    "id": "drole_420",
+    "question": "Pourquoi les personnages trouvent-ils toujours une arme au bon moment ?"
+  },
+  {
+    "id": "drole_421",
+    "question": "Comment un seul discours peut-il motiver une armée entière ?"
+  },
+  {
+    "id": "drole_422",
+    "question": "Pourquoi les méchants ont-ils des bureaux gigantesques ?"
+  },
+  {
+    "id": "drole_423",
+    "question": "Comment les héros survivent-ils à des chutes de 4 étages ?"
+  },
+  {
+    "id": "drole_424",
+    "question": "Pourquoi les scientifiques sont-ils toujours un peu fous ?"
+  },
+  {
+    "id": "drole_425",
+    "question": "Comment les personnages tombent-ils amoureux en 48 heures ?"
+  },
+  {
+    "id": "drole_426",
+    "question": "Pourquoi personne ne vérifie jamais si le méchant est vraiment mort ?"
+  },
+  {
+    "id": "drole_427",
+    "question": "Comment les poursuites en voiture évitent-elles miraculeusement les piétons ?"
+  },
+  {
+    "id": "drole_428",
+    "question": "Pourquoi les plans secrets sont-ils toujours gardés sur clé USB ?"
+  },
+  {
+    "id": "drole_429",
+    "question": "Comment un simple coup sur la tête assomme-t-il sans séquelle ?"
+  },
+  {
+    "id": "drole_430",
+    "question": "Pourquoi les extraterrestres ont-ils toujours une forme humanoïde ?"
+  },
+  {
+    "id": "drole_431",
+    "question": "Comment les héros trouvent-ils la bonne fréquence radio au hasard ?"
+  },
+  {
+    "id": "drole_432",
+    "question": "Pourquoi les enfants dans les films d’horreur descendent-ils seuls à la cave ?"
+  },
+  {
+    "id": "drole_433",
+    "question": "Comment une ville entière ne remarque-t-elle pas un combat géant ?"
+  },
+  {
+    "id": "drole_434",
+    "question": "Pourquoi les explosions font-elles toujours une boule de feu parfaite ?"
+  },
+  {
+    "id": "drole_435",
+    "question": "Comment les méchants ont-ils un budget illimité ?"
+  },
+  {
+    "id": "drole_436",
+    "question": "Pourquoi les personnages ne regardent-ils jamais les infos pendant une catastrophe ?"
+  },
+  {
+    "id": "drole_437",
+    "question": "Comment un coup de pied suffit-il à ouvrir une porte blindée ?"
+  },
+  {
+    "id": "drole_438",
+    "question": "Pourquoi les avions dans les films n’ont-ils jamais de turbulences ?"
+  },
+  {
+    "id": "drole_439",
+    "question": "Comment les personnages devinent-ils toujours le mot de passe ?"
+  },
+  {
+    "id": "drole_440",
+    "question": "Pourquoi les héros sont-ils toujours excellents en conduite, tir et pilotage ?"
+  },
+  {
+    "id": "drole_441",
+    "question": "Comment un discours romantique arrête-t-il une catastrophe mondiale ?"
+  },
+  {
+    "id": "drole_442",
+    "question": "Pourquoi les bombes ont-elles toujours un compte à rebours visible ?"
+  },
+  {
+    "id": "drole_443",
+    "question": "Comment les héros savent-ils exactement quel fil couper ?"
+  },
+  {
+    "id": "drole_444",
+    "question": "Pourquoi les villes fictives ressemblent-elles toujours à New York ?"
+  },
+  {
+    "id": "drole_445",
+    "question": "Comment les survivants d’apocalypse trouvent-ils toujours du carburant ?"
+  },
+  {
+    "id": "drole_446",
+    "question": "Pourquoi les personnages ne tombent-ils jamais malades après 3 jours sous la pluie ?"
+  },
+  {
+    "id": "drole_447",
+    "question": "Comment les super-héros gardent-ils leurs costumes propres ?"
+  },
+  {
+    "id": "drole_448",
+    "question": "Pourquoi les méchants attendent-ils toujours que le héros se relève ?"
+  },
+  {
+    "id": "drole_449",
+    "question": "Comment les personnages entendent-ils un téléphone vibrer dans une explosion ?"
+  },
+  {
+    "id": "drole_450",
+    "question": "Pourquoi les journalistes arrivent-ils toujours au bon endroit ?"
+  },
+  {
+    "id": "drole_451",
+    "question": "Comment les héros tombent-ils pile sur la bonne personne dans une grande ville ?"
+  },
+  {
+    "id": "drole_452",
+    "question": "Pourquoi les super-ordinateurs affichent-ils des graphismes 3D inutiles ?"
+  },
+  {
+    "id": "drole_453",
+    "question": "Comment les couples ne discutent-ils jamais des conséquences réelles ?"
+  },
+  {
+    "id": "drole_454",
+    "question": "Pourquoi les scientifiques savent-ils tout sur tout ?"
+  },
+  {
+    "id": "drole_455",
+    "question": "Comment les personnages trouvent-ils toujours une carte détaillée ?"
+  },
+  {
+    "id": "drole_456",
+    "question": "Pourquoi les vilains ont-ils des bases secrètes avec éclairage dramatique ?"
+  },
+  {
+    "id": "drole_457",
+    "question": "Comment les héros ne manquent-ils jamais de balles ?"
+  },
+  {
+    "id": "drole_458",
+    "question": "Pourquoi les extraterrestres comprennent-ils l’anglais ?"
+  },
+  {
+    "id": "drole_459",
+    "question": "Comment les voitures démarrent-elles toujours du premier coup ?"
+  },
+  {
+    "id": "drole_460",
+    "question": "Pourquoi les gens courent-ils en ligne droite face au danger ?"
+  },
+  {
+    "id": "drole_461",
+    "question": "Comment les héros retrouvent-ils toujours le bon train dans une gare immense ?"
+  },
+  {
+    "id": "drole_462",
+    "question": "Pourquoi les survivants d’horreur tombent-ils toujours en courant ?"
+  },
+  {
+    "id": "drole_463",
+    "question": "Comment les personnages savent-ils piloter un hélicoptère sans formation ?"
+  },
+  {
+    "id": "drole_464",
+    "question": "Pourquoi les discours de méchants sont-ils si longs ?"
+  },
+  {
+    "id": "drole_465",
+    "question": "Comment une cicatrice rend-elle immédiatement quelqu’un dangereux ?"
+  },
+  {
+    "id": "drole_466",
+    "question": "Pourquoi les bibliothèques contiennent-elles toujours le livre clé ?"
+  },
+  {
+    "id": "drole_467",
+    "question": "Comment les héros savent-ils décrypter un vieux manuscrit ?"
+  },
+  {
+    "id": "drole_468",
+    "question": "Pourquoi les personnages trouvent-ils toujours un ordinateur non verrouillé ?"
+  },
+  {
+    "id": "drole_469",
+    "question": "Comment les explosions n’affectent-elles jamais l’audition ?"
+  },
+  {
+    "id": "drole_470",
+    "question": "Pourquoi les plans d’évasion incluent-ils toujours un conduit d’aération ?"
+  },
+  {
+    "id": "drole_471",
+    "question": "Comment les héros savent-ils où se trouve la salle des serveurs ?"
+  },
+  {
+    "id": "drole_472",
+    "question": "Pourquoi les personnages se cachent-ils derrière des tables contre des tirs ?"
+  },
+  {
+    "id": "drole_473",
+    "question": "Comment une phrase mystérieuse suffit-elle à comprendre toute l’intrigue ?"
+  },
+  {
+    "id": "drole_474",
+    "question": "Pourquoi les super-vilains préfèrent-ils les monologues aux actions ?"
+  },
+  {
+    "id": "drole_475",
+    "question": "Comment les personnages savent-ils toujours quand regarder dramatiquement au loin ?"
+  },
+  {
+    "id": "drole_476",
+    "question": "Pourquoi les policiers se déplacent-ils toujours en duo ?"
+  },
+  {
+    "id": "drole_477",
+    "question": "Comment les personnages ne remarquent-ils jamais qu’ils sont suivis ?"
+  },
+  {
+    "id": "drole_478",
+    "question": "Pourquoi les héros ont-ils toujours une punchline prête ?"
+  },
+  {
+    "id": "drole_479",
+    "question": "Comment les méchants recrutent-ils autant de sbires motivés ?"
+  },
+  {
+    "id": "drole_480",
+    "question": "Pourquoi personne ne recharge jamais son arme à l’écran ?"
+  },
+  {
+    "id": "drole_481",
+    "question": "Comment les héros savent-ils exactement combien de secondes il reste ?"
+  },
+  {
+    "id": "drole_482",
+    "question": "Pourquoi les films d’horreur ont-ils toujours une porte qui grince ?"
+  },
+  {
+    "id": "drole_483",
+    "question": "Comment les personnages trouvent-ils toujours un talkie-walkie qui marche ?"
+  },
+  {
+    "id": "drole_484",
+    "question": "Pourquoi les ordinateurs affichent-ils “Accès refusé” en rouge dramatique ?"
+  },
+  {
+    "id": "drole_485",
+    "question": "Comment les héros se remettent-ils d’une blessure grave en 24h ?"
+  },
+  {
+    "id": "drole_486",
+    "question": "Pourquoi les méchants n’installent-ils pas simplement des caméras partout ?"
+  },
+  {
+    "id": "drole_487",
+    "question": "Comment un simple virus peut-il infecter toute la planète en 3 jours ?"
+  },
+  {
+    "id": "drole_488",
+    "question": "Pourquoi les héros tombent-ils toujours sur le seul survivant utile ?"
+  },
+  {
+    "id": "drole_489",
+    "question": "Comment les personnages reconnaissent-ils quelqu’un après 20 ans instantanément ?"
+  },
+  {
+    "id": "drole_490",
+    "question": "Pourquoi les scènes d’infiltration ont-elles toujours une musique synchronisée ?"
+  },
+  {
+    "id": "drole_491",
+    "question": "Comment les héros devinent-ils toujours l’entrée secrète ?"
+  },
+  {
+    "id": "drole_492",
+    "question": "Pourquoi les méchants sous-estiment-ils toujours le héros ?"
+  },
+  {
+    "id": "drole_493",
+    "question": "Comment un simple regard suffit-il à déclencher un combat ?"
+  },
+  {
+    "id": "drole_494",
+    "question": "Pourquoi les scènes de hacking affichent-elles des écrans remplis de code aléatoire ?"
+  },
+  {
+    "id": "drole_495",
+    "question": "Comment les héros retrouvent-ils toujours la clé perdue au dernier moment ?"
+  },
+  {
+    "id": "drole_496",
+    "question": "Pourquoi les catastrophes mondiales se résolvent-elles en une seule bataille ?"
+  },
+  {
+    "id": "drole_497",
+    "question": "Comment les personnages ne sont-ils jamais traumatisés durablement ?"
+  },
+  {
+    "id": "drole_498",
+    "question": "Pourquoi les plans parfaits dépendent-ils toujours d’un imprévu ?"
+  },
+  {
+    "id": "drole_499",
+    "question": "Comment un simple discours peut-il sauver le monde ?"
+  },
+  {
+    "id": "drole_500",
+    "question": "Dans un monde où dormir est illégal, serions-nous des rebelles en fermant les yeux ?"
+  },
+  {
+    "id": "drole_501",
+    "question": "Si parler était payant, deviendrions-nous silencieux par richesse ?"
+  },
+  {
+    "id": "drole_502",
+    "question": "Dans un univers où être en retard est une marque de respect, arriver à l’heure serait-il insultant ?"
+  },
+  {
+    "id": "drole_503",
+    "question": "Si les adultes allaient à l’école et les enfants travaillaient, qui se plaindrait le plus ?"
+  },
+  {
+    "id": "drole_504",
+    "question": "Dans un monde où l’ombre est plus importante que la lumière, chercherions-nous le noir ?"
+  },
+  {
+    "id": "drole_505",
+    "question": "Si l’échec était récompensé et la réussite pénalisée, tenterait-on moins ?"
+  },
+  {
+    "id": "drole_506",
+    "question": "Dans un univers où mentir est poli et dire la vérité impoli, qui serait mal vu ?"
+  },
+  {
+    "id": "drole_507",
+    "question": "Si les introvertis dirigeaient et les extravertis chuchotaient, l’ambiance changerait-elle ?"
+  },
+  {
+    "id": "drole_508",
+    "question": "Dans un monde où les plantes nous arrosent, serions-nous bien entretenus ?"
+  },
+  {
+    "id": "drole_509",
+    "question": "Si marcher en arrière était normal, regarder devant serait suspect ?"
+  },
+  {
+    "id": "drole_510",
+    "question": "Dans un univers où le silence est bruyant, comment ferait-on taire quelqu’un ?"
+  },
+  {
+    "id": "drole_511",
+    "question": "Si les erreurs rendaient célèbre et la perfection invisible, que viserions-nous ?"
+  },
+  {
+    "id": "drole_512",
+    "question": "Dans un monde où les miroirs montrent l’intérieur plutôt que l’extérieur, oserait-on se regarder ?"
+  },
+  {
+    "id": "drole_513",
+    "question": "Si les rêves étaient la réalité et la réalité un rêve, à quoi se fier ?"
+  },
+  {
+    "id": "drole_514",
+    "question": "Dans un univers où les riches envient les pauvres, qu’est-ce que la richesse ?"
+  },
+  {
+    "id": "drole_515",
+    "question": "Si les chiens promenaient les humains, obéirions-nous ?"
+  },
+  {
+    "id": "drole_516",
+    "question": "Dans un monde où le courage est puni et la peur valorisée, qui serait héros ?"
+  },
+  {
+    "id": "drole_517",
+    "question": "Si les livres lisaient les gens, que noteraient-ils ?"
+  },
+  {
+    "id": "drole_518",
+    "question": "Dans un univers où le lundi est férié et le dimanche travaillé, serait-on plus heureux ?"
+  },
+  {
+    "id": "drole_519",
+    "question": "Si le temps reculait naturellement, planifier aurait-il un sens ?"
+  },
+  {
+    "id": "drole_520",
+    "question": "Dans un monde où oublier est une compétence rare, qui deviendrait précieux ?"
+  },
+  {
+    "id": "drole_521",
+    "question": "Si les téléphones utilisaient les humains, qui serait dépendant ?"
+  },
+  {
+    "id": "drole_522",
+    "question": "Dans un univers où les excuses sont interdites, comment réparerait-on ?"
+  },
+  {
+    "id": "drole_523",
+    "question": "Si l’ennui était un luxe, s’ennuierait-on fièrement ?"
+  },
+  {
+    "id": "drole_524",
+    "question": "Dans un monde où les enfants choisissent leurs parents, que changerait-on ?"
+  },
+  {
+    "id": "drole_525",
+    "question": "Si les animaux votaient, quel programme gagnerait ?"
+  },
+  {
+    "id": "drole_526",
+    "question": "Dans un univers où les pensées sont visibles, porterait-on un “masque mental” ?"
+  },
+  {
+    "id": "drole_527",
+    "question": "Si les compliments étaient taxés, deviendrait-on radin en gentillesse ?"
+  },
+  {
+    "id": "drole_528",
+    "question": "Dans un monde où courir est suspect et marcher normal, ralentirait-on tout ?"
+  },
+  {
+    "id": "drole_529",
+    "question": "Si l’hiver était chaud et l’été froid, qui se plaindrait encore ?"
+  },
+  {
+    "id": "drole_530",
+    "question": "Dans un univers où les humains sont étudiés par des pigeons, serions-nous fascinants ?"
+  },
+  {
+    "id": "drole_531",
+    "question": "Si les disputes rapportaient de l’argent, se battrait-on plus ?"
+  },
+  {
+    "id": "drole_532",
+    "question": "Dans un monde où le bruit est valorisé et le calme puni, survivrait-on ?"
+  },
+  {
+    "id": "drole_533",
+    "question": "Si les secrets étaient publics et le public secret, que cacherait-on ?"
+  },
+  {
+    "id": "drole_534",
+    "question": "Dans un univers où le stress est obligatoire, serait-il banal ?"
+  },
+  {
+    "id": "drole_535",
+    "question": "Si la tristesse était contagieuse et la joie rare, que chercherait-on ?"
+  },
+  {
+    "id": "drole_536",
+    "question": "Dans un monde où les portes s’ouvrent seulement aux gens patients, qui entrerait ?"
+  },
+  {
+    "id": "drole_537",
+    "question": "Si les films regardaient les spectateurs, serions-nous intéressants ?"
+  },
+  {
+    "id": "drole_538",
+    "question": "Dans un univers où le mensonge fait mal physiquement, mentirait-on encore ?"
+  },
+  {
+    "id": "drole_539",
+    "question": "Dans un monde où le travail était un loisir et le loisir une obligation, râlerait-on pareil ?"
+  },
+  {
+    "id": "drole_540",
+    "question": "Dans un monde où les chats dirigent et les humains miaulent, qui dominerait ?"
+  },
+  {
+    "id": "drole_541",
+    "question": "Si l’argent poussait sur les arbres mais le temps était rare, que cultiverait-on ?"
+  },
+  {
+    "id": "drole_542",
+    "question": "Dans un univers où les souvenirs peuvent être loués, lesquels vaudraient cher ?"
+  },
+  {
+    "id": "drole_543",
+    "question": "Si l’égo était visible en taille réelle, qui prendrait trop de place ?"
+  },
+  {
+    "id": "drole_544",
+    "question": "Dans un monde où la musique est silencieuse et le silence musical, danserait-on ?"
+  },
+  {
+    "id": "drole_545",
+    "question": "Si les fautes d’orthographe rendaient plus crédible, écrirait-on faux exprès ?"
+  },
+  {
+    "id": "drole_546",
+    "question": "Dans un univers où les portes mentent, ferait-on confiance aux fenêtres ?"
+  },
+  {
+    "id": "drole_547",
+    "question": "Si la gravité changeait selon l’humeur, flotterait-on souvent ?"
+  },
+  {
+    "id": "drole_548",
+    "question": "Dans un monde où les compliments blessent et les critiques motivent, parlerait-on différemment ?"
+  },
+  {
+    "id": "drole_549",
+    "question": "Si les ombres pouvaient agir seules, que feraient-elles ?"
+  },
+  {
+    "id": "drole_550",
+    "question": "Dans un univers où les robots ont des émotions et pas les humains, qui serait instable ?"
+  },
+  {
+    "id": "drole_551",
+    "question": "Si les couleurs avaient une température morale, laquelle serait suspecte ?"
+  },
+  {
+    "id": "drole_552",
+    "question": "Dans un monde où la logique est absurde et l’absurde logique, débattrait-on encore ?"
+  },
+  {
+    "id": "drole_553",
+    "question": "Si les anniversaires vieillissaient à l’envers, tricherait-on ?"
+  },
+  {
+    "id": "drole_554",
+    "question": "Dans un univers où les miroirs mentent mais les photos disent vrai, que croirait-on ?"
+  },
+  {
+    "id": "drole_555",
+    "question": "Si la pluie montait du sol vers le ciel, utiliserait-on des parapluies à l’envers ?"
+  },
+  {
+    "id": "drole_556",
+    "question": "Dans un monde où les portes demandent la permission, qui déciderait ?"
+  },
+  {
+    "id": "drole_557",
+    "question": "Si les erreurs étaient célébrées publiquement, aurait-on moins honte ?"
+  },
+  {
+    "id": "drole_558",
+    "question": "Dans un univers où la lenteur est prestigieuse, ralentirait-on tout ?"
+  },
+  {
+    "id": "drole_559",
+    "question": "Si les télépathes existaient mais ne pouvaient pas parler, seraient-ils frustrés ?"
+  },
+  {
+    "id": "drole_560",
+    "question": "Dans un monde où les rêves doivent être déclarés aux impôts, lesquels cacherait-on ?"
+  },
+  {
+    "id": "drole_561",
+    "question": "Si la chance se voyait physiquement, qui en abuserait ?"
+  },
+  {
+    "id": "drole_562",
+    "question": "Dans un univers où les idées sont volatiles et s’échappent, les attacherait-on ?"
+  },
+  {
+    "id": "drole_563",
+    "question": "Si le rire était une langue officielle, serait-on bilingue ?"
+  },
+  {
+    "id": "drole_564",
+    "question": "Dans un monde où la nuit est plus active que le jour, changerait-on de rythme ?"
+  },
+  {
+    "id": "drole_565",
+    "question": "Si les compliments faisaient grandir physiquement, qui deviendrait géant ?"
+  },
+  {
+    "id": "drole_566",
+    "question": "Dans un univers où les gens changent de couleur selon leur humeur, serait-on caméléon ?"
+  },
+  {
+    "id": "drole_567",
+    "question": "Si le courage était bruyant et la peur silencieuse, qui remarquerait-on ?"
+  },
+  {
+    "id": "drole_568",
+    "question": "Dans un monde où les souvenirs ont une date d’expiration, lesquels garderait-on ?"
+  },
+  {
+    "id": "drole_569",
+    "question": "Si les pensées pouvaient être prêtées, en emprunterait-on ?"
+  },
+  {
+    "id": "drole_570",
+    "question": "Dans un univers où les chaussures choisissent leur propriétaire, qui serait refusé ?"
+  },
+  {
+    "id": "drole_571",
+    "question": "Si le passé était modifiable mais le futur figé, que changerait-on ?"
+  },
+  {
+    "id": "drole_572",
+    "question": "Dans un monde où les émotions sont visibles comme des vêtements, qui serait stylé ?"
+  },
+  {
+    "id": "drole_573",
+    "question": "Si l’ennui produisait de l’énergie, s’ennuierait-on exprès ?"
+  },
+  {
+    "id": "drole_574",
+    "question": "Dans un univers où les disputes sont sport olympique, qui gagnerait ?"
+  },
+  {
+    "id": "drole_575",
+    "question": "Si les livres ferment les lecteurs qu’ils n’aiment pas, que lirait-on ?"
+  },
+  {
+    "id": "drole_576",
+    "question": "Dans un monde où la vérité coûte cher, serait-elle rare ?"
+  },
+  {
+    "id": "drole_577",
+    "question": "Si les compliments rétrécissaient l’égo, qui en recevrait le plus ?"
+  },
+  {
+    "id": "drole_578",
+    "question": "Dans un univers où les ombres vieillissent à notre place, serions-nous immortels ?"
+  },
+  {
+    "id": "drole_579",
+    "question": "Si le silence faisait du bruit et le bruit du silence, dormirait-on ?"
+  },
+  {
+    "id": "drole_580",
+    "question": "Dans un monde où les escaliers montent seuls, resterait-on immobile ?"
+  },
+  {
+    "id": "drole_581",
+    "question": "Si les villes se déplacent et les habitants restent fixes, voyagerait-on comment ?"
+  },
+  {
+    "id": "drole_582",
+    "question": "Dans un univers où les couleurs changent selon l’opinion politique, serait-ce le chaos ?"
+  },
+  {
+    "id": "drole_583",
+    "question": "Si les rumeurs devenaient visibles comme des nuages, éviterait-on certains quartiers ?"
+  },
+  {
+    "id": "drole_584",
+    "question": "Dans un monde où l’invisibilité est banale et la visibilité rare, se montrerait-on ?"
+  },
+  {
+    "id": "drole_585",
+    "question": "Si les mensonges apparaissaient en sous-titres, parlerait-on moins ?"
+  },
+  {
+    "id": "drole_586",
+    "question": "Dans un univers où les plantes ont des opinions tranchées, débattrait-on avec elles ?"
+  },
+  {
+    "id": "drole_587",
+    "question": "Si les pensées contradictoires créaient des doubles de nous-mêmes, combien serions-nous ?"
+  },
+  {
+    "id": "drole_588",
+    "question": "Dans un monde où la gravité attire seulement les gens stressés, flotterait-on zen ?"
+  },
+  {
+    "id": "drole_589",
+    "question": "Si les compliments déclenchaient des éclairs, serait-on prudent ?"
+  },
+  {
+    "id": "drole_590",
+    "question": "Dans un univers où les humains hibernent et les ours travaillent, qui se plaindrait ?"
+  },
+  {
+    "id": "drole_591",
+    "question": "Si le temps était une monnaie qu’on dépense consciemment, serait-on économe ?"
+  },
+  {
+    "id": "drole_592",
+    "question": "Dans un monde où la logique est interdite, comment argumenter ?"
+  },
+  {
+    "id": "drole_593",
+    "question": "Si les émotions pouvaient être téléchargées, laquelle serait la plus demandée ?"
+  },
+  {
+    "id": "drole_594",
+    "question": "Dans un univers où les mensonges sont colorés et les vérités transparentes, que verrait-on ?"
+  },
+  {
+    "id": "drole_595",
+    "question": "Si les murs écoutent et répondent, leur ferait-on confiance ?"
+  },
+  {
+    "id": "drole_596",
+    "question": "Dans un monde où les portes mentent mais les fenêtres conseillent, qui écouter ?"
+  },
+  {
+    "id": "drole_597",
+    "question": "Si les idées tombent du ciel comme la pluie, aurait-on des parapluies à concepts ?"
+  },
+  {
+    "id": "drole_598",
+    "question": "Dans un univers où l’absurde est la norme, trouverait-on ça normal ?"
+  },
+  {
+    "id": "drole_599",
+    "question": "Si tout était inversé sauf nous, serait-on le problème ?"
+  }
+]
