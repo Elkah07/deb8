@@ -295,6 +295,25 @@ function getCustomSeconds(key, fallback){
 
 function launchGame(){
   if(devMode==='multi'){ window.go(7); return }
+
+  document.querySelectorAll('.sc-input').forEach(input => {
+  const key = input.id.replace('sv-', '')
+  const md = modes[gameMode]
+  const s = md.settings.find(x => x.key === key)
+
+  if(!s) return
+
+  let v = parseInt(input.value, 10)
+  if(!Number.isFinite(v)) v = s.val
+
+  v = Math.max(s.min, Math.min(s.max, v))
+
+  if(s.odd && v % 2 === 0) v += 1
+  v = Math.max(s.min, Math.min(s.max, v))
+
+  settingVals[key] = v
+  input.value = v
+})
   // Read player names from inputs
   playerNames = []
   for(let i=0;i<pcount;i++){
