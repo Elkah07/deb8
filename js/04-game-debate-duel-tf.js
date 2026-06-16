@@ -123,11 +123,11 @@ function buildDebatePlayers(){
 
 function showDebateStarter(){
   const avs=['🦊','🐙','🐸','🦋','🐼','🦁','🐯','🦄']
-  const defaultNames=['Alex','Léa','Sam','Zoé','Tom','Jade','Luc','Emma']
-  // Pick random player from saved names or defaults
-  const names = (typeof playerNames !== 'undefined' && playerNames.length > 0)
+
+  const names = playerNames && playerNames.length > 0
     ? playerNames
-    : defaultNames.slice(0, pcount)
+    : Array.from({length:pcount}, (_, i) => 'Joueur ' + (i + 1))
+
   const idx = Math.floor(Math.random() * names.length)
   const name = names[idx]
   const av = avs[idx % avs.length]
@@ -135,21 +135,22 @@ function showDebateStarter(){
   const banner = document.getElementById('deb-starter')
   const nameEl = document.getElementById('deb-starter-name')
   const avEl   = document.getElementById('deb-starter-av')
+
   if(!banner) return
   if(nameEl) nameEl.textContent = name
   if(avEl)   avEl.textContent   = av
 
-  // Fade in
   banner.style.opacity = '0'
   banner.style.transform = 'translateY(-6px)'
   banner.style.display = 'flex'
+
   requestAnimationFrame(()=>{
     requestAnimationFrame(()=>{
       banner.style.opacity = '1'
       banner.style.transform = 'translateY(0)'
     })
   })
-  // Fade out after 3s
+
   clearTimeout(banner._timeout)
   banner._timeout = setTimeout(()=>{
     banner.style.opacity = '0'
@@ -159,11 +160,22 @@ function showDebateStarter(){
 }
 
 function nextDebateQ(){
-  debQIdx=(debQIdx+1)%debateQuestions.length
+  debQIdx++
+
+  if(debQIdx >= debateGameQuestions.length){
+    showTFEnd()
+    return
+  }
+
   const el=document.getElementById('deb-question')
-  if(el) el.textContent=debateQuestions[debQIdx]
+  if(el) el.textContent=debateGameQuestions[debQIdx]
+
   const num=document.getElementById('deb-q-num')
   if(num) num.textContent=debQIdx+1
+
+  const total=document.getElementById('deb-q-total')
+  if(total) total.textContent=debateGameQuestions.length
+
   showDebateStarter()
   startDebateTimer()
 }
