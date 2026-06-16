@@ -338,19 +338,19 @@ console.log('Joueurs Deb8 :', playerNames)
     setTimeout(()=>document.getElementById('s-imp-roles').classList.add('active'),80)
     return
   }
-  if(gameMode === 'debate' && typeof prepareDebateQuestions === 'function'){
-  prepareDebateQuestions()
+ if(gameMode === "debate" && typeof prepareDebateQuestions === "function"){
+  prepareDebateQuestions().then(() => {
+    document.getElementById(sid).classList.add("active")
+    if(typeof startDebateTimer === "function") startDebateTimer()
+    setTimeout(() => {
+      if(typeof showDebateStarter === "function") showDebateStarter()
+    }, 250)
+  })
+  return
 }
 
 setTimeout(()=>{ 
-  document.getElementById(sid).classList.add('active'); 
-
-  if(gameMode==='debate'){
-    if(typeof startDebateTimer === 'function') startDebateTimer()
-    setTimeout(()=>{
-      if(typeof showDebateStarter === 'function') showDebateStarter()
-    }, 250)
-  }
+  document.getElementById(sid).classList.add("active")
 },80)
 }
 
