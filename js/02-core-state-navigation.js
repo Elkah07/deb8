@@ -316,10 +316,13 @@ function launchGame(){
 })
   // Read player names from inputs
   playerNames = []
-  for(let i=0;i<pcount;i++){
-    const inp = document.getElementById('pname-'+i)
-    playerNames.push((inp && inp.value.trim()) ? inp.value.trim() : 'Joueur '+(i+1))
-  }
+for(let i=0;i<pcount;i++){
+  const inp = document.getElementById('pname-'+i)
+  const val = inp ? inp.value.trim() : ''
+  playerNames.push(val || 'Joueur ' + (i + 1))
+}
+
+console.log('Joueurs Deb8 :', playerNames)
   clearInterval(duelTimerInt); clearInterval(impTimerInt)
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
   document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
