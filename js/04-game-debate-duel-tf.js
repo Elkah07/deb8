@@ -46,9 +46,11 @@ function buildDebatePlayers(){
 function showDebateStarter(){
   const avs = ["🦊","🐙","🐸","🦋","🐼","🦁","🐯","🦄"]
 
-  const names = playerNames && playerNames.length > 0
-    ? playerNames
-    : Array.from({length:pcount}, (_, i) => "Joueur " + (i + 1))
+  const names = []
+  for(let i = 0; i < pcount; i++){
+    const inp = document.getElementById("pname-" + i)
+    names.push(inp && inp.value.trim() ? inp.value.trim() : "Joueur " + (i + 1))
+  }
 
   const idx = Math.floor(Math.random() * names.length)
 
