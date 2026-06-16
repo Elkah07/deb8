@@ -350,3 +350,96 @@ body.light .th:not(.sel) .check::after{
   color:rgba(0,0,0,0.45) !important;
 }
 
+/* Réglages partie */
+.settings-list{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  flex:1;
+}
+
+.setting-card{
+  background:var(--card);
+  border:1.5px solid var(--border);
+  border-radius:18px;
+  padding:16px 18px;
+}
+
+.sc-label{
+  font-size:11px;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:1.5px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.sc-ctrl{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.sc-btn{
+  width:38px;
+  height:38px;
+  border-radius:12px;
+  border:1.5px solid var(--border);
+  background:transparent;
+  color:var(--text);
+  font-size:22px;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.sc-val{
+  font-family:var(--font-head);
+  font-size:32px;
+  min-width:40px;
+  text-align:center;
+}
+
+.seg{
+  display:flex;
+  background:var(--card2);
+  border-radius:12px;
+  padding:3px;
+  gap:2px;
+}
+
+.seg-btn{
+  flex:1;
+  padding:9px 6px;
+  border-radius:9px;
+  border:none;
+  background:transparent;
+  font-family:var(--font-body);
+  font-size:12px;
+  font-weight:700;
+  color:var(--muted);
+  cursor:pointer;
+  text-align:center;
+}
+
+.seg-btn.on{
+  background:var(--card);
+  color:var(--text);
+  box-shadow:0 2px 8px rgba(0,0,0,0.3);
+}
+
+.custom-timer-wrap{
+  display:none;
+  margin-top:10px;
+  background:var(--card2);
+  border:1.5px solid var(--border);
+  border-radius:12px;
+  padding:10px 14px;
+  align-items:center;
+  gap:10px;
+}
+
+.custom-timer-wrap.show{
+  display:flex;
+}
