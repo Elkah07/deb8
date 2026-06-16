@@ -339,19 +339,24 @@ console.log('Joueurs Deb8 :', playerNames)
     return
   }
  if(gameMode === "debate" && typeof prepareDebateQuestions === "function"){
-  prepareDebateQuestions().then(() => {
-    document.getElementById(sid).classList.add("active")
-    if(typeof startDebateTimer === "function") startDebateTimer()
-    setTimeout(() => {
-      if(typeof showDebateStarter === "function") showDebateStarter()
-    }, 250)
-  })
+  prepareDebateQuestions()
+    .then(() => {
+      document.getElementById(sid).classList.add("active")
+
+      if(typeof buildDebatePlayers === "function") buildDebatePlayers()
+      if(typeof startDebateTimer === "function") startDebateTimer()
+
+      setTimeout(() => {
+        if(typeof showDebateStarter === "function") showDebateStarter()
+      }, 250)
+    })
+    .catch(err => {
+      console.error("Erreur lancement débat :", err)
+      alert("Erreur au lancement du débat. Regarde la console.")
+    })
+
   return
 }
-
-setTimeout(()=>{ 
-  document.getElementById(sid).classList.add("active")
-},80)
 }
 
 // ── MENU / SETTINGS ──
