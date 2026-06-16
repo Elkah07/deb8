@@ -1,11 +1,15 @@
 // ── GAME SCREENS ──
-const debateQuestionsPool = [
-  "Le télétravail est-il bénéfique pour la productivité ?",
-  "Faut-il rendre le vote obligatoire ?",
-  "Internet a-t-il rendu les gens plus heureux ?",
-  "Faut-il abolir les examens à l'école ?",
-  "L'argent fait-il vraiment le bonheur ?"
-]
+const debateThemeFiles = {
+  c1: "classiques.json",
+  c2: "politique.json",
+  c3: "philo.json",
+  c4: "super_heros.json",
+  c5: "drole.json",
+  c6: "dessins_animes.json",
+  c7: "enfants_5_10_ans.json"
+}
+
+let debateGameQuestions = []
 
 let debateGameQuestions = []
 let debQIdx = 0, duelQIdx = 0, duelTourN = 1, tfQIdx = 0, impTourN = 2
@@ -13,19 +17,40 @@ let duelTimerInt = null, impTimerInt = null
 let duelSec = 45
 var impSec = 32
 
-function prepareDebateQuestions(){
+async function prepareDebateQuestions(){
   const total = settingVals["nb_questions"] ?? 8
   debateGameQuestions = []
 
-  for(let i = 0; i < total; i++){
-    debateGameQuestions.push(debateQuestionsPool[i % debateQuestionsPool.length])
+  const selectedThemes = Array.from(document.querySelectorAll(".th.sel"))
+    .map(el => Array.from(el.classList).find(c => debateThemeFiles[c]))
+    .filter(Boolean)
+
+  const themesToLoad = selectedThemes.length ? selectedThemes : ["c1"]
+
+  for(const themeKey of themesToLoad){
+    const file = debateThemeFiles[themeKey]
+
+    try{
+      const res = await fetch(`data/debate/${file}`)
+      const data = await res.json()
+
+      data.forEach(item => {
+        if(item.question) debateGameQuestions.push(item.question)
+      })
+    } catch(err){
+      console.warn("Erreur chargement thème :", file, err)
+    }
   }
+
+  debateGameQuestions = debateGameQuestions
+    .sort(() => Math.random() - 0.5)
+    .slice(0, total)
 
   debQIdx = 0
 
-  document.getElementById("deb-q-total").textContent = total
+  document.getElementById("deb-q-total").textContent = debateGameQuestions.length
   document.getElementById("deb-q-num").textContent = 1
-  document.getElementById("deb-question").textContent = debateGameQuestions[0]
+  document.getElementById("deb-question").textContent = debateGameQuestions[0] || "Aucune question disponible."
 }
 
 function buildDebatePlayers(){
