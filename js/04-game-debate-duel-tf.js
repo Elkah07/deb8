@@ -83,6 +83,16 @@ console.log("Thèmes sélectionnés :", selectedThemes)
 
 }
 
+function showDebateQuestion(){
+  const current = debateGameQuestions[debQIdx]
+
+  const qEl = document.getElementById("deb-question")
+  if(qEl) qEl.textContent = current?.question || "Aucune question disponible."
+
+  const tag = document.getElementById("deb-theme-tag")
+  if(tag) tag.textContent = (current?.theme || "Classiques").toUpperCase()
+}
+
 function buildDebatePlayers(){
   const avs = ["🦊","🐙","🐸","🦋","🐼","🦁","🐯","🦄"]
   const colors = ["#FF4D6D","#3B82F6","#10B981","#8B5CF6"]
