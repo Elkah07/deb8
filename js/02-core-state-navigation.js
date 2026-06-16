@@ -188,7 +188,7 @@ function buildS9(){
         min="${s.min}"
         max="${s.max}"
         value="${currentVal}"
-        data-change="setSettingInput('${s.key}', this.value)"
+        onchange="setSettingInput('${s.key}', this.value)"
       >
 
       <button class="sc-btn" data-oc="chgSetting('${s.key}',1)">+</button>
