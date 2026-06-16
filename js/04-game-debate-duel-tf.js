@@ -1,15 +1,31 @@
 // ── GAME SCREENS ──
+const debateThemeFiles = {
+  c1: "classiques.json",
+  c2: "politique.json",
+  c3: "philo.json",
+  c4: "super_heros.json",
+  c5: "drole.json",
+  c6: "dessins_animes.json",
+  c7: "enfants_5_10_ans.json",
+  c8: "ado_10_15_ans.json",
+  c9: "famille.json",
+  c10: "musiques.json"
+}
+
 const debateThemeLabels = {
-  c1: "Classique",
+  c1: "Classiques",
   c2: "Politique",
   c3: "Philo",
   c4: "Super-Héros",
   c5: "Drôle",
   c6: "Dessins-animés",
-  c7: "Enfants"
+  c7: "Enfants",
+  c8: "Ado",
+  c9: "Famille",
+  c10: "Musique"
 }
 
-let currentDebateThemeLabel = "Classique"
+let currentDebateThemeLabel = "Classiques"
 
 let debateGameQuestions = []
 let debQIdx = 0, duelQIdx = 0, duelTourN = 1, tfQIdx = 0, impTourN = 2
