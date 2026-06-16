@@ -341,7 +341,13 @@ function launchGame(){
 
 setTimeout(()=>{ 
   document.getElementById(sid).classList.add('active'); 
-  if(gameMode==='debate' && typeof startDebateTimer==='function') startDebateTimer() 
+
+  if(gameMode==='debate'){
+    if(typeof startDebateTimer === 'function') startDebateTimer()
+    setTimeout(()=>{
+      if(typeof showDebateStarter === 'function') showDebateStarter()
+    }, 250)
+  }
 },80)
 }
 
