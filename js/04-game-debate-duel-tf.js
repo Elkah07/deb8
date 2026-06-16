@@ -1,16 +1,20 @@
 // ── GAME SCREENS ──
-const debateQuestionsPool=[
-  'Le télétravail est-il bénéfique pour la productivité ?',
-  'Faut-il rendre le vote obligatoire ?',
-  'Internet a-t-il rendu les gens plus heureux ?',
-  'Faut-il abolir les examens à l'école ?',
-  'L'argent fait-il vraiment le bonheur ?',
+const debateQuestionsPool = [
+  "Le télétravail est-il bénéfique pour la productivité ?",
+  "Faut-il rendre le vote obligatoire ?",
+  "Internet a-t-il rendu les gens plus heureux ?",
+  "Faut-il abolir les examens à l'école ?",
+  "L'argent fait-il vraiment le bonheur ?"
 ]
 
 let debateGameQuestions = []
+let debQIdx = 0, duelQIdx = 0, duelTourN = 1, tfQIdx = 0, impTourN = 2
+let duelTimerInt = null, impTimerInt = null
+let duelSec = 45
+var impSec = 32
 
 function prepareDebateQuestions(){
-  const total = settingVals['nb_questions'] ?? 8
+  const total = settingVals["nb_questions"] ?? 8
   debateGameQuestions = []
 
   for(let i = 0; i < total; i++){
@@ -19,143 +23,46 @@ function prepareDebateQuestions(){
 
   debQIdx = 0
 
-  const totalEl = document.getElementById('deb-q-total')
-  if(totalEl) totalEl.textContent = total
-
-  const numEl = document.getElementById('deb-q-num')
-  if(numEl) numEl.textContent = 1
-
-  const qEl = document.getElementById('deb-question')
-  if(qEl) qEl.textContent = debateGameQuestions[0]
+  document.getElementById("deb-q-total").textContent = total
+  document.getElementById("deb-q-num").textContent = 1
+  document.getElementById("deb-question").textContent = debateGameQuestions[0]
 }
 
-const duelQuestions=[
-  'Faut-il interdire les réseaux sociaux aux moins de 16 ans ?',
-  'La peine de mort est-elle justifiée dans certains cas ?',
-  'Le végétarisme devrait-il être obligatoire ?',
-  'Les jeux vidéo rendent-ils violent ?',
-  'Faut-il un revenu universel ?',
-]
-const tfQuestions=[
-  'Les chats sont plus intelligents que les chiens.',
-  'On devrait travailler 4 jours par semaine.',
-  'L\'école devrait commencer à 10h.',
-  'Les superhéros Marvel sont meilleurs que DC.',
-  'Manger des insectes deviendra normal d\'ici 10 ans.',
-]
-
-let debQIdx=0, duelQIdx=0, duelTourN=1, tfQIdx=0, impTourN=2
-let duelTimerInt=null, impTimerInt=null
-let duelSec=45; var impSec=32
-
-function showGame(mode){
-  clearInterval(duelTimerInt); clearInterval(impTimerInt)
-  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-  const ids={debate:'ng1',duel:'ng2',tf:'ng3',imp:'ng4'}
-  const btn=document.getElementById(ids[mode]); if(btn) btn.classList.add('on')
-  document.querySelectorAll('.screen').forEach(s=>{s.classList.remove('active','out')})
-  // init TF with sample data if accessed from sidebar
-  if(mode==='tf'){
-    initTF()
-    setTimeout(()=>document.getElementById('s-tf-vote').classList.add('active'),80)
-    return
-  }
-  const screenMap={debate:'s-debate',imp:'s-imp'}
-  const sid=screenMap[mode]
-  if(sid) setTimeout(()=>document.getElementById(sid).classList.add('active'),80)
-  if(mode==='duel'){
-    duelState.nbTours=5; duelState.currentTour=1; duelState.currentSpeaker='pour'
-    duelState.scores={pour:0,contre:0}; duelState.timePerTour=computeTourTimes(5)
-    renderDuelScreen()
-    setTimeout(()=>document.getElementById('s-duel').classList.add('active'),80)
-    startDuelTimer(); return
-  }
-  if(mode==='imp') startImpTimer()
-  if(mode==='debate') {
-  prepareDebateQuestions()
-  buildDebatePlayers()
-  startDebateTimer()
-}
-}
-
-function previewDuelVote(){
-  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-  const btn=document.getElementById('ng2v'); if(btn) btn.classList.add('on')
-  duelState.currentTour=2; duelState.scores={pour:1,contre:0}
-  showArbitreVote()
-}
-function previewFinalRound(){
-  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-  const btn=document.getElementById('ng2f'); if(btn) btn.classList.add('on')
-  showFinalRound()
-}
-
-function showTFDebatePreview(){
-  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-  const btn=document.getElementById('ng3d'); if(btn) btn.classList.add('on')
-  // Setup demo disagreement state
-  tfState.questions = tfAllQuestions.slice(0,5)
-  tfState.votes = {0:{p1:'vrai',p2:'faux'},2:{p1:'faux',p2:'vrai'},4:{p1:'vrai',p2:'faux'}}
-  tfState.disagreements = [0,2,4]
-  tfState.debIdx = 0
-  renderTFDebateScreen()
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
-  setTimeout(()=>document.getElementById('s-tf-debate').classList.add('active'),80)
-}
-
-function showPodium(){
-  document.querySelectorAll('.screen').forEach(s=>{s.classList.remove('active','out')})
-  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-  const btn=document.getElementById('ngp'); if(btn) btn.classList.add('on')
-  setTimeout(()=>document.getElementById('s-podium').classList.add('active'),80)
-}
-
-// Debate
 function buildDebatePlayers(){
-  const avs=['🦊','🐙','🐸','🦋','🐼','🦁','🐯','🦄']
-  const colors=['#FF4D6D','#3B82F6','#10B981','#8B5CF6']
-  const row=document.getElementById('deb-players')
+  const avs = ["🦊","🐙","🐸","🦋","🐼","🦁","🐯","🦄"]
+  const colors = ["#FF4D6D","#3B82F6","#10B981","#8B5CF6"]
+  const row = document.getElementById("deb-players")
   if(!row) return
-  row.innerHTML=avs.slice(0,pcount).map((a,i)=>`<div class="p-av-sm" style="background:${colors[i%4]}22;color:${colors[i%4]}">${a}</div>`).join('')
-  +`<span style="font-size:11px;color:var(--muted);margin-left:6px">${pcount} joueurs</span>`
+
+  row.innerHTML =
+    avs.slice(0,pcount).map((a,i)=>
+      `<div class="p-av-sm" style="background:${colors[i%4]}22;color:${colors[i%4]}">${a}</div>`
+    ).join("") +
+    `<span style="font-size:11px;color:var(--muted);margin-left:6px">${pcount} joueurs</span>`
+
   showDebateStarter()
 }
 
 function showDebateStarter(){
-  const avs=['🦊','🐙','🐸','🦋','🐼','🦁','🐯','🦄']
+  const avs = ["🦊","🐙","🐸","🦋","🐼","🦁","🐯","🦄"]
 
   const names = playerNames && playerNames.length > 0
     ? playerNames
-    : Array.from({length:pcount}, (_, i) => 'Joueur ' + (i + 1))
+    : Array.from({length:pcount}, (_, i) => "Joueur " + (i + 1))
 
   const idx = Math.floor(Math.random() * names.length)
-  const name = names[idx]
-  const av = avs[idx % avs.length]
 
-  const banner = document.getElementById('deb-starter')
-  const nameEl = document.getElementById('deb-starter-name')
-  const avEl   = document.getElementById('deb-starter-av')
+  document.getElementById("deb-starter-name").textContent = names[idx]
+  document.getElementById("deb-starter-av").textContent = avs[idx % avs.length]
 
-  if(!banner) return
-  if(nameEl) nameEl.textContent = name
-  if(avEl)   avEl.textContent   = av
-
-  banner.style.opacity = '0'
-  banner.style.transform = 'translateY(-6px)'
-  banner.style.display = 'flex'
-
-  requestAnimationFrame(()=>{
-    requestAnimationFrame(()=>{
-      banner.style.opacity = '1'
-      banner.style.transform = 'translateY(0)'
-    })
-  })
+  const banner = document.getElementById("deb-starter")
+  banner.style.display = "flex"
+  banner.style.opacity = "1"
 
   clearTimeout(banner._timeout)
   banner._timeout = setTimeout(()=>{
-    banner.style.opacity = '0'
-    banner.style.transform = 'translateY(-6px)'
-    setTimeout(()=>{ banner.style.display='none' }, 400)
+    banner.style.opacity = "0"
+    setTimeout(()=>{ banner.style.display = "none" }, 400)
   }, 3000)
 }
 
@@ -167,14 +74,9 @@ function nextDebateQ(){
     return
   }
 
-  const el=document.getElementById('deb-question')
-  if(el) el.textContent=debateGameQuestions[debQIdx]
-
-  const num=document.getElementById('deb-q-num')
-  if(num) num.textContent=debQIdx+1
-
-  const total=document.getElementById('deb-q-total')
-  if(total) total.textContent=debateGameQuestions.length
+  document.getElementById("deb-question").textContent = debateGameQuestions[debQIdx]
+  document.getElementById("deb-q-num").textContent = debQIdx + 1
+  document.getElementById("deb-q-total").textContent = debateGameQuestions.length
 
   showDebateStarter()
   startDebateTimer()
@@ -184,27 +86,19 @@ function switchDebateQ(){
   if(!debateGameQuestions.length) prepareDebateQuestions()
 
   const cur = debateGameQuestions[debQIdx]
-  let newQ, tries = 0
+  let newQ = cur
+  let tries = 0
 
-  do {
+  while(newQ === cur && tries < 10){
     newQ = debateQuestionsPool[Math.floor(Math.random() * debateQuestionsPool.length)]
     tries++
-  } while(newQ === cur && tries < 10)
+  }
 
   debateGameQuestions[debQIdx] = newQ
-
-  const el = document.getElementById('deb-question')
-  if(el){
-    el.style.opacity = '0'
-    setTimeout(function(){
-      el.textContent = newQ
-      el.style.opacity = '1'
-    }, 200)
-  }
+  document.getElementById("deb-question").textContent = newQ
 
   startDebateTimer()
 }
-
 // ── DUEL STATE ──
 const duelState = {
   nbTours: 5,          // from settings (3,5,7)
