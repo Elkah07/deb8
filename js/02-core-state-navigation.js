@@ -323,7 +323,8 @@ for(let i=0;i<pcount;i++){
 }
 
 console.log('Joueurs Deb8 :', playerNames)
-  clearInterval(duelTimerInt); clearInterval(impTimerInt)
+  if(typeof duelTimerInt !== "undefined") clearInterval(duelTimerInt)
+if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
   document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
   const screenMap={debate:'s-debate',duel:'s-duel',tf:'s-tf-vote',imp:'s-imp'}
