@@ -188,7 +188,7 @@ function buildS9(){
         min="${s.min}"
         max="${s.max}"
         value="${currentVal}"
-        onchange="setSettingInput('${s.key}', this.value)"
+        oninput="setSettingInput('${s.key}', this.value)"
       >
 
       <button class="sc-btn" data-oc="chgSetting('${s.key}',1)">+</button>
@@ -257,7 +257,7 @@ function setSettingInput(key, value){
   const s = md.settings.find(x => x.key === key)
   let v = parseInt(value, 10)
 
-  if(!Number.isFinite(v)) v = s.val
+  if(!Number.isFinite(v)) return
   v = Math.max(s.min, Math.min(s.max, v))
 
   if(s.odd && v % 2 === 0) v += 1
