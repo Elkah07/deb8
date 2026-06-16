@@ -1,13 +1,15 @@
 // ── GAME SCREENS ──
-const debateThemeFiles = {
-  c1: "classiques.json",
-  c2: "politique.json",
-  c3: "philo.json",
-  c4: "super_heros.json",
-  c5: "drole.json",
-  c6: "dessins_animes.json",
-  c7: "enfants_5_10_ans.json"
+const debateThemeLabels = {
+  c1: "Classique",
+  c2: "Politique",
+  c3: "Philo",
+  c4: "Super-Héros",
+  c5: "Drôle",
+  c6: "Dessins-animés",
+  c7: "Enfants"
 }
+
+let currentDebateThemeLabel = "Classique"
 
 let debateGameQuestions = []
 let debQIdx = 0, duelQIdx = 0, duelTourN = 1, tfQIdx = 0, impTourN = 2
@@ -20,10 +22,18 @@ async function prepareDebateQuestions(){
   debateGameQuestions = []
 
   const selectedThemes = Array.from(document.querySelectorAll(".th.sel"))
-    .map(el => Array.from(el.classList).find(c => debateThemeFiles[c]))
-    .filter(Boolean)
+  .map(el => {
+    const cls = Array.from(el.classList).find(c => debateThemeFiles[c])
+    return cls
+  })
+  .filter(Boolean)
+
+console.log("Thèmes sélectionnés :", selectedThemes)
 
   const themesToLoad = selectedThemes.length ? selectedThemes : ["c1"]
+  currentDebateThemeLabel = themesToLoad.length === 1
+  ? debateThemeLabels[themesToLoad[0]]
+  : "Mix thèmes"
 
   for(const themeKey of themesToLoad){
     const file = debateThemeFiles[themeKey]
@@ -49,6 +59,9 @@ async function prepareDebateQuestions(){
   document.getElementById("deb-q-total").textContent = debateGameQuestions.length
   document.getElementById("deb-q-num").textContent = 1
   document.getElementById("deb-question").textContent = debateGameQuestions[0] || "Aucune question disponible."
+
+  const tag = document.getElementById("deb-theme-tag")
+if(tag) tag.textContent = currentDebateThemeLabel.toUpperCase()
 }
 
 function buildDebatePlayers(){
