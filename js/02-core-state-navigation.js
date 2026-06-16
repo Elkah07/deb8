@@ -173,15 +173,27 @@ function buildS9(){
   const list=document.getElementById('settings-list-9')
   list.innerHTML=md.settings.map(s=>{
     if(s.type==='counter'){
-      const hint = s.odd ? '<div class="sc-hint">⚠️ Nombre impair requis pour garantir un gagnant</div>' : ''
-      return `<div class="setting-card">
-        <div class="sc-label">${s.label}</div>
-        <div class="sc-ctrl">
-          <button class="sc-btn" data-oc="chgSetting('${s.key}',-1)">−</button>
-          <div class="sc-val" id="sv-${s.key}" style="color:${md.color}">${s.val}</div>
-          <button class="sc-btn" data-oc="chgSetting('${s.key}',1)">+</button>
-        </div>${hint}
-      </div>`
+  const hint = s.odd ? '<div class="sc-hint">⚠️ Nombre impair requis pour garantir un gagnant</div>' : ''
+  const currentVal = settingVals[s.key] ?? s.val
+
+  return `<div class="setting-card">
+    <div class="sc-label">${s.label}</div>
+    <div class="sc-ctrl">
+      <button class="sc-btn" data-oc="chgSetting('${s.key}',-1)">−</button>
+
+      <input
+        class="sc-input"
+        id="sv-${s.key}"
+        type="number"
+        min="${s.min}"
+        max="${s.max}"
+        value="${currentVal}"
+        data-change="setSettingInput('${s.key}', this.value)"
+      >
+
+      <button class="sc-btn" data-oc="chgSetting('${s.key}',1)">+</button>
+    </div>${hint}
+  </div>`
     } else if(s.type==='seg_custom'){
       // segmented with last option being "custom"
       const btns=s.options.map((o,i)=>`<button class="seg-btn ${i===s.val?'on':''}" data-oc="selSegCustom('${s.key}',${i},this,${i===s.options.length-1})">${o}</button>`).join('')
@@ -233,8 +245,30 @@ function chgSetting(key,d){
   if(s.odd && v%2===0) v+=d>0?1:-1
   v=Math.max(s.min,Math.min(s.max,v))
   settingVals[key]=v
-  document.getElementById('sv-'+key).textContent=v
+  const el = document.getElementById('sv-'+key)
+if(el){
+  if(el.tagName === 'INPUT') el.value = v
+  else el.textContent = v
 }
+}
+
+function setSettingInput(key, value){
+  const md = modes[gameMode]
+  const s = md.settings.find(x => x.key === key)
+  let v = parseInt(value, 10)
+
+  if(!Number.isFinite(v)) v = s.val
+  v = Math.max(s.min, Math.min(s.max, v))
+
+  if(s.odd && v % 2 === 0) v += 1
+  v = Math.max(s.min, Math.min(s.max, v))
+
+  settingVals[key] = v
+
+  const el = document.getElementById('sv-' + key)
+  if(el) el.value = v
+}
+
 function selSeg(key,i,el){
   el.closest('.seg').querySelectorAll('.seg-btn').forEach((b,j)=>b.classList.toggle('on',j===i))
   settingVals[key]=i
