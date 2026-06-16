@@ -335,7 +335,14 @@ function launchGame(){
     setTimeout(()=>document.getElementById('s-imp-roles').classList.add('active'),80)
     return
   }
-  setTimeout(()=>{ document.getElementById(sid).classList.add('active'); if(gameMode==='debate' && typeof startDebateTimer==='function') startDebateTimer() },80)
+  if(gameMode === 'debate' && typeof prepareDebateQuestions === 'function'){
+  prepareDebateQuestions()
+}
+
+setTimeout(()=>{ 
+  document.getElementById(sid).classList.add('active'); 
+  if(gameMode==='debate' && typeof startDebateTimer==='function') startDebateTimer() 
+},80)
 }
 
 // ── MENU / SETTINGS ──
