@@ -16,7 +16,7 @@ const modes = {
       {t:'Pas de vainqueur', d:'Ce mode n\'a pas de gagnant. L\'objectif c\'est juste de débattre, découvrir les opinions de chacun et s\'amuser !'},
     ],
     settings:[
-      {key:'nb_questions', label:'Nombre de questions', type:'counter', val:8, min:1, max:30},
+      {key:'nb_questions', label:'Nombre de questions', type:'counter', val:8, min:1, max:50},
       {key:'time_debate', label:'Timer par question', type:'seg_custom', options:['∞','3 min','6 min','9 min','⏱️'], val:0},
     ]
   },
