@@ -144,14 +144,82 @@ function syncDebate(game){
   const original=window.multiDebateNext;window.multiDebateNext=function(){if(!state.isHost)return;state.roomRef.child('game/questionIndex').transaction(v=>((v||0)+1)%multiDebState.questions.length)};window.multiDebateSkip=window.multiDebateNext;
 }
 function syncTF(game){
-  state.roomRef.child('game/tf').on('value',s=>{const v=s.val()||{};if(v.questionIndex!=null&&v.questionIndex!==multiTFState.qIdx){multiTFState.qIdx=v.questionIndex;renderMultiTFScreen();goToScreen('s-multi-tf');startMultiTFTimer()}const votes=v.votes||{};Object.keys(votes).forEach(uid=>{const i=(game.players||[]).findIndex(p=>p.uid===uid),dot=document.getElementById('mtf-dot-'+i);if(dot){const x=votes[uid];dot.style.background=x==='vrai'?'#10B981':'#FF4D6D'}})});
-  window.castMultiTFVote=async function(val){if(multiTFState.myVote)return;multiTFState.myVote=val;await state.roomRef.child('game/tf/votes/'+state.user.uid).set(val);const snap=await state.roomRef.child('game/tf/votes').once('value');if(state.isHost&&Object.keys(snap.val()||{}).length>=players().length)setTimeout(()=>state.roomRef.child('game/tf/showResult').set(true),400)};
-  if(state.isHost)state.roomRef.child('game/tf').set({questionIndex:0,votes:{},showResult:false});
+  clearInterval(multiTFState.timerInt)
+  state.roomRef.child('game/tf').on('value',s=>{
+    const v=s.val()||{}
+    if(v.finished){clearInterval(multiTFState.timerInt);goToScreen('s-tf-end');return}
+    if(v.questionIndex!=null&&v.questionIndex!==multiTFState.qIdx){
+      multiTFState.qIdx=v.questionIndex
+      renderMultiTFScreen()
+      goToScreen('s-multi-tf')
+    }
+    const onlineVotes=v.votes||{},indexed={}
+    Object.keys(onlineVotes).forEach(uid=>{
+      const i=(game.players||[]).findIndex(p=>p.uid===uid)
+      if(i<0)return
+      indexed[i]=onlineVotes[uid]
+      const dot=document.getElementById('mtf-dot-'+i)
+      if(dot){dot.style.background=onlineVotes[uid]==='vrai'?'#10B981':'#FF4D6D'}
+    })
+    multiTFState.votes[multiTFState.qIdx]=indexed
+    if(v.showResult){
+      clearInterval(multiTFState.timerInt)
+      finishMultiTFVote()
+    }
+  })
+  window.castMultiTFVote=async function(val){
+    if(multiTFState.myVote)return
+    multiTFState.myVote=val
+    clearInterval(multiTFState.timerInt)
+    const voteBox=document.getElementById('mtf-my-vote')
+    const votedMsg=document.getElementById('mtf-voted-msg')
+    const voteIcon=document.getElementById('mtf-my-vote-icon')
+    if(voteBox)voteBox.style.display='none'
+    if(votedMsg)votedMsg.style.display='block'
+    if(voteIcon)voteIcon.textContent=val==='vrai'?'✅':'❌'
+    await state.roomRef.child('game/tf/votes/'+state.user.uid).set(val)
+    const snap=await state.roomRef.child('game/tf/votes').once('value')
+    if(state.isHost&&Object.keys(snap.val()||{}).length>=players().length){
+      setTimeout(()=>state.roomRef.child('game/tf/showResult').set(true),400)
+    }
+  }
+  window.multiTFNext=async function(){
+    if(!state.isHost)return
+    const next=multiTFState.qIdx+1
+    if(next>=multiTFState.questions.length){
+      await state.roomRef.child('game/tf').set({questionIndex:multiTFState.qIdx,votes:{},showResult:false,finished:true})
+    }else{
+      await state.roomRef.child('game/tf').set({questionIndex:next,votes:{},showResult:false,finished:false})
+    }
+  }
+  if(state.isHost)state.roomRef.child('game/tf').set({questionIndex:0,votes:{},showResult:false,finished:false});
 }
 function syncDuel(game){
-  state.roomRef.child('game/duel').on('value',s=>{const d=s.val();if(!d)return;multiDuelState.tour=d.tour||1;multiDuelState.scores=d.scores||{pour:0,contre:0};multiDuelState.question=d.question||multiDuelState.question;renderMultiDuelScreen();if(multiDuelState.role==='arbitre')renderMultiArbScreen()});
-  if(state.isHost)state.roomRef.child('game/duel').set({tour:1,scores:{pour:0,contre:0},speaker:'pour',question:multiDuelState.question});
-  window.multiArbVote=async function(winner){if(multiDuelState.role!=='arbitre')return;const ref=state.roomRef.child('game/duel');const snap=await ref.once('value'),d=snap.val()||{};d.scores=d.scores||{pour:0,contre:0};d.scores[winner]=(d.scores[winner]||0)+1;d.tour=(d.tour||1)+1;await ref.set(d);document.getElementById('mda-vote-popup').style.display='none'};
+  const pool=typeof getDuelQuestionPool==='function'?getDuelQuestionPool():[]
+  state.roomRef.child('game/duel').on('value',s=>{
+    const d=s.val();if(!d)return
+    multiDuelState.tour=d.tour||1
+    multiDuelState.scores=d.scores||{pour:0,contre:0}
+    multiDuelState.question=d.question||multiDuelState.question
+    if(d.finished){showMultiDuelPodium();return}
+    renderMultiDuelScreen()
+    if(multiDuelState.role==='arbitre')renderMultiArbScreen()
+  });
+  if(state.isHost)state.roomRef.child('game/duel').set({tour:1,totalTours:multiDuelState.totalTours,scores:{pour:0,contre:0},speaker:'pour',question:pool[0]||multiDuelState.question,finished:false});
+  window.multiArbVote=async function(winner){
+    if(multiDuelState.role!=='arbitre')return
+    const ref=state.roomRef.child('game/duel')
+    const snap=await ref.once('value'),d=snap.val()||{}
+    if(d.finished)return
+    d.scores=d.scores||{pour:0,contre:0}
+    d.scores[winner]=(d.scores[winner]||0)+1
+    d.tour=(d.tour||1)+1
+    d.finished=d.tour>(d.totalTours||multiDuelState.totalTours)
+    if(!d.finished&&pool.length)d.question=pool[(d.tour-1)%pool.length]
+    await ref.set(d)
+    const popup=document.getElementById('mda-vote-popup')
+    if(popup)popup.style.display='none'
+  };
 }
 function launchFirebaseImpostor(game,priv,myIdx){
   multiImpState.isHost=state.isHost;multiImpState.myPlayerIdx=myIdx;multiImpState.players=(game.players||[]).map((p,i)=>({name:p.name,av:p.avatar,role:i===myIdx?priv.role:'hidden',subject:i===myIdx?priv.subject:''}));multiImpState.round=game.round||1;multiImpState.totalRounds=3;renderMultiPlayerScreen();goToScreen('s-multi-imp-player');

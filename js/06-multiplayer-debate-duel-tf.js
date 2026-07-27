@@ -175,14 +175,48 @@ function multiArbVote(winner) {
   if(popup){ popup.style.opacity='0'; setTimeout(function(){ popup.style.display='none'; popup.style.transition='' },260) }
   multiDuelState.tour++
   if(multiDuelState.tour > multiDuelState.totalTours) {
-    // End
-    goToScreen('s-podium')
+    showMultiDuelPodium()
     return
   }
   renderMultiArbScreen()
   var sp = document.getElementById('mdp-active-banner'); if(sp){ sp.textContent='🎙️ C\'est ton tour — argumente POUR !'; sp.style.color='#3B82F6' }
   var sc = document.getElementById('mdc-status'); if(sc){ sc.textContent='⏳ Attends que POUR finisse…'; sc.style.color='var(--muted)' }
   startMultiDuelTimer(multiDuelState.role === 'arbitre' ? 'pour' : multiDuelState.role)
+}
+
+function showMultiDuelPodium() {
+  clearInterval(multiDuelState.timerInt)
+  var p = multiDuelState.players
+  var s = multiDuelState.scores
+  var finalists = [
+    {name:p.pour.name,av:p.pour.av,score:s.pour,color:'#3B82F6'},
+    {name:p.contre.name,av:p.contre.av,score:s.contre,color:'#FF4D6D'}
+  ].sort(function(a,b){ return b.score-a.score })
+  var arb = {name:p.arbitre.name,av:p.arbitre.av,score:-1,color:'#F59E0B',isArbitre:true}
+  var sorted = finalists.concat([arb])
+  var stage = document.querySelector('.podium-stage')
+  if(stage){
+    var order = [sorted[1],sorted[0],sorted[2]]
+    stage.innerHTML = order.map(function(pl){
+      var rank = sorted.indexOf(pl)+1
+      return '<div class="podium-player pd-'+rank+'">'+
+        (rank===1?'<div class="pd-crown">👑</div>':'')+
+        '<div class="pd-av">'+pl.av+'</div><div class="pd-name">'+pl.name+'</div>'+
+        '<div class="pd-pts" style="color:'+pl.color+'">'+(pl.isArbitre?'Arbitre ⚖️':pl.score+' pt'+(pl.score!==1?'s':''))+'</div>'+
+        '<div class="pd-block">'+rank+'</div></div>'
+    }).join('')
+  }
+  var list = document.querySelector('.score-list')
+  if(list){
+    var max = Math.max(s.pour,s.contre,1)
+    list.innerHTML = sorted.map(function(pl,i){
+      return '<div class="score-row"><div class="sr-rank">#'+(i+1)+'</div>'+
+        '<div class="sr-av">'+pl.av+'</div><div class="sr-bar-wrap"><div class="sr-name">'+pl.name+'</div>'+
+        '<div class="sr-bar-bg"><div class="sr-bar-fill" style="width:'+(pl.isArbitre?0:Math.round(pl.score/max*100))+'%"></div></div></div>'+
+        '<div class="sr-pts">'+(pl.isArbitre?'Arbitre':pl.score+' pts')+'</div></div>'
+    }).join('')
+  }
+  goToScreen('s-podium')
 }
 
 // ═══════════════════════════════════════════════════

@@ -1,9 +1,9 @@
-const CACHE_NAME = 'deb8-logo-holes-v5';
+const CACHE_NAME = 'deb8-games-fixes-v5';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './assets/logo-deb8-v3.png',
+  './assets/logo-deb8-v2.png',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/icon-maskable-512.png',
@@ -11,7 +11,10 @@ const APP_SHELL = [
   './assets/icons/favicon-32.png'
   ,'./css/screens.css'
   ,'./js/02-core-state-navigation.js'
+  ,'./js/04-game-debate-duel-tf.js'
+  ,'./js/06-multiplayer-debate-duel-tf.js'
   ,'./js/07-vocal-proximity-teams.js'
+  ,'./js/09-firebase-online.js'
   ,'./js/11-audio-ambience.js'
   ,'./js/12-android-back-navigation.js'
 ];

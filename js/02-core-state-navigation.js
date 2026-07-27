@@ -312,7 +312,7 @@ function getCustomSeconds(key, fallback){
   return fallback
 }
 
-function launchGame(){
+async function launchGame(){
   if(devMode==='multi'){ window.go(7); return }
 
   document.querySelectorAll('.sc-input').forEach(input => {
@@ -350,8 +350,17 @@ if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
   const sid=screenMap[gameMode]
   if(!sid) return
   // init tf state
-  if(gameMode==='tf') initTF()
-  if(gameMode==='duel') { initDuel(); return }
+  if(gameMode==='tf') {
+    initTF()
+    document.getElementById(sid).classList.add('active')
+    return
+  }
+  if(gameMode==='duel') {
+    if(typeof prepareDebateQuestions === 'function') await prepareDebateQuestions()
+    initDuel()
+    document.getElementById(sid).classList.add('active')
+    return
+  }
   if(gameMode==='imp') {
     initImp()
     clearInterval(impTimerInt)

@@ -131,27 +131,28 @@ function skipTFQuestion(){
   // Reset votes, pick next question without moving tfState.current counter
   clearInterval(tfTimerInt)
   // Swap current question for a fresh one from the pool not yet seen
-  var seen = Object.keys(tfState.votes).map(Number)
-  seen.push(tfState.current)
-  var unused = []
-  for(var i=0;i<tfAllQuestions.length;i++){
-    if(seen.indexOf(i)<0) unused.push(i)
+  var currentQuestion = tfState.questions[tfState.current]
+  var completed = tfState.questions.slice(0, tfState.current)
+  var unused = tfAllQuestions.filter(function(q){
+    return q !== currentQuestion && completed.indexOf(q) < 0
+  })
+  var candidates = unused.length
+    ? unused
+    : tfAllQuestions.filter(function(q){ return q !== currentQuestion })
+  if(candidates.length){
+    tfState.questions[tfState.current] = candidates[Math.floor(Math.random()*candidates.length)]
   }
-  if(unused.length === 0) { nextTFQ(); return } // fallback
-  var newIdx = unused[Math.floor(Math.random()*unused.length)]
-  tfState.questions[tfState.current] = tfAllQuestions[newIdx]
   renderTFVoteScreen()
-  startTFTimer()
 }
 
 function skipDuelQuestion(){
   clearInterval(duelTimerInt)
-  // Pick a different question (not current)
-  var newIdx
-  do { newIdx = Math.floor(Math.random()*duelQuestions.length) }
-  while(duelQuestions[newIdx] === document.getElementById('duel-question').textContent && duelQuestions.length > 1)
-  var el = document.getElementById('duel-question')
-  if(el) el.textContent = duelQuestions[newIdx]
+  var pool = typeof getDuelQuestionPool === 'function' ? getDuelQuestionPool() : []
+  var current = duelState.currentQuestion
+  var candidates = pool.filter(function(q){ return q !== current })
+  if(candidates.length){
+    duelState.currentQuestion = candidates[Math.floor(Math.random()*candidates.length)]
+  }
   // Restart timer for current speaker
   duelSec = duelState.timePerTour[duelState.currentTour-1] || 45
   renderDuelScreen()
@@ -666,12 +667,17 @@ showComingSoon = function(msg){
   setTimeout(function(){ toast.style.opacity='0'; setTimeout(function(){ toast.remove() },400) }, 2500)
 }
 
-function launchTeamGame(){
+async function launchTeamGame(){
   TEAM_TIMER_SEC = (typeof settingVals !== 'undefined' && settingVals['time_turn'] != null)
     ? [30,45,60,120][settingVals['time_turn']] : 60
   teamState.teams.forEach(function(t){ t.score = 0 })
-  teamState.questions = (typeof debateQuestions !== 'undefined' && debateQuestions.length > 0)
-    ? debateQuestions.slice() : duelQuestions.concat(duelQuestions)
+  if(typeof prepareDebateQuestions === 'function' && !debateGameQuestions.length){
+    await prepareDebateQuestions()
+  }
+  teamState.questions = (typeof getDuelQuestionPool === 'function')
+    ? getDuelQuestionPool()
+    : []
+  if(!teamState.questions.length) teamState.questions = tfAllQuestions.slice()
   teamState.qIdx = 0
   teamState.tourIdx = 0
   // Arbitre = 3rd team (fixed for whole game), debaters = teams 0 and 1
@@ -713,7 +719,7 @@ function renderTeamGameNew(){
   var t2 = teamState.teams[teamState.currentPair[1]]  // CONTRE
   var arb = teamState.teams[teamState.arbitreIdx]
   var n  = teamState.teams.length
-  var totalTours = n * (n - 1)
+  var totalTours = teamState.nbTours || (n * (n - 1))
 
   // Topbar
   var tn = document.getElementById('team-tour-num'); if(tn) tn.textContent = teamState.tourIdx + 1

@@ -174,6 +174,18 @@ const duelState = {
   scores: { pour: 0, contre: 0 },
   players: { pour: { name:'Alex', av:'🦊' }, contre: { name:'Léa', av:'🐙' }, arbitre: { name:'Sam', av:'🐸' } },
   timePerTour: [],     // computed when game starts
+  currentQuestion: null,
+}
+
+function duelQuestionText(item){
+  if(typeof item === 'string') return item
+  return item && item.question ? item.question : ''
+}
+
+function getDuelQuestionPool(){
+  return debateGameQuestions
+    .map(duelQuestionText)
+    .filter(Boolean)
 }
 
 // Time scale: 60s for tour 1, -10s each tour, min 20s, last tour = final round (45s simultaneous)
@@ -191,6 +203,9 @@ function initDuel(){
   duelState._speakersDone = []
   duelState.scores      = { pour:0, contre:0 }
   duelState.timePerTour = computeTourTimes(duelState.nbTours)
+  duelQIdx = 0
+  const questionPool = getDuelQuestionPool()
+  duelState.currentQuestion = questionPool[0] || tfAllQuestions[0]
   renderDuelScreen()
   // Show role announce popup before starting timer
   const p = duelState.players
@@ -217,6 +232,8 @@ function renderDuelScreen(){
   const speaker = duelState.currentSpeaker
   const opp = speaker === 'pour' ? 'contre' : 'pour'
   const p = duelState.players
+  const question = document.getElementById('duel-question')
+  if(question) question.textContent = duelState.currentQuestion || 'Aucune question disponible.'
 
   // topbar
   const tNum = document.getElementById('duel-tour-num'); if(tNum) tNum.textContent = t
@@ -352,6 +369,11 @@ function duelArbitreVote(winner){
     duelState.scores.contre = tmpScore
     duelState.currentSpeaker = 'pour'
     duelState._speakersDone = []
+    const questionPool = getDuelQuestionPool()
+    if(questionPool.length){
+      duelQIdx = (duelQIdx + 1) % questionPool.length
+      duelState.currentQuestion = questionPool[duelQIdx]
+    }
     if(duelState.currentTour > duelState.nbTours - 1){
       // Last tour → final round
       showFinalRound()
@@ -488,6 +510,10 @@ let tfTimerInt = null
 const TF_VOTE_DURATION = 10
 
 function renderTFVoteScreen(){
+  if(!tfState.questions.length){
+    showTFEnd()
+    return
+  }
   const q = tfState.questions[tfState.current]
   // Update BOTH question elements (one per player)
   ;['tf-question-p1','tf-question-p2'].forEach(id=>{
