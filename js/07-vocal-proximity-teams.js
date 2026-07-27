@@ -647,7 +647,7 @@ function btnGoAction() {
 
 function trySelTeam(){
   if(pcount < 5){
-    showComingSoon('Il faut au moins 5 joueurs pour le mode équipes !')
+    showComingSoon('Il faut au moins 5 joueurs : 2 équipes et 1 arbitre !')
     return
   }
   selDuelFormat('team')

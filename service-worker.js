@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-brand-v1';
+const CACHE_NAME = 'deb8-features-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -9,6 +9,10 @@ const APP_SHELL = [
   './assets/icons/icon-maskable-512.png',
   './assets/icons/apple-touch-icon.png',
   './assets/icons/favicon-32.png'
+  ,'./css/screens.css'
+  ,'./js/02-core-state-navigation.js'
+  ,'./js/07-vocal-proximity-teams.js'
+  ,'./js/11-audio-ambience.js'
 ];
 
 self.addEventListener('install', event => {

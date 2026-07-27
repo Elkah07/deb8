@@ -153,10 +153,28 @@ function selMode(m){
 function toggleTheme(el){
   if(el.classList.contains('sel') && document.querySelectorAll('.th.sel').length<=1) return
   el.classList.toggle('sel')
-  const any=document.querySelectorAll('.th.sel').length>0
+  updateThemeSelectionControls()
+}
+
+function updateThemeSelectionControls(){
+  const themes=Array.from(document.querySelectorAll('#s5 .th'))
+  const selected=themes.filter(el=>el.classList.contains('sel'))
+  const any=selected.length>0
   const btn=document.getElementById('btn-theme')
   btn.style.opacity=any?'1':'0.4'
   btn.style.pointerEvents=any?'all':'none'
+  const allBtn=document.getElementById('themes-select-all')
+  const allLabel=document.getElementById('themes-select-all-label')
+  const allSelected=themes.length>0 && selected.length===themes.length
+  if(allBtn) allBtn.classList.toggle('is-all',allSelected)
+  if(allLabel) allLabel.textContent=allSelected?'Tout décocher':'Tout cocher'
+}
+
+function toggleAllThemes(){
+  const themes=Array.from(document.querySelectorAll('#s5 .th'))
+  const allSelected=themes.length>0 && themes.every(el=>el.classList.contains('sel'))
+  themes.forEach(el=>el.classList.toggle('sel',!allSelected))
+  updateThemeSelectionControls()
 }
 
 // ── ROLES (s8) ──

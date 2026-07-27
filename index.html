@@ -134,11 +134,15 @@
         <div class="sp-section">Son</div>
         <div class="sp-row">
           <div class="sp-row-label">🔊 Sons de l'interface</div>
-          <div class="toggle on" data-oc="this.classList.toggle('on')"></div>
+          <div class="toggle on" id="ui-sound-toggle" data-oc="toggleInterfaceSounds()"></div>
         </div>
         <div class="sp-row">
           <div class="sp-row-label">🎵 Musique d'ambiance</div>
-          <div class="toggle" data-oc="this.classList.toggle('on')"></div>
+          <div class="toggle" id="ambience-toggle" data-oc="toggleAmbience()"></div>
+        </div>
+        <div class="sp-row" id="ambience-volume-row">
+          <div class="sp-row-label">Volume</div>
+          <input id="ambience-volume" type="range" min="0" max="100" value="28" aria-label="Volume de la musique d'ambiance" oninput="setAmbienceVolume(this.value)" style="width:120px;accent-color:#8B5CF6">
         </div>
 
         <div class="sp-section">Apparence</div>
@@ -391,8 +395,8 @@
         <div class="dc" id="duel-team-card" data-oc="trySelTeam()">
           <div class="dc-icon b" style="font-size:22px">🏆</div>
           <div>
-            <div class="dc-label">Mode équipes</div>
-            <div class="dc-desc">Des équipes s'affrontent en 1v1. Configurez les équipes et leurs membres.</div>
+            <div class="dc-label">En équipe</div>
+            <div class="dc-desc">Deux équipes s'affrontent et une troisième arbitre. Choisissez leurs noms et leurs membres.</div>
           </div>
           <div class="dc-arr">›</div>
         </div>
@@ -519,6 +523,11 @@
 
   <div class="h1">Choisissez vos<br><span>thèmes</span></div>
   <div class="sub">Sélectionnez un ou plusieurs thèmes de débats.</div>
+
+  <button class="themes-select-all is-all" id="themes-select-all" data-oc="toggleAllThemes()">
+    <span class="themes-select-all-check">✓</span>
+    <span id="themes-select-all-label">Tout décocher</span>
+  </button>
 
   <div class="themes-grid">
     <div class="th c1 sel" data-oc="toggleTheme(this)">
@@ -1663,6 +1672,7 @@
 <script src="js/08-team-game-final.js"></script>
 <script src="js/09-firebase-online.js"></script>
 <script src="js/10-creator-mode.js"></script>
+<script src="js/11-audio-ambience.js"></script>
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
