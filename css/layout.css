@@ -90,3 +90,66 @@ body.light .btn-outline:hover{ border-color:rgba(0,0,0,0.25); color:rgba(0,0,0,0
   caret-color:#FF4D6D;
 }
 .name-input::placeholder{color:var(--muted2)}
+
+
+/* ═══════════════════════════════════════════════════
+   V26 — AFFICHAGE PRODUCTION
+   Masque l'habillage de maquette et affiche Deb8 en plein écran.
+═══════════════════════════════════════════════════ */
+
+/* Sur le site public, la sidebar de développement reste toujours masquée. */
+body.production .sidebar{
+  display:none !important;
+}
+
+body.production{
+  width:100%;
+  min-height:100dvh;
+  overflow:hidden;
+  background:var(--bg);
+}
+
+body.production .layout{
+  width:100%;
+  min-height:100dvh;
+  height:100dvh;
+  display:flex !important;
+  align-items:center;
+  justify-content:center;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+/* Mobile et tablette : l'application occupe réellement tout l'écran. */
+@media (max-width:900px){
+  body.production .layout{
+    display:block !important;
+  }
+
+  body.production .phone{
+    width:100% !important;
+    max-width:none !important;
+    height:100dvh !important;
+    min-height:100dvh !important;
+    margin:0 !important;
+    border:0 !important;
+    border-radius:0 !important;
+    box-shadow:none !important;
+  }
+
+  body.production .phone::before,
+  body.production .phone::after{
+    display:none !important;
+  }
+}
+
+/* Ordinateur : conserve un aperçu centré de l'application, sans sidebar. */
+@media (min-width:901px){
+  body.production .layout{
+    padding:24px !important;
+  }
+
+  body.production .phone{
+    margin:auto !important;
+  }
+}
