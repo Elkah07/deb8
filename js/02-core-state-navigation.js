@@ -102,7 +102,8 @@ function chgP(d){pcount=Math.max(2,Math.min(15,pcount+d));document.getElementByI
 
 function goFromDevice(){
   if(devMode==='solo') { buildNames(); window._namesBuilt = true; window.go(10) }
-  else window.go(7)
+  else if(typeof openOnlineFlow === 'function') openOnlineFlow()
+  else window.go(15)
 }
 
 const AVATARS=['🦊','🐙','🐸','🦋','🐼','🦁','🐯','🦄','🐺','🐻','🐨','🦊']

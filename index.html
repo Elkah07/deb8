@@ -268,13 +268,13 @@
           </div>
           <div class="dc-arr">›</div>
         </div>
-        <div class="dc" id="d-multi" data-oc="showComingSoon()" style="opacity:0.5;position:relative">
+        <div class="dc" id="d-multi" data-oc="selDev('multi')">
           <div class="dc-icon b">📲</div>
           <div>
             <div class="dc-label">Chacun son téléphone</div>
             <div class="dc-desc">Chaque joueur rejoint via un code. Parfait pour 4+ joueurs.</div>
           </div>
-          <div style="background:rgba(139,92,246,0.2);border:1px solid rgba(139,92,246,0.4);border-radius:8px;padding:3px 8px;font-size:10px;font-weight:800;color:#8B5CF6;white-space:nowrap">Bientôt</div>
+          <div class="dc-arr">›</div>
         </div>
         <div id="np-wrap" style="display:none">
           <div class="nplayers">
@@ -641,46 +641,74 @@
       <button class="btn-main" id="btn-launch" data-oc="launchGame()" style="flex-shrink:0;margin-top:auto" data-i18n="launchBtn">🚀 Lancer la partie !</button>
     </div>
 
-    <!-- ══ S7 LOBBY ══ -->
+    <!-- ══ S7 LOBBY FIREBASE ══ -->
     <div class="screen" id="s7">
       <div class="top-bar">
-        <button class="back" data-oc="window.go(2)">←</button>
-        <div class="step-pill">Lobby</div>
+        <button class="back" data-oc="leaveOnlineRoom()">←</button>
+        <div class="step-pill">Salle d’attente</div>
       </div>
       <div class="lobby-hero">
-        <div class="lh-label">Code du lobby</div>
-        <div class="lh-code">DB8</div>
+        <div class="lh-label">Code de la partie</div>
+        <div class="lh-code" id="online-room-code">-----</div>
         <div class="lh-hint">Partage ce code avec tes amis</div>
-        <div class="share-btn">📤 Partager le lien d'invitation</div>
+        <div class="online-share-row">
+          <button class="share-btn" data-oc="copyOnlineCode()">📋 Copier</button>
+          <button class="share-btn" data-oc="shareOnlineRoom()">📤 Partager</button>
+        </div>
       </div>
-      <div class="mode-strip">
-        <div style="font-size:22px">⚔️</div>
-        <div class="ms-info">
-          <div class="ms-sub">Mode sélectionné</div>
-          <div class="ms-val">1v1 + Arbitre</div>
+
+      <div class="online-lobby-status" id="online-connection-status">Connexion à Firebase…</div>
+
+      <div id="online-host-mode-panel" class="online-mode-panel" style="display:none">
+        <div class="pl-head">Mode de jeu</div>
+        <div class="online-mode-grid">
+          <button class="online-mode-btn" data-mode="debate" data-oc="onlineSelectMode('debate')">🎙️<span>Débat</span></button>
+          <button class="online-mode-btn" data-mode="duel" data-oc="onlineSelectMode('duel')">⚔️<span>1v1</span></button>
+          <button class="online-mode-btn" data-mode="tf" data-oc="onlineSelectMode('tf')">✅<span>Vrai/Faux</span></button>
+          <button class="online-mode-btn" data-mode="imp" data-oc="onlineSelectMode('imp')">🕵️<span>Imposteur</span></button>
         </div>
-        <div class="ms-change" data-oc="window.go(3)">Changer</div>
       </div>
-      <div class="pl-head">Joueurs (3 / 6)</div>
-      <div class="pl-list">
-        <div class="pl">
-          <div class="pl-av" style="background:rgba(255,77,109,0.15)">🦊</div>
-          <div><div class="pl-name">Alex <span style="font-size:10px;color:var(--muted);font-weight:400">· Hôte</span></div><div class="pl-stat">Prêt à débattre</div></div>
-          <div class="pl-dot dot-green"></div>
-        </div>
-        <div class="pl">
-          <div class="pl-av" style="background:rgba(59,130,246,0.15)">🐙</div>
-          <div><div class="pl-name">Léa</div><div class="pl-stat">Connectée</div></div>
-          <div class="pl-dot dot-green"></div>
-        </div>
-        <div class="pl">
-          <div class="pl-av" style="background:rgba(139,92,246,0.15)">🐸</div>
-          <div><div class="pl-name">Sam</div><div class="pl-stat">Connexion en cours…</div></div>
-          <div class="pl-dot dot-blink"></div>
-        </div>
-        <div class="pl empty">+ En attente d'un joueur</div>
+      <div id="online-player-mode-wait" class="mode-strip">
+        <div id="online-mode-icon" style="font-size:22px">🎮</div>
+        <div class="ms-info"><div class="ms-sub">Mode sélectionné</div><div class="ms-val" id="online-mode-label">L’hôte choisit…</div></div>
       </div>
-      <button class="btn-main" style="flex-shrink:0" data-oc="go(11)">🚀 Lancer la partie</button>
+
+      <div class="pl-head" id="online-player-count">Joueurs</div>
+      <div class="pl-list" id="online-player-list"></div>
+
+      <button class="btn-outline online-ready-btn" id="online-ready-btn" data-oc="toggleOnlineReady()">Je suis prêt</button>
+      <button class="btn-main" id="online-start-btn" style="display:none" data-oc="startOnlineGame()">🚀 Lancer la partie</button>
+      <div class="online-hint" id="online-lobby-hint">Tous les joueurs doivent être prêts.</div>
+    </div>
+
+    <!-- ══ S14 PROFIL LOCAL ══ -->
+    <div class="screen" id="s14">
+      <div class="top-bar"><button class="back" data-oc="go(2)">←</button><div class="step-pill">Ton profil</div></div>
+      <div class="h1">Comment doit-on<br><span>t’appeler ?</span></div>
+      <div class="sub">Ce profil reste enregistré sur ce téléphone.</div>
+      <div class="online-profile-card">
+        <div class="online-avatar-preview" id="online-avatar-preview">🦊</div>
+        <input class="online-name-input" id="online-profile-name" maxlength="16" placeholder="Ton pseudo">
+        <div class="pl-head">Choisis ton avatar</div>
+        <div class="online-avatar-grid" id="online-avatar-grid"></div>
+      </div>
+      <button class="btn-main" style="margin-top:auto" data-oc="saveOnlineProfile()">Continuer →</button>
+    </div>
+
+    <!-- ══ S15 CRÉER / REJOINDRE ══ -->
+    <div class="screen" id="s15">
+      <div class="top-bar"><button class="back" data-oc="go(2)">←</button><div class="step-pill">Multijoueur</div></div>
+      <div class="h1">Jouez chacun sur<br><span>votre téléphone</span></div>
+      <div class="sub">Crée une salle ou rejoins tes amis avec leur code.</div>
+      <div class="online-entry-cards">
+        <button class="online-entry-card" data-oc="createOnlineRoom()"><span>✨</span><strong>Créer une partie</strong><small>Tu seras l’hôte de la salle.</small></button>
+        <div class="online-join-card">
+          <div class="online-entry-icon">🔑</div><strong>Rejoindre une partie</strong>
+          <input id="online-join-code" maxlength="5" placeholder="CODE" autocomplete="off">
+          <button class="btn-main" data-oc="joinOnlineRoom()">Rejoindre →</button>
+        </div>
+      </div>
+      <div class="online-error" id="online-entry-error"></div>
     </div>
 
     <!-- ══ S11 PROXIMITÉ ══ -->
@@ -1613,6 +1641,9 @@
   </div><!-- end phone -->
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
 <script src="js/01-imposteur.js"></script>
 <script src="js/02-core-state-navigation.js"></script>
 <script src="js/03-shop-legal.js"></script>
@@ -1621,5 +1652,6 @@
 <script src="js/06-multiplayer-debate-duel-tf.js"></script>
 <script src="js/07-vocal-proximity-teams.js"></script>
 <script src="js/08-team-game-final.js"></script>
+<script src="js/09-firebase-online.js"></script>
 </body>
 </html>

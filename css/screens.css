@@ -468,3 +468,23 @@ body.light .th:not(.sel) .check::after{
 .sc-input:focus{
   border-color:var(--orange);
 }
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   V24 — MULTIJOUEUR FIREBASE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.online-share-row{display:flex;gap:8px;margin-top:12px}.online-share-row .share-btn{flex:1;margin-top:0;border:none}
+.online-lobby-status{font-size:11px;color:var(--muted);text-align:center;min-height:18px}
+.online-mode-panel{display:flex;flex-direction:column;gap:8px}.online-mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.online-mode-btn{border:1.5px solid var(--border);background:var(--card);color:var(--text);border-radius:14px;padding:12px 8px;display:flex;align-items:center;justify-content:center;gap:7px;font:700 12px var(--font-body);cursor:pointer;transition:.2s}
+.online-mode-btn.on{border-color:var(--debate);box-shadow:0 0 0 3px rgba(255,77,109,.11);background:rgba(255,77,109,.08)}
+.online-ready-btn{flex-shrink:0}.online-ready-btn.ready{border-color:#10B981;color:#10B981;background:rgba(16,185,129,.09)}
+.online-hint,.online-error{font-size:11px;color:var(--muted);text-align:center;min-height:16px}.online-error{color:#FF4D6D}
+.online-profile-card{background:var(--card);border:1.5px solid var(--border);border-radius:22px;padding:18px;display:flex;flex-direction:column;gap:14px;align-items:center}
+.online-avatar-preview{width:82px;height:82px;border-radius:24px;background:linear-gradient(135deg,rgba(255,77,109,.18),rgba(139,92,246,.14));border:1.5px solid rgba(255,77,109,.3);display:flex;align-items:center;justify-content:center;font-size:44px}
+.online-name-input,#online-join-code{width:100%;box-sizing:border-box;background:var(--card2);border:1.5px solid var(--border);border-radius:14px;padding:13px 14px;color:var(--text);outline:none;font:700 15px var(--font-body);text-align:center;text-transform:none}
+#online-join-code{text-transform:uppercase;letter-spacing:8px;font-family:var(--font-head);font-size:26px}
+.online-avatar-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%}.online-avatar-choice{border:1.5px solid var(--border);background:var(--card2);border-radius:13px;padding:8px;font-size:24px;cursor:pointer}.online-avatar-choice.on{border-color:#FF4D6D;background:rgba(255,77,109,.1)}
+.online-entry-cards{display:flex;flex-direction:column;gap:12px;flex:1}.online-entry-card,.online-join-card{border:1.5px solid var(--border);background:var(--card);border-radius:20px;padding:18px;color:var(--text);display:flex;flex-direction:column;gap:8px;align-items:center;text-align:center}
+.online-entry-card{cursor:pointer;font-family:var(--font-body)}.online-entry-card>span,.online-entry-icon{font-size:32px}.online-entry-card strong,.online-join-card strong{font-family:var(--font-head);font-size:17px}.online-entry-card small{color:var(--muted)}
+.online-host-tag{font-size:9px;color:#F59E0B;margin-left:5px}.online-you-tag{font-size:9px;color:#8B5CF6;margin-left:5px}
