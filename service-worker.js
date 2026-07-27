@@ -1,9 +1,9 @@
-const CACHE_NAME = 'deb8-logo-back-v4';
+const CACHE_NAME = 'deb8-logo-holes-v5';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './assets/logo-deb8-v2.png',
+  './assets/logo-deb8-v3.png',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/icon-maskable-512.png',
