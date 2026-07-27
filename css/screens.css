@@ -43,9 +43,9 @@
 }
 
 .logo-brand{
-  width:236px;
-  height:236px;
-  margin-top:-12px;
+  width:min(210px,62vw);
+  height:min(210px,62vw);
+  margin-top:-4px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -60,7 +60,15 @@
   object-fit:contain;
   filter:drop-shadow(0 18px 36px rgba(234,39,127,.24));
 }
-.logo-brand + .logo-sub{margin-top:-14px}
+.logo-brand + .logo-sub{
+  width:100%;
+  margin-top:-8px;
+  padding:0 8px;
+  text-align:center;
+  font-size:clamp(10px,3vw,13px);
+  letter-spacing:clamp(1.2px,.65vw,2.2px);
+  white-space:nowrap;
+}
 @keyframes brandFloat{
   0%,100%{transform:translateY(0)}
   50%{transform:translateY(-4px)}

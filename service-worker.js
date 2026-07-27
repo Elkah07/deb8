@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-features-v2';
+const CACHE_NAME = 'deb8-logo-fix-v3';
 const APP_SHELL = [
   './',
   './index.html',
