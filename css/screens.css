@@ -536,6 +536,33 @@ body.light .th:not(.sel) .check::after{
 .online-name-input,#online-join-code{width:100%;box-sizing:border-box;background:var(--card2);border:1.5px solid var(--border);border-radius:14px;padding:13px 14px;color:var(--text);outline:none;font:700 15px var(--font-body);text-align:center;text-transform:none}
 #online-join-code{text-transform:uppercase;letter-spacing:8px;font-family:var(--font-head);font-size:26px}
 .online-avatar-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%}.online-avatar-choice{border:1.5px solid var(--border);background:var(--card2);border-radius:13px;padding:8px;font-size:24px;cursor:pointer}.online-avatar-choice.on{border-color:#FF4D6D;background:rgba(255,77,109,.1)}
+
+/* Profil multijoueur : contenu regroupé, sans bouton repoussé au bas de l'écran. */
+#s14{
+  padding:calc(22px + env(safe-area-inset-top)) 22px
+    calc(22px + env(safe-area-inset-bottom));
+  gap:12px;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+#s14 .online-profile-card{
+  flex-shrink:0;
+}
+#s14 > .btn-main{
+  margin-top:4px !important;
+  flex-shrink:0;
+}
+@media (max-height:720px){
+  #s14{
+    padding-top:calc(14px + env(safe-area-inset-top));
+    gap:9px;
+  }
+  #s14 .h1{font-size:clamp(32px,9vw,42px);line-height:1.02}
+  #s14 .sub{margin-bottom:0}
+  #s14 .online-profile-card{padding:14px;gap:10px}
+  #s14 .online-avatar-preview{width:70px;height:70px;font-size:38px}
+  #s14 .btn-main{padding:15px}
+}
 .online-entry-cards{display:flex;flex-direction:column;gap:12px;flex:1}.online-entry-card,.online-join-card{border:1.5px solid var(--border);background:var(--card);border-radius:20px;padding:18px;color:var(--text);display:flex;flex-direction:column;gap:8px;align-items:center;text-align:center}
 .online-entry-card{cursor:pointer;font-family:var(--font-body)}.online-entry-card>span,.online-entry-icon{font-size:32px}.online-entry-card strong,.online-join-card strong{font-family:var(--font-head);font-size:17px}.online-entry-card small{color:var(--muted)}
 .online-host-tag{font-size:9px;color:#F59E0B;margin-left:5px}.online-you-tag{font-size:9px;color:#8B5CF6;margin-left:5px}

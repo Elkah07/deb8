@@ -1,14 +1,14 @@
-const CACHE_NAME = 'deb8-games-fixes-v5';
+const CACHE_NAME = 'deb8-framing-icons-v6';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './assets/logo-deb8-v2.png',
-  './assets/icons/icon-192.png',
-  './assets/icons/icon-512.png',
-  './assets/icons/icon-maskable-512.png',
-  './assets/icons/apple-touch-icon.png',
-  './assets/icons/favicon-32.png'
+  './assets/logo-deb8-v3.png',
+  './assets/icons/icon-v2-192.png',
+  './assets/icons/icon-v2-512.png',
+  './assets/icons/icon-maskable-v2-512.png',
+  './assets/icons/apple-touch-icon-v2.png',
+  './assets/icons/favicon-v2-32.png'
   ,'./css/screens.css'
   ,'./js/02-core-state-navigation.js'
   ,'./js/04-game-debate-duel-tf.js'
