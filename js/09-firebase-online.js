@@ -94,10 +94,24 @@ function listenRoom(){
   state.roomRef.on('value',state.roomListener);
 }
 function players(){return Object.values(state.room?.players||{}).filter(p=>p.online!==false)}
+function shuffledCopy(items){
+  const copy=(items||[]).slice();
+  for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}
+  return copy;
+}
 function onlineTFQuestionPool(){
-  const all=Array.isArray(window.tfAllQuestions)?window.tfAllQuestions:[];
-  const wanted=Math.max(4,Math.min(Number(window.settingVals?.nb_questions)||10,20));
-  return all.slice(0,wanted);
+  const all=typeof deb8SelectedTFQuestions==='function'?deb8SelectedTFQuestions():(typeof tfAllQuestions!=='undefined'&&Array.isArray(tfAllQuestions)?tfAllQuestions:[]);
+  const wanted=Math.max(4,Math.min(Number(typeof settingVals!=='undefined'?settingVals.nb_questions:10)||10,20));
+  return shuffledCopy(all).slice(0,Math.min(wanted,all.length));
+}
+async function onlineDebateQuestionPool(){
+  if(typeof prepareDebateQuestions==='function')await prepareDebateQuestions();
+  const all=Array.isArray(debateGameQuestions)?debateGameQuestions:[];
+  const wanted=Math.max(4,Math.min(Number(typeof settingVals!=='undefined'?settingVals.nb_questions:8)||8,20));
+  return shuffledCopy(all).slice(0,Math.min(wanted,all.length)).map(q=>({
+    text:String(q?.text||q?.question||q||''),
+    theme:String(q?.theme||'Classique')
+  }));
 }
 function renderLobby(){
   const room=state.room||{}, ps=players(), me=room.players?.[state.user.uid];
@@ -124,16 +138,30 @@ function cleanupRoomState(){if(state.roomRef&&state.roomListener)state.roomRef.o
 
 window.startOnlineGame=async function(){
   if(!state.isHost||!state.room?.mode)return;const ps=players(),meta=MODE_META[state.room.mode];if(ps.length<meta.min||!ps.every(p=>p.ready))return;
-  const ordered=ps.sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
+  const ordered=ps.slice().sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
   const game={status:'starting',mode:state.room.mode,startedAt:now(),hostId:state.user.uid,round:1,questionIndex:0,players:ordered.map(p=>({uid:p.uid,name:p.name,avatar:p.avatar})),revision:Date.now()};
+  if(state.room.mode==='debate'){
+    const questions=await onlineDebateQuestionPool();
+    if(!questions.length){alert('Aucune question Débat disponible.');return}
+    game.debate={questionIndex:0,questions,starterIndexes:questions.map(()=>Math.floor(Math.random()*ordered.length)),finished:false};
+  }
   if(state.room.mode==='tf'){
     const questions=onlineTFQuestionPool();
     if(!questions.length){alert('Aucune question Vrai/Faux disponible.');return}
     game.tf={questionIndex:0,question:questions[0],questions,votes:{},showResult:false,finished:false};
   }
-  if(state.room.mode==='duel'){game.roles={[ordered[0].uid]:'pour',[ordered[1].uid]:'contre',[ordered[2].uid]:'arbitre'}}
+  if(state.room.mode==='duel'){
+    const questions=onlineTFQuestionPool();
+    if(!questions.length){alert('Aucune question 1v1 disponible.');return}
+    const roleOrder=shuffledCopy(ordered);
+    game.roles={};
+    game.roles[roleOrder[0].uid]='pour';game.roles[roleOrder[1].uid]='contre';
+    roleOrder.slice(2).forEach(p=>{game.roles[p.uid]='arbitre'});
+    game.duel={tour:1,totalTours:Math.min(questions.length,Math.max(3,Number(typeof settingVals!=='undefined'?settingVals.nb_questions:5)||5)),scores:{pour:0,contre:0},phase:'pour',phaseStartedAt:now(),duration:45,questionIndex:0,questions,question:questions[0],ballots:{},finished:false};
+  }
   if(state.room.mode==='imp'){
-    const impIdx=Math.floor(Math.random()*ordered.length),subject=IMP_SUBJECTS[Math.floor(Math.random()*IMP_SUBJECTS.length)],decoy=IMP_DECOYS[Math.floor(Math.random()*IMP_DECOYS.length)];game.impostorUid=ordered[impIdx].uid;game.subject=subject;
+    const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*ordered.length),subject=pair.subject,decoy=pair.decoy;game.impostorUid=ordered[impIdx].uid;game.subject=subject;
+    game.imp={round:1,totalRounds:Math.max(1,Number(typeof settingVals!=='undefined'?settingVals.nb_parties:3)||3),phase:'roles',duration:60,votes:{},finished:false};
     const updates={};ordered.forEach((p,i)=>updates['private/'+p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?decoy:subject,avatar:p.avatar,name:p.name});await state.roomRef.update(updates);
   }
   await state.roomRef.update({status:'playing',game,updatedAt:now()});
@@ -147,15 +175,43 @@ async function launchOnlineMode(game){
     previewMultiTF(myIdx,ps,tf.questions||[]);
     syncTF(game)
   }
-  else if(game.mode==='duel'){const role=game.roles?.[state.user.uid]||'pour';multiDuelState.players={pour:toPlayer(ps.find(p=>game.roles?.[p.uid]==='pour')),contre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='contre')),arbitre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='arbitre'))};previewMultiDuel(role);syncDuel(game)}
+  else if(game.mode==='duel'){const role=game.roles?.[state.user.uid]||'arbitre';multiDuelState.players={pour:toPlayer(ps.find(p=>game.roles?.[p.uid]==='pour')),contre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='contre')),arbitre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='arbitre'))};previewMultiDuel(role);syncDuel(game)}
   else if(game.mode==='imp'){const priv=(await state.roomRef.child('private/'+state.user.uid).once('value')).val();launchFirebaseImpostor(game,priv,myIdx)}
 }
 function toPlayer(p){return {name:p?.name||'Joueur',av:p?.avatar||'🙂'}}
 
 function syncDebate(game){
-  multiDebState.players=(game.players||[]).map(p=>({name:p.name,av:p.avatar}));multiDebState.totalQ=multiDebState.questions.length;
-  state.roomRef.child('game/questionIndex').on('value',s=>{const i=s.val()||0;if(i!==multiDebState.qIdx){multiDebState.qIdx=i;renderMultiDebateScreen()}});
-  const original=window.multiDebateNext;window.multiDebateNext=function(){if(!state.isHost)return;state.roomRef.child('game/questionIndex').transaction(v=>((v||0)+1)%multiDebState.questions.length)};window.multiDebateSkip=window.multiDebateNext;
+  const initial=game.debate||{};
+  multiDebState.isHost=state.isHost;
+  multiDebState.players=(game.players||[]).map(p=>({name:p.name,av:p.avatar}));
+  multiDebState.questions=(initial.questions||[]).map(q=>q.text||q);
+  multiDebState.totalQ=multiDebState.questions.length;
+  state.roomRef.child('game/debate').on('value',s=>{
+    const d=s.val()||{};
+    if(d.finished){if(typeof go==='function')go(1);return}
+    if(Array.isArray(d.questions)&&d.questions.length){
+      multiDebState.questions=d.questions.map(q=>q.text||q);
+      multiDebState.totalQ=multiDebState.questions.length;
+    }
+    multiDebState.qIdx=Math.max(0,d.questionIndex||0);
+    renderMultiDebateScreen();
+    const q=d.questions?.[multiDebState.qIdx];
+    const tag=document.getElementById('md-theme-tag');if(tag&&q?.theme)tag.textContent='⚡ '+q.theme;
+    const starter=multiDebState.players[d.starterIndexes?.[multiDebState.qIdx]||0];
+    const av=document.getElementById('md-starter-av');if(av&&starter)av.textContent=starter.av;
+    const name=document.getElementById('md-starter-name');if(name&&starter)name.textContent=starter.name;
+    goToScreen('s-multi-debate');
+  });
+  window.multiDebateNext=window.multiDebateSkip=async function(){
+    if(!state.isHost)return;
+    const ref=state.roomRef.child('game/debate');
+    await ref.transaction(d=>{
+      if(!d||d.finished)return d;
+      const next=(d.questionIndex||0)+1;
+      if(next>=(d.questions||[]).length)d.finished=true;else d.questionIndex=next;
+      return d;
+    });
+  };
 }
 function syncTF(game){
   clearInterval(multiTFState.timerInt)
@@ -223,35 +279,122 @@ function syncTF(game){
   if(state.isHost&&!game.tf)state.roomRef.child('game/tf').set({questionIndex:0,question:multiTFState.questions[0],questions:multiTFState.questions,votes:{},showResult:false,finished:false});
 }
 function syncDuel(game){
-  const pool=typeof getDuelQuestionPool==='function'?getDuelQuestionPool():[]
+  let timer=null,lastPhase='';
   state.roomRef.child('game/duel').on('value',s=>{
     const d=s.val();if(!d)return
     multiDuelState.tour=d.tour||1
+    multiDuelState.totalTours=d.totalTours||5
     multiDuelState.scores=d.scores||{pour:0,contre:0}
     multiDuelState.question=d.question||multiDuelState.question
-    if(d.finished){showMultiDuelPodium();return}
+    if(d.finished){clearInterval(timer);showMultiDuelPodium();return}
     renderMultiDuelScreen()
     if(multiDuelState.role==='arbitre')renderMultiArbScreen()
+    const phase=d.phase||'pour'
+    const statusPour=document.getElementById('mdp-active-banner'),statusContre=document.getElementById('mdc-status'),statusArb=document.getElementById('mda-status')
+    if(statusPour){statusPour.textContent=phase==='pour'?'🎙️ C’est ton tour — argumente POUR !':phase==='verdict'?'⏳ L’arbitre tranche…':'⏳ Le camp CONTRE argumente…';statusPour.style.color=phase==='pour'?'#3B82F6':'var(--muted)'}
+    if(statusContre){statusContre.textContent=phase==='contre'?'🎙️ C’est ton tour — argumente CONTRE !':phase==='verdict'?'⏳ L’arbitre tranche…':'⏳ Le camp POUR argumente…';statusContre.style.color=phase==='contre'?'#FF4D6D':'var(--muted)'}
+    if(statusArb){statusArb.textContent=phase==='verdict'?'🏛️ Verdict !':'⏳ '+multiDuelState.players[phase]?.name+' argumente '+phase.toUpperCase()+'…'}
+    const popup=document.getElementById('mda-vote-popup');if(popup)popup.style.display=phase==='verdict'&&multiDuelState.role==='arbitre'?'flex':'none'
+    if(phase!==lastPhase){
+      lastPhase=phase;clearInterval(timer)
+      if(phase!=='verdict'){
+        timer=setInterval(()=>{
+          const sec=Math.max(0,(d.duration||45)-Math.floor((Date.now()-(d.phaseStartedAt||Date.now()))/1000))
+          multiDuelState.timerSec=sec;updateMultiDuelTimer(phase)
+          if(sec<=0){clearInterval(timer);advanceDuelPhase(phase)}
+        },250)
+      }
+    }
   });
-  if(state.isHost)state.roomRef.child('game/duel').set({tour:1,totalTours:multiDuelState.totalTours,scores:{pour:0,contre:0},speaker:'pour',question:pool[0]||multiDuelState.question,finished:false});
+  async function advanceDuelPhase(role){
+    if(game.roles?.[state.user.uid]!==role&&!state.isHost)return
+    await state.roomRef.child('game/duel').transaction(d=>{
+      if(!d||d.finished||d.phase!==role)return d
+      d.phase=role==='pour'?'contre':'verdict';d.phaseStartedAt=now();return d
+    })
+  }
+  window.multiDuelNextSpeaker=advanceDuelPhase
   window.multiArbVote=async function(winner){
     if(multiDuelState.role!=='arbitre')return
     const ref=state.roomRef.child('game/duel')
-    const snap=await ref.once('value'),d=snap.val()||{}
-    if(d.finished)return
-    d.scores=d.scores||{pour:0,contre:0}
-    d.scores[winner]=(d.scores[winner]||0)+1
-    d.tour=(d.tour||1)+1
-    d.finished=d.tour>(d.totalTours||multiDuelState.totalTours)
-    if(!d.finished&&pool.length)d.question=pool[(d.tour-1)%pool.length]
-    await ref.set(d)
+    await ref.child('ballots/'+state.user.uid).set(winner)
+    const arbiterIds=(game.players||[]).filter(p=>game.roles?.[p.uid]==='arbitre').map(p=>p.uid)
+    await ref.transaction(d=>{
+      if(!d||d.finished||d.phase!=='verdict')return d
+      const ballots=d.ballots||{},valid=arbiterIds.filter(uid=>ballots[uid])
+      if(valid.length<arbiterIds.length)return d
+      const pour=valid.filter(uid=>ballots[uid]==='pour').length,contre=valid.length-pour
+      const roundWinner=pour===contre?(valid[0]&&ballots[valid[0]]||'pour'):(pour>contre?'pour':'contre')
+      d.scores=d.scores||{pour:0,contre:0};d.scores[roundWinner]=(d.scores[roundWinner]||0)+1
+      d.tour=(d.tour||1)+1;d.finished=d.tour>(d.totalTours||5);d.ballots={}
+      if(!d.finished){d.questionIndex=(d.questionIndex||0)+1;d.question=d.questions[d.questionIndex%d.questions.length];d.phase='pour';d.phaseStartedAt=now()}
+      return d
+    })
     const popup=document.getElementById('mda-vote-popup')
     if(popup)popup.style.display='none'
   };
 }
 function launchFirebaseImpostor(game,priv,myIdx){
-  multiImpState.isHost=state.isHost;multiImpState.myPlayerIdx=myIdx;multiImpState.players=(game.players||[]).map((p,i)=>({name:p.name,av:p.avatar,role:i===myIdx?priv.role:'hidden',subject:i===myIdx?priv.subject:''}));multiImpState.round=game.round||1;multiImpState.totalRounds=3;renderMultiPlayerScreen();goToScreen('s-multi-imp-player');
+  let timer=null,lastPhase=''
+  const playersByUid=game.players||[]
+  multiImpState.isHost=state.isHost;multiImpState.myPlayerIdx=myIdx;multiImpState.players=playersByUid.map((p,i)=>({uid:p.uid,name:p.name,av:p.avatar,role:i===myIdx?priv.role:'hidden',subject:i===myIdx?priv.subject:''}));multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===game.impostorUid);multiImpState.subject=game.subject;multiImpState.round=game.imp?.round||1;multiImpState.totalRounds=game.imp?.totalRounds||3;renderMultiPlayerScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player');
   const oldToggle=window.toggleMultiRole;window.toggleMultiRole=function(){const me=multiImpState.players[myIdx];me.role=priv.role;me.subject=priv.subject;oldToggle()};
+  state.roomRef.child('game/imp').on('value',async s=>{
+    const d=s.val();if(!d)return
+    multiImpState.round=d.round||1;multiImpState.totalRounds=d.totalRounds||3;multiImpState.votes={}
+    Object.keys(d.votes||{}).forEach(voterUid=>{const vi=playersByUid.findIndex(p=>p.uid===voterUid),ti=playersByUid.findIndex(p=>p.uid===d.votes[voterUid]);if(vi>=0&&ti>=0)multiImpState.votes[vi]=ti})
+    if(d.phase!==lastPhase){
+      lastPhase=d.phase;clearInterval(timer)
+      if(d.phase==='roles'){
+        const [privateSnap,gameSnap]=await Promise.all([state.roomRef.child('private/'+state.user.uid).once('value'),state.roomRef.child('game').once('value')])
+        priv=privateSnap.val()||priv;const currentGame=gameSnap.val()||game
+        game.impostorUid=currentGame.impostorUid;game.subject=currentGame.subject
+        multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===game.impostorUid);multiImpState.subject=game.subject
+        const me=multiImpState.players[myIdx];if(me){me.role=priv.role;me.subject=priv.subject}
+        multiImpState.myVote=null;renderMultiPlayerScreen();if(state.isHost)renderMultiHostScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player')
+      }
+      if(d.phase==='debate'){
+        renderMultiDebateScreen(state.isHost);goToScreen('s-multi-imp-debate')
+        timer=setInterval(()=>{
+          multiImpState.timerSec=Math.max(0,(d.duration||60)-Math.floor((Date.now()-(d.startedAt||Date.now()))/1000));updateMultiTimer()
+          if(multiImpState.timerSec<=0){clearInterval(timer);if(state.isHost)state.roomRef.child('game/imp/phase').set('vote')}
+        },250)
+      }
+      if(d.phase==='vote'){multiImpState.myVote=d.votes?.[state.user.uid]||null;renderMultiSuspects();const list=document.getElementById('multi-suspects-list'),wait=document.getElementById('multi-voted-waiting');if(list)list.style.display=multiImpState.myVote?'none':'flex';if(wait)wait.style.display=multiImpState.myVote?'block':'none';goToScreen('s-multi-imp-vote')}
+      if(d.phase==='reveal'||d.phase==='finished'){
+        const gameSnap=await state.roomRef.child('game').once('value'),currentGame=gameSnap.val()||game
+        multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===currentGame.impostorUid)
+        multiImpState.subject=currentGame.subject;multiImpState.decoy=d.revealDecoy||''
+        const imp=multiImpState.players[multiImpState.impostorIdx];if(imp){imp.role='impostor';imp.subject=d.revealDecoy||''}
+        showMultiReveal()
+        if(d.phase==='finished'){const next=document.getElementById('multi-next-round-btn');if(next)next.style.display='none'}
+      }
+    }
+    const count=Object.keys(d.votes||{}).filter(uid=>playersByUid.some(p=>p.uid===uid)).length,total=playersByUid.length
+    const counter=document.getElementById('multi-vote-count');if(counter)counter.textContent=count+' / '+total+' votes'
+    if(state.isHost&&d.phase==='vote'&&count>=total){
+      const impPrivate=await state.roomRef.child('private/'+game.impostorUid).once('value')
+      await state.roomRef.child('game/imp').update({phase:'reveal',revealDecoy:impPrivate.val()?.subject||''})
+    }
+  })
+  window.multiHostLaunchDebate=async function(){if(state.isHost)await state.roomRef.child('game/imp').update({phase:'debate',startedAt:now(),votes:{}})}
+  window.multiHostSkipDebate=async function(){if(state.isHost)await state.roomRef.child('game/imp/phase').set('vote')}
+  window.castMultiVote=async function(suspectIdx){
+    if(multiImpState.myVote!=null)return
+    const target=playersByUid[suspectIdx];if(!target||target.uid===state.user.uid)return
+    multiImpState.myVote=suspectIdx;await state.roomRef.child('game/imp/votes/'+state.user.uid).set(target.uid)
+  }
+  window.multiNextRound=async function(){
+    if(!state.isHost)return
+    const snap=await state.roomRef.child('game/imp').once('value'),d=snap.val()||{}
+    if((d.round||1)>=(d.totalRounds||3)){await state.roomRef.child('game/imp/phase').set('finished');return}
+    const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*playersByUid.length),updates={}
+    game.impostorUid=playersByUid[impIdx].uid;game.subject=pair.subject
+    playersByUid.forEach((p,i)=>{updates['private/'+p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?pair.decoy:pair.subject,avatar:p.avatar,name:p.name}})
+    updates['game/impostorUid']=game.impostorUid;updates['game/subject']=pair.subject
+    updates['game/imp']={round:(d.round||1)+1,totalRounds:d.totalRounds||3,phase:'roles',duration:d.duration||60,votes:{},finished:false}
+    await state.roomRef.update(updates)
+  }
 }
 
 // Direct join via shared URL

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-multi-tf-sync-v12';
+const CACHE_NAME = 'deb8-all-online-sync-v13';
 const APP_SHELL = [
   './',
   './index.html',
