@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-editorial-1v1-v8';
+const CACHE_NAME = 'deb8-imposteur-debats-v9';
 const APP_SHELL = [
   './',
   './index.html',
