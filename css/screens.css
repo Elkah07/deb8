@@ -801,3 +801,90 @@ body.light .creator-modal{
     radial-gradient(circle at 100% 40%,rgba(139,92,246,.08),transparent 36%),
     var(--bg);
 }
+
+/* ═══════════════════════════════════════════════════
+   V27 — CADRAGE MOBILE / ZONES SÛRES ANDROID
+═══════════════════════════════════════════════════ */
+@media (max-width:900px){
+  :root{
+    --app-safe-top:max(env(safe-area-inset-top), 16px);
+    --app-safe-bottom:max(env(safe-area-inset-bottom), 24px);
+    --app-side:clamp(18px, 5.5vw, 24px);
+  }
+
+  /* Les écrans de formulaire ne passent plus sous les barres système. */
+  #s2,#s3,#s4,#s5,#s6,#s7,#s8,#s9,#s10,#s11,#s12,#s13,#s14,#s15{
+    padding-top:calc(var(--app-safe-top) + 14px);
+    padding-right:var(--app-side);
+    padding-bottom:calc(var(--app-safe-bottom) + 12px);
+    padding-left:var(--app-side);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+  }
+
+  .top-bar{flex:0 0 auto;min-height:42px}
+  .h1{flex:0 0 auto;font-size:clamp(28px, 8vw, 38px);line-height:1.08}
+  .sub{flex:0 0 auto;color:rgba(255,255,255,.62)}
+  body.light .sub{color:rgba(0,0,0,.58)}
+
+  /* Noms des joueurs : liste lisible et CTA jamais caché. */
+  #s10{gap:12px}
+  #s10 #names-list{
+    flex:0 1 auto !important;
+    min-height:0;
+    overflow-y:auto !important;
+    padding-bottom:4px;
+  }
+  #s10 .name-row{min-height:68px;padding:12px 14px}
+  #s10 .name-input{color:var(--text)}
+  #s10 .name-input::placeholder{color:rgba(255,255,255,.34)}
+  #s10 > .btn-main{
+    position:sticky;
+    bottom:0;
+    margin-top:auto !important;
+    flex-shrink:0;
+    z-index:5;
+  }
+
+  /* Accueil compact : tout reste visible sans écrasement. */
+  #s1{
+    justify-content:flex-start;
+    min-height:100%;
+    padding:calc(var(--app-safe-top) + 18px) var(--app-side)
+      calc(var(--app-safe-bottom) + 14px);
+    overflow-y:auto;
+  }
+  #s1 .logo-brand{
+    width:min(188px,52vw);
+    height:min(188px,52vw);
+    margin:clamp(18px,5vh,50px) auto 0;
+    flex-shrink:0;
+  }
+  #s1 .logo-sub{margin-top:-5px}
+  #s1 .s1-modes{margin-top:clamp(18px,3vh,28px)}
+  #s1 .s1-btns{margin-top:clamp(24px,4vh,34px)}
+  #s1 .btn-main{padding:16px}
+
+  /* L'outil créateur ne recouvre plus les boutons de navigation. */
+  .creator-fab{
+    position:fixed;
+    right:16px;
+    bottom:calc(var(--app-safe-bottom) + 72px);
+    width:48px;
+    height:48px;
+    border-radius:16px;
+  }
+}
+
+@media (max-width:380px), (max-height:720px){
+  #s1 .logo-brand{
+    width:min(158px,45vw);
+    height:min(158px,45vw);
+    margin-top:8px;
+  }
+  #s1 .s1-modes{margin-top:12px}
+  #s1 .s1-btns{margin-top:16px;gap:8px}
+  #s1 .shop-teaser{padding:11px 13px}
+  #s1 .btn-outline{padding:13px}
+  #s10 .name-row{min-height:58px}
+}
