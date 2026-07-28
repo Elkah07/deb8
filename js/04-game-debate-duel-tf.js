@@ -19,7 +19,7 @@ const debateThemeLabels = {
   c4: "Super-Héros",
   c5: "Drôle",
   c6: "Dessins-animés",
-  c7: "Enfants",
+  c7: "Enfants", c
   c8: "Ado",
   c9: "Famille",
   c10: "Musique"
@@ -472,18 +472,16 @@ function nextDuelTurn(){
 }
 
 // ── VRAI/FAUX — 2-phase logic ──
-const tfAllQuestions=[
-  'Les chats sont plus intelligents que les chiens.',
-  'On devrait travailler 4 jours par semaine.',
-  'L\'école devrait commencer à 10h.',
-  'Les superhéros Marvel sont meilleurs que DC.',
-  'Manger des insectes deviendra normal d\'ici 10 ans.',
-  'Internet a rendu les gens plus heureux.',
-  'Le sport devrait être obligatoire tous les jours.',
-  'Les films en VO sont meilleurs qu\'en VF.',
-  'Il faudrait un revenu universel.',
-  'Les réseaux sociaux font plus de mal que de bien.',
-]
+const tfAllQuestions = DEB8_TF_QUESTIONS
+
+function shuffledQuestions(source){
+  const copy = source.slice()
+  for(let i=copy.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1))
+    const tmp=copy[i]; copy[i]=copy[j]; copy[j]=tmp
+  }
+  return copy
+}
 
 let tfState = {
   questions: [],
@@ -498,7 +496,7 @@ const TF_AV = { p1:'🦊', p2:'🐸' }
 function initTF(){
   clearInterval(tfTimerInt)
   const nb = (settingVals['nb_questions'] ?? 10)
-  tfState.questions = tfAllQuestions.slice(0, Math.min(nb, tfAllQuestions.length))
+  tfState.questions = shuffledQuestions(tfAllQuestions).slice(0, Math.min(nb, tfAllQuestions.length))
   tfState.current = 0
   tfState.votes = {}
   tfState.disagreements = []

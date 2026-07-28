@@ -1,6 +1,6 @@
 [
   {
-    "id": "enfants_5_10_ans_001",
+    "id": "enfants_5_10_ans_301",
     "question": "C’est mieux d’avoir un chien ou un chat ?"
   },
   {
@@ -28,7 +28,7 @@
     "question": "Dormir avec une veilleuse ou dans le noir total ?"
   },
   {
-    "id": "enfants_5_10_ans_008",
+    "id": "enfants_5_10_ans_401",
     "question": "Les parents ont-ils toujours raison ?"
   },
   {
@@ -68,7 +68,7 @@
     "question": "Est-ce grave d’avoir peur du noir ?"
   },
   {
-    "id": "enfants_5_10_ans_018",
+    "id": "enfants_5_10_ans_218",
     "question": "Les devoirs le week-end, pour ou contre ?"
   },
   {
@@ -100,7 +100,7 @@
     "question": "Les parents devraient-ils demander la permission aux enfants parfois ?"
   },
   {
-    "id": "enfants_5_10_ans_026",
+    "id": "enfants_5_10_ans_232",
     "question": "C’est mieux de gagner ou de bien jouer ?"
   },
   {
@@ -120,7 +120,7 @@
     "question": "Les licornes mangent-elles des bonbons ou des arcs-en-ciel ?"
   },
   {
-    "id": "enfants_5_10_ans_031",
+    "id": "enfants_5_10_ans_229",
     "question": "Faut-il toujours prêter ses affaires ?"
   },
   {
@@ -196,7 +196,7 @@
     "question": "Les animaux de zoo sont-ils heureux ?"
   },
   {
-    "id": "enfants_5_10_ans_050",
+    "id": "enfants_5_10_ans_424",
     "question": "Les parents devraient-ils jouer plus souvent ?"
   },
   {
@@ -224,7 +224,7 @@
     "question": "C’est mieux d’avoir beaucoup de jouets ou peu mais préférés ?"
   },
   {
-    "id": "enfants_5_10_ans_057",
+    "id": "enfants_5_10_ans_504",
     "question": "Les enfants comprennent-ils parfois mieux que les adultes ?"
   },
   {
@@ -260,7 +260,7 @@
     "question": "Les sorcières sont-elles forcément méchantes ?"
   },
   {
-    "id": "enfants_5_10_ans_066",
+    "id": "enfants_5_10_ans_220",
     "question": "Les copains peuvent-ils rester amis toute la vie ?"
   },
   {
@@ -272,7 +272,7 @@
     "question": "Avoir un pouvoir pour rigoler ou pour aider ?"
   },
   {
-    "id": "enfants_5_10_ans_069",
+    "id": "enfants_5_10_ans_519",
     "question": "Les adultes savent-ils tout ?"
   },
   {
@@ -280,7 +280,7 @@
     "question": "Les pirates devraient-ils rendre leurs trésors ?"
   },
   {
-    "id": "enfants_5_10_ans_071",
+    "id": "enfants_5_10_ans_402",
     "question": "Les enfants devraient-ils choisir l’heure du coucher ?"
   },
   {
@@ -300,7 +300,7 @@
     "question": "Les parents devraient-ils expliquer plus de choses ?"
   },
   {
-    "id": "enfants_5_10_ans_076",
+    "id": "enfants_5_10_ans_527",
     "question": "Les dragons pourraient-ils être gentils ?"
   },
   {
@@ -320,11 +320,11 @@
     "question": "Les jouets ont-ils une vie quand on dort ?"
   },
   {
-    "id": "enfants_5_10_ans_081",
+    "id": "enfants_5_10_ans_213",
     "question": "Faut-il aider un copain même s’il a tort ?"
   },
   {
-    "id": "enfants_5_10_ans_082",
+    "id": "enfants_5_10_ans_438",
     "question": "Les parents ont-ils des règles pour eux aussi ?"
   },
   {
@@ -332,7 +332,7 @@
     "question": "Les fées doivent-elles utiliser leur magie pour tout ?"
   },
   {
-    "id": "enfants_5_10_ans_084",
+    "id": "enfants_5_10_ans_582",
     "question": "C’est mieux d’avoir raison ou d’être gentil ?"
   },
   {
@@ -372,15 +372,15 @@
     "question": "C’est mieux de parler ou d’écouter ?"
   },
   {
-    "id": "enfants_5_10_ans_094",
+    "id": "enfants_5_10_ans_428",
     "question": "Les parents devraient-ils parfois dire “je ne sais pas” ?"
   },
   {
-    "id": "enfants_5_10_ans_095",
+    "id": "enfants_5_10_ans_547",
     "question": "Les robots peuvent-ils rêver ?"
   },
   {
-    "id": "enfants_5_10_ans_096",
+    "id": "enfants_5_10_ans_516",
     "question": "Les enfants peuvent-ils changer le monde ?"
   },
   {
@@ -848,10 +848,6 @@
     "question": "Les disputes entre copains doivent-elles toujours être réglées par un adulte ?"
   },
   {
-    "id": "enfants_5_10_ans_213",
-    "question": "Faut-il aider un copain même s’il a tort ?"
-  },
-  {
     "id": "enfants_5_10_ans_214",
     "question": "Les règles de la cour sont-elles importantes ?"
   },
@@ -868,16 +864,8 @@
     "question": "Faut-il toujours lever la main pour parler ?"
   },
   {
-    "id": "enfants_5_10_ans_218",
-    "question": "Les devoirs le week-end, pour ou contre ?"
-  },
-  {
     "id": "enfants_5_10_ans_219",
     "question": "C’est mieux d’être drôle ou sérieux à l’école ?"
-  },
-  {
-    "id": "enfants_5_10_ans_220",
-    "question": "Les copains peuvent-ils rester amis toute la vie ?"
   },
   {
     "id": "enfants_5_10_ans_221",
@@ -900,7 +888,7 @@
     "question": "Faut-il toujours obéir aux règles même si on ne les comprend pas ?"
   },
   {
-    "id": "enfants_5_10_ans_226",
+    "id": "enfants_5_10_ans_514",
     "question": "Les copains doivent-ils être d’accord sur tout ?"
   },
   {
@@ -912,20 +900,12 @@
     "question": "Les punitions sont-elles utiles ?"
   },
   {
-    "id": "enfants_5_10_ans_229",
-    "question": "Faut-il toujours prêter ses affaires ?"
-  },
-  {
-    "id": "enfants_5_10_ans_230",
+    "id": "enfants_5_10_ans_509",
     "question": "Être différent, c’est une force ?"
   },
   {
     "id": "enfants_5_10_ans_231",
     "question": "Les enfants devraient-ils avoir plus de temps pour dessiner ?"
-  },
-  {
-    "id": "enfants_5_10_ans_232",
-    "question": "C’est mieux de gagner ou de bien jouer ?"
   },
   {
     "id": "enfants_5_10_ans_233",
@@ -1036,7 +1016,7 @@
     "question": "Être populaire, c’est important ?"
   },
   {
-    "id": "enfants_5_10_ans_260",
+    "id": "enfants_5_10_ans_425",
     "question": "Les enfants peuvent-ils apprendre des adultes ?"
   },
   {
@@ -1076,7 +1056,7 @@
     "question": "C’est mieux de faire rire la classe ou rester concentré ?"
   },
   {
-    "id": "enfants_5_10_ans_270",
+    "id": "enfants_5_10_ans_597",
     "question": "Les enfants peuvent-ils apprendre de leurs erreurs ?"
   },
   {
@@ -1124,7 +1104,7 @@
     "question": "Les élèves devraient-ils apprendre à parler en public ?"
   },
   {
-    "id": "enfants_5_10_ans_282",
+    "id": "enfants_5_10_ans_580",
     "question": "Faut-il toujours dire ce qu’on pense ?"
   },
   {
@@ -1148,7 +1128,7 @@
     "question": "Être bon en sport est-il plus important qu’en maths ?"
   },
   {
-    "id": "enfants_5_10_ans_288",
+    "id": "enfants_5_10_ans_554",
     "question": "Les enfants devraient-ils apprendre à débattre ?"
   },
   {
@@ -1160,7 +1140,7 @@
     "question": "Les enfants devraient-ils avoir un club de débat à l’école ?"
   },
   {
-    "id": "enfants_5_10_ans_291",
+    "id": "enfants_5_10_ans_556",
     "question": "Faut-il toujours suivre la majorité ?"
   },
   {
@@ -1176,7 +1156,7 @@
     "question": "Les élèves devraient-ils choisir certaines règles de la cour ?"
   },
   {
-    "id": "enfants_5_10_ans_295",
+    "id": "enfants_5_10_ans_413",
     "question": "Faut-il toujours dire merci ?"
   },
   {
@@ -1196,12 +1176,8 @@
     "question": "Faut-il aider quelqu’un même s’il ne nous aide pas ?"
   },
   {
-    "id": "enfants_5_10_ans_300",
+    "id": "enfants_5_10_ans_588",
     "question": "Être un bon ami, c’est quoi ?"
-  },
-  {
-    "id": "enfants_5_10_ans_301",
-    "question": "C’est mieux d’avoir un chien ou un chat ?"
   },
   {
     "id": "enfants_5_10_ans_302",
@@ -1316,7 +1292,7 @@
     "question": "Faut-il laisser les escargots tranquilles ?"
   },
   {
-    "id": "enfants_5_10_ans_330",
+    "id": "enfants_5_10_ans_552",
     "question": "Les animaux ont-ils des amis ?"
   },
   {
@@ -1436,7 +1412,7 @@
     "question": "Faut-il protéger les rivières ?"
   },
   {
-    "id": "enfants_5_10_ans_360",
+    "id": "enfants_5_10_ans_539",
     "question": "Les animaux peuvent-ils être courageux ?"
   },
   {
@@ -1512,7 +1488,7 @@
     "question": "Les insectes devraient-ils être protégés aussi ?"
   },
   {
-    "id": "enfants_5_10_ans_379",
+    "id": "enfants_5_10_ans_524",
     "question": "Les animaux comprennent-ils les câlins ?"
   },
   {
@@ -1600,14 +1576,6 @@
     "question": "La planète appartient-elle seulement aux humains ?"
   },
   {
-    "id": "enfants_5_10_ans_401",
-    "question": "Les parents ont-ils toujours raison ?"
-  },
-  {
-    "id": "enfants_5_10_ans_402",
-    "question": "Les enfants devraient-ils choisir l’heure du coucher ?"
-  },
-  {
     "id": "enfants_5_10_ans_403",
     "question": "Faut-il toujours ranger sa chambre ?"
   },
@@ -1646,10 +1614,6 @@
   {
     "id": "enfants_5_10_ans_412",
     "question": "Les grands-parents sont-ils plus cool que les parents ?"
-  },
-  {
-    "id": "enfants_5_10_ans_413",
-    "question": "Faut-il toujours dire merci ?"
   },
   {
     "id": "enfants_5_10_ans_414",
@@ -1692,24 +1656,12 @@
     "question": "C’est mieux d’avoir un grand repas ou un pique-nique ?"
   },
   {
-    "id": "enfants_5_10_ans_424",
-    "question": "Les parents devraient-ils jouer plus souvent ?"
-  },
-  {
-    "id": "enfants_5_10_ans_425",
-    "question": "Les enfants peuvent-ils apprendre des adultes ?"
-  },
-  {
     "id": "enfants_5_10_ans_426",
     "question": "Faut-il dire la vérité même si on a peur ?"
   },
   {
     "id": "enfants_5_10_ans_427",
     "question": "C’est mieux d’avoir sa propre chambre ?"
-  },
-  {
-    "id": "enfants_5_10_ans_428",
-    "question": "Les parents devraient-ils parfois dire “je ne sais pas” ?"
   },
   {
     "id": "enfants_5_10_ans_429",
@@ -1748,10 +1700,6 @@
     "question": "Les enfants devraient-ils décider des vacances ?"
   },
   {
-    "id": "enfants_5_10_ans_438",
-    "question": "Les parents ont-ils des règles pour eux aussi ?"
-  },
-  {
     "id": "enfants_5_10_ans_439",
     "question": "Faut-il s’excuser rapidement ?"
   },
@@ -1764,7 +1712,7 @@
     "question": "C’est mieux un dimanche tranquille ou plein d’activités ?"
   },
   {
-    "id": "enfants_5_10_ans_442",
+    "id": "enfants_5_10_ans_594",
     "question": "Les parents devraient-ils expliquer les punitions ?"
   },
   {
@@ -1772,7 +1720,7 @@
     "question": "Faut-il toujours partager la télécommande ?"
   },
   {
-    "id": "enfants_5_10_ans_444",
+    "id": "enfants_5_10_ans_549",
     "question": "Les enfants peuvent-ils avoir un secret ?"
   },
   {
@@ -1784,7 +1732,7 @@
     "question": "Les parents devraient-ils laisser les enfants essayer seuls ?"
   },
   {
-    "id": "enfants_5_10_ans_447",
+    "id": "enfants_5_10_ans_538",
     "question": "Faut-il dire quand on est triste ?"
   },
   {
@@ -1812,7 +1760,7 @@
     "question": "Les enfants devraient-ils avoir une liste de tâches ?"
   },
   {
-    "id": "enfants_5_10_ans_454",
+    "id": "enfants_5_10_ans_529",
     "question": "Les parents peuvent-ils apprendre des enfants ?"
   },
   {
@@ -1864,7 +1812,7 @@
     "question": "Les enfants peuvent-ils être responsables d’un animal ?"
   },
   {
-    "id": "enfants_5_10_ans_467",
+    "id": "enfants_5_10_ans_522",
     "question": "Faut-il toujours finir ce qu’on commence ?"
   },
   {
@@ -1908,7 +1856,7 @@
     "question": "Les enfants peuvent-ils avoir des responsabilités importantes ?"
   },
   {
-    "id": "enfants_5_10_ans_478",
+    "id": "enfants_5_10_ans_570",
     "question": "Faut-il dire quand quelque chose ne va pas ?"
   },
   {
@@ -1916,7 +1864,7 @@
     "question": "Les parents devraient-ils écouter jusqu’au bout ?"
   },
   {
-    "id": "enfants_5_10_ans_480",
+    "id": "enfants_5_10_ans_558",
     "question": "C’est mieux d’avoir des règles claires ?"
   },
   {
@@ -1932,7 +1880,7 @@
     "question": "C’est mieux de faire les choses ensemble ?"
   },
   {
-    "id": "enfants_5_10_ans_484",
+    "id": "enfants_5_10_ans_557",
     "question": "Les parents peuvent-ils changer d’avis ?"
   },
   {
@@ -1980,11 +1928,7 @@
     "question": "Les enfants peuvent-ils aider à résoudre un conflit ?"
   },
   {
-    "id": "enfants_5_10_ans_496",
-    "question": "Faut-il toujours dire la vérité ?"
-  },
-  {
-    "id": "enfants_5_10_ans_497",
+    "id": "enfants_5_10_ans_548",
     "question": "C’est mieux d’aider avant qu’on demande ?"
   },
   {
@@ -2004,16 +1948,8 @@
     "question": "C’est mieux d’être gentil ou courageux ?"
   },
   {
-    "id": "enfants_5_10_ans_502",
-    "question": "Faut-il toujours dire la vérité ?"
-  },
-  {
     "id": "enfants_5_10_ans_503",
     "question": "Être invisible à la maison, bonne idée ?"
-  },
-  {
-    "id": "enfants_5_10_ans_504",
-    "question": "Les enfants comprennent-ils parfois mieux que les adultes ?"
   },
   {
     "id": "enfants_5_10_ans_505",
@@ -2032,10 +1968,6 @@
     "question": "Les super-héros ont-ils le droit d’avoir peur ?"
   },
   {
-    "id": "enfants_5_10_ans_509",
-    "question": "Être différent, c’est une force ?"
-  },
-  {
     "id": "enfants_5_10_ans_510",
     "question": "Les parents devraient-ils jouer plus ?"
   },
@@ -2052,16 +1984,8 @@
     "question": "Faut-il toujours obéir ?"
   },
   {
-    "id": "enfants_5_10_ans_514",
-    "question": "Les copains doivent-ils être d’accord sur tout ?"
-  },
-  {
     "id": "enfants_5_10_ans_515",
     "question": "C’est mieux d’avoir un dragon ou un chien ?"
-  },
-  {
-    "id": "enfants_5_10_ans_516",
-    "question": "Les enfants peuvent-ils changer le monde ?"
   },
   {
     "id": "enfants_5_10_ans_517",
@@ -2072,10 +1996,6 @@
     "question": "Être le plus rapide, c’est important ?"
   },
   {
-    "id": "enfants_5_10_ans_519",
-    "question": "Les adultes savent-ils tout ?"
-  },
-  {
     "id": "enfants_5_10_ans_520",
     "question": "C’est mieux d’écouter ou de parler ?"
   },
@@ -2084,16 +2004,8 @@
     "question": "Les disputes peuvent-elles rendre plus forts ?"
   },
   {
-    "id": "enfants_5_10_ans_522",
-    "question": "Faut-il toujours finir ce qu’on commence ?"
-  },
-  {
     "id": "enfants_5_10_ans_523",
     "question": "Être drôle, est-ce un talent important ?"
-  },
-  {
-    "id": "enfants_5_10_ans_524",
-    "question": "Les animaux comprennent-ils les câlins ?"
   },
   {
     "id": "enfants_5_10_ans_525",
@@ -2104,16 +2016,8 @@
     "question": "Faut-il aider quelqu’un même s’il n’est pas notre ami ?"
   },
   {
-    "id": "enfants_5_10_ans_527",
-    "question": "Les dragons pourraient-ils être gentils ?"
-  },
-  {
     "id": "enfants_5_10_ans_528",
     "question": "Être patient, c’est une force ?"
-  },
-  {
-    "id": "enfants_5_10_ans_529",
-    "question": "Les parents peuvent-ils apprendre des enfants ?"
   },
   {
     "id": "enfants_5_10_ans_530",
@@ -2148,14 +2052,6 @@
     "question": "C’est mieux d’avoir beaucoup d’amis ou peu mais vrais ?"
   },
   {
-    "id": "enfants_5_10_ans_538",
-    "question": "Faut-il dire quand on est triste ?"
-  },
-  {
-    "id": "enfants_5_10_ans_539",
-    "question": "Les animaux peuvent-ils être courageux ?"
-  },
-  {
     "id": "enfants_5_10_ans_540",
     "question": "C’est mieux d’être fort ou intelligent ?"
   },
@@ -2184,18 +2080,6 @@
     "question": "Faut-il écouter avant de répondre ?"
   },
   {
-    "id": "enfants_5_10_ans_547",
-    "question": "Les robots peuvent-ils rêver ?"
-  },
-  {
-    "id": "enfants_5_10_ans_548",
-    "question": "C’est mieux d’aider avant qu’on demande ?"
-  },
-  {
-    "id": "enfants_5_10_ans_549",
-    "question": "Les enfants peuvent-ils avoir un secret ?"
-  },
-  {
     "id": "enfants_5_10_ans_550",
     "question": "Être honnête, c’est toujours facile ?"
   },
@@ -2204,32 +2088,12 @@
     "question": "Faut-il partager même quand on n’a pas envie ?"
   },
   {
-    "id": "enfants_5_10_ans_552",
-    "question": "Les animaux ont-ils des amis ?"
-  },
-  {
     "id": "enfants_5_10_ans_553",
     "question": "C’est mieux de parler calmement ?"
   },
   {
-    "id": "enfants_5_10_ans_554",
-    "question": "Les enfants devraient-ils apprendre à débattre ?"
-  },
-  {
     "id": "enfants_5_10_ans_555",
     "question": "Être courageux, c’est ne pas avoir peur ?"
-  },
-  {
-    "id": "enfants_5_10_ans_556",
-    "question": "Faut-il toujours suivre la majorité ?"
-  },
-  {
-    "id": "enfants_5_10_ans_557",
-    "question": "Les parents peuvent-ils changer d’avis ?"
-  },
-  {
-    "id": "enfants_5_10_ans_558",
-    "question": "C’est mieux d’avoir des règles claires ?"
   },
   {
     "id": "enfants_5_10_ans_559",
@@ -2276,10 +2140,6 @@
     "question": "Être patient ou rapide, c’est mieux ?"
   },
   {
-    "id": "enfants_5_10_ans_570",
-    "question": "Faut-il dire quand quelque chose ne va pas ?"
-  },
-  {
     "id": "enfants_5_10_ans_571",
     "question": "Les enfants peuvent-ils changer une règle injuste ?"
   },
@@ -2316,16 +2176,8 @@
     "question": "Être courageux, c’est essayer encore ?"
   },
   {
-    "id": "enfants_5_10_ans_580",
-    "question": "Faut-il toujours dire ce qu’on pense ?"
-  },
-  {
     "id": "enfants_5_10_ans_581",
     "question": "Les enfants peuvent-ils devenir des héros du quotidien ?"
-  },
-  {
-    "id": "enfants_5_10_ans_582",
-    "question": "C’est mieux d’avoir raison ou d’être gentil ?"
   },
   {
     "id": "enfants_5_10_ans_583",
@@ -2348,10 +2200,6 @@
     "question": "Les enfants devraient-ils participer aux décisions ?"
   },
   {
-    "id": "enfants_5_10_ans_588",
-    "question": "Être un bon ami, c’est quoi ?"
-  },
-  {
     "id": "enfants_5_10_ans_589",
     "question": "Faut-il toujours aider quelqu’un en difficulté ?"
   },
@@ -2372,20 +2220,12 @@
     "question": "C’est mieux de parler ou d’écrire ce qu’on ressent ?"
   },
   {
-    "id": "enfants_5_10_ans_594",
-    "question": "Les parents devraient-ils expliquer les punitions ?"
-  },
-  {
     "id": "enfants_5_10_ans_595",
     "question": "Être gentil, c’est toujours facile ?"
   },
   {
     "id": "enfants_5_10_ans_596",
     "question": "Faut-il toujours respecter la nature ?"
-  },
-  {
-    "id": "enfants_5_10_ans_597",
-    "question": "Les enfants peuvent-ils apprendre de leurs erreurs ?"
   },
   {
     "id": "enfants_5_10_ans_598",

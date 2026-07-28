@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "les_jeux_de_societe_sont_ils_mieux_que_les_jeux_video",
+    "subject": "Les jeux de société sont-ils mieux que les jeux vidéo ?",
+    "decoy": "Les jeux de cartes ont-ils autant de valeur sociale que les jeux de société ?"
+  },
+  {
+    "id": "le_cinema_en_3d_est_il_une_bonne_idee_ou_un_gadget_inutile",
+    "subject": "Le cinéma en 3D est-il une bonne idée ou un gadget inutile ?",
+    "decoy": "La 3D au cinéma influence surtout la manière dont certaines scènes sont mises en scène."
+  },
+  {
+    "id": "lire_un_livre_est_il_plus_enrichissant_que_regarder_un_film",
+    "subject": "Lire un livre est-il plus enrichissant que regarder un film ?",
+    "decoy": "La lecture laisse davantage de place à l’imagination personnelle."
+  },
+  {
+    "id": "les_series_sont_elles_devenues_meilleures_que_le_cinema",
+    "subject": "Les séries sont-elles devenues meilleures que le cinéma ?",
+    "decoy": "Les séries permettent de développer les personnages sur une longue durée."
+  },
+  {
+    "id": "le_streaming_a_t_il_tue_la_magie_des_salles_de_cinema",
+    "subject": "Le streaming a-t-il tué la magie des salles de cinéma ?",
+    "decoy": "Le streaming a changé la manière dont les spectateurs choisissent leurs films."
+  },
+  {
+    "id": "les_remakes_devraient_ils_exister",
+    "subject": "Les remakes devraient-ils exister ?",
+    "decoy": "Les remakes permettent souvent de remettre une histoire au goût du jour."
+  },
+  {
+    "id": "la_tele_realite_est_elle_un_divertissement_legitime",
+    "subject": "La télé-réalité est-elle un divertissement légitime ?",
+    "decoy": "La télé-réalité repose surtout sur les réactions imprévisibles des participants."
+  },
+  {
+    "id": "les_reseaux_sociaux_ont_ils_ameliore_notre_facon_de_consommer_la_culture",
+    "subject": "Les réseaux sociaux ont-ils amélioré notre façon de consommer la culture ?",
+    "decoy": "Les réseaux sociaux accélèrent la découverte de contenus culturels."
+  },
+  {
+    "id": "faut_il_separer_l_artiste_de_son_œuvre",
+    "subject": "Faut-il séparer l’artiste de son œuvre ?",
+    "decoy": "La réputation d’un artiste influence souvent la perception de son œuvre."
+  },
+  {
+    "id": "les_concerts_sont_ils_mieux_que_les_festivals",
+    "subject": "Les concerts sont-ils mieux que les festivals ?",
+    "decoy": "Les concerts permettent souvent une proximité plus forte avec l’artiste."
+  },
+  {
+    "id": "vacances_plage_ou_vacances_montagne",
+    "subject": "Vacances plage ou vacances montagne ?",
+    "decoy": "Les vacances à la montagne modifient complètement le rythme du quotidien."
+  },
+  {
+    "id": "ville_ou_campagne_pour_vivre_heureux",
+    "subject": "Ville ou campagne pour vivre heureux ?",
+    "decoy": "La vie à la campagne dépend beaucoup de l’accès aux services."
+  },
+  {
+    "id": "ete_ou_hiver",
+    "subject": "Été ou hiver ?",
+    "decoy": "L’été influence les activités et les habitudes de vie."
+  },
+  {
+    "id": "matin_ou_nuit",
+    "subject": "Matin ou nuit ?",
+    "decoy": "La nuit offre souvent un environnement plus calme pour réfléchir."
+  },
+  {
+    "id": "voyager_seul_ou_en_groupe",
+    "subject": "Voyager seul ou en groupe ?",
+    "decoy": "Voyager seul oblige à prendre toutes les décisions soi-même."
+  },
+  {
+    "id": "partir_a_l_aventure_ou_tout_planifier",
+    "subject": "Partir à l’aventure ou tout planifier ?",
+    "decoy": "Les voyages improvisés créent souvent des souvenirs inattendus."
+  },
+  {
+    "id": "explorer_l_espace_ou_les_profondeurs_de_l_ocean",
+    "subject": "Explorer l’espace ou les profondeurs de l’océan ?",
+    "decoy": "Les océans restent encore largement inexplorés."
+  },
+  {
+    "id": "rester_dans_son_pays_ou_s_expatrier",
+    "subject": "Rester dans son pays ou s’expatrier ?",
+    "decoy": "S’expatrier oblige à s’adapter à une nouvelle culture."
+  },
+  {
+    "id": "diner_au_restaurant_ou_cuisiner_chez_soi",
+    "subject": "Dîner au restaurant ou cuisiner chez soi ?",
+    "decoy": "Cuisiner chez soi permet de contrôler les ingrédients utilisés."
+  },
+  {
+    "id": "travailler_a_distance_ou_au_bureau",
+    "subject": "Travailler à distance ou au bureau ?",
+    "decoy": "Le travail à distance modifie l’organisation des journées."
+  },
+  {
+    "id": "mentir_pour_ne_pas_blesser_est_ce_acceptable",
+    "subject": "Mentir pour ne pas blesser est-ce acceptable ?",
+    "decoy": "Certaines situations poussent à protéger les sentiments des autres."
+  },
+  {
+    "id": "peut_on_aimer_quelqu_un_qui_ne_nous_plait_pas_physiquement",
+    "subject": "Peut-on aimer quelqu’un qui ne nous plaît pas physiquement ?",
+    "decoy": "L’attirance peut évoluer avec le temps passé avec quelqu’un."
+  },
+  {
+    "id": "un_bebe_renforce_t_il_forcement_un_couple",
+    "subject": "Un bébé renforce-t-il forcément un couple ?",
+    "decoy": "L’arrivée d’un enfant transforme profondément la dynamique d’un couple."
+  },
+  {
+    "id": "un_couple_peut_il_reellement_durer_toute_une_vie",
+    "subject": "Un couple peut-il réellement durer toute une vie ?",
+    "decoy": "Les relations longues demandent des efforts constants."
+  },
+  {
+    "id": "faut_il_tout_partager_dans_un_couple",
+    "subject": "Faut-il tout partager dans un couple ?",
+    "decoy": "Garder un espace personnel peut préserver l’équilibre du couple."
+  },
+  {
+    "id": "l_amour_est_il_plus_important_que_la_stabilite_financiere",
+    "subject": "L’amour est-il plus important que la stabilité financière ?",
+    "decoy": "Les questions financières provoquent souvent des tensions dans les relations."
+  },
+  {
+    "id": "peut_on_rester_ami_avec_son_ex",
+    "subject": "Peut-on rester ami avec son ex ?",
+    "decoy": "Les relations passées laissent souvent des émotions complexes."
+  },
+  {
+    "id": "la_jalousie_est_elle_une_preuve_d_amour",
+    "subject": "La jalousie est-elle une preuve d’amour ?",
+    "decoy": "La jalousie apparaît souvent quand la confiance manque."
+  },
+  {
+    "id": "le_coup_de_foudre_existe_t_il_vraiment",
+    "subject": "Le coup de foudre existe-t-il vraiment ?",
+    "decoy": "Certaines rencontres créent immédiatement une forte connexion."
+  },
+  {
+    "id": "peut_on_etre_heureux_sans_etre_en_couple",
+    "subject": "Peut-on être heureux sans être en couple ?",
+    "decoy": "Le bonheur peut exister dans différentes formes de vie."
+  },
+  {
+    "id": "les_parents_doivent_ils_etre_les_meilleurs_amis_de_leurs_enfants",
+    "subject": "Les parents doivent-ils être les meilleurs amis de leurs enfants ?",
+    "decoy": "Les parents doivent aussi conserver une autorité éducative."
+  },
+  {
+    "id": "faut_il_imposer_des_limites_strictes_aux_enfants",
+    "subject": "Faut-il imposer des limites strictes aux enfants ?",
+    "decoy": "Les règles donnent un cadre pour grandir."
+  },
+  {
+    "id": "les_grands_parents_devraient_ils_intervenir_dans_l_education",
+    "subject": "Les grands-parents devraient-ils intervenir dans l’éducation ?",
+    "decoy": "Les grands-parents ont parfois une vision différente de l’éducation."
+  },
+  {
+    "id": "avoir_un_enfant_est_il_un_choix_egoiste_ou_altruiste",
+    "subject": "Avoir un enfant est-il un choix égoïste ou altruiste ?",
+    "decoy": "La parentalité transforme profondément la vie personnelle."
+  },
+  {
+    "id": "peut_on_reussir_sa_vie_sans_avoir_d_enfant",
+    "subject": "Peut-on réussir sa vie sans avoir d’enfant ?",
+    "decoy": "Certaines personnes trouvent un sens à leur vie sans parentalité."
+  },
+  {
+    "id": "les_familles_nombreuses_sont_elles_plus_heureuses",
+    "subject": "Les familles nombreuses sont-elles plus heureuses ?",
+    "decoy": "La taille d’une famille influence l’organisation du quotidien."
+  },
+  {
+    "id": "les_ecrans_sont_ils_dangereux_pour_les_enfants",
+    "subject": "Les écrans sont-ils dangereux pour les enfants ?",
+    "decoy": "Les écrans occupent aujourd’hui une place importante dans l’enfance."
+  },
+  {
+    "id": "faut_il_interdire_les_telephones_a_l_ecole",
+    "subject": "Faut-il interdire les téléphones à l’école ?",
+    "decoy": "Les téléphones perturbent souvent la concentration en classe."
+  },
+  {
+    "id": "les_notes_scolaires_sont_elles_utiles",
+    "subject": "Les notes scolaires sont-elles utiles ?",
+    "decoy": "Les notes servent surtout à comparer les performances scolaires."
+  },
+  {
+    "id": "l_ecole_prepare_t_elle_vraiment_a_la_vie",
+    "subject": "L’école prépare-t-elle vraiment à la vie ?",
+    "decoy": "L’école transmet avant tout des connaissances académiques."
+  },
+  {
+    "id": "etre_youtubeur_est_ce_un_vrai_metier",
+    "subject": "Être youtubeur est-ce un vrai métier ?",
+    "decoy": "Les créateurs de contenu produisent régulièrement des vidéos pour leur public."
+  },
+  {
+    "id": "les_influenceurs_meritent_ils_leur_succes",
+    "subject": "Les influenceurs méritent-ils leur succès ?",
+    "decoy": "Les influenceurs vivent souvent de partenariats avec des marques."
+  },
+  {
+    "id": "le_teletravail_est_il_l_avenir",
+    "subject": "Le télétravail est-il l’avenir ?",
+    "decoy": "Le télétravail modifie les relations entre collègues."
+  },
+  {
+    "id": "travailler_pour_passion_ou_pour_l_argent",
+    "subject": "Travailler pour passion ou pour l’argent ?",
+    "decoy": "La motivation professionnelle dépend de nombreux facteurs."
+  },
+  {
+    "id": "faut_il_separer_totalement_vie_pro_et_vie_perso",
+    "subject": "Faut-il séparer totalement vie pro et vie perso ?",
+    "decoy": "La séparation entre travail et vie privée protège l’équilibre personnel."
+  },
+  {
+    "id": "les_diplomes_sont_ils_encore_essentiels",
+    "subject": "Les diplômes sont-ils encore essentiels ?",
+    "decoy": "Les diplômes servent souvent de premier filtre pour les recruteurs."
+  },
+  {
+    "id": "l_intelligence_artificielle_menace_t_elle_nos_emplois",
+    "subject": "L’intelligence artificielle menace-t-elle nos emplois ?",
+    "decoy": "L’intelligence artificielle transforme de nombreux secteurs économiques."
+  },
+  {
+    "id": "peut_on_reussir_sans_etudes_superieures",
+    "subject": "Peut-on réussir sans études supérieures ?",
+    "decoy": "Certaines réussites professionnelles viennent de parcours atypiques."
+  },
+  {
+    "id": "le_salaire_doit_il_refleter_l_utilite_sociale",
+    "subject": "Le salaire doit-il refléter l’utilité sociale ?",
+    "decoy": "La valeur d’un métier dépend aussi du contexte social."
+  },
+  {
+    "id": "faut_il_travailler_moins_pour_vivre_mieux",
+    "subject": "Faut-il travailler moins pour vivre mieux ?",
+    "decoy": "Le temps libre influence fortement la qualité de vie."
+  },
+  {
+    "id": "mentir_est_il_parfois_necessaire",
+    "subject": "Mentir est-il parfois nécessaire ?",
+    "decoy": "Mentir peut parfois éviter un conflit immédiat."
+  },
+  {
+    "id": "dire_toujours_la_verite_est_ce_courageux_ou_brutal",
+    "subject": "Dire toujours la vérité est-ce courageux ou brutal ?",
+    "decoy": "La vérité peut parfois être difficile à entendre."
+  },
+  {
+    "id": "peut_on_pardonner_une_trahison",
+    "subject": "Peut-on pardonner une trahison ?",
+    "decoy": "Certaines blessures restent présentes malgré le pardon."
+  },
+  {
+    "id": "la_vengeance_est_elle_parfois_justifiee",
+    "subject": "La vengeance est-elle parfois justifiée ?",
+    "decoy": "La vengeance prolonge souvent les conflits."
+  },
+  {
+    "id": "faut_il_toujours_defendre_ses_proches_meme_quand_ils_ont_tort",
+    "subject": "Faut-il toujours défendre ses proches, même quand ils ont tort ?",
+    "decoy": "La loyauté peut entrer en conflit avec la justice."
+  },
+  {
+    "id": "peut_on_etre_ami_avec_quelqu_un_qui_pense_totalement_differemment",
+    "subject": "Peut-on être ami avec quelqu’un qui pense totalement différemment ?",
+    "decoy": "Les amitiés peuvent exister malgré des opinions opposées."
+  },
+  {
+    "id": "la_liberte_d_expression_doit_elle_avoir_des_limites",
+    "subject": "La liberté d’expression doit-elle avoir des limites ?",
+    "decoy": "La liberté d’expression soulève souvent des débats juridiques."
+  },
+  {
+    "id": "le_bonheur_depend_il_de_l_argent",
+    "subject": "Le bonheur dépend-il de l’argent ?",
+    "decoy": "Le bonheur dépend aussi des relations et de la santé."
+  },
+  {
+    "id": "faut_il_aider_quelqu_un_qui_refuse_de_s_aider_lui_meme",
+    "subject": "Faut-il aider quelqu’un qui refuse de s’aider lui-même ?",
+    "decoy": "Certaines personnes refusent toute aide extérieure."
+  },
+  {
+    "id": "peut_on_changer_vraiment",
+    "subject": "Peut-on changer vraiment ?",
+    "decoy": "Les expériences de vie modifient la personnalité."
+  },
+  {
+    "id": "les_reseaux_sociaux_rapprochent_ils_ou_isolent_ils",
+    "subject": "Les réseaux sociaux rapprochent-ils ou isolent-ils ?",
+    "decoy": "Les réseaux sociaux changent la manière de communiquer."
+  },
+  {
+    "id": "les_smartphones_nous_rendent_ils_moins_patients",
+    "subject": "Les smartphones nous rendent-ils moins patients ?",
+    "decoy": "Les smartphones modifient notre rapport au temps."
+  },
+  {
+    "id": "faut_il_limiter_le_temps_d_ecran",
+    "subject": "Faut-il limiter le temps d’écran ?",
+    "decoy": "Le temps passé devant les écrans influence l’attention."
+  },
+  {
+    "id": "l_ia_est_elle_une_opportunite_ou_une_menace",
+    "subject": "L’IA est-elle une opportunité ou une menace ?",
+    "decoy": "L’intelligence artificielle transforme les méthodes de travail."
+  },
+  {
+    "id": "les_rencontres_en_ligne_sont_elles_aussi_sinceres_que_les_rencontres_ree",
+    "subject": "Les rencontres en ligne sont-elles aussi sincères que les rencontres réelles ?",
+    "decoy": "Les rencontres en ligne élargissent les possibilités de rencontres."
+  },
+  {
+    "id": "les_influenceurs_ont_ils_trop_de_pouvoir",
+    "subject": "Les influenceurs ont-ils trop de pouvoir ?",
+    "decoy": "Les influenceurs façonnent certaines tendances culturelles."
+  },
+  {
+    "id": "la_vie_etait_elle_mieux_sans_internet",
+    "subject": "La vie était-elle mieux sans Internet ?",
+    "decoy": "Internet a profondément modifié l’accès à l’information."
+  },
+  {
+    "id": "les_avis_en_ligne_sont_ils_fiables",
+    "subject": "Les avis en ligne sont-ils fiables ?",
+    "decoy": "Les avis en ligne reflètent souvent des expériences personnelles."
+  },
+  {
+    "id": "les_cameras_de_surveillance_sont_elles_rassurantes_ou_inquietantes",
+    "subject": "Les caméras de surveillance sont-elles rassurantes ou inquiétantes ?",
+    "decoy": "La surveillance soulève des questions sur la vie privée."
+  },
+  {
+    "id": "les_algorithmes_controlent_ils_nos_choix",
+    "subject": "Les algorithmes contrôlent-ils nos choix ?",
+    "decoy": "Les algorithmes recommandent des contenus selon nos habitudes."
+  },
+  {
+    "id": "les_jeunes_ont_ils_la_vie_plus_facile_qu_avant",
+    "subject": "Les jeunes ont-ils la vie plus facile qu’avant ?",
+    "decoy": "Les jeunes font face à des attentes sociales différentes."
+  },
+  {
+    "id": "les_adultes_comprennent_ils_vraiment_les_ados",
+    "subject": "Les adultes comprennent-ils vraiment les ados ?",
+    "decoy": "Les adultes oublient parfois ce que signifie être adolescent."
+  },
+  {
+    "id": "les_etudes_longues_garantissent_elles_la_reussite",
+    "subject": "Les études longues garantissent-elles la réussite ?",
+    "decoy": "Les études longues offrent surtout plus d’options professionnelles."
+  },
+  {
+    "id": "faut_il_suivre_ses_reves_a_tout_prix",
+    "subject": "Faut-il suivre ses rêves à tout prix ?",
+    "decoy": "Les rêves personnels peuvent évoluer avec le temps."
+  },
+  {
+    "id": "le_talent_est_il_plus_important_que_le_travail",
+    "subject": "Le talent est-il plus important que le travail ?",
+    "decoy": "Le travail demande souvent de la persévérance."
+  },
+  {
+    "id": "peut_on_reussir_sans_reseau",
+    "subject": "Peut-on réussir sans réseau ?",
+    "decoy": "Les relations professionnelles facilitent parfois les opportunités."
+  },
+  {
+    "id": "les_stages_non_payes_devraient_ils_etre_interdits",
+    "subject": "Les stages non payés devraient-ils être interdits ?",
+    "decoy": "Les stages servent souvent d’expérience d’apprentissage."
+  },
+  {
+    "id": "l_ecole_devrait_elle_enseigner_la_gestion_de_l_argent",
+    "subject": "L’école devrait-elle enseigner la gestion de l’argent ?",
+    "decoy": "L’éducation financière manque souvent dans les programmes scolaires."
+  },
+  {
+    "id": "les_notes_refletent_elles_l_intelligence",
+    "subject": "Les notes reflètent-elles l’intelligence ?",
+    "decoy": "Les notes mesurent surtout la performance scolaire."
+  },
+  {
+    "id": "les_jeunes_sont_ils_plus_engages_que_les_generations_precedentes",
+    "subject": "Les jeunes sont-ils plus engagés que les générations précédentes ?",
+    "decoy": "Les jeunes générations participent à de nombreux mouvements sociaux."
+  },
+  {
+    "id": "l_argent_fait_il_le_bonheur",
+    "subject": "L’argent fait-il le bonheur ?",
+    "decoy": "L’argent influence certaines possibilités dans la vie."
+  },
+  {
+    "id": "le_mariage_est_il_encore_utile",
+    "subject": "Le mariage est-il encore utile ?",
+    "decoy": "Le mariage possède aussi une dimension juridique."
+  },
+  {
+    "id": "avoir_raison_est_il_plus_important_que_preserver_une_relation",
+    "subject": "Avoir raison est-il plus important que préserver une relation ?",
+    "decoy": "Les relations demandent souvent des compromis."
+  },
+  {
+    "id": "faut_il_interdire_certaines_opinions",
+    "subject": "Faut-il interdire certaines opinions ?",
+    "decoy": "Les opinions controversées suscitent souvent des débats."
+  },
+  {
+    "id": "peut_on_etre_heureux_sans_ambition",
+    "subject": "Peut-on être heureux sans ambition ?",
+    "decoy": "Certaines personnes privilégient une vie simple."
+  },
+  {
+    "id": "le_sport_professionnel_est_il_trop_paye",
+    "subject": "Le sport professionnel est-il trop payé ?",
+    "decoy": "Le sport professionnel génère une industrie économique importante."
+  },
+  {
+    "id": "les_vacances_sont_elles_indispensables",
+    "subject": "Les vacances sont-elles indispensables ?",
+    "decoy": "Les périodes de repos influencent la santé mentale."
+  },
+  {
+    "id": "faut_il_toujours_sortir_de_sa_zone_de_confort",
+    "subject": "Faut-il toujours sortir de sa zone de confort ?",
+    "decoy": "Essayer de nouvelles choses apporte de l’expérience."
+  },
+  {
+    "id": "les_surprises_sont_elles_toujours_une_bonne_idee",
+    "subject": "Les surprises sont-elles toujours une bonne idée ?",
+    "decoy": "Les surprises provoquent souvent des réactions imprévisibles."
+  },
+  {
+    "id": "vaut_il_mieux_etre_aime_ou_respecte",
+    "subject": "Vaut-il mieux être aimé ou respecté ?",
+    "decoy": "Le respect dépend souvent de l’image que l’on renvoie."
+  },
+  {
+    "id": "faut_il_repondre_immediatement_aux_messages",
+    "subject": "Faut-il répondre immédiatement aux messages ?",
+    "decoy": "Les messages peuvent être traités à différents moments selon les personnes."
+  },
+  {
+    "id": "les_traditions_doivent_elles_etre_conservees",
+    "subject": "Les traditions doivent-elles être conservées ?",
+    "decoy": "Les traditions évoluent souvent avec les générations."
+  },
+  {
+    "id": "les_tatouages_sont_ils_une_bonne_idee",
+    "subject": "Les tatouages sont-ils une bonne idée ?",
+    "decoy": "Les tatouages servent souvent à exprimer une identité personnelle."
+  },
+  {
+    "id": "peut_on_etre_ami_avec_son_patron",
+    "subject": "Peut-on être ami avec son patron ?",
+    "decoy": "Les relations hiérarchiques influencent l’ambiance au travail."
+  },
+  {
+    "id": "les_fetes_de_famille_sont_elles_necessaires",
+    "subject": "Les fêtes de famille sont-elles nécessaires ?",
+    "decoy": "Les réunions familiales créent des moments de partage."
+  },
+  {
+    "id": "faut_il_preter_de_l_argent_a_ses_proches",
+    "subject": "Faut-il prêter de l’argent à ses proches ?",
+    "decoy": "L’argent peut compliquer les relations personnelles."
+  },
+  {
+    "id": "les_disputes_renforcent_elles_les_relations",
+    "subject": "Les disputes renforcent-elles les relations ?",
+    "decoy": "Les désaccords permettent parfois d’exprimer des frustrations."
+  },
+  {
+    "id": "l_humour_peut_il_tout_excuser",
+    "subject": "L’humour peut-il tout excuser ?",
+    "decoy": "L’humour dépend souvent du contexte et des personnes présentes."
+  },
+  {
+    "id": "chat_ou_chien",
+    "subject": "Chat ou chien ?",
+    "decoy": "Les préférences d’animaux de compagnie varient selon les modes de vie."
+  },
+  {
+    "id": "cafe_ou_the",
+    "subject": "Café ou thé ?",
+    "decoy": "Le café et le thé possèdent des cultures très différentes."
+  },
+  {
+    "id": "netflix_ou_cinema",
+    "subject": "Netflix ou cinéma ?",
+    "decoy": "Le cinéma et les plateformes de streaming proposent des expériences différentes."
+  },
+  {
+    "id": "mer_ou_piscine",
+    "subject": "Mer ou piscine ?",
+    "decoy": "La mer attire souvent pour ses paysages naturels."
+  },
+  {
+    "id": "sucre_ou_sale",
+    "subject": "Sucré ou salé ?",
+    "decoy": "Les goûts alimentaires varient fortement selon les cultures."
+  },
+  {
+    "id": "apple_ou_android",
+    "subject": "Apple ou Android ?",
+    "decoy": "Les systèmes d’exploitation reflètent des philosophies technologiques différentes."
+  },
+  {
+    "id": "plutot_epargne_ou_plaisir_immediat",
+    "subject": "Plutôt épargne ou plaisir immédiat ?",
+    "decoy": "La gestion de l’argent dépend souvent des priorités personnelles."
+  },
+  {
+    "id": "sortir_souvent_ou_rester_chez_soi",
+    "subject": "Sortir souvent ou rester chez soi ?",
+    "decoy": "Certaines personnes préfèrent un mode de vie calme."
+  },
+  {
+    "id": "musique_en_fond_ou_silence_total",
+    "subject": "Musique en fond ou silence total ?",
+    "decoy": "Le silence permet parfois de mieux se concentrer."
+  },
+  {
+    "id": "improviser_ou_planifier",
+    "subject": "Improviser ou planifier ?",
+    "decoy": "Certaines personnes préfèrent planifier pour réduire l’incertitude."
+  },
+  {
+    "id": "vivre_en_appartement_ou_en_maison",
+    "subject": "Vivre en appartement ou en maison ?",
+    "decoy": "Le type de logement influence le quotidien."
+  },
+  {
+    "id": "travailler_seul_ou_en_equipe",
+    "subject": "Travailler seul ou en équipe ?",
+    "decoy": "Les environnements de travail changent la dynamique entre collègues."
+  },
+  {
+    "id": "transport_en_commun_ou_voiture_personnelle",
+    "subject": "Transport en commun ou voiture personnelle ?",
+    "decoy": "Les transports influencent l’organisation des déplacements."
+  },
+  {
+    "id": "plutot_carriere_ambitieuse_ou_vie_tranquille",
+    "subject": "Plutôt carrière ambitieuse ou vie tranquille ?",
+    "decoy": "Les ambitions professionnelles façonnent souvent les choix de vie."
+  },
+  {
+    "id": "faire_du_sport_le_matin_ou_le_soir",
+    "subject": "Faire du sport le matin ou le soir ?",
+    "decoy": "Les habitudes sportives dépendent du rythme personnel."
+  },
+  {
+    "id": "ecouter_ou_parler_davantage",
+    "subject": "Écouter ou parler davantage ?",
+    "decoy": "La communication repose souvent sur l’écoute active."
+  },
+  {
+    "id": "etre_celebre_ou_etre_anonyme",
+    "subject": "Être célèbre ou être anonyme ?",
+    "decoy": "La célébrité transforme profondément la vie privée."
+  },
+  {
+    "id": "grand_mariage_ou_ceremonie_intime",
+    "subject": "Grand mariage ou cérémonie intime ?",
+    "decoy": "Les mariages prennent différentes formes selon les cultures."
+  },
+  {
+    "id": "rester_dans_sa_zone_de_confort_ou_tout_quitter",
+    "subject": "Rester dans sa zone de confort ou tout quitter ?",
+    "decoy": "Les nouvelles expériences modifient souvent la perception du monde."
+  },
+  {
+    "id": "plutot_logique_ou_intuition",
+    "subject": "Plutôt logique ou intuition ?",
+    "decoy": "L’intuition provient souvent de l’expérience accumulée."
+  },
+  {
+    "id": "peut_on_aimer_deux_personnes_en_meme_temps",
+    "subject": "Peut-on aimer deux personnes en même temps ?",
+    "decoy": "Les relations humaines peuvent être complexes."
+  },
+  {
+    "id": "faut_il_tout_dire_dans_un_couple",
+    "subject": "Faut-il tout dire dans un couple ?",
+    "decoy": "La communication joue un rôle important dans un couple."
+  },
+  {
+    "id": "le_mariage_change_t_il_vraiment_une_relation",
+    "subject": "Le mariage change-t-il vraiment une relation ?",
+    "decoy": "Les engagements officiels changent parfois la perception de la relation."
+  },
+  {
+    "id": "la_distance_renforce_t_elle_les_sentiments",
+    "subject": "La distance renforce-t-elle les sentiments ?",
+    "decoy": "La distance oblige à adapter la communication."
+  },
+  {
+    "id": "un_couple_peut_il_survivre_sans_confiance_totale",
+    "subject": "Un couple peut-il survivre sans confiance totale ?",
+    "decoy": "La confiance se construit avec le temps."
+  },
+  {
+    "id": "peut_on_reconstruire_apres_une_infidelite",
+    "subject": "Peut-on reconstruire après une infidélité ?",
+    "decoy": "Certaines relations se reconstruisent après des difficultés."
+  },
+  {
+    "id": "l_amour_suffit_il_a_surmonter_les_differences_culturelles",
+    "subject": "L’amour suffit-il à surmonter les différences culturelles ?",
+    "decoy": "Les différences culturelles influencent les relations."
+  },
+  {
+    "id": "faut_il_vivre_ensemble_avant_de_se_marier",
+    "subject": "Faut-il vivre ensemble avant de se marier ?",
+    "decoy": "La cohabitation révèle souvent les habitudes de chacun."
+  },
+  {
+    "id": "un_couple_sans_disputes_est_il_suspect",
+    "subject": "Un couple sans disputes est-il suspect ?",
+    "decoy": "Les disputes font partie de nombreuses relations."
+  },
+  {
+    "id": "les_opposes_s_attirent_ils_vraiment",
+    "subject": "Les opposés s’attirent-ils vraiment ?",
+    "decoy": "Les personnalités opposées créent parfois des dynamiques particulières."
+  },
+  {
+    "id": "l_age_est_il_important_en_amour",
+    "subject": "L’âge est-il important en amour ?",
+    "decoy": "Les écarts d’âge influencent certaines expériences de vie."
+  },
+  {
+    "id": "peut_on_rester_amoureux_toute_une_vie",
+    "subject": "Peut-on rester amoureux toute une vie ?",
+    "decoy": "Les relations longues demandent de l’adaptation."
+  },
+  {
+    "id": "faut_il_choisir_la_raison_plutot_que_la_passion",
+    "subject": "Faut-il choisir la raison plutôt que la passion ?",
+    "decoy": "Les projets communs structurent souvent la vie de couple."
+  },
+  {
+    "id": "un_couple_doit_il_partager_les_memes_ambitions",
+    "subject": "Un couple doit-il partager les mêmes ambitions ?",
+    "decoy": "Les réseaux sociaux exposent davantage la vie privée."
+  },
+  {
+    "id": "les_reseaux_sociaux_fragilisent_ils_les_relations",
+    "subject": "Les réseaux sociaux fragilisent-ils les relations ?",
+    "decoy": "Les questions financières influencent parfois les relations."
+  },
+  {
+    "id": "peut_on_etre_heureux_en_amour_sans_stabilite_financiere",
+    "subject": "Peut-on être heureux en amour sans stabilité financière ?",
+    "decoy": "Les relations amicales peuvent exister entre hommes et femmes."
+  },
+  {
+    "id": "l_amitie_homme_femme_sans_ambiguite_est_elle_possible",
+    "subject": "L’amitié homme-femme sans ambiguïté est-elle possible ?",
+    "decoy": "Le pardon peut transformer certaines relations."
+  },
+  {
+    "id": "faut_il_pardonner_une_trahison_par_amour",
+    "subject": "Faut-il pardonner une trahison par amour ?",
+    "decoy": "L’indépendance personnelle reste importante dans un couple."
+  },
+  {
+    "id": "un_couple_doit_il_tout_faire_ensemble",
+    "subject": "Un couple doit-il tout faire ensemble ?",
+    "decoy": "Certaines relations reprennent après une séparation."
+  },
+  {
+    "id": "l_amour_peut_il_renaitre_apres_une_rupture",
+    "subject": "L’amour peut-il renaître après une rupture ?",
+    "decoy": "Les priorités familiales influencent les choix professionnels."
+  },
+  {
+    "id": "le_travail_doit_il_passer_avant_la_famille",
+    "subject": "Le travail doit-il passer avant la famille ?",
+    "decoy": "Les parcours professionnels deviennent de plus en plus variés."
+  },
+  {
+    "id": "changer_souvent_de_travail_est_il_un_signe_d_instabilite",
+    "subject": "Changer souvent de travail est-il un signe d’instabilité ?",
+    "decoy": "Les styles de management influencent l’ambiance au travail."
+  },
+  {
+    "id": "un_bon_patron_doit_il_etre_strict_ou_bienveillant",
+    "subject": "Un bon patron doit-il être strict ou bienveillant ?",
+    "decoy": "La réussite personnelle dépend de nombreux facteurs."
+  },
+  {
+    "id": "peut_on_reussir_sans_ambition",
+    "subject": "Peut-on réussir sans ambition ?",
+    "decoy": "La satisfaction professionnelle dépend de l’environnement de travail."
+  },
+  {
+    "id": "faut_il_aimer_son_metier_pour_etre_heureux",
+    "subject": "Faut-il aimer son métier pour être heureux ?",
+    "decoy": "La rémunération n’est qu’un aspect du travail."
+  },
+  {
+    "id": "le_salaire_fait_il_la_motivation",
+    "subject": "Le salaire fait-il la motivation ?",
+    "decoy": "Les pauses permettent de récupérer de l’énergie."
+  },
+  {
+    "id": "les_pauses_au_travail_sont_elles_trop_nombreuses",
+    "subject": "Les pauses au travail sont-elles trop nombreuses ?",
+    "decoy": "Travailler dans un autre pays apporte une expérience différente."
+  },
+  {
+    "id": "travailler_a_l_etranger_est_il_toujours_une_bonne_idee",
+    "subject": "Travailler à l’étranger est-il toujours une bonne idée ?",
+    "decoy": "Les compétences pratiques complètent souvent les diplômes."
+  },
+  {
+    "id": "un_diplome_garantit_il_la_competence",
+    "subject": "Un diplôme garantit-il la compétence ?",
+    "decoy": "L’expérience professionnelle développe des compétences spécifiques."
+  },
+  {
+    "id": "l_experience_vaut_elle_plus_que_les_etudes",
+    "subject": "L’expérience vaut-elle plus que les études ?",
+    "decoy": "Les horaires flexibles changent l’organisation du travail."
+  },
+  {
+    "id": "les_horaires_flexibles_augmentent_ils_la_productivite",
+    "subject": "Les horaires flexibles augmentent-ils la productivité ?",
+    "decoy": "Les communications professionnelles débordent parfois sur le temps personnel."
+  },
+  {
+    "id": "faut_il_interdire_les_mails_professionnels_le_week_end",
+    "subject": "Faut-il interdire les mails professionnels le week-end ?",
+    "decoy": "Une passion transformée en travail change souvent la relation à celle-ci."
+  },
+  {
+    "id": "un_metier_passion_peut_il_devenir_un_poids",
+    "subject": "Un métier passion peut-il devenir un poids ?",
+    "decoy": "Les reconversions demandent souvent une période d’adaptation."
+  },
+  {
+    "id": "les_reconversions_professionnelles_sont_elles_risquees",
+    "subject": "Les reconversions professionnelles sont-elles risquées ?",
+    "decoy": "Les métiers utiles sont souvent définis par les besoins de la société."
+  },
+  {
+    "id": "faut_il_choisir_un_metier_utile_ou_rentable",
+    "subject": "Faut-il choisir un métier utile ou rentable ?",
+    "decoy": "La chance intervient parfois dans les trajectoires professionnelles."
+  },
+  {
+    "id": "la_reussite_est_elle_une_question_de_chance",
+    "subject": "La réussite est-elle une question de chance ?",
+    "decoy": "La richesse peut s’accompagner de responsabilités."
+  },
+  {
+    "id": "peut_on_etre_riche_et_ethique",
+    "subject": "Peut-on être riche et éthique ?",
+    "decoy": "Le chômage influence la perception sociale."
+  },
+  {
+    "id": "le_chomage_est_il_mal_percu_injustement",
+    "subject": "Le chômage est-il mal perçu injustement ?",
+    "decoy": "Créer une entreprise demande de prendre des risques."
+  },
+  {
+    "id": "les_jeunes_doivent_ils_creer_leur_entreprise",
+    "subject": "Les jeunes doivent-ils créer leur entreprise ?",
+    "decoy": "La réduction du temps de travail modifie l’organisation économique."
+  },
+  {
+    "id": "faut_il_reduire_la_semaine_de_travail_a_4_jours",
+    "subject": "Faut-il réduire la semaine de travail à 4 jours ?",
+    "decoy": "Les sensibilités sociales évoluent avec les époques."
+  },
+  {
+    "id": "la_societe_est_elle_trop_sensible_aujourd_hui",
+    "subject": "La société est-elle trop sensible aujourd’hui ?",
+    "decoy": "L’humour dépend du contexte culturel."
+  },
+  {
+    "id": "peut_on_rire_de_tout",
+    "subject": "Peut-on rire de tout ?",
+    "decoy": "La liberté d’expression soulève souvent des débats."
+  },
+  {
+    "id": "la_liberte_d_expression_a_t_elle_trop_de_limites",
+    "subject": "La liberté d’expression a-t-elle trop de limites ?",
+    "decoy": "Les limites de l’humour varient selon les sociétés."
+  },
+  {
+    "id": "faut_il_interdire_certaines_blagues",
+    "subject": "Faut-il interdire certaines blagues ?",
+    "decoy": "Les sociétés cherchent différentes formes d’équilibre."
+  },
+  {
+    "id": "l_egalite_parfaite_est_elle_possible",
+    "subject": "L’égalité parfaite est-elle possible ?",
+    "decoy": "Les traditions changent avec le temps."
+  },
+  {
+    "id": "les_traditions_doivent_elles_evoluer",
+    "subject": "Les traditions doivent-elles évoluer ?",
+    "decoy": "Les réussites individuelles influencent parfois les dynamiques collectives."
+  },
+  {
+    "id": "la_reussite_individuelle_prime_t_elle_sur_le_collectif",
+    "subject": "La réussite individuelle prime-t-elle sur le collectif ?",
+    "decoy": "Les lois évoluent selon les périodes historiques."
+  },
+  {
+    "id": "les_lois_sont_elles_toujours_justes",
+    "subject": "Les lois sont-elles toujours justes ?",
+    "decoy": "Les médias jouent un rôle dans la formation de l’opinion."
+  },
+  {
+    "id": "les_medias_influencent_ils_trop_l_opinion",
+    "subject": "Les médias influencent-ils trop l’opinion ?",
+    "decoy": "Les jugements sociaux apparaissent souvent dans la vie quotidienne."
+  },
+  {
+    "id": "peut_on_vivre_sans_juger_les_autres",
+    "subject": "Peut-on vivre sans juger les autres ?",
+    "decoy": "La compétition structure de nombreux systèmes."
+  },
+  {
+    "id": "la_competition_est_elle_necessaire",
+    "subject": "La compétition est-elle nécessaire ?",
+    "decoy": "Les réseaux sociaux amplifient certaines pressions sociales."
+  },
+  {
+    "id": "les_reseaux_sociaux_creent_ils_une_pression_sociale",
+    "subject": "Les réseaux sociaux créent-ils une pression sociale ?",
+    "decoy": "La solidarité prend différentes formes selon les sociétés."
+  },
+  {
+    "id": "la_solidarite_est_elle_en_baisse",
+    "subject": "La solidarité est-elle en baisse ?",
+    "decoy": "Le respect dépend souvent des comportements."
+  },
+  {
+    "id": "le_respect_se_merite_t_il_ou_s_impose_t_il",
+    "subject": "Le respect se mérite-t-il ou s’impose-t-il ?",
+    "decoy": "Les relations sociales accordent souvent de l’importance à l’apparence."
+  },
+  {
+    "id": "faut_il_aider_en_priorite_ses_proches",
+    "subject": "Faut-il aider en priorité ses proches ?",
+    "decoy": "Les systèmes éducatifs évoluent selon les époques."
+  },
+  {
+    "id": "la_societe_valorise_t_elle_trop_l_apparence",
+    "subject": "La société valorise-t-elle trop l’apparence ?",
+    "decoy": "Les débats publics reflètent souvent les tensions sociales."
+  },
+  {
+    "id": "l_education_doit_elle_etre_plus_stricte",
+    "subject": "L’éducation doit-elle être plus stricte ?",
+    "decoy": "La réussite peut être définie de multiples façons."
+  },
+  {
+    "id": "les_debats_publics_sont_ils_encore_constructifs",
+    "subject": "Les débats publics sont-ils encore constructifs ?",
+    "decoy": "Les souvenirs du passé influencent la perception du présent."
+  },
+  {
+    "id": "la_reussite_est_elle_mesuree_par_l_argent",
+    "subject": "La réussite est-elle mesurée par l’argent ?",
+    "decoy": "Les technologies modifient les habitudes humaines."
+  },
+  {
+    "id": "la_vie_etait_elle_plus_simple_avant",
+    "subject": "La vie était-elle plus simple avant ?",
+    "decoy": "Les robots posent des questions éthiques."
+  },
+  {
+    "id": "l_intelligence_artificielle_remplacera_t_elle_l_humain",
+    "subject": "L’intelligence artificielle remplacera-t-elle l’humain ?",
+    "decoy": "Les technologies numériques modifient les relations entre générations."
+  },
+  {
+    "id": "les_robots_doivent_ils_avoir_des_droits",
+    "subject": "Les robots doivent-ils avoir des droits ?",
+    "decoy": "Les outils numériques influencent la créativité."
+  },
+  {
+    "id": "le_numerique_isole_t_il_les_generations",
+    "subject": "Le numérique isole-t-il les générations ?",
+    "decoy": "Le télétravail modifie les interactions entre collègues."
+  },
+  {
+    "id": "les_ecrans_nuisent_ils_a_la_creativite",
+    "subject": "Les écrans nuisent-ils à la créativité ?",
+    "decoy": "Les technologies modernes changent les habitudes quotidiennes."
+  },
+  {
+    "id": "le_teletravail_affaiblit_il_le_lien_social",
+    "subject": "Le télétravail affaiblit-il le lien social ?",
+    "decoy": "Les périodes sans connexion permettent de se reposer mentalement."
+  },
+  {
+    "id": "la_technologie_simplifie_t_elle_vraiment_la_vie",
+    "subject": "La technologie simplifie-t-elle vraiment la vie ?",
+    "decoy": "Les smartphones occupent une place centrale dans la vie moderne."
+  },
+  {
+    "id": "faut_il_deconnecter_totalement_pendant_les_vacances",
+    "subject": "Faut-il déconnecter totalement pendant les vacances ?",
+    "decoy": "La protection des données personnelles devient un enjeu majeur."
+  },
+  {
+    "id": "les_smartphones_rendent_ils_dependants",
+    "subject": "Les smartphones rendent-ils dépendants ?",
+    "decoy": "Les évolutions technologiques créent de nouveaux défis sociaux."
+  },
+  {
+    "id": "les_donnees_personnelles_sont_elles_suffisamment_protegees",
+    "subject": "Les données personnelles sont-elles suffisamment protégées ?",
+    "decoy": "Les technologies immersives proposent de nouvelles expériences numériques."
+  },
+  {
+    "id": "le_futur_sera_t_il_plus_stressant",
+    "subject": "Le futur sera-t-il plus stressant ?",
+    "decoy": "Les jeux vidéo mobilisent des compétences variées."
+  },
+  {
+    "id": "la_realite_virtuelle_remplacera_t_elle_les_voyages",
+    "subject": "La réalité virtuelle remplacera-t-elle les voyages ?",
+    "decoy": "L’apprentissage de la programmation développe la logique."
+  },
+  {
+    "id": "les_jeux_video_developpent_ils_des_competences_utiles",
+    "subject": "Les jeux vidéo développent-ils des compétences utiles ?",
+    "decoy": "Les assistants vocaux facilitent certaines tâches quotidiennes."
+  },
+  {
+    "id": "les_assistants_vocaux_ecoutent_ils_trop",
+    "subject": "Les assistants vocaux écoutent-ils trop ?",
+    "decoy": "Les deepfakes soulèvent des questions sur la confiance dans l’information."
+  },
+  {
+    "id": "les_deepfakes_sont_ils_un_danger_majeur",
+    "subject": "Les deepfakes sont-ils un danger majeur ?",
+    "decoy": "Les technologies numériques influencent la capacité de concentration."
+  },
+  {
+    "id": "la_technologie_detruit_elle_l_attention",
+    "subject": "La technologie détruit-elle l’attention ?",
+    "decoy": "Les usages du téléphone varient selon l’âge."
+  },
+  {
+    "id": "faut_il_interdire_les_telephones_aux_moins_de_12_ans",
+    "subject": "Faut-il interdire les téléphones aux moins de 12 ans ?",
+    "decoy": "Les technologies d’intelligence artificielle soulèvent des questions de gouvernance."
+  },
+  {
+    "id": "l_ia_devrait_elle_etre_regulee_mondialement",
+    "subject": "L’IA devrait-elle être régulée mondialement ?",
+    "decoy": "Le progrès technologique transforme les modes de vie."
+  },
+  {
+    "id": "le_progres_technologique_est_il_toujours_positif",
+    "subject": "Le progrès technologique est-il toujours positif ?",
+    "decoy": "Les modèles économiques des réseaux sociaux évoluent."
+  },
+  {
+    "id": "les_reseaux_sociaux_devraient_ils_etre_payants",
+    "subject": "Les réseaux sociaux devraient-ils être payants ?",
+    "decoy": "Certaines situations demandent de mesurer ses paroles."
+  },
+  {
+    "id": "faut_il_toujours_dire_ce_que_l_on_pense",
+    "subject": "Faut-il toujours dire ce que l’on pense ?",
+    "decoy": "La gentillesse influence la qualité des relations sociales."
+  },
+  {
+    "id": "etre_gentil_est_il_une_faiblesse",
+    "subject": "Être gentil est-il une faiblesse ?",
+    "decoy": "Le silence peut apaiser certaines discussions."
+  },
+  {
+    "id": "le_silence_est_il_parfois_plus_puissant_que_les_mots",
+    "subject": "Le silence est-il parfois plus puissant que les mots ?",
+    "decoy": "Les regrets font partie de nombreuses expériences humaines."
+  },
+  {
+    "id": "changer_radicalement_de_vie_est_il_courageux_ou_imprudent",
+    "subject": "Changer radicalement de vie est-il courageux ou imprudent ?",
+    "decoy": "Changer de vie demande souvent une grande adaptation."
+  },
+  {
+    "id": "les_habitudes_rassurent_elles_ou_enferment_elles",
+    "subject": "Les habitudes rassurent-elles ou enferment-elles ?",
+    "decoy": "Les habitudes structurent le quotidien."
+  },
+  {
+    "id": "le_confort_rend_il_paresseux",
+    "subject": "Le confort rend-il paresseux ?",
+    "decoy": "Le confort influence les comportements."
+  },
+  {
+    "id": "faut_il_sortir_souvent_de_sa_zone_de_confort",
+    "subject": "Faut-il sortir souvent de sa zone de confort ?",
+    "decoy": "Les expériences nouvelles développent les compétences."
+  },
+  {
+    "id": "les_critiques_font_elles_grandir",
+    "subject": "Les critiques font-elles grandir ?",
+    "decoy": "Les critiques permettent d’identifier ses erreurs."
+  },
+  {
+    "id": "peut_on_etre_heureux_sans_objectifs",
+    "subject": "Peut-on être heureux sans objectifs ?",
+    "decoy": "Certaines personnes vivent sans objectifs précis."
+  },
+  {
+    "id": "les_reseaux_sociaux_faussent_ils_l_estime_de_soi",
+    "subject": "Les réseaux sociaux faussent-ils l’estime de soi ?",
+    "decoy": "Les réseaux sociaux exposent les individus à la comparaison."
+  },
+  {
+    "id": "le_minimalisme_rend_il_plus_libre",
+    "subject": "Le minimalisme rend-il plus libre ?",
+    "decoy": "Le minimalisme repose sur une réduction volontaire des possessions."
+  },
+  {
+    "id": "accumuler_des_souvenirs_est_il_plus_important_qu_accumuler_de_l_argent",
+    "subject": "Accumuler des souvenirs est-il plus important qu’accumuler de l’argent ?",
+    "decoy": "Les souvenirs restent souvent plus marquants que les objets matériels."
+  },
+  {
+    "id": "la_routine_est_elle_necessaire",
+    "subject": "La routine est-elle nécessaire ?",
+    "decoy": "La routine organise la vie quotidienne."
+  },
+  {
+    "id": "etre_spontane_est_il_risque",
+    "subject": "Être spontané est-il risqué ?",
+    "decoy": "Terminer un projet demande de la persévérance."
+  },
+  {
+    "id": "le_pardon_libere_t_il_toujours",
+    "subject": "Le pardon libère-t-il toujours ?",
+    "decoy": "La spontanéité peut conduire à des décisions imprévues."
+  },
+  {
+    "id": "les_secrets_protegent_ils_ou_detruisent_ils",
+    "subject": "Les secrets protègent-ils ou détruisent-ils ?",
+    "decoy": "Le pardon modifie les relations humaines."
+  },
+  {
+    "id": "peut_on_etre_ami_avec_quelqu_un_de_tres_different",
+    "subject": "Peut-on être ami avec quelqu’un de très différent ?",
+    "decoy": "Les secrets créent parfois de la distance."
+  },
+  {
+    "id": "les_compromis_sont_ils_essentiels_dans_la_vie",
+    "subject": "Les compromis sont-ils essentiels dans la vie ?",
+    "decoy": "Les différences enrichissent certaines amitiés."
+  },
+  {
+    "id": "l_amour_peut_il_survivre_sans_confiance_totale",
+    "subject": "L’amour peut-il survivre sans confiance totale ?",
+    "decoy": "Les compromis facilitent la coexistence."
+  },
+  {
+    "id": "faut_il_tout_partager_dans_un_couple_y_compris_ses_pensees_les_plus_somb",
+    "subject": "Faut-il tout partager dans un couple, y compris ses pensées les plus sombres ?",
+    "decoy": "La confiance se construit progressivement."
+  },
+  {
+    "id": "un_couple_doit_il_avoir_des_projets_communs_pour_durer",
+    "subject": "Un couple doit-il avoir des projets communs pour durer ?",
+    "decoy": "Les espaces personnels préservent l’équilibre du couple."
+  },
+  {
+    "id": "peut_on_aimer_quelqu_un_sans_l_admirer",
+    "subject": "Peut-on aimer quelqu’un sans l’admirer ?",
+    "decoy": "Les projets communs donnent une direction à une relation."
+  },
+  {
+    "id": "le_manque_de_communication_est_il_la_premiere_cause_des_ruptures",
+    "subject": "Le manque de communication est-il la première cause des ruptures ?",
+    "decoy": "L’admiration renforce parfois l’attachement."
+  },
+  {
+    "id": "peut_on_aimer_sincerement_apres_une_grosse_trahison",
+    "subject": "Peut-on aimer sincèrement après une grosse trahison ?",
+    "decoy": "Le dialogue évite de nombreux malentendus."
+  },
+  {
+    "id": "un_couple_peut_il_survivre_sans_intimite_physique",
+    "subject": "Un couple peut-il survivre sans intimité physique ?",
+    "decoy": "Les relations demandent des efforts réguliers."
+  },
+  {
+    "id": "la_routine_detruit_elle_forcement_le_desir",
+    "subject": "La routine détruit-elle forcément le désir ?",
+    "decoy": "Certaines personnes reconstruisent leur vie après des difficultés."
+  },
+  {
+    "id": "la_jalousie_est_elle_toujours_toxique",
+    "subject": "La jalousie est-elle toujours toxique ?",
+    "decoy": "L’intimité renforce la connexion entre partenaires."
+  },
+  {
+    "id": "regarder_le_telephone_de_son_sa_partenaire_est_il_inacceptable",
+    "subject": "Regarder le téléphone de son/sa partenaire est-il inacceptable ?",
+    "decoy": "La routine transforme l’intensité des relations."
+  },
+  {
+    "id": "peut_on_pardonner_une_infidelite_emotionnelle",
+    "subject": "Peut-on pardonner une infidélité émotionnelle ?",
+    "decoy": "La jalousie provoque souvent des tensions."
+  },
+  {
+    "id": "l_infidelite_detruit_elle_toujours_un_couple",
+    "subject": "L’infidélité détruit-elle toujours un couple ?",
+    "decoy": "Le respect de la vie privée renforce la confiance."
+  },
+  {
+    "id": "un_flirt_est_il_deja_une_trahison",
+    "subject": "Un flirt est-il déjà une trahison ?",
+    "decoy": "Les émotions varient selon les situations."
+  },
+  {
+    "id": "faut_il_avouer_une_faute_si_personne_ne_la_decouvrira",
+    "subject": "Faut-il avouer une faute si personne ne la découvrira ?",
+    "decoy": "Certaines relations résistent à des erreurs."
+  },
+  {
+    "id": "peut_on_rester_ami_avec_une_personne_avec_qui_on_a_trompe",
+    "subject": "Peut-on rester ami avec une personne avec qui on a trompé ?",
+    "decoy": "Les limites du flirt varient selon les couples."
+  },
+  {
+    "id": "un_couple_ouvert_peut_il_fonctionner_durablement",
+    "subject": "Un couple ouvert peut-il fonctionner durablement ?",
+    "decoy": "Reconnaître ses fautes demande du courage."
+  },
+  {
+    "id": "les_reseaux_sociaux_favorisent_ils_l_infidelite",
+    "subject": "Les réseaux sociaux favorisent-ils l’infidélité ?",
+    "decoy": "La confiance peut être fragile après une trahison."
+  },
+  {
+    "id": "le_mariage_est_il_encore_utile_aujourd_hui",
+    "subject": "Le mariage est-il encore utile aujourd’hui ?",
+    "decoy": "La fidélité dépend souvent des valeurs personnelles."
+  },
+  {
+    "id": "se_marier_par_tradition_est_il_une_mauvaise_raison",
+    "subject": "Se marier par tradition est-il une mauvaise raison ?",
+    "decoy": "Les relations ouvertes nécessitent des règles claires."
+  },
+  {
+    "id": "un_mariage_sans_amour_peut_il_fonctionner",
+    "subject": "Un mariage sans amour peut-il fonctionner ?",
+    "decoy": "Les réseaux sociaux rendent les relations plus visibles."
+  },
+  {
+    "id": "le_mariage_protege_t_il_vraiment_un_couple",
+    "subject": "Le mariage protège-t-il vraiment un couple ?",
+    "decoy": "Les institutions sociales évoluent avec le temps."
+  },
+  {
+    "id": "un_contrat_prenuptial_est_il_un_manque_de_confiance",
+    "subject": "Un contrat prénuptial est-il un manque de confiance ?",
+    "decoy": "Les traditions influencent parfois les décisions personnelles."
+  },
+  {
+    "id": "le_divorce_est_il_trop_banalise",
+    "subject": "Le divorce est-il trop banalisé ?",
+    "decoy": "Les mariages reposent aussi sur des engagements légaux."
+  },
+  {
+    "id": "peut_on_s_engager_pour_la_vie_a_20_ans",
+    "subject": "Peut-on s’engager pour la vie à 20 ans ?",
+    "decoy": "Les institutions familiales varient selon les cultures."
+  },
+  {
+    "id": "le_mariage_change_t_il_reellement_la_dynamique_d_un_couple",
+    "subject": "Le mariage change-t-il réellement la dynamique d’un couple ?",
+    "decoy": "Les accords prénuptiaux organisent certains aspects financiers."
+  },
+  {
+    "id": "faut_il_avoir_une_situation_stable_avant_d_avoir_un_enfant",
+    "subject": "Faut-il avoir une situation stable avant d’avoir un enfant ?",
+    "decoy": "Les séparations sont devenues plus fréquentes."
+  },
+  {
+    "id": "peut_on_etre_heureux_sans_vouloir_d_enfant",
+    "subject": "Peut-on être heureux sans vouloir d’enfant ?",
+    "decoy": "Les engagements précoces comportent parfois des incertitudes."
+  },
+  {
+    "id": "un_parent_doit_il_etre_strict_ou_comprehensif",
+    "subject": "Un parent doit-il être strict ou compréhensif ?",
+    "decoy": "Les mariages modifient certaines habitudes."
+  },
+  {
+    "id": "les_parents_doivent_ils_tout_sacrifier_pour_leurs_enfants",
+    "subject": "Les parents doivent-ils tout sacrifier pour leurs enfants ?",
+    "decoy": "Les relations durables prennent différentes formes."
+  },
+  {
+    "id": "peut_on_aimer_tous_ses_enfants_de_la_meme_facon",
+    "subject": "Peut-on aimer tous ses enfants de la même façon ?",
+    "decoy": "Les projets d’enfant influencent les décisions du couple."
+  },
+  {
+    "id": "faut_il_imposer_des_regles_strictes_aux_adolescents",
+    "subject": "Faut-il imposer des règles strictes aux adolescents ?",
+    "decoy": "Certaines personnes choisissent une vie sans parentalité."
+  },
+  {
+    "id": "les_ecrans_sont_ils_le_plus_grand_danger_pour_les_enfants",
+    "subject": "Les écrans sont-ils le plus grand danger pour les enfants ?",
+    "decoy": "L’autorité parentale donne un cadre aux enfants."
+  },
+  {
+    "id": "les_parents_doivent_ils_surveiller_les_reseaux_sociaux_de_leurs_enfants",
+    "subject": "Les parents doivent-ils surveiller les réseaux sociaux de leurs enfants ?",
+    "decoy": "Les parents doivent aussi préserver leur équilibre personnel."
+  },
+  {
+    "id": "l_education_doit_elle_etre_plus_severe_aujourd_hui",
+    "subject": "L’éducation doit-elle être plus sévère aujourd’hui ?",
+    "decoy": "Chaque enfant possède une personnalité différente."
+  },
+  {
+    "id": "les_grands_parents_doivent_ils_intervenir_dans_l_education",
+    "subject": "Les grands-parents doivent-ils intervenir dans l’éducation ?",
+    "decoy": "L’adolescence apporte de nouveaux défis éducatifs."
+  },
+  {
+    "id": "la_famille_doit_elle_passer_avant_tout",
+    "subject": "La famille doit-elle passer avant tout ?",
+    "decoy": "Les écrans occupent une place importante dans la jeunesse."
+  },
+  {
+    "id": "les_repas_de_famille_renforcent_ils_vraiment_les_liens",
+    "subject": "Les repas de famille renforcent-ils vraiment les liens ?",
+    "decoy": "Les parents surveillent souvent l’activité numérique."
+  },
+  {
+    "id": "peut_on_aimer_sa_famille_sans_l_apprecier",
+    "subject": "Peut-on aimer sa famille sans l’apprécier ?",
+    "decoy": "Les méthodes éducatives évoluent avec les générations."
+  },
+  {
+    "id": "les_secrets_de_famille_doivent_ils_toujours_etre_reveles",
+    "subject": "Les secrets de famille doivent-ils toujours être révélés ?",
+    "decoy": "Les grands-parents possèdent parfois un rôle consultatif."
+  },
+  {
+    "id": "faut_il_pardonner_a_un_parent_absent",
+    "subject": "Faut-il pardonner à un parent absent ?",
+    "decoy": "Certaines relations familiales deviennent difficiles."
+  },
+  {
+    "id": "la_famille_influence_t_elle_trop_nos_choix_amoureux",
+    "subject": "La famille influence-t-elle trop nos choix amoureux ?",
+    "decoy": "Les priorités familiales varient selon les individus."
+  },
+  {
+    "id": "peut_on_etre_heureux_loin_de_sa_famille",
+    "subject": "Peut-on être heureux loin de sa famille ?",
+    "decoy": "Les repas de famille créent des moments de partage."
+  },
+  {
+    "id": "les_traditions_familiales_sont_elles_importantes",
+    "subject": "Les traditions familiales sont-elles importantes ?",
+    "decoy": "Les relations familiales peuvent être complexes."
+  },
+  {
+    "id": "les_applications_de_rencontre_facilitent_elles_l_amour_ou_le_compliquent",
+    "subject": "Les applications de rencontre facilitent-elles l’amour ou le compliquent-elles ?",
+    "decoy": "Les secrets familiaux influencent les relations."
+  },
+  {
+    "id": "peut_on_tomber_amoureux_en_ligne",
+    "subject": "Peut-on tomber amoureux en ligne ?",
+    "decoy": "Le pardon familial demande parfois du temps."
+  },
+  {
+    "id": "les_reseaux_sociaux_fragilisent_ils_les_couples",
+    "subject": "Les réseaux sociaux fragilisent-ils les couples ?",
+    "decoy": "La famille influence parfois les choix sentimentaux."
+  },
+  {
+    "id": "publier_son_couple_en_ligne_est_il_une_bonne_idee",
+    "subject": "Publier son couple en ligne est-il une bonne idée ?",
+    "decoy": "Certaines personnes vivent loin de leur famille."
+  },
+  {
+    "id": "un_couple_doit_il_partager_ses_mots_de_passe",
+    "subject": "Un couple doit-il partager ses mots de passe ?",
+    "decoy": "Les traditions familiales donnent un sentiment d’appartenance."
+  },
+  {
+    "id": "les_attentes_amoureuses_sont_elles_trop_elevees_aujourd_hui",
+    "subject": "Les attentes amoureuses sont-elles trop élevées aujourd’hui ?",
+    "decoy": "Les rencontres en ligne ont changé la manière de se rencontrer."
+  },
+  {
+    "id": "le_romantisme_est_il_en_voie_de_disparition",
+    "subject": "Le romantisme est-il en voie de disparition ?",
+    "decoy": "Les relations numériques peuvent évoluer vers le réel."
+  },
+  {
+    "id": "les_relations_modernes_sont_elles_moins_solides_qu_avant",
+    "subject": "Les relations modernes sont-elles moins solides qu’avant ?",
+    "decoy": "Les relations à distance reposent sur la communication."
+  },
+  {
+    "id": "peut_on_aimer_sans_etiquette_officielle",
+    "subject": "Peut-on aimer sans étiquette officielle ?",
+    "decoy": "Les réseaux sociaux rendent les couples plus visibles."
+  },
+  {
+    "id": "les_opposes_s_attirent_ils_vraiment_sur_le_long_terme",
+    "subject": "Les opposés s’attirent-ils vraiment sur le long terme ?",
+    "decoy": "Partager sa vie privée en ligne expose la relation."
+  },
+  {
+    "id": "les_differences_religieuses_fragilisent_elles_un_couple",
+    "subject": "Les différences religieuses fragilisent-elles un couple ?",
+    "decoy": "Les questions de confidentialité apparaissent dans les relations."
+  },
+  {
+    "id": "les_differences_politiques_empechent_elles_l_amour",
+    "subject": "Les différences politiques empêchent-elles l’amour ?",
+    "decoy": "Les attentes amoureuses évoluent avec les générations."
+  }
+]

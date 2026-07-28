@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-framing-icons-v6';
+const CACHE_NAME = 'deb8-question-bases-v7';
 const APP_SHELL = [
   './',
   './index.html',
@@ -10,6 +10,7 @@ const APP_SHELL = [
   './assets/icons/apple-touch-icon-v2.png',
   './assets/icons/favicon-v2-32.png'
   ,'./css/screens.css'
+  ,'./js/00-question-bases.js'
   ,'./js/02-core-state-navigation.js'
   ,'./js/04-game-debate-duel-tf.js'
   ,'./js/06-multiplayer-debate-duel-tf.js'
@@ -17,6 +18,8 @@ const APP_SHELL = [
   ,'./js/09-firebase-online.js'
   ,'./js/11-audio-ambience.js'
   ,'./js/12-android-back-navigation.js'
+  ,'./data/true_false/questions.json'
+  ,'./data/imposteur/pairs.json'
 ];
 
 self.addEventListener('install', event => {

@@ -36,15 +36,11 @@
     "question": "Peut-on être populaire et rester authentique ?"
   },
   {
-    "id": "ado_10_15_ans_010",
-    "question": "Faut-il toujours dire ce qu’on pense ?"
-  },
-  {
     "id": "ado_10_15_ans_011",
     "question": "Les autres nous voient-ils vraiment comme on se voit ?"
   },
   {
-    "id": "ado_10_15_ans_012",
+    "id": "ado_10_15_ans_311",
     "question": "Peut-on être influencé sans s’en rendre compte ?"
   },
   {
@@ -436,10 +432,6 @@
     "question": "Est-ce que la jalousie est normale en amitié ?"
   },
   {
-    "id": "ado_10_15_ans_110",
-    "question": "Peut-on être ami avec quelqu’un de très différent ?"
-  },
-  {
     "id": "ado_10_15_ans_111",
     "question": "Faut-il dire à un ami qu’il a tort ?"
   },
@@ -612,11 +604,11 @@
     "question": "Une amitié peut-elle survivre à la popularité ?"
   },
   {
-    "id": "ado_10_15_ans_154",
+    "id": "ado_10_15_ans_197",
     "question": "Peut-on être ami avec quelqu’un qui nous dépasse ?"
   },
   {
-    "id": "ado_10_15_ans_155",
+    "id": "ado_10_15_ans_242",
     "question": "Faut-il choisir entre amour et amitié ?"
   },
   {
@@ -784,10 +776,6 @@
     "question": "Une amitié peut-elle survivre aux rumeurs ?"
   },
   {
-    "id": "ado_10_15_ans_197",
-    "question": "Peut-on être ami avec quelqu’un qui nous dépasse ?"
-  },
-  {
     "id": "ado_10_15_ans_198",
     "question": "Faut-il dire quand on se sent exclu ?"
   },
@@ -840,10 +828,6 @@
     "question": "Faut-il tout partager dans une relation ?"
   },
   {
-    "id": "ado_10_15_ans_211",
-    "question": "La jalousie est-elle une preuve d’amour ?"
-  },
-  {
     "id": "ado_10_15_ans_212",
     "question": "Peut-on aimer quelqu’un qui ne nous aime pas ?"
   },
@@ -854,10 +838,6 @@
   {
     "id": "ado_10_15_ans_214",
     "question": "L’amour rend-il plus fort ou plus fragile ?"
-  },
-  {
-    "id": "ado_10_15_ans_215",
-    "question": "Peut-on aimer deux personnes en même temps ?"
   },
   {
     "id": "ado_10_15_ans_216",
@@ -962,10 +942,6 @@
   {
     "id": "ado_10_15_ans_241",
     "question": "Peut-on aimer quelqu’un qui change beaucoup ?"
-  },
-  {
-    "id": "ado_10_15_ans_242",
-    "question": "Faut-il choisir entre amour et amitié ?"
   },
   {
     "id": "ado_10_15_ans_243",
@@ -1240,10 +1216,6 @@
     "question": "Les réseaux créent-ils plus de pression ?"
   },
   {
-    "id": "ado_10_15_ans_311",
-    "question": "Peut-on être influencé sans s’en rendre compte ?"
-  },
-  {
     "id": "ado_10_15_ans_312",
     "question": "Faut-il supprimer quelqu’un après une dispute ?"
   },
@@ -1268,10 +1240,6 @@
     "question": "Peut-on être différent en ligne et en vrai ?"
   },
   {
-    "id": "ado_10_15_ans_318",
-    "question": "Les influenceurs ont-ils trop de pouvoir ?"
-  },
-  {
     "id": "ado_10_15_ans_319",
     "question": "Faut-il poster pour exister ?"
   },
@@ -1294,10 +1262,6 @@
   {
     "id": "ado_10_15_ans_324",
     "question": "Peut-on être addict aux likes ?"
-  },
-  {
-    "id": "ado_10_15_ans_325",
-    "question": "Faut-il limiter son temps d’écran ?"
   },
   {
     "id": "ado_10_15_ans_326",
@@ -1436,7 +1400,7 @@
     "question": "Les réseaux peuvent-ils renforcer la confiance ?"
   },
   {
-    "id": "ado_10_15_ans_360",
+    "id": "ado_10_15_ans_572",
     "question": "Peut-on vivre sans réseaux sociaux ?"
   },
   {
@@ -1612,10 +1576,6 @@
     "question": "La pression scolaire est-elle trop forte ?"
   },
   {
-    "id": "ado_10_15_ans_404",
-    "question": "Les devoirs sont-ils vraiment utiles ?"
-  },
-  {
     "id": "ado_10_15_ans_405",
     "question": "Faut-il comparer ses notes aux autres ?"
   },
@@ -1660,7 +1620,7 @@
     "question": "Faut-il travailler dur ou intelligemment ?"
   },
   {
-    "id": "ado_10_15_ans_416",
+    "id": "ado_10_15_ans_492",
     "question": "Peut-on réussir en étant différent ?"
   },
   {
@@ -1754,10 +1714,6 @@
   {
     "id": "ado_10_15_ans_439",
     "question": "Les professeurs devraient-ils encourager plus que sanctionner ?"
-  },
-  {
-    "id": "ado_10_15_ans_440",
-    "question": "L’école prépare-t-elle vraiment à la vie ?"
   },
   {
     "id": "ado_10_15_ans_441",
@@ -1964,10 +1920,6 @@
     "question": "Faut-il accepter de ne pas tout maîtriser ?"
   },
   {
-    "id": "ado_10_15_ans_492",
-    "question": "Peut-on réussir en étant différent ?"
-  },
-  {
     "id": "ado_10_15_ans_493",
     "question": "L’école récompense-t-elle tous les talents ?"
   },
@@ -2036,20 +1988,12 @@
     "question": "Faut-il protéger la planète à tout prix ?"
   },
   {
-    "id": "ado_10_15_ans_510",
-    "question": "Les adultes comprennent-ils vraiment les ados ?"
-  },
-  {
     "id": "ado_10_15_ans_511",
     "question": "Les inégalités sont-elles injustes ou inévitables ?"
   },
   {
     "id": "ado_10_15_ans_512",
     "question": "Faut-il toujours respecter l’autorité ?"
-  },
-  {
-    "id": "ado_10_15_ans_513",
-    "question": "La liberté d’expression doit-elle avoir des limites ?"
   },
   {
     "id": "ado_10_15_ans_514",
@@ -2096,10 +2040,6 @@
     "question": "La planète est-elle en danger réel ?"
   },
   {
-    "id": "ado_10_15_ans_525",
-    "question": "Les jeunes ont-ils plus de pression qu’avant ?"
-  },
-  {
     "id": "ado_10_15_ans_526",
     "question": "La compétition rend-elle plus fort ?"
   },
@@ -2120,10 +2060,6 @@
     "question": "Peut-on changer le système ?"
   },
   {
-    "id": "ado_10_15_ans_531",
-    "question": "Les médias influencent-ils trop l’opinion ?"
-  },
-  {
     "id": "ado_10_15_ans_532",
     "question": "Faut-il être engagé pour faire la différence ?"
   },
@@ -2140,20 +2076,12 @@
     "question": "Peut-on faire confiance aux informations en ligne ?"
   },
   {
-    "id": "ado_10_15_ans_536",
-    "question": "La société valorise-t-elle trop l’apparence ?"
-  },
-  {
     "id": "ado_10_15_ans_537",
     "question": "Les jeunes devraient-ils avoir plus de pouvoir ?"
   },
   {
     "id": "ado_10_15_ans_538",
     "question": "Faut-il toujours suivre les lois ?"
-  },
-  {
-    "id": "ado_10_15_ans_539",
-    "question": "Le progrès est-il toujours positif ?"
   },
   {
     "id": "ado_10_15_ans_540",
@@ -2240,10 +2168,6 @@
     "question": "La société change-t-elle trop vite ?"
   },
   {
-    "id": "ado_10_15_ans_561",
-    "question": "Les traditions doivent-elles évoluer ?"
-  },
-  {
     "id": "ado_10_15_ans_562",
     "question": "Peut-on faire confiance aux influenceurs ?"
   },
@@ -2284,10 +2208,6 @@
     "question": "Les jeunes sont-ils plus conscients des problèmes mondiaux ?"
   },
   {
-    "id": "ado_10_15_ans_572",
-    "question": "Peut-on vivre sans réseaux sociaux ?"
-  },
-  {
     "id": "ado_10_15_ans_573",
     "question": "Faut-il prioriser l’écologie sur l’économie ?"
   },
@@ -2306,10 +2226,6 @@
   {
     "id": "ado_10_15_ans_577",
     "question": "Les jeunes sont-ils l’avenir réel ?"
-  },
-  {
-    "id": "ado_10_15_ans_578",
-    "question": "Faut-il toujours suivre la majorité ?"
   },
   {
     "id": "ado_10_15_ans_579",

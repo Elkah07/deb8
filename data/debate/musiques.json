@@ -92,15 +92,15 @@
     "question": "La variété française est-elle sous-estimée ?"
   },
   {
-    "id": "musiques_024",
+    "id": "musiques_306",
     "question": "Les artistes indépendants sont-ils plus authentiques ?"
   },
   {
-    "id": "musiques_025",
+    "id": "musiques_260",
     "question": "La musique actuelle manque-t-elle de profondeur ?"
   },
   {
-    "id": "musiques_026",
+    "id": "musiques_503",
     "question": "Les artistes doivent-ils s’engager politiquement ?"
   },
   {
@@ -140,7 +140,7 @@
     "question": "Le succès commercial définit-il le talent ?"
   },
   {
-    "id": "musiques_036",
+    "id": "musiques_371",
     "question": "Les artistes doivent-ils rester mystérieux ?"
   },
   {
@@ -196,7 +196,7 @@
     "question": "Les jeunes artistes respectent-ils assez les anciens ?"
   },
   {
-    "id": "musiques_050",
+    "id": "musiques_210",
     "question": "La musique actuelle est-elle trop rapide à consommer ?"
   },
   {
@@ -204,7 +204,7 @@
     "question": "Les artistes doivent-ils innover à chaque album ?"
   },
   {
-    "id": "musiques_052",
+    "id": "musiques_242",
     "question": "Les classiques sont-ils intouchables ?"
   },
   {
@@ -220,7 +220,7 @@
     "question": "La musique triste est-elle plus profonde ?"
   },
   {
-    "id": "musiques_056",
+    "id": "musiques_336",
     "question": "Les artistes doivent-ils rester fidèles à leur style ?"
   },
   {
@@ -236,7 +236,7 @@
     "question": "Les collaborations internationales enrichissent-elles la musique ?"
   },
   {
-    "id": "musiques_060",
+    "id": "musiques_323",
     "question": "Le public décide-t-il du talent ?"
   },
   {
@@ -244,7 +244,7 @@
     "question": "Les artistes doivent-ils être polyvalents ?"
   },
   {
-    "id": "musiques_062",
+    "id": "musiques_311",
     "question": "La musique est-elle devenue trop commerciale ?"
   },
   {
@@ -256,7 +256,7 @@
     "question": "Les artistes doivent-ils être engagés socialement ?"
   },
   {
-    "id": "musiques_065",
+    "id": "musiques_501",
     "question": "La musique influence-t-elle le comportement ?"
   },
   {
@@ -268,7 +268,7 @@
     "question": "Les labels contrôlent-ils trop la création ?"
   },
   {
-    "id": "musiques_068",
+    "id": "musiques_398",
     "question": "Le succès viral est-il durable ?"
   },
   {
@@ -296,7 +296,7 @@
     "question": "Les artistes doivent-ils répondre aux attentes des fans ?"
   },
   {
-    "id": "musiques_075",
+    "id": "musiques_390",
     "question": "La musique est-elle devenue jetable ?"
   },
   {
@@ -316,7 +316,7 @@
     "question": "Le talent brut vaut-il plus que la technique ?"
   },
   {
-    "id": "musiques_080",
+    "id": "musiques_317",
     "question": "Les artistes doivent-ils s’adapter aux tendances ?"
   },
   {
@@ -364,7 +364,7 @@
     "question": "Les artistes doivent-ils être des modèles ?"
   },
   {
-    "id": "musiques_092",
+    "id": "musiques_505",
     "question": "La musique rassemble-t-elle plus que la politique ?"
   },
   {
@@ -388,11 +388,11 @@
     "question": "Les artistes doivent-ils refuser certaines collaborations ?"
   },
   {
-    "id": "musiques_098",
+    "id": "musiques_502",
     "question": "La musique peut-elle changer une société ?"
   },
   {
-    "id": "musiques_099",
+    "id": "musiques_325",
     "question": "Les artistes doivent-ils viser l’international ?"
   },
   {
@@ -836,10 +836,6 @@
     "question": "La nostalgie embellit-elle le passé musical ?"
   },
   {
-    "id": "musiques_210",
-    "question": "La musique actuelle est-elle trop rapide à consommer ?"
-  },
-  {
     "id": "musiques_211",
     "question": "Avant YouTube, les artistes étaient-ils plus rares ?"
   },
@@ -876,7 +872,7 @@
     "question": "Les plateformes ont-elles tué le mystère des artistes ?"
   },
   {
-    "id": "musiques_220",
+    "id": "musiques_267",
     "question": "Les générations actuelles sont-elles trop critiques ?"
   },
   {
@@ -964,10 +960,6 @@
     "question": "Les artistes actuels sont-ils trop exposés ?"
   },
   {
-    "id": "musiques_242",
-    "question": "Les classiques sont-ils intouchables ?"
-  },
-  {
     "id": "musiques_243",
     "question": "La musique actuelle est-elle plus internationale ?"
   },
@@ -1036,10 +1028,6 @@
     "question": "Les classiques traversent-ils mieux le temps ?"
   },
   {
-    "id": "musiques_260",
-    "question": "La musique actuelle manque-t-elle de profondeur ?"
-  },
-  {
     "id": "musiques_261",
     "question": "Les artistes actuels ont-ils plus de pression ?"
   },
@@ -1062,10 +1050,6 @@
   {
     "id": "musiques_266",
     "question": "Les artistes d’avant avaient-ils plus d’impact culturel ?"
-  },
-  {
-    "id": "musiques_267",
-    "question": "Les générations actuelles sont-elles trop critiques ?"
   },
   {
     "id": "musiques_268",
@@ -1220,10 +1204,6 @@
     "question": "Le streaming a-t-il tué l’album ?"
   },
   {
-    "id": "musiques_306",
-    "question": "Les artistes indépendants sont-ils plus authentiques ?"
-  },
-  {
     "id": "musiques_307",
     "question": "Le buzz est-il devenu plus important que la qualité ?"
   },
@@ -1238,10 +1218,6 @@
   {
     "id": "musiques_310",
     "question": "Les labels fabriquent-ils les stars ?"
-  },
-  {
-    "id": "musiques_311",
-    "question": "La musique est-elle devenue trop commerciale ?"
   },
   {
     "id": "musiques_312",
@@ -1264,10 +1240,6 @@
     "question": "Le marketing est-il plus important que le talent ?"
   },
   {
-    "id": "musiques_317",
-    "question": "Les artistes doivent-ils s’adapter aux tendances ?"
-  },
-  {
     "id": "musiques_318",
     "question": "Les featurings sont-ils stratégiques plutôt qu’artistiques ?"
   },
@@ -1288,16 +1260,8 @@
     "question": "Les ghostwriters enlèvent-ils de la crédibilité ?"
   },
   {
-    "id": "musiques_323",
-    "question": "Le public décide-t-il du talent ?"
-  },
-  {
     "id": "musiques_324",
     "question": "Les chiffres définissent-ils la réussite ?"
-  },
-  {
-    "id": "musiques_325",
-    "question": "Les artistes doivent-ils viser l’international ?"
   },
   {
     "id": "musiques_326",
@@ -1338,10 +1302,6 @@
   {
     "id": "musiques_335",
     "question": "Le streaming a-t-il démocratisé la musique ?"
-  },
-  {
-    "id": "musiques_336",
-    "question": "Les artistes doivent-ils rester fidèles à leur style ?"
   },
   {
     "id": "musiques_337",
@@ -1480,10 +1440,6 @@
     "question": "La musique indépendante est-elle l’avenir ?"
   },
   {
-    "id": "musiques_371",
-    "question": "Les artistes doivent-ils rester mystérieux ?"
-  },
-  {
     "id": "musiques_372",
     "question": "Le marketing crée-t-il les tendances ?"
   },
@@ -1556,10 +1512,6 @@
     "question": "Le succès est-il devenu trop rapide ?"
   },
   {
-    "id": "musiques_390",
-    "question": "La musique est-elle devenue jetable ?"
-  },
-  {
     "id": "musiques_391",
     "question": "Les artistes doivent-ils maîtriser le business musical ?"
   },
@@ -1586,10 +1538,6 @@
   {
     "id": "musiques_397",
     "question": "Les artistes doivent-ils s’entourer d’une équipe forte ?"
-  },
-  {
-    "id": "musiques_398",
-    "question": "Le succès viral est-il durable ?"
   },
   {
     "id": "musiques_399",
@@ -2000,24 +1948,8 @@
     "question": "Qu’est-ce qui fait un concert inoubliable ?"
   },
   {
-    "id": "musiques_501",
-    "question": "La musique influence-t-elle le comportement ?"
-  },
-  {
-    "id": "musiques_502",
-    "question": "La musique peut-elle changer une société ?"
-  },
-  {
-    "id": "musiques_503",
-    "question": "Les artistes doivent-ils s’engager politiquement ?"
-  },
-  {
     "id": "musiques_504",
     "question": "Le rap reflète-t-il mieux la réalité sociale que les autres styles ?"
-  },
-  {
-    "id": "musiques_505",
-    "question": "La musique rassemble-t-elle plus que la politique ?"
   },
   {
     "id": "musiques_506",

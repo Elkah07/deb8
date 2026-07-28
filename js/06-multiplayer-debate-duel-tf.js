@@ -234,7 +234,8 @@ function previewMultiTF(myIdx) {
   pcount = 4
   multiTFState.myIdx = myIdx || 0
   multiTFState.players = playerNames.map(function(n,i){ var avs=['🦊','🐙','🐸','🦋']; return {name:n,av:avs[i]} })
-  multiTFState.questions = tfAllQuestions
+  var nb = (typeof settingVals !== 'undefined' && settingVals['nb_questions']) || 10
+  multiTFState.questions = shuffledQuestions(tfAllQuestions).slice(0, Math.min(nb, tfAllQuestions.length))
   multiTFState.qIdx = 0
   multiTFState.votes = {}
   multiTFState.myVote = null

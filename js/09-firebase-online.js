@@ -123,7 +123,7 @@ window.startOnlineGame=async function(){
   const game={status:'starting',mode:state.room.mode,startedAt:now(),hostId:state.user.uid,round:1,questionIndex:0,players:ordered.map(p=>({uid:p.uid,name:p.name,avatar:p.avatar})),revision:Date.now()};
   if(state.room.mode==='duel'){game.roles={[ordered[0].uid]:'pour',[ordered[1].uid]:'contre',[ordered[2].uid]:'arbitre'}}
   if(state.room.mode==='imp'){
-    const impIdx=Math.floor(Math.random()*ordered.length),subject=IMP_SUBJECTS[Math.floor(Math.random()*IMP_SUBJECTS.length)],decoy=IMP_DECOYS[Math.floor(Math.random()*IMP_DECOYS.length)];game.impostorUid=ordered[impIdx].uid;game.subject=subject;
+    const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*ordered.length),subject=pair.subject,decoy=pair.decoy;game.impostorUid=ordered[impIdx].uid;game.subject=subject;
     const updates={};ordered.forEach((p,i)=>updates['private/'+p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?decoy:subject,avatar:p.avatar,name:p.name});await state.roomRef.update(updates);
   }
   await state.roomRef.update({status:'playing',game,updatedAt:now()});

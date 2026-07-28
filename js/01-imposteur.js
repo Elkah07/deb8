@@ -1,19 +1,13 @@
 // Imposteur
-var IMP_SUBJECTS = [
-  "La peine de mort","La legalisation du cannabis","L'intelligence artificielle",
-  "Les reseaux sociaux","Le vegetarisme","L'energie nucleaire",
-  "Le revenu universel","La censure sur internet","Les jeux video violents","La semaine de 4 jours"
-]
-var IMP_DECOYS = [
-  "Les voyages dans l'espace","Le sport a l'ecole","Les chats vs les chiens",
-  "Le cinema vs les series","La sieste au travail","Les animaux de compagnie exotiques"
-]
+var IMP_SUBJECTS = DEB8_IMPOSTOR_PAIRS.map(function(pair){ return pair.subject })
+var IMP_DECOYS = DEB8_IMPOSTOR_PAIRS.map(function(pair){ return pair.decoy })
 var impState = {players:[], currentRoleIdx:0, revealed:false, currentSpeakerIdx:0, tourN:1}
 
 function initImp(){
   clearInterval(impTimerInt)
-  var subject = IMP_SUBJECTS[Math.floor(Math.random()*IMP_SUBJECTS.length)]
-  var decoy   = IMP_DECOYS[Math.floor(Math.random()*IMP_DECOYS.length)]
+  var pair = deb8RandomImpostorPair()
+  var subject = pair.subject
+  var decoy   = pair.decoy
   var impostorIdx = Math.floor(Math.random()*pcount)
   var allEmojis = ["\ud83e\udd8a","\ud83d\udc19","\ud83d\udc38","\ud83e\udd8b","\ud83d\udc3c","\ud83e\udd81","\ud83d\udc2f","\ud83e\udd84"]
   impState.players = []
@@ -286,8 +280,9 @@ function showImpReveal(){
 function startNextImpRound(){
   impState.tourN++
   // Re-init with new impostor
-  var subject = IMP_SUBJECTS[Math.floor(Math.random()*IMP_SUBJECTS.length)]
-  var decoy   = IMP_DECOYS[Math.floor(Math.random()*IMP_DECOYS.length)]
+  var pair = deb8RandomImpostorPair()
+  var subject = pair.subject
+  var decoy   = pair.decoy
   var impostorIdx = Math.floor(Math.random()*pcount)
   var allEmojis = ["\ud83e\udd8a","\ud83d\udc19","\ud83d\udc38","\ud83e\udd8b","\ud83d\udc3c","\ud83e\udd81","\ud83d\udc2f","\ud83e\udd84"]
   for(var i=0;i<impState.players.length;i++){

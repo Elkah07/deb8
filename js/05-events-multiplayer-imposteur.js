@@ -81,8 +81,9 @@ function launchMultiImp(isHost, playerIdx) {
 }
 
 function multiAssignRoles() {
-  var subject = IMP_SUBJECTS[Math.floor(Math.random() * IMP_SUBJECTS.length)]
-  var decoy = IMP_DECOYS[Math.floor(Math.random() * IMP_DECOYS.length)]
+  var pair = deb8RandomImpostorPair()
+  var subject = pair.subject
+  var decoy = pair.decoy
   var impostorIdx = Math.floor(Math.random() * multiImpState.players.length)
   multiImpState.impostorIdx = impostorIdx
   multiImpState.subject = subject

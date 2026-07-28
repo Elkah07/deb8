@@ -162,8 +162,9 @@ function skipDuelQuestion(){
 function skipImpQuestion(){
   clearInterval(impTimerInt)
   // Re-roll subjects
-  var subject = IMP_SUBJECTS[Math.floor(Math.random()*IMP_SUBJECTS.length)]
-  var decoy   = IMP_DECOYS[Math.floor(Math.random()*IMP_DECOYS.length)]
+  var pair = deb8RandomImpostorPair()
+  var subject = pair.subject
+  var decoy   = pair.decoy
   for(var i=0;i<impState.players.length;i++){
     if(impState.players[i].role==='impostor') impState.players[i].subject = decoy
     else { impState.players[i].subject = subject; impState.players[i].realSubject = subject }
