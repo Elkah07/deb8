@@ -94,6 +94,11 @@ function listenRoom(){
   state.roomRef.on('value',state.roomListener);
 }
 function players(){return Object.values(state.room?.players||{}).filter(p=>p.online!==false)}
+function onlineTFQuestionPool(){
+  const all=Array.isArray(window.tfAllQuestions)?window.tfAllQuestions:[];
+  const wanted=Math.max(4,Math.min(Number(window.settingVals?.nb_questions)||10,20));
+  return all.slice(0,wanted);
+}
 function renderLobby(){
   const room=state.room||{}, ps=players(), me=room.players?.[state.user.uid];
   document.getElementById('online-room-code').textContent=state.roomCode||'-----';
@@ -121,9 +126,14 @@ window.startOnlineGame=async function(){
   if(!state.isHost||!state.room?.mode)return;const ps=players(),meta=MODE_META[state.room.mode];if(ps.length<meta.min||!ps.every(p=>p.ready))return;
   const ordered=ps.sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
   const game={status:'starting',mode:state.room.mode,startedAt:now(),hostId:state.user.uid,round:1,questionIndex:0,players:ordered.map(p=>({uid:p.uid,name:p.name,avatar:p.avatar})),revision:Date.now()};
+  if(state.room.mode==='tf'){
+    const questions=onlineTFQuestionPool();
+    if(!questions.length){alert('Aucune question Vrai/Faux disponible.');return}
+    game.tf={questionIndex:0,question:questions[0],questions,votes:{},showResult:false,finished:false};
+  }
   if(state.room.mode==='duel'){game.roles={[ordered[0].uid]:'pour',[ordered[1].uid]:'contre',[ordered[2].uid]:'arbitre'}}
   if(state.room.mode==='imp'){
-    const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*ordered.length),subject=pair.subject,decoy=pair.decoy;game.impostorUid=ordered[impIdx].uid;game.subject=subject;
+    const impIdx=Math.floor(Math.random()*ordered.length),subject=IMP_SUBJECTS[Math.floor(Math.random()*IMP_SUBJECTS.length)],decoy=IMP_DECOYS[Math.floor(Math.random()*IMP_DECOYS.length)];game.impostorUid=ordered[impIdx].uid;game.subject=subject;
     const updates={};ordered.forEach((p,i)=>updates['private/'+p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?decoy:subject,avatar:p.avatar,name:p.name});await state.roomRef.update(updates);
   }
   await state.roomRef.update({status:'playing',game,updatedAt:now()});
@@ -132,7 +142,11 @@ function handleRoomState(){if(state.room?.status==='playing'&&state.room.game&&!
 async function launchOnlineMode(game){
   const ps=game.players||[],myIdx=Math.max(0,ps.findIndex(p=>p.uid===state.user.uid));pcount=ps.length;playerNames=ps.map(p=>p.name);devMode='multi';gameMode=game.mode;
   if(game.mode==='debate'){previewMultiDebate(state.isHost);syncDebate(game)}
-  else if(game.mode==='tf'){previewMultiTF(myIdx);syncTF(game)}
+  else if(game.mode==='tf'){
+    const tf=game.tf||{};
+    previewMultiTF(myIdx,ps,tf.questions||[]);
+    syncTF(game)
+  }
   else if(game.mode==='duel'){const role=game.roles?.[state.user.uid]||'pour';multiDuelState.players={pour:toPlayer(ps.find(p=>game.roles?.[p.uid]==='pour')),contre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='contre')),arbitre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='arbitre'))};previewMultiDuel(role);syncDuel(game)}
   else if(game.mode==='imp'){const priv=(await state.roomRef.child('private/'+state.user.uid).once('value')).val();launchFirebaseImpostor(game,priv,myIdx)}
 }
@@ -148,10 +162,16 @@ function syncTF(game){
   state.roomRef.child('game/tf').on('value',s=>{
     const v=s.val()||{}
     if(v.finished){clearInterval(multiTFState.timerInt);goToScreen('s-tf-end');return}
+    if(Array.isArray(v.questions)&&v.questions.length)multiTFState.questions=v.questions.slice()
     if(v.questionIndex!=null&&v.questionIndex!==multiTFState.qIdx){
       multiTFState.qIdx=v.questionIndex
       renderMultiTFScreen()
       goToScreen('s-multi-tf')
+    }
+    if(v.question&&multiTFState.questions[multiTFState.qIdx]!==v.question){
+      multiTFState.questions[multiTFState.qIdx]=v.question
+      const question=document.getElementById('mtf-question')
+      if(question)question.textContent=v.question
     }
     const onlineVotes=v.votes||{},indexed={}
     Object.keys(onlineVotes).forEach(uid=>{
@@ -162,6 +182,12 @@ function syncTF(game){
       if(dot){dot.style.background=onlineVotes[uid]==='vrai'?'#10B981':'#FF4D6D'}
     })
     multiTFState.votes[multiTFState.qIdx]=indexed
+    const participantIds=new Set((game.players||[]).map(p=>p.uid))
+    const validVoteCount=Object.keys(onlineVotes).filter(uid=>participantIds.has(uid)).length
+    if(state.isHost&&!v.showResult&&participantIds.size>0&&validVoteCount>=participantIds.size){
+      state.roomRef.child('game/tf/showResult').set(true)
+      return
+    }
     if(v.showResult){
       clearInterval(multiTFState.timerInt)
       finishMultiTFVote()
@@ -179,7 +205,9 @@ function syncTF(game){
     if(voteIcon)voteIcon.textContent=val==='vrai'?'✅':'❌'
     await state.roomRef.child('game/tf/votes/'+state.user.uid).set(val)
     const snap=await state.roomRef.child('game/tf/votes').once('value')
-    if(state.isHost&&Object.keys(snap.val()||{}).length>=players().length){
+    const participantIds=new Set((game.players||[]).map(p=>p.uid))
+    const validVoteCount=Object.keys(snap.val()||{}).filter(uid=>participantIds.has(uid)).length
+    if(state.isHost&&validVoteCount>=participantIds.size){
       setTimeout(()=>state.roomRef.child('game/tf/showResult').set(true),400)
     }
   }
@@ -187,12 +215,12 @@ function syncTF(game){
     if(!state.isHost)return
     const next=multiTFState.qIdx+1
     if(next>=multiTFState.questions.length){
-      await state.roomRef.child('game/tf').set({questionIndex:multiTFState.qIdx,votes:{},showResult:false,finished:true})
+      await state.roomRef.child('game/tf').update({questionIndex:multiTFState.qIdx,votes:{},showResult:false,finished:true})
     }else{
-      await state.roomRef.child('game/tf').set({questionIndex:next,votes:{},showResult:false,finished:false})
+      await state.roomRef.child('game/tf').update({questionIndex:next,question:multiTFState.questions[next],votes:{},showResult:false,finished:false})
     }
   }
-  if(state.isHost)state.roomRef.child('game/tf').set({questionIndex:0,votes:{},showResult:false,finished:false});
+  if(state.isHost&&!game.tf)state.roomRef.child('game/tf').set({questionIndex:0,question:multiTFState.questions[0],questions:multiTFState.questions,votes:{},showResult:false,finished:false});
 }
 function syncDuel(game){
   const pool=typeof getDuelQuestionPool==='function'?getDuelQuestionPool():[]

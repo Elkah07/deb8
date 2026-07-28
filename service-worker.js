@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-sound-pack-v11';
+const CACHE_NAME = 'deb8-multi-tf-sync-v12';
 const APP_SHELL = [
   './',
   './index.html',

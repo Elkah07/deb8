@@ -66,8 +66,6 @@ function previewMultiDuel(role) {
   multiDuelState.scores = {pour:0, contre:0}
   multiDuelState.speakersDone = []
   multiDuelState.timerSec = 45
-  var duelPool = typeof getDuelQuestionPool === 'function' ? getDuelQuestionPool() : tfAllQuestions
-  if(duelPool.length) multiDuelState.question = duelPool[Math.floor(Math.random()*duelPool.length)]
   renderMultiDuelScreen()
   var screenMap = {pour:'s-multi-duel-pour', contre:'s-multi-duel-contre', arbitre:'s-multi-duel-arb'}
   goToScreen(screenMap[role])
@@ -231,14 +229,23 @@ var multiTFState = {
 }
 var TF_MULTI_DURATION = 10
 
-function previewMultiTF(myIdx) {
-  playerNames = ['Alex','Léa','Sam','Zoé']
-  pcount = 4
-  multiTFState.myIdx = myIdx || 0
-  multiTFState.players = playerNames.map(function(n,i){ var avs=['🦊','🐙','🐸','🦋']; return {name:n,av:avs[i]} })
-  var nb = (typeof settingVals !== 'undefined' && settingVals['nb_questions']) || 10
-  var pool = typeof deb8SelectedTFQuestions === 'function' ? deb8SelectedTFQuestions() : tfAllQuestions
-  multiTFState.questions = shuffledQuestions(pool).slice(0, Math.min(nb, pool.length))
+function previewMultiTF(myIdx, onlinePlayers, sharedQuestions) {
+  var isOnlineGame = Array.isArray(onlinePlayers) && onlinePlayers.length > 0
+  if(isOnlineGame) {
+    multiTFState.players = onlinePlayers.map(function(p){
+      return {name:p.name || 'Joueur', av:p.avatar || '🙂', uid:p.uid}
+    })
+    playerNames = multiTFState.players.map(function(p){ return p.name })
+    pcount = multiTFState.players.length
+  } else {
+    playerNames = ['Alex','Léa','Sam','Zoé']
+    pcount = 4
+    multiTFState.players = playerNames.map(function(n,i){ var avs=['🦊','🐙','🐸','🦋']; return {name:n,av:avs[i]} })
+  }
+  multiTFState.myIdx = typeof myIdx === 'number' ? myIdx : 0
+  multiTFState.questions = Array.isArray(sharedQuestions) && sharedQuestions.length
+    ? sharedQuestions.slice()
+    : tfAllQuestions.slice()
   multiTFState.qIdx = 0
   multiTFState.votes = {}
   multiTFState.myVote = null
