@@ -135,7 +135,7 @@ window.toggleOnlineReady=async function(){if(!state.playerRef)return;const ready
 window.onlineSelectMode=async function(mode){if(!state.isHost||!MODE_META[mode])return;await state.roomRef.update({mode,updatedAt:now()})};
 window.copyOnlineCode=async function(){try{await navigator.clipboard.writeText(state.roomCode);setStatus('Code copié : '+state.roomCode)}catch(e){alert(state.roomCode)}};
 window.shareOnlineRoom=async function(){const url=location.origin+location.pathname+'?room='+state.roomCode;const data={title:'Rejoins ma partie Deb8',text:'Code Deb8 : '+state.roomCode,url};if(navigator.share)await navigator.share(data).catch(()=>{});else{await navigator.clipboard.writeText(url);setStatus('Lien copié')}};
-window.leaveOnlineRoom=async function(){try{if(state.playerRef)await state.playerRef.remove();if(state.isHost&&state.roomRef)await state.roomRef.remove()}catch(e){}cleanupRoomState();showScreen('s2')};
+window.leaveOnlineRoom=async function(){try{if(state.playerRef)await state.playerRef.remove();if(state.isHost&&state.roomRef){await Promise.all([state.db.ref('playerSecrets/'+state.roomCode).remove(),state.db.ref('hostSecrets/'+state.roomCode).remove(),state.roomRef.remove()])}}catch(e){}cleanupRoomState();showScreen('s2')};
 function clearGameBindings(){
   (state.gameBindings||[]).forEach(binding=>binding.ref.off('value',binding.callback));
   state.gameBindings=[];
@@ -171,9 +171,13 @@ window.startOnlineGame=async function(){
     game.duel={tour:1,totalTours:Math.min(questions.length,Math.max(3,Number(typeof settingVals!=='undefined'?settingVals.nb_questions:5)||5)),scores:{pour:0,contre:0},phase:'pour',phaseStartedAt:now(),duration:45,questionIndex:0,questions,question:questions[0],ballots:{},finished:false};
   }
   if(state.room.mode==='imp'){
-    const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*ordered.length),subject=pair.subject,decoy=pair.decoy;game.impostorUid=ordered[impIdx].uid;game.subject=subject;
+    const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*ordered.length),subject=pair.subject,decoy=pair.decoy;
     game.imp={round:1,totalRounds:Math.max(1,Number(typeof settingVals!=='undefined'?settingVals.nb_parties:3)||3),phase:'roles',duration:60,votes:{},finished:false};
-    const updates={};ordered.forEach((p,i)=>updates['private/'+p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?decoy:subject,avatar:p.avatar,name:p.name});await state.roomRef.update(updates);
+    const secrets={};ordered.forEach((p,i)=>secrets[p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?decoy:subject});
+    await Promise.all([
+      state.db.ref('playerSecrets/'+state.roomCode).set(secrets),
+      state.db.ref('hostSecrets/'+state.roomCode).set({impostorUid:ordered[impIdx].uid,subject,decoy})
+    ]);
   }
   await state.roomRef.update({status:'playing',game,updatedAt:now()});
 };
@@ -191,9 +195,13 @@ window.returnOnlineLobby=async function(){
   if(!state.roomRef){showScreen('s2');return}
   clearGameBindings()
   if(state.isHost){
-    const updates={status:'lobby',game:null,private:null,updatedAt:now()}
+    const updates={status:'lobby',game:null,updatedAt:now()}
     Object.keys(state.room?.players||{}).forEach(uid=>{updates['players/'+uid+'/ready']=false})
-    await state.roomRef.update(updates)
+    await Promise.all([
+      state.roomRef.update(updates),
+      state.db.ref('playerSecrets/'+state.roomCode).remove(),
+      state.db.ref('hostSecrets/'+state.roomCode).remove()
+    ])
   }else{
     state.launching=false;showScreen('s7')
   }
@@ -224,7 +232,7 @@ async function launchOnlineMode(game){
     previewMultiDuel(role);
     syncDuel(game)
   }
-  else if(game.mode==='imp'){const priv=(await state.roomRef.child('private/'+state.user.uid).once('value')).val();launchFirebaseImpostor(game,priv,myIdx)}
+  else if(game.mode==='imp'){const priv=(await state.db.ref('playerSecrets/'+state.roomCode+'/'+state.user.uid).once('value')).val();if(!priv)throw new Error('Ton rôle privé est indisponible.');launchFirebaseImpostor(game,priv,myIdx)}
 }
 function toPlayer(p){return {name:p?.name||'Joueur',av:p?.avatar||'🙂'}}
 
@@ -236,7 +244,7 @@ function syncDebate(game){
   multiDebState.totalQ=multiDebState.questions.length;
   bindGameValue(state.roomRef.child('game/debate'),async s=>{
     const d=s.val()||{};
-    if(d.finished){clearGameBindings();if(state.isHost)await state.roomRef.update({status:'lobby',game:null,private:null,updatedAt:now()});return}
+    if(d.finished){clearGameBindings();if(state.isHost)await state.roomRef.update({status:'lobby',game:null,updatedAt:now()});return}
     if(Array.isArray(d.questions)&&d.questions.length){
       multiDebState.questions=d.questions.map(q=>q.text||q);
       multiDebState.totalQ=multiDebState.questions.length;
@@ -331,7 +339,7 @@ function syncTF(game){
   if(state.isHost&&!game.tf)state.roomRef.child('game/tf').set({questionIndex:0,question:multiTFState.questions[0],questions:multiTFState.questions,votes:{},showResult:false,finished:false});
 }
 function syncDuel(game){
-  let timer=null,lastPhase='';
+  let timer=null,lastPhase='',finalizing=false;
   bindGameValue(state.roomRef.child('game/duel'),s=>{
     const d=s.val();if(!d)return
     multiDuelState.tour=d.tour||1
@@ -347,6 +355,14 @@ function syncDuel(game){
     if(statusContre){statusContre.textContent=phase==='contre'?'🎙️ C’est ton tour — argumente CONTRE !':phase==='verdict'?'⏳ L’arbitre tranche…':'⏳ Le camp POUR argumente…';statusContre.style.color=phase==='contre'?'#FF4D6D':'var(--muted)'}
     if(statusArb){statusArb.textContent=phase==='verdict'?'🏛️ Verdict !':'⏳ '+multiDuelState.players[phase]?.name+' argumente '+phase.toUpperCase()+'…'}
     const popup=document.getElementById('mda-vote-popup');if(popup)popup.style.display=phase==='verdict'&&multiDuelState.role==='arbitre'?'flex':'none'
+    if(state.isHost&&phase==='verdict'&&!finalizing){
+      const arbiterIds=(game.players||[]).filter(p=>game.roles?.[p.uid]==='arbitre').map(p=>p.uid)
+      const ballots=d.ballots||{},valid=arbiterIds.filter(uid=>ballots[uid]==='pour'||ballots[uid]==='contre')
+      if(arbiterIds.length&&valid.length===arbiterIds.length){
+        finalizing=true
+        finalizeDuelRound(arbiterIds).finally(()=>{finalizing=false})
+      }
+    }
     if(phase!==lastPhase){
       lastPhase=phase;clearInterval(timer)
       if(phase!=='verdict'){
@@ -366,22 +382,23 @@ function syncDuel(game){
     })
   }
   window.multiDuelNextSpeaker=advanceDuelPhase
-  window.multiArbVote=async function(winner){
-    if(multiDuelState.role!=='arbitre')return
-    const ref=state.roomRef.child('game/duel')
-    await ref.child('ballots/'+state.user.uid).set(winner)
-    const arbiterIds=(game.players||[]).filter(p=>game.roles?.[p.uid]==='arbitre').map(p=>p.uid)
-    await ref.transaction(d=>{
+  async function finalizeDuelRound(arbiterIds){
+    await state.roomRef.child('game/duel').transaction(d=>{
       if(!d||d.finished||d.phase!=='verdict')return d
-      const ballots=d.ballots||{},valid=arbiterIds.filter(uid=>ballots[uid])
+      const ballots=d.ballots||{},valid=arbiterIds.filter(uid=>ballots[uid]==='pour'||ballots[uid]==='contre')
       if(valid.length<arbiterIds.length)return d
       const pour=valid.filter(uid=>ballots[uid]==='pour').length,contre=valid.length-pour
-      const roundWinner=pour===contre?(valid[0]&&ballots[valid[0]]||'pour'):(pour>contre?'pour':'contre')
+      const roundWinner=pour===contre?ballots[valid[0]]:(pour>contre?'pour':'contre')
       d.scores=d.scores||{pour:0,contre:0};d.scores[roundWinner]=(d.scores[roundWinner]||0)+1
       d.tour=(d.tour||1)+1;d.finished=d.tour>(d.totalTours||5);d.ballots={}
       if(!d.finished){d.questionIndex=(d.questionIndex||0)+1;d.question=d.questions[d.questionIndex%d.questions.length];d.phase='pour';d.phaseStartedAt=now()}
       return d
     })
+  }
+  window.multiArbVote=async function(winner){
+    if(multiDuelState.role!=='arbitre')return
+    const ref=state.roomRef.child('game/duel')
+    await ref.child('ballots/'+state.user.uid).set(winner)
     const popup=document.getElementById('mda-vote-popup')
     if(popup)popup.style.display='none'
   };
@@ -389,7 +406,7 @@ function syncDuel(game){
 function launchFirebaseImpostor(game,priv,myIdx){
   let timer=null,lastPhase=''
   const playersByUid=game.players||[]
-  multiImpState.isHost=state.isHost;multiImpState.myPlayerIdx=myIdx;multiImpState.players=playersByUid.map((p,i)=>({uid:p.uid,name:p.name,av:p.avatar,role:i===myIdx?priv.role:'hidden',subject:i===myIdx?priv.subject:''}));multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===game.impostorUid);multiImpState.subject=game.subject;multiImpState.round=game.imp?.round||1;multiImpState.totalRounds=game.imp?.totalRounds||3;renderMultiPlayerScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player');
+  multiImpState.isHost=state.isHost;multiImpState.myPlayerIdx=myIdx;multiImpState.players=playersByUid.map((p,i)=>({uid:p.uid,name:p.name,av:p.avatar,role:i===myIdx?priv.role:'hidden',subject:i===myIdx?priv.subject:''}));multiImpState.impostorIdx=-1;multiImpState.subject='';multiImpState.round=game.imp?.round||1;multiImpState.totalRounds=game.imp?.totalRounds||3;renderMultiPlayerScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player');
   const oldToggle=window.toggleMultiRole;window.toggleMultiRole=function(){const me=multiImpState.players[myIdx];me.role=priv.role;me.subject=priv.subject;oldToggle()};
   bindGameValue(state.roomRef.child('game/imp'),async s=>{
     const d=s.val();if(!d)return
@@ -398,10 +415,9 @@ function launchFirebaseImpostor(game,priv,myIdx){
     if(d.phase!==lastPhase){
       lastPhase=d.phase;clearInterval(timer)
       if(d.phase==='roles'){
-        const [privateSnap,gameSnap]=await Promise.all([state.roomRef.child('private/'+state.user.uid).once('value'),state.roomRef.child('game').once('value')])
-        priv=privateSnap.val()||priv;const currentGame=gameSnap.val()||game
-        game.impostorUid=currentGame.impostorUid;game.subject=currentGame.subject
-        multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===game.impostorUid);multiImpState.subject=game.subject
+        const privateSnap=await state.db.ref('playerSecrets/'+state.roomCode+'/'+state.user.uid).once('value')
+        priv=privateSnap.val()||priv
+        multiImpState.impostorIdx=-1;multiImpState.subject=''
         const me=multiImpState.players[myIdx];if(me){me.role=priv.role;me.subject=priv.subject}
         multiImpState.myVote=null;renderMultiPlayerScreen();if(state.isHost)renderMultiHostScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player')
       }
@@ -414,9 +430,8 @@ function launchFirebaseImpostor(game,priv,myIdx){
       }
       if(d.phase==='vote'){multiImpState.myVote=d.votes?.[state.user.uid]||null;renderMultiSuspects();const list=document.getElementById('multi-suspects-list'),wait=document.getElementById('multi-voted-waiting');if(list)list.style.display=multiImpState.myVote?'none':'flex';if(wait)wait.style.display=multiImpState.myVote?'block':'none';goToScreen('s-multi-imp-vote')}
       if(d.phase==='reveal'||d.phase==='finished'){
-        const gameSnap=await state.roomRef.child('game').once('value'),currentGame=gameSnap.val()||game
-        multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===currentGame.impostorUid)
-        multiImpState.subject=currentGame.subject;multiImpState.decoy=d.revealDecoy||''
+        multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===d.revealImpostorUid)
+        multiImpState.subject=d.revealSubject||'';multiImpState.decoy=d.revealDecoy||''
         const imp=multiImpState.players[multiImpState.impostorIdx];if(imp){imp.role='impostor';imp.subject=d.revealDecoy||''}
         showMultiReveal()
         if(d.phase==='finished'){const next=document.getElementById('multi-next-round-btn');if(next)next.style.display='none'}
@@ -425,8 +440,8 @@ function launchFirebaseImpostor(game,priv,myIdx){
     const count=Object.keys(d.votes||{}).filter(uid=>playersByUid.some(p=>p.uid===uid)).length,total=playersByUid.length
     const counter=document.getElementById('multi-vote-count');if(counter)counter.textContent=count+' / '+total+' votes'
     if(state.isHost&&d.phase==='vote'&&count>=total){
-      const impPrivate=await state.roomRef.child('private/'+game.impostorUid).once('value')
-      await state.roomRef.child('game/imp').update({phase:'reveal',revealDecoy:impPrivate.val()?.subject||''})
+      const secret=(await state.db.ref('hostSecrets/'+state.roomCode).once('value')).val()
+      if(secret)await state.roomRef.child('game/imp').update({phase:'reveal',revealImpostorUid:secret.impostorUid,revealSubject:secret.subject,revealDecoy:secret.decoy})
     }
   })
   window.multiHostLaunchDebate=async function(){if(state.isHost)await state.roomRef.child('game/imp').update({phase:'debate',startedAt:now(),votes:{}})}
@@ -441,11 +456,12 @@ function launchFirebaseImpostor(game,priv,myIdx){
     const snap=await state.roomRef.child('game/imp').once('value'),d=snap.val()||{}
     if((d.round||1)>=(d.totalRounds||3)){await state.roomRef.child('game/imp/phase').set('finished');return}
     const pair=deb8RandomImpostorPair(),impIdx=Math.floor(Math.random()*playersByUid.length),updates={}
-    game.impostorUid=playersByUid[impIdx].uid;game.subject=pair.subject
-    playersByUid.forEach((p,i)=>{updates['private/'+p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?pair.decoy:pair.subject,avatar:p.avatar,name:p.name}})
-    updates['game/impostorUid']=game.impostorUid;updates['game/subject']=pair.subject
-    updates['game/imp']={round:(d.round||1)+1,totalRounds:d.totalRounds||3,phase:'roles',duration:d.duration||60,votes:{},finished:false}
-    await state.roomRef.update(updates)
+    playersByUid.forEach((p,i)=>{updates[p.uid]={role:i===impIdx?'impostor':'normal',subject:i===impIdx?pair.decoy:pair.subject}})
+    await Promise.all([
+      state.db.ref('playerSecrets/'+state.roomCode).set(updates),
+      state.db.ref('hostSecrets/'+state.roomCode).set({impostorUid:playersByUid[impIdx].uid,subject:pair.subject,decoy:pair.decoy}),
+      state.roomRef.child('game/imp').set({round:(d.round||1)+1,totalRounds:d.totalRounds||3,phase:'roles',duration:d.duration||60,votes:{},finished:false})
+    ])
   }
 }
 

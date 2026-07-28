@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-audit-complet-v15';
+const CACHE_NAME = 'deb8-security-final-v16';
 const APP_SHELL = [
   './',
   './index.html',
@@ -39,6 +39,16 @@ const APP_SHELL = [
   ,'./assets/sounds/lose.ogg'
   ,'./data/true_false/questions.json'
   ,'./data/imposteur/pairs.json'
+  ,'./data/debate/ado_10_15_ans.json'
+  ,'./data/debate/classiques.json'
+  ,'./data/debate/dessins_animes.json'
+  ,'./data/debate/drole.json'
+  ,'./data/debate/enfants_5_10_ans.json'
+  ,'./data/debate/famille.json'
+  ,'./data/debate/musiques.json'
+  ,'./data/debate/philo.json'
+  ,'./data/debate/politique.json'
+  ,'./data/debate/super_heros.json'
 ];
 
 self.addEventListener('install', event => {

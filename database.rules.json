@@ -21,7 +21,7 @@
             "votes": {
               "$uid": {
                 ".write": "auth != null && auth.uid == $uid && root.child('rooms').child($code).child('players').child($uid).exists()",
-                ".validate": "newData.val() == 'vrai' || newData.val() == 'faux'"
+                ".validate": "!newData.exists() || newData.val() == 'vrai' || newData.val() == 'faux'"
               }
             }
           },
@@ -29,24 +29,36 @@
             "ballots": {
               "$uid": {
                 ".write": "auth != null && auth.uid == $uid && root.child('rooms').child($code).child('game').child('roles').child($uid).val() == 'arbitre'",
-                ".validate": "newData.val() == 'pour' || newData.val() == 'contre'"
+                ".validate": "!newData.exists() || newData.val() == 'pour' || newData.val() == 'contre'"
               }
             }
           },
           "imp": {
             "votes": {
               "$uid": {
-                ".write": "auth != null && auth.uid == $uid && root.child('rooms').child($code).child('players').child($uid).exists() && newData.val() != $uid"
+                ".write": "auth != null && auth.uid == $uid && root.child('rooms').child($code).child('players').child($uid).exists()",
+                ".validate": "!newData.exists() || (newData.isString() && newData.val() != $uid && root.child('rooms').child($code).child('players').child(newData.val()).exists())"
               }
             }
           }
-        },
-        "private": {
-          "$uid": {
-            ".read": "auth != null && (auth.uid == $uid || root.child('rooms').child($code).child('hostId').val() == auth.uid)",
-            ".write": "auth != null && root.child('rooms').child($code).child('hostId').val() == auth.uid"
-          }
         }
+      }
+    },
+    "playerSecrets": {
+      "$code": {
+        ".write": "auth != null && root.child('rooms').child($code).child('hostId').val() == auth.uid",
+        "$uid": {
+          ".read": "auth != null && auth.uid == $uid && root.child('rooms').child($code).child('players').child($uid).exists()",
+          ".write": "auth != null && root.child('rooms').child($code).child('hostId').val() == auth.uid",
+          ".validate": "!newData.exists() || newData.hasChildren(['role','subject'])"
+        }
+      }
+    },
+    "hostSecrets": {
+      "$code": {
+        ".read": "auth != null && root.child('rooms').child($code).child('hostId').val() == auth.uid",
+        ".write": "auth != null && root.child('rooms').child($code).child('hostId').val() == auth.uid",
+        ".validate": "!newData.exists() || newData.hasChildren(['impostorUid','subject','decoy'])"
       }
     }
   }

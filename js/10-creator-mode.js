@@ -373,6 +373,42 @@
   window.addEventListener('online', refreshCreatorStatus);
   window.addEventListener('offline', refreshCreatorStatus);
 
+  // Aperçus du mode créateur : fonctions autonomes, sans lancer une vraie partie.
+  window.showPodium = window.showPodium || function(){
+    closeCreatorPanel();
+    if(typeof showDuelPodium === 'function' && typeof duelState !== 'undefined' && duelState.players){
+      showDuelPodium();
+      return;
+    }
+    creatorGoToScreen('s-podium');
+  };
+
+  window.previewFinalRound = window.previewFinalRound || function(){
+    closeCreatorPanel();
+    var defaults = {
+      pour:{name:'Joueur POUR',av:'🦊'},
+      contre:{name:'Joueur CONTRE',av:'🐙'}
+    };
+    var current = (typeof duelState !== 'undefined' && duelState.players) ? duelState.players : defaults;
+    var set = function(id,value){ var el=document.getElementById(id); if(el) el.textContent=value; };
+    set('final-name-pour',(current.pour||defaults.pour).name);
+    set('final-av-pour',(current.pour||defaults.pour).av);
+    set('final-name-contre',(current.contre||defaults.contre).name);
+    set('final-av-contre',(current.contre||defaults.contre).av);
+    set('final-timer','45');
+    creatorGoToScreen('s-duel-final');
+  };
+
+  window.showTFDebatePreview = window.showTFDebatePreview || function(){
+    closeCreatorPanel();
+    var set = function(id,value){ var el=document.getElementById(id); if(el) el.textContent=value; };
+    set('tf-deb-num','1'); set('tf-deb-total','1');
+    set('tf-deb-question','Les réseaux sociaux rapprochent-ils vraiment les gens ?');
+    set('tf-deb-p1-name','Joueur 1'); set('tf-deb-p1-av','🦊'); set('tf-deb-p1-vote','VRAI ✅');
+    set('tf-deb-p2-name','Joueur 2'); set('tf-deb-p2-av','🐙'); set('tf-deb-p2-vote','FAUX ❌');
+    creatorGoToScreen('s-tf-debate');
+  };
+
   function initCreatorMode(){
     addCreatorSetting();
     buildCreatorUI();
