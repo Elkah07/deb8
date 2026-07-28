@@ -54,6 +54,7 @@ var multiDuelState = {
   tour: 1, totalTours: 5,
   scores: {pour:0, contre:0},
   players: {pour:{name:'Alex',av:'🦊'}, contre:{name:'Léa',av:'🐙'}, arbitre:{name:'Sam',av:'🐸'}},
+  arbiters: [],
   question: 'Le télétravail devrait être la norme.',
   speakersDone: [],
   timerInt: null, timerSec: 45,
@@ -106,6 +107,17 @@ function renderMultiArbScreen() {
   if(st){ st.textContent = '⏳ '+p.pour.name+' argumente POUR…' }
   var sd = document.getElementById('mda-score-display')
   if(sd){ sd.textContent = p.pour.name+' '+multiDuelState.scores.pour+' — '+p.contre.name+' '+multiDuelState.scores.contre }
+  var arbLabel = document.getElementById('mda-arbiters-label')
+  if(!arbLabel) {
+    arbLabel = document.createElement('div')
+    arbLabel.id = 'mda-arbiters-label'
+    arbLabel.style.cssText = 'font-size:11px;color:var(--muted);text-align:center;margin-top:6px'
+    if(sd && sd.parentNode) sd.parentNode.insertBefore(arbLabel, sd.nextSibling)
+  }
+  var arbiters = multiDuelState.arbiters || []
+  if(arbLabel) arbLabel.textContent = arbiters.length > 1
+    ? 'Arbitres : ' + arbiters.map(function(a){ return a.av + ' ' + a.name }).join(' · ')
+    : ''
 }
 
 function startMultiDuelTimer(role) {

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-solo-launch-v13';
+const CACHE_NAME = 'deb8-audit-complet-v15';
 const APP_SHELL = [
   './',
   './index.html',
@@ -10,12 +10,23 @@ const APP_SHELL = [
   './assets/icons/apple-touch-icon-v2.png',
   './assets/icons/favicon-v2-32.png'
   ,'./css/screens.css'
+  ,'./css/base.css'
+  ,'./css/game.css'
+  ,'./css/layout.css'
+  ,'./css/light-mode.css'
+  ,'./css/podium.css'
+  ,'./css/shop-settings.css'
   ,'./js/00-question-bases.js'
+  ,'./js/01-imposteur.js'
   ,'./js/02-core-state-navigation.js'
+  ,'./js/03-shop-legal.js'
   ,'./js/04-game-debate-duel-tf.js'
+  ,'./js/05-events-multiplayer-imposteur.js'
   ,'./js/06-multiplayer-debate-duel-tf.js'
   ,'./js/07-vocal-proximity-teams.js'
+  ,'./js/08-team-game-final.js'
   ,'./js/09-firebase-online.js'
+  ,'./js/10-creator-mode.js'
   ,'./js/11-audio-ambience.js'
   ,'./js/12-android-back-navigation.js'
   ,'./assets/sounds/tap.ogg'

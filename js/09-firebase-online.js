@@ -19,7 +19,7 @@ const MODE_META={
   tf:{label:'Vrai / Faux',icon:'✅',min:2},
   imp:{label:'Imposteur',icon:'🕵️',min:3}
 };
-const state={app:null,auth:null,db:null,user:null,profile:null,roomCode:null,room:null,isHost:false,roomRef:null,playerRef:null,roomListener:null,selectedAvatar:'🦊',launching:false};
+const state={app:null,auth:null,db:null,user:null,profile:null,roomCode:null,room:null,isHost:false,roomRef:null,playerRef:null,roomListener:null,gameBindings:[],selectedAvatar:'🦊',launching:false};
 
 function setStatus(msg){const e=document.getElementById('online-connection-status');if(e)e.textContent=msg||''}
 function setError(msg){const e=document.getElementById('online-entry-error');if(e)e.textContent=msg||''}
@@ -75,9 +75,11 @@ window.joinOnlineRoom=async function(){
   setError('');try{
     await ensureFirebase();state.profile=state.profile||loadProfile();if(!state.profile)return openOnlineFlow();
     const code=normalizeCode(document.getElementById('online-join-code')?.value);if(code.length!==5)throw new Error('Entre le code à 5 caractères.');
-    const ref=state.db.ref('rooms/'+code),snap=await ref.once('value');if(!snap.exists())throw new Error('Cette partie est introuvable.');
-    const room=snap.val();if(room.status!=='lobby')throw new Error('Cette partie a déjà commencé.');
-    state.roomCode=code;state.roomRef=ref;state.isHost=room.hostId===state.user.uid;
+    const ref=state.db.ref('rooms/'+code);
+    const [statusSnap,hostSnap]=await Promise.all([ref.child('status').once('value'),ref.child('hostId').once('value')]);
+    if(!statusSnap.exists())throw new Error('Cette partie est introuvable.');
+    if(statusSnap.val()!=='lobby')throw new Error('Cette partie a déjà commencé.');
+    state.roomCode=code;state.roomRef=ref;state.isHost=hostSnap.val()===state.user.uid;
     await joinPlayerRecord(state.isHost);listenRoom();showScreen('s7');
   }catch(e){setError(e.message)}
 };
@@ -134,10 +136,19 @@ window.onlineSelectMode=async function(mode){if(!state.isHost||!MODE_META[mode])
 window.copyOnlineCode=async function(){try{await navigator.clipboard.writeText(state.roomCode);setStatus('Code copié : '+state.roomCode)}catch(e){alert(state.roomCode)}};
 window.shareOnlineRoom=async function(){const url=location.origin+location.pathname+'?room='+state.roomCode;const data={title:'Rejoins ma partie Deb8',text:'Code Deb8 : '+state.roomCode,url};if(navigator.share)await navigator.share(data).catch(()=>{});else{await navigator.clipboard.writeText(url);setStatus('Lien copié')}};
 window.leaveOnlineRoom=async function(){try{if(state.playerRef)await state.playerRef.remove();if(state.isHost&&state.roomRef)await state.roomRef.remove()}catch(e){}cleanupRoomState();showScreen('s2')};
-function cleanupRoomState(){if(state.roomRef&&state.roomListener)state.roomRef.off('value',state.roomListener);Object.assign(state,{roomCode:null,room:null,isHost:false,roomRef:null,playerRef:null,roomListener:null,launching:false})}
+function clearGameBindings(){
+  (state.gameBindings||[]).forEach(binding=>binding.ref.off('value',binding.callback));
+  state.gameBindings=[];
+  if(typeof multiTFState!=='undefined')clearInterval(multiTFState.timerInt);
+  if(typeof multiDuelState!=='undefined')clearInterval(multiDuelState.timerInt);
+  if(typeof multiImpState!=='undefined')clearInterval(multiImpState.timerInt);
+}
+function bindGameValue(ref,callback){ref.on('value',callback);state.gameBindings.push({ref,callback})}
+function cleanupRoomState(){clearGameBindings();if(state.roomRef&&state.roomListener)state.roomRef.off('value',state.roomListener);Object.assign(state,{roomCode:null,room:null,isHost:false,roomRef:null,playerRef:null,roomListener:null,gameBindings:[],launching:false})}
 
 window.startOnlineGame=async function(){
   if(!state.isHost||!state.room?.mode)return;const ps=players(),meta=MODE_META[state.room.mode];if(ps.length<meta.min||!ps.every(p=>p.ready))return;
+  clearGameBindings();
   const ordered=ps.slice().sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
   const game={status:'starting',mode:state.room.mode,startedAt:now(),hostId:state.user.uid,round:1,questionIndex:0,players:ordered.map(p=>({uid:p.uid,name:p.name,avatar:p.avatar})),revision:Date.now()};
   if(state.room.mode==='debate'){
@@ -166,16 +177,53 @@ window.startOnlineGame=async function(){
   }
   await state.roomRef.update({status:'playing',game,updatedAt:now()});
 };
-function handleRoomState(){if(state.room?.status==='playing'&&state.room.game&&!state.launching){state.launching=true;launchOnlineMode(state.room.game).catch(e=>{state.launching=false;alert('Lancement : '+e.message)})}}
+function handleRoomState(){
+  if(state.room?.status==='playing'&&state.room.game&&!state.launching){
+    state.launching=true;
+    launchOnlineMode(state.room.game).catch(e=>{state.launching=false;alert('Lancement : '+e.message)})
+    return
+  }
+  if(state.room?.status==='lobby'&&state.launching){
+    clearGameBindings();state.launching=false;showScreen('s7')
+  }
+}
+window.returnOnlineLobby=async function(){
+  if(!state.roomRef){showScreen('s2');return}
+  clearGameBindings()
+  if(state.isHost){
+    const updates={status:'lobby',game:null,private:null,updatedAt:now()}
+    Object.keys(state.room?.players||{}).forEach(uid=>{updates['players/'+uid+'/ready']=false})
+    await state.roomRef.update(updates)
+  }else{
+    state.launching=false;showScreen('s7')
+  }
+}
 async function launchOnlineMode(game){
   const ps=game.players||[],myIdx=Math.max(0,ps.findIndex(p=>p.uid===state.user.uid));pcount=ps.length;playerNames=ps.map(p=>p.name);devMode='multi';gameMode=game.mode;
-  if(game.mode==='debate'){previewMultiDebate(state.isHost);syncDebate(game)}
+  if(game.mode==='debate'){
+    multiDebState.isHost=state.isHost;
+    multiDebState.myIdx=myIdx;
+    multiDebState.players=ps.map(p=>({uid:p.uid,name:p.name,av:p.avatar}));
+    multiDebState.questions=(game.debate?.questions||[]).map(q=>q.text||q);
+    multiDebState.qIdx=0;
+    multiDebState.totalQ=multiDebState.questions.length;
+    renderMultiDebateScreen();
+    goToScreen('s-multi-debate');
+    syncDebate(game)
+  }
   else if(game.mode==='tf'){
     const tf=game.tf||{};
     previewMultiTF(myIdx,ps,tf.questions||[]);
     syncTF(game)
   }
-  else if(game.mode==='duel'){const role=game.roles?.[state.user.uid]||'arbitre';multiDuelState.players={pour:toPlayer(ps.find(p=>game.roles?.[p.uid]==='pour')),contre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='contre')),arbitre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='arbitre'))};previewMultiDuel(role);syncDuel(game)}
+  else if(game.mode==='duel'){
+    const role=game.roles?.[state.user.uid]||'arbitre';
+    const arbiters=ps.filter(p=>game.roles?.[p.uid]==='arbitre').map(toPlayer);
+    multiDuelState.players={pour:toPlayer(ps.find(p=>game.roles?.[p.uid]==='pour')),contre:toPlayer(ps.find(p=>game.roles?.[p.uid]==='contre')),arbitre:arbiters[0]||toPlayer(null)};
+    multiDuelState.arbiters=arbiters;
+    previewMultiDuel(role);
+    syncDuel(game)
+  }
   else if(game.mode==='imp'){const priv=(await state.roomRef.child('private/'+state.user.uid).once('value')).val();launchFirebaseImpostor(game,priv,myIdx)}
 }
 function toPlayer(p){return {name:p?.name||'Joueur',av:p?.avatar||'🙂'}}
@@ -186,9 +234,9 @@ function syncDebate(game){
   multiDebState.players=(game.players||[]).map(p=>({name:p.name,av:p.avatar}));
   multiDebState.questions=(initial.questions||[]).map(q=>q.text||q);
   multiDebState.totalQ=multiDebState.questions.length;
-  state.roomRef.child('game/debate').on('value',s=>{
+  bindGameValue(state.roomRef.child('game/debate'),async s=>{
     const d=s.val()||{};
-    if(d.finished){if(typeof go==='function')go(1);return}
+    if(d.finished){clearGameBindings();if(state.isHost)await state.roomRef.update({status:'lobby',game:null,private:null,updatedAt:now()});return}
     if(Array.isArray(d.questions)&&d.questions.length){
       multiDebState.questions=d.questions.map(q=>q.text||q);
       multiDebState.totalQ=multiDebState.questions.length;
@@ -215,9 +263,13 @@ function syncDebate(game){
 }
 function syncTF(game){
   clearInterval(multiTFState.timerInt)
-  state.roomRef.child('game/tf').on('value',s=>{
+  bindGameValue(state.roomRef.child('game/tf'),s=>{
     const v=s.val()||{}
-    if(v.finished){clearInterval(multiTFState.timerInt);goToScreen('s-tf-end');return}
+    if(v.finished){
+      clearInterval(multiTFState.timerInt);goToScreen('s-tf-end');
+      const restart=document.querySelector('#s-tf-end [data-oc="go(1)"]');if(restart)restart.setAttribute('data-oc','returnOnlineLobby()');
+      return
+    }
     if(Array.isArray(v.questions)&&v.questions.length)multiTFState.questions=v.questions.slice()
     if(v.questionIndex!=null&&v.questionIndex!==multiTFState.qIdx){
       multiTFState.qIdx=v.questionIndex
@@ -280,7 +332,7 @@ function syncTF(game){
 }
 function syncDuel(game){
   let timer=null,lastPhase='';
-  state.roomRef.child('game/duel').on('value',s=>{
+  bindGameValue(state.roomRef.child('game/duel'),s=>{
     const d=s.val();if(!d)return
     multiDuelState.tour=d.tour||1
     multiDuelState.totalTours=d.totalTours||5
@@ -339,7 +391,7 @@ function launchFirebaseImpostor(game,priv,myIdx){
   const playersByUid=game.players||[]
   multiImpState.isHost=state.isHost;multiImpState.myPlayerIdx=myIdx;multiImpState.players=playersByUid.map((p,i)=>({uid:p.uid,name:p.name,av:p.avatar,role:i===myIdx?priv.role:'hidden',subject:i===myIdx?priv.subject:''}));multiImpState.impostorIdx=playersByUid.findIndex(p=>p.uid===game.impostorUid);multiImpState.subject=game.subject;multiImpState.round=game.imp?.round||1;multiImpState.totalRounds=game.imp?.totalRounds||3;renderMultiPlayerScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player');
   const oldToggle=window.toggleMultiRole;window.toggleMultiRole=function(){const me=multiImpState.players[myIdx];me.role=priv.role;me.subject=priv.subject;oldToggle()};
-  state.roomRef.child('game/imp').on('value',async s=>{
+  bindGameValue(state.roomRef.child('game/imp'),async s=>{
     const d=s.val();if(!d)return
     multiImpState.round=d.round||1;multiImpState.totalRounds=d.totalRounds||3;multiImpState.votes={}
     Object.keys(d.votes||{}).forEach(voterUid=>{const vi=playersByUid.findIndex(p=>p.uid===voterUid),ti=playersByUid.findIndex(p=>p.uid===d.votes[voterUid]);if(vi>=0&&ti>=0)multiImpState.votes[vi]=ti})
@@ -354,7 +406,7 @@ function launchFirebaseImpostor(game,priv,myIdx){
         multiImpState.myVote=null;renderMultiPlayerScreen();if(state.isHost)renderMultiHostScreen();goToScreen(state.isHost?'s-multi-imp-host':'s-multi-imp-player')
       }
       if(d.phase==='debate'){
-        renderMultiDebateScreen(state.isHost);goToScreen('s-multi-imp-debate')
+        renderMultiImpostorDebateScreen(state.isHost);goToScreen('s-multi-imp-debate')
         timer=setInterval(()=>{
           multiImpState.timerSec=Math.max(0,(d.duration||60)-Math.floor((Date.now()-(d.startedAt||Date.now()))/1000));updateMultiTimer()
           if(multiImpState.timerSec<=0){clearInterval(timer);if(state.isHost)state.roomRef.child('game/imp/phase').set('vote')}

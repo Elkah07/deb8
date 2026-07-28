@@ -9,6 +9,7 @@
   var restoringHistory = false;
   var lastScreenId = '';
   var pendingSync = 0;
+  var observedScreenId = '';
 
   function activeScreenId() {
     var screen = document.querySelector('.screen.active');
@@ -16,9 +17,11 @@
   }
 
   function syncHistoryWithActiveScreen() {
+    var observed = activeScreenId();
+    if (observed) observedScreenId = observed;
     window.clearTimeout(pendingSync);
     pendingSync = window.setTimeout(function () {
-      var screenId = activeScreenId();
+      var screenId = observedScreenId || activeScreenId();
       if (!screenId || screenId === lastScreenId) return;
 
       if (restoringHistory) {
@@ -33,7 +36,7 @@
         '',
         window.location.href
       );
-    }, 130);
+    }, 40);
   }
 
   function displayHistoryScreen(screenId) {

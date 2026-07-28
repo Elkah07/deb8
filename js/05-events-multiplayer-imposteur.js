@@ -48,6 +48,12 @@ var multiImpState = {
   debRoleVisible: true,
 }
 
+function deb8EscapeMarkup(value) {
+  return String(value == null ? '' : value).replace(/[&<>'"]/g, function(char) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]
+  })
+}
+
 // Simuler le lancement depuis le lobby
 function launchMultiImp(isHost, playerIdx) {
   clearInterval(multiImpState.timerInt)
@@ -109,8 +115,8 @@ function renderMultiHostScreen() {
     var colors = ['#FF4D6D','#3B82F6','#10B981','#8B5CF6','#F59E0B','#EC4899','#14B8A6','#84CC16']
     list.innerHTML = multiImpState.players.map(function(p, i) {
       return '<div style="background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:10px 14px;display:flex;align-items:center;gap:10px">' +
-        '<div style="width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;background:' + colors[i%colors.length] + '22">' + p.av + '</div>' +
-        '<div style="flex:1"><div style="font-size:14px;font-weight:700">' + p.name + (i===0?' <span style="font-size:10px;color:var(--muted);font-weight:400">· Hôte</span>':'') + '</div></div>' +
+        '<div style="width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;background:' + colors[i%colors.length] + '22">' + deb8EscapeMarkup(p.av) + '</div>' +
+        '<div style="flex:1"><div style="font-size:14px;font-weight:700">' + deb8EscapeMarkup(p.name) + (i===0?' <span style="font-size:10px;color:var(--muted);font-weight:400">· Hôte</span>':'') + '</div></div>' +
         '<div style="width:8px;height:8px;border-radius:50%;background:#10B981;box-shadow:0 0 6px #10B981"></div>' +
         '</div>'
     }).join('')
@@ -121,7 +127,7 @@ function multiHostLaunchDebate() {
   multiImpState.timerSec = multiImpState.duration
   multiImpState.votes = {}
   multiImpState.myVote = null
-  renderMultiDebateScreen(true)
+  renderMultiImpostorDebateScreen(true)
   goToScreen('s-multi-imp-debate')
   startMultiTimer()
 }
@@ -164,8 +170,8 @@ function toggleMultiRole() {
     if(nm) nm.textContent = me.name
     if(pb) { pb.textContent = isImp ? 'IMPOSTEUR' : 'JOUEUR'; pb.style.background = isImp ? 'rgba(255,77,109,0.12)' : 'rgba(16,185,129,0.12)'; pb.style.color = isImp ? '#FF4D6D' : '#10B981'; pb.style.borderColor = isImp ? 'rgba(255,77,109,0.3)' : 'rgba(16,185,129,0.3)' }
     if(sub) {
-      if(isImp) sub.innerHTML = 'Ton sujet : <strong>' + me.subject + '</strong><br><span style="font-size:12px;color:var(--muted)">Les autres ont un sujet différent — bluff !</span>'
-      else sub.innerHTML = 'Sujet : <strong>' + me.subject + '</strong><br><span style="font-size:12px;color:var(--muted)">Débats et trouve l\'imposteur !</span>'
+      if(isImp) sub.innerHTML = 'Ton sujet : <strong>' + deb8EscapeMarkup(me.subject) + '</strong><br><span style="font-size:12px;color:var(--muted)">Les autres ont un sujet différent — bluff !</span>'
+      else sub.innerHTML = 'Sujet : <strong>' + deb8EscapeMarkup(me.subject) + '</strong><br><span style="font-size:12px;color:var(--muted)">Débats et trouve l\'imposteur !</span>'
     }
   } else {
     if(masked) masked.style.display = 'flex'
@@ -175,7 +181,7 @@ function toggleMultiRole() {
 }
 
 // ── DÉBAT ──
-function renderMultiDebateScreen(isHost) {
+function renderMultiImpostorDebateScreen(isHost) {
   var me = multiImpState.players[multiImpState.myPlayerIdx]
   var isImp = me.role === 'impostor'
   var el = document.getElementById('multi-deb-round'); if(el) el.textContent = multiImpState.round
@@ -258,8 +264,8 @@ function renderMultiSuspects() {
   list.innerHTML = multiImpState.players.map(function(p, i) {
     if (i === multiImpState.myPlayerIdx) return '' // can't vote for self
     return '<div data-oc="castMultiVote(' + i + ')" style="background:var(--card);border:2px solid var(--border);border-radius:16px;padding:14px 16px;display:flex;align-items:center;gap:12px;cursor:pointer;transition:all .2s" id="msuspect-' + i + '">' +
-      '<div style="width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;background:' + colors[i%colors.length] + '22">' + p.av + '</div>' +
-      '<div style="font-family:var(--font-head);font-size:16px;flex:1">' + p.name + '</div>' +
+      '<div style="width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;background:' + colors[i%colors.length] + '22">' + deb8EscapeMarkup(p.av) + '</div>' +
+      '<div style="font-family:var(--font-head);font-size:16px;flex:1">' + deb8EscapeMarkup(p.name) + '</div>' +
       '<div style="font-size:20px;color:var(--muted2)">→</div></div>'
   }).join('')
 }
@@ -309,12 +315,12 @@ function showMultiReveal() {
   document.getElementById('multi-reveal-av').textContent = imp.av
   document.getElementById('multi-reveal-name').textContent = imp.name
   document.getElementById('multi-reveal-subjects').innerHTML =
-    'Son sujet : <strong>' + imp.subject + '</strong><br>Sujet des autres : <strong>' + multiImpState.subject + '</strong>'
+    'Son sujet : <strong>' + deb8EscapeMarkup(imp.subject) + '</strong><br>Sujet des autres : <strong>' + deb8EscapeMarkup(multiImpState.subject) + '</strong>'
   var rc = document.getElementById('multi-reveal-card')
   if(rc) { rc.style.background = caught ? 'linear-gradient(145deg,rgba(16,185,129,0.1),rgba(20,184,166,0.06))' : 'linear-gradient(145deg,rgba(255,77,109,0.1),rgba(255,140,66,0.06))'; rc.style.borderColor = caught ? 'rgba(16,185,129,0.3)' : 'rgba(255,77,109,0.3)' }
   document.getElementById('multi-reveal-result').innerHTML = caught
-    ? "<strong style='color:#10B981'>Les joueurs gagnent !</strong><br>" + votesAgainst + ' vote(s) sur ' + total + ' ont désigné ' + imp.name
-    : "<strong style='color:#FF4D6D'>" + imp.name + " (l'imposteur) gagne !</strong><br>Seulement " + votesAgainst + ' vote(s) sur ' + total
+    ? "<strong style='color:#10B981'>Les joueurs gagnent !</strong><br>" + votesAgainst + ' vote(s) sur ' + total + ' ont désigné ' + deb8EscapeMarkup(imp.name)
+    : "<strong style='color:#FF4D6D'>" + deb8EscapeMarkup(imp.name) + " (l'imposteur) gagne !</strong><br>Seulement " + votesAgainst + ' vote(s) sur ' + total
 
   // Votes summary
   var colors = ['#FF4D6D','#3B82F6','#10B981','#8B5CF6','#F59E0B','#EC4899','#14B8A6','#84CC16']
@@ -326,8 +332,8 @@ function showMultiReveal() {
       var target = multiImpState.players[ti]
       var correct = ti === multiImpState.impostorIdx
       return '<div style="display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)">' +
-        '<span style="font-size:16px">' + p.av + '</span>' +
-        '<span>' + p.name + ' → <strong style="color:' + (correct?'#10B981':'#FF4D6D') + '">' + target.name + '</strong></span>' +
+        '<span style="font-size:16px">' + deb8EscapeMarkup(p.av) + '</span>' +
+        '<span>' + deb8EscapeMarkup(p.name) + ' → <strong style="color:' + (correct?'#10B981':'#FF4D6D') + '">' + deb8EscapeMarkup(target.name) + '</strong></span>' +
         '<span style="margin-left:auto">' + (correct?'✅':'❌') + '</span></div>'
     }).join('')
   }
