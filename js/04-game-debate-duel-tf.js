@@ -19,7 +19,7 @@ const debateThemeLabels = {
   c4: "Super-Héros",
   c5: "Drôle",
   c6: "Dessins-animés",
-  c7: "Enfants", c
+  c7: "Enfants",
   c8: "Ado",
   c9: "Famille",
   c10: "Musique"
@@ -183,9 +183,9 @@ function duelQuestionText(item){
 }
 
 function getDuelQuestionPool(){
-  return debateGameQuestions
-    .map(duelQuestionText)
-    .filter(Boolean)
+  return typeof deb8SelectedTFQuestions === 'function'
+    ? deb8SelectedTFQuestions()
+    : tfAllQuestions.slice()
 }
 
 // Time scale: 60s for tour 1, -10s each tour, min 20s, last tour = final round (45s simultaneous)
@@ -211,9 +211,9 @@ function initDuel(){
   const p = duelState.players
   const queue = [
     { name: p.pour.name, emoji: p.pour.av, role: 'POUR / VRAI', color: '#3B82F6',
-      desc: 'Tu argumente <strong style="color:#3B82F6">POUR</strong> le sujet.<br>Convaincs l\'arbitre !' },
+      desc: 'Tu argumentes <strong style="color:#3B82F6">POUR / VRAI</strong>, même si ce n’est pas ton avis.<br>Convaincs l\'arbitre !' },
     { name: p.contre.name, emoji: p.contre.av, role: 'CONTRE / FAUX', color: '#FF4D6D',
-      desc: 'Tu argumente <strong style="color:#FF4D6D">CONTRE</strong> le sujet.<br>Convaincs l\'arbitre !' },
+      desc: 'Tu argumentes <strong style="color:#FF4D6D">CONTRE / FAUX</strong>, même si ce n’est pas ton avis.<br>Convaincs l\'arbitre !' },
     { name: p.arbitre.name, emoji: p.arbitre.av, role: 'ARBITRE', color: '#F59E0B',
       desc: 'Tu écoutes et tu tranches à chaque tour.<br>À toi le verdict !' },
   ]
@@ -496,7 +496,10 @@ const TF_AV = { p1:'🦊', p2:'🐸' }
 function initTF(){
   clearInterval(tfTimerInt)
   const nb = (settingVals['nb_questions'] ?? 10)
-  tfState.questions = shuffledQuestions(tfAllQuestions).slice(0, Math.min(nb, tfAllQuestions.length))
+  const pool = typeof deb8SelectedTFQuestions === 'function'
+    ? deb8SelectedTFQuestions()
+    : tfAllQuestions
+  tfState.questions = shuffledQuestions(pool).slice(0, Math.min(nb, pool.length))
   tfState.current = 0
   tfState.votes = {}
   tfState.disagreements = []

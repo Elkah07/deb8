@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-question-bases-v7';
+const CACHE_NAME = 'deb8-editorial-1v1-v8';
 const APP_SHELL = [
   './',
   './index.html',

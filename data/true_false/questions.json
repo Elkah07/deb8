@@ -10105,11 +10105,6 @@
     "theme": "PHILO"
   },
   {
-    "id": "la_vie_n_a_pas_forcement_un_sens",
-    "question": "La vie n’a pas forcément un sens.",
-    "theme": "PHILO"
-  },
-  {
     "id": "exister_ne_consiste_pas_seulement_a_survivre",
     "question": "Exister ne consiste pas seulement à survivre.",
     "theme": "PHILO"
@@ -10122,11 +10117,6 @@
   {
     "id": "etre_heureux_ne_consiste_pas_simplement_a_etre_satisfait",
     "question": "Être heureux ne consiste pas simplement à être satisfait.",
-    "theme": "PHILO"
-  },
-  {
-    "id": "on_ne_peut_pas_comprendre_totalement_quelqu_un",
-    "question": "On ne peut pas comprendre totalement quelqu’un.",
     "theme": "PHILO"
   },
   {
@@ -10747,11 +10737,6 @@
   {
     "id": "la_liberte_est_compatible_avec_l_egalite_dans_certaines_limites",
     "question": "La liberté est compatible avec l’égalité dans certaines limites.",
-    "theme": "PHILO"
-  },
-  {
-    "id": "nos_desirs_limitent_souvent_notre_liberte",
-    "question": "Nos désirs limitent souvent notre liberté.",
     "theme": "PHILO"
   },
   {
@@ -18010,11 +17995,6 @@
     "theme": "ENFANTS 5-10 ANS"
   },
   {
-    "id": "il_vaut_mieux_bien_jouer_que_gagner",
-    "question": "Il vaut mieux bien jouer que gagner.",
-    "theme": "ENFANTS 5-10 ANS"
-  },
-  {
     "id": "les_professeurs_devraient_proposer_plus_de_projets_creatifs",
     "question": "Les professeurs devraient proposer plus de projets créatifs.",
     "theme": "ENFANTS 5-10 ANS"
@@ -18347,11 +18327,6 @@
   {
     "id": "les_animaux_comprennent_parfois_quand_on_leur_parle",
     "question": "Les animaux comprennent parfois quand on leur parle.",
-    "theme": "ENFANTS 5-10 ANS"
-  },
-  {
-    "id": "les_animaux_du_zoo_ne_sont_pas_vraiment_heureux",
-    "question": "Les animaux du zoo ne sont pas vraiment heureux.",
     "theme": "ENFANTS 5-10 ANS"
   },
   {
@@ -19340,11 +19315,6 @@
     "theme": "ENFANTS 5-10 ANS"
   },
   {
-    "id": "les_parents_devraient_jouer_plus_avec_les_enfants",
-    "question": "Les parents devraient jouer plus avec les enfants.",
-    "theme": "ENFANTS 5-10 ANS"
-  },
-  {
     "id": "aider_est_plus_important_que_recevoir_de_l_aide",
     "question": "Aider est plus important que recevoir de l’aide.",
     "theme": "ENFANTS 5-10 ANS"
@@ -19377,11 +19347,6 @@
   {
     "id": "etre_le_plus_rapide_n_est_pas_important",
     "question": "Être le plus rapide n’est pas important.",
-    "theme": "ENFANTS 5-10 ANS"
-  },
-  {
-    "id": "les_disputes_peuvent_rendre_plus_forts",
-    "question": "Les disputes peuvent rendre plus forts.",
     "theme": "ENFANTS 5-10 ANS"
   },
   {
@@ -19577,11 +19542,6 @@
   {
     "id": "aider_un_inconnu_est_une_bonne_chose",
     "question": "Aider un inconnu est une bonne chose.",
-    "theme": "ENFANTS 5-10 ANS"
-  },
-  {
-    "id": "les_parents_devraient_faire_plus_confiance",
-    "question": "Les parents devraient faire plus confiance.",
     "theme": "ENFANTS 5-10 ANS"
   },
   {
@@ -20630,11 +20590,6 @@
     "theme": "ADO 10-15 ANS"
   },
   {
-    "id": "on_peut_etre_ami_avec_quelqu_un_qui_pense_differemment",
-    "question": "On peut être ami avec quelqu’un qui pense différemment.",
-    "theme": "ADO 10-15 ANS"
-  },
-  {
     "id": "il_ne_faut_pas_tout_pardonner_pour_sauver_une_amitie",
     "question": "Il ne faut pas tout pardonner pour sauver une amitié.",
     "theme": "ADO 10-15 ANS"
@@ -21002,11 +20957,6 @@
   {
     "id": "on_peut_aimer_quelqu_un_qui_nous_a_blesse",
     "question": "On peut aimer quelqu’un qui nous a blessé.",
-    "theme": "ADO 10-15 ANS"
-  },
-  {
-    "id": "l_amour_rend_vulnerable",
-    "question": "L’amour rend vulnérable.",
     "theme": "ADO 10-15 ANS"
   },
   {
@@ -22635,11 +22585,6 @@
     "theme": "FAMILLE"
   },
   {
-    "id": "les_parents_devraient_demander_l_avis_des_enfants_plus_souvent",
-    "question": "Les parents devraient demander l’avis des enfants plus souvent.",
-    "theme": "FAMILLE"
-  },
-  {
     "id": "les_enfants_devraient_avoir_des_responsabilites_fixes",
     "question": "Les enfants devraient avoir des responsabilités fixes.",
     "theme": "FAMILLE"
@@ -23572,11 +23517,6 @@
   {
     "id": "les_parents_mettent_trop_de_pression_scolaire",
     "question": "Les parents mettent trop de pression scolaire.",
-    "theme": "FAMILLE"
-  },
-  {
-    "id": "les_notes_ne_refletent_pas_vraiment_l_intelligence",
-    "question": "Les notes ne reflètent pas vraiment l’intelligence.",
     "theme": "FAMILLE"
   },
   {

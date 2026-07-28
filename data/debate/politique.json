@@ -1688,8 +1688,8 @@
     "question": "Les cabinets de conseil influencent-ils trop les politiques publiques ?"
   },
   {
-    "id": "politique_423",
-    "question": "Les gouvernements cabinets de conseil influencent-ils trop les politiques publiques ?"
+    "id": "cabinets_de_conseil_influencent_ils_trop_les_politiques_publiques",
+    "question": "cabinets de conseil influencent-ils trop les politiques publiques ?"
   },
   {
     "id": "politique_424",
@@ -1736,8 +1736,8 @@
     "question": "Les institutions européennes devraient-elles être élues au suffrage universel direct ?"
   },
   {
-    "id": "politique_435",
-    "question": "Les gouvernements institutions européennes devraient-elles être élues au suffrage universel direct ?"
+    "id": "institutions_europeennes_devraient_elles_etre_elues_au_suffrage_universe",
+    "question": "institutions européennes devraient-elles être élues au suffrage universel direct ?"
   },
   {
     "id": "politique_436",
@@ -1748,8 +1748,8 @@
     "question": "Les réseaux sociaux devraient-ils être interdits aux candidats pendant les campagnes ?"
   },
   {
-    "id": "politique_438",
-    "question": "Les gouvernements réseaux sociaux devraient-ils être interdits aux candidats pendant les campagnes ?"
+    "id": "reseaux_sociaux_devraient_ils_etre_interdits_aux_candidats_pendant_les_c",
+    "question": "réseaux sociaux devraient-ils être interdits aux candidats pendant les campagnes ?"
   },
   {
     "id": "politique_439",
@@ -1792,8 +1792,8 @@
     "question": "Les États devraient-ils interdire les paradis fiscaux ?"
   },
   {
-    "id": "politique_449",
-    "question": "Les gouvernements États devraient-ils interdire les paradis fiscaux ?"
+    "id": "etats_devraient_ils_interdire_les_paradis_fiscaux",
+    "question": "États devraient-ils interdire les paradis fiscaux ?"
   },
   {
     "id": "politique_450",
@@ -1816,8 +1816,8 @@
     "question": "Les coalitions politiques diluent-elles les programmes électoraux ?"
   },
   {
-    "id": "politique_455",
-    "question": "Les gouvernements coalitions politiques diluent-elles les programmes électoraux ?"
+    "id": "coalitions_politiques_diluent_elles_les_programmes_electoraux",
+    "question": "coalitions politiques diluent-elles les programmes électoraux ?"
   },
   {
     "id": "politique_456",
@@ -1848,24 +1848,24 @@
     "question": "Les débats politiques sont-ils devenus trop polarisés ?"
   },
   {
-    "id": "politique_463",
-    "question": "Les gouvernements débats politiques sont-ils devenus trop polarisés ?"
+    "id": "debats_politiques_sont_ils_devenus_trop_polarises",
+    "question": "débats politiques sont-ils devenus trop polarisés ?"
   },
   {
     "id": "politique_464",
     "question": "Les États devraient-ils garantir la neutralité des algorithmes politiques ?"
   },
   {
-    "id": "politique_465",
-    "question": "Les gouvernements États devraient-ils garantir la neutralité des algorithmes politiques ?"
+    "id": "etats_devraient_ils_garantir_la_neutralite_des_algorithmes_politiques",
+    "question": "États devraient-ils garantir la neutralité des algorithmes politiques ?"
   },
   {
     "id": "politique_466",
     "question": "Les dirigeants doivent-ils être soumis à des évaluations citoyennes annuelles ?"
   },
   {
-    "id": "politique_467",
-    "question": "Les gouvernements dirigeants doivent-ils être soumis à des évaluations citoyennes annuelles ?"
+    "id": "dirigeants_doivent_ils_etre_soumis_a_des_evaluations_citoyennes_annuelle",
+    "question": "dirigeants doivent-ils être soumis à des évaluations citoyennes annuelles ?"
   },
   {
     "id": "politique_468",
@@ -1888,8 +1888,8 @@
     "question": "Les grandes puissances respectent-elles réellement le droit international ?"
   },
   {
-    "id": "politique_473",
-    "question": "Les gouvernements grandes puissances respectent-elles réellement le droit international ?"
+    "id": "grandes_puissances_respectent_elles_reellement_le_droit_international",
+    "question": "grandes puissances respectent-elles réellement le droit international ?"
   },
   {
     "id": "politique_474",
@@ -1900,8 +1900,8 @@
     "question": "Les institutions françaises sont-elles adaptées aux crises modernes ?"
   },
   {
-    "id": "politique_476",
-    "question": "Les gouvernements institutions françaises sont-elles adaptées aux crises modernes ?"
+    "id": "institutions_francaises_sont_elles_adaptees_aux_crises_modernes",
+    "question": "institutions françaises sont-elles adaptées aux crises modernes ?"
   },
   {
     "id": "politique_477",
@@ -1916,8 +1916,8 @@
     "question": "Les États devraient-ils limiter la spéculation financière ?"
   },
   {
-    "id": "politique_480",
-    "question": "Les gouvernements États devraient-ils limiter la spéculation financière ?"
+    "id": "etats_devraient_ils_limiter_la_speculation_financiere",
+    "question": "États devraient-ils limiter la spéculation financière ?"
   },
   {
     "id": "politique_481",
@@ -1928,16 +1928,16 @@
     "question": "Les médias publics devraient-ils être totalement indépendants du gouvernement ?"
   },
   {
-    "id": "politique_483",
-    "question": "Les gouvernements médias publics devraient-ils être totalement indépendants du gouvernement ?"
+    "id": "medias_publics_devraient_ils_etre_totalement_independants_du_gouvernemen",
+    "question": "médias publics devraient-ils être totalement indépendants du gouvernement ?"
   },
   {
     "id": "politique_484",
     "question": "Les débats présidentiels influencent-ils réellement les résultats électoraux ?"
   },
   {
-    "id": "politique_485",
-    "question": "Les gouvernements débats présidentiels influencent-ils réellement les résultats électoraux ?"
+    "id": "debats_presidentiels_influencent_ils_reellement_les_resultats_electoraux",
+    "question": "débats présidentiels influencent-ils réellement les résultats électoraux ?"
   },
   {
     "id": "politique_486",
@@ -2352,131 +2352,83 @@
     "question": "Les politiques publiques devraient-elles être évaluées par des citoyens ?"
   },
   {
-    "id": "politique_589",
-    "question": "Les démocraties doivent-elles se réinventer pour survivre ? (0)"
+    "id": "les_democraties_doivent_elles_se_reinventer_pour_survivre",
+    "question": "Les démocraties doivent-elles se réinventer pour survivre ?"
   },
   {
-    "id": "politique_590",
-    "question": "Les États devraient-ils limiter le pouvoir des multinationales ? (1)"
+    "id": "les_etats_devraient_ils_limiter_le_pouvoir_des_multinationales",
+    "question": "Les États devraient-ils limiter le pouvoir des multinationales ?"
   },
   {
-    "id": "politique_591",
-    "question": "La politique internationale est-elle devenue imprévisible ? (2)"
+    "id": "la_politique_internationale_est_elle_devenue_imprevisible",
+    "question": "La politique internationale est-elle devenue imprévisible ?"
   },
   {
-    "id": "politique_592",
-    "question": "Les gouvernements doivent-ils anticiper les crises plutôt que les gérer ? (3)"
+    "id": "les_gouvernements_doivent_ils_anticiper_les_crises_plutot_que_les_gerer",
+    "question": "Les gouvernements doivent-ils anticiper les crises plutôt que les gérer ?"
   },
   {
-    "id": "politique_593",
-    "question": "La confiance dans les institutions peut-elle être restaurée ? (4)"
+    "id": "la_confiance_dans_les_institutions_peut_elle_etre_restauree",
+    "question": "La confiance dans les institutions peut-elle être restaurée ?"
   },
   {
-    "id": "politique_594",
-    "question": "Les États devraient-ils imposer une transparence totale aux élus ? (5)"
+    "id": "les_etats_devraient_ils_imposer_une_transparence_totale_aux_elus",
+    "question": "Les États devraient-ils imposer une transparence totale aux élus ?"
   },
   {
-    "id": "politique_595",
-    "question": "Les alliances géopolitiques sont-elles durables ? (6)"
+    "id": "les_alliances_geopolitiques_sont_elles_durables",
+    "question": "Les alliances géopolitiques sont-elles durables ?"
   },
   {
-    "id": "politique_596",
-    "question": "Les gouvernements doivent-ils protéger les industries stratégiques nationales ? (7)"
+    "id": "les_gouvernements_doivent_ils_proteger_les_industries_strategiques_natio",
+    "question": "Les gouvernements doivent-ils protéger les industries stratégiques nationales ?"
   },
   {
-    "id": "politique_597",
-    "question": "La souveraineté économique est-elle encore possible ? (8)"
+    "id": "la_souverainete_economique_est_elle_encore_possible",
+    "question": "La souveraineté économique est-elle encore possible ?"
   },
   {
-    "id": "politique_598",
-    "question": "Les politiques publiques devraient-elles être évaluées indépendamment ? (9)"
+    "id": "les_politiques_publiques_devraient_elles_etre_evaluees_independamment",
+    "question": "Les politiques publiques devraient-elles être évaluées indépendamment ?"
   },
   {
-    "id": "politique_599",
-    "question": "Les dirigeants doivent-ils consulter davantage les citoyens ? (10)"
+    "id": "les_dirigeants_doivent_ils_consulter_davantage_les_citoyens",
+    "question": "Les dirigeants doivent-ils consulter davantage les citoyens ?"
   },
   {
-    "id": "politique_600",
-    "question": "La mondialisation peut-elle être régulée efficacement ? (11)"
+    "id": "la_mondialisation_peut_elle_etre_regulee_efficacement",
+    "question": "La mondialisation peut-elle être régulée efficacement ?"
   },
   {
-    "id": "politique_601",
-    "question": "Les États doivent-ils garantir un accès égal à l’information ? (12)"
+    "id": "les_etats_doivent_ils_garantir_un_acces_egal_a_l_information",
+    "question": "Les États doivent-ils garantir un accès égal à l’information ?"
   },
   {
-    "id": "politique_602",
-    "question": "Les politiques de défense sont-elles adaptées aux nouvelles menaces ? (13)"
+    "id": "les_politiques_de_defense_sont_elles_adaptees_aux_nouvelles_menaces",
+    "question": "Les politiques de défense sont-elles adaptées aux nouvelles menaces ?"
   },
   {
-    "id": "politique_603",
-    "question": "La démocratie représentative doit-elle évoluer ? (14)"
+    "id": "la_democratie_representative_doit_elle_evoluer",
+    "question": "La démocratie représentative doit-elle évoluer ?"
   },
   {
-    "id": "politique_604",
-    "question": "Les institutions internationales doivent-elles être réformées ? (15)"
+    "id": "les_institutions_internationales_doivent_elles_etre_reformees",
+    "question": "Les institutions internationales doivent-elles être réformées ?"
   },
   {
-    "id": "politique_605",
-    "question": "Les États doivent-ils encadrer davantage les nouvelles technologies ? (16)"
+    "id": "les_etats_doivent_ils_encadrer_davantage_les_nouvelles_technologies",
+    "question": "Les États doivent-ils encadrer davantage les nouvelles technologies ?"
   },
   {
-    "id": "politique_606",
-    "question": "La politique économique doit-elle être coordonnée mondialement ? (17)"
+    "id": "la_politique_economique_doit_elle_etre_coordonnee_mondialement",
+    "question": "La politique économique doit-elle être coordonnée mondialement ?"
   },
   {
-    "id": "politique_607",
-    "question": "Les gouvernements doivent-ils limiter la concentration médiatique ? (18)"
+    "id": "les_gouvernements_doivent_ils_limiter_la_concentration_mediatique",
+    "question": "Les gouvernements doivent-ils limiter la concentration médiatique ?"
   },
   {
-    "id": "politique_608",
-    "question": "La stabilité politique est-elle plus importante que la réforme ? (19)"
-  },
-  {
-    "id": "politique_609",
-    "question": "Les démocraties doivent-elles se réinventer pour survivre ? (20)"
-  },
-  {
-    "id": "politique_610",
-    "question": "Les États devraient-ils limiter le pouvoir des multinationales ? (21)"
-  },
-  {
-    "id": "politique_611",
-    "question": "La politique internationale est-elle devenue imprévisible ? (22)"
-  },
-  {
-    "id": "politique_612",
-    "question": "Les gouvernements doivent-ils anticiper les crises plutôt que les gérer ? (23)"
-  },
-  {
-    "id": "politique_613",
-    "question": "La confiance dans les institutions peut-elle être restaurée ? (24)"
-  },
-  {
-    "id": "politique_614",
-    "question": "Les États devraient-ils imposer une transparence totale aux élus ? (25)"
-  },
-  {
-    "id": "politique_615",
-    "question": "Les alliances géopolitiques sont-elles durables ? (26)"
-  },
-  {
-    "id": "politique_616",
-    "question": "Les gouvernements doivent-ils protéger les industries stratégiques nationales ? (27)"
-  },
-  {
-    "id": "politique_617",
-    "question": "La souveraineté économique est-elle encore possible ? (28)"
-  },
-  {
-    "id": "politique_618",
-    "question": "Les politiques publiques devraient-elles être évaluées indépendamment ? (29)"
-  },
-  {
-    "id": "politique_619",
-    "question": "Les dirigeants doivent-ils consulter davantage les citoyens ? (30)"
-  },
-  {
-    "id": "politique_620",
-    "question": "La mondialisation peut-elle être régulée efficacement ? (31)"
+    "id": "la_stabilite_politique_est_elle_plus_importante_que_la_reforme",
+    "question": "La stabilité politique est-elle plus importante que la réforme ?"
   }
 ]

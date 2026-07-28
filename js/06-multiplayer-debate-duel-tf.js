@@ -66,6 +66,8 @@ function previewMultiDuel(role) {
   multiDuelState.scores = {pour:0, contre:0}
   multiDuelState.speakersDone = []
   multiDuelState.timerSec = 45
+  var duelPool = typeof getDuelQuestionPool === 'function' ? getDuelQuestionPool() : tfAllQuestions
+  if(duelPool.length) multiDuelState.question = duelPool[Math.floor(Math.random()*duelPool.length)]
   renderMultiDuelScreen()
   var screenMap = {pour:'s-multi-duel-pour', contre:'s-multi-duel-contre', arbitre:'s-multi-duel-arb'}
   goToScreen(screenMap[role])
@@ -235,7 +237,8 @@ function previewMultiTF(myIdx) {
   multiTFState.myIdx = myIdx || 0
   multiTFState.players = playerNames.map(function(n,i){ var avs=['🦊','🐙','🐸','🦋']; return {name:n,av:avs[i]} })
   var nb = (typeof settingVals !== 'undefined' && settingVals['nb_questions']) || 10
-  multiTFState.questions = shuffledQuestions(tfAllQuestions).slice(0, Math.min(nb, tfAllQuestions.length))
+  var pool = typeof deb8SelectedTFQuestions === 'function' ? deb8SelectedTFQuestions() : tfAllQuestions
+  multiTFState.questions = shuffledQuestions(pool).slice(0, Math.min(nb, pool.length))
   multiTFState.qIdx = 0
   multiTFState.votes = {}
   multiTFState.myVote = null

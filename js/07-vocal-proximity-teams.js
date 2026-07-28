@@ -672,9 +672,6 @@ async function launchTeamGame(){
   TEAM_TIMER_SEC = (typeof settingVals !== 'undefined' && settingVals['time_turn'] != null)
     ? [30,45,60,120][settingVals['time_turn']] : 60
   teamState.teams.forEach(function(t){ t.score = 0 })
-  if(typeof prepareDebateQuestions === 'function' && !debateGameQuestions.length){
-    await prepareDebateQuestions()
-  }
   teamState.questions = (typeof getDuelQuestionPool === 'function')
     ? getDuelQuestionPool()
     : []
@@ -700,8 +697,8 @@ async function launchTeamGame(){
       var isContre = i === teamState.currentPair[1]
       var role  = isPour ? 'POUR / VRAI' : isContre ? 'CONTRE / FAUX' : 'ARBITRE'
       var color = isPour ? t.color : isContre ? t.color : '#F59E0B'
-      var desc  = isPour   ? 'Votre équipe argumente <strong style="color:' + t.color + '">POUR</strong> le sujet !'
-                : isContre ? 'Votre équipe argumente <strong style="color:' + t.color + '">CONTRE</strong> le sujet !'
+      var desc  = isPour   ? 'Votre équipe défend <strong style="color:' + t.color + '">POUR / VRAI</strong>, même si ce n’est pas votre avis !'
+                : isContre ? 'Votre équipe défend <strong style="color:' + t.color + '">CONTRE / FAUX</strong>, même si ce n’est pas votre avis !'
                 : 'Votre équipe écoute et tranche à la fin !'
       queue.push({ name: t.emoji + ' ' + t.name, emoji: t.emoji, role: role, color: color, desc: desc })
     })
