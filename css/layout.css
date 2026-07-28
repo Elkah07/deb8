@@ -105,6 +105,11 @@ body.production .sidebar{
 body.production{
   width:100%;
   min-height:100dvh;
+  height:100dvh;
+  margin:0 !important;
+  padding:0 !important;
+  align-items:stretch;
+  justify-content:flex-start;
   overflow:hidden;
   background:var(--bg);
 }
