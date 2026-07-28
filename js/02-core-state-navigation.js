@@ -77,6 +77,15 @@ const modes = {
 // ── NAVIGATION ──
 const sbIds = ['n1','n2','n10','n3','n4','n8','n5','n9','n7']
 function go(n){
+  // The settings screen is dynamic. Build it in the navigation source of truth
+  // instead of relying on the shop module's optional wrapper around window.go.
+  if(n===9){
+    if(!gameMode){
+      go(3)
+      return
+    }
+    buildS9()
+  }
   document.querySelectorAll('.screen').forEach(s=>{s.classList.remove('active','out')})
   const cur=document.querySelector('.screen.active')
   if(cur){cur.classList.add('out');setTimeout(()=>cur.classList.remove('out'),300)}
@@ -86,6 +95,19 @@ function go(n){
     const btn=document.getElementById(id)
     if(btn) btn.classList.toggle('on', id==='n'+n)
   })
+}
+
+function openGameSettings(){
+  if(!gameMode){
+    window.go(3)
+    return
+  }
+  const selectedThemes = document.querySelectorAll('#s5 .th.sel')
+  if(!selectedThemes.length){
+    updateThemeSelectionControls()
+    return
+  }
+  window.go(9)
 }
 
 // ── DEVICE ──

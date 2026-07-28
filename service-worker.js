@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-fullscreen-edge-fix-v14';
+const CACHE_NAME = 'deb8-solo-launch-v13';
 const APP_SHELL = [
   './',
   './index.html',
