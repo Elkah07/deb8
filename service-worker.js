@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-responsive-mobile-v10';
+const CACHE_NAME = 'deb8-sound-pack-v11';
 const APP_SHELL = [
   './',
   './index.html',
@@ -18,6 +18,14 @@ const APP_SHELL = [
   ,'./js/09-firebase-online.js'
   ,'./js/11-audio-ambience.js'
   ,'./js/12-android-back-navigation.js'
+  ,'./assets/sounds/tap.ogg'
+  ,'./assets/sounds/start.ogg'
+  ,'./assets/sounds/next.ogg'
+  ,'./assets/sounds/vote.ogg'
+  ,'./assets/sounds/countdown.ogg'
+  ,'./assets/sounds/reveal.ogg'
+  ,'./assets/sounds/win.ogg'
+  ,'./assets/sounds/lose.ogg'
   ,'./data/true_false/questions.json'
   ,'./data/imposteur/pairs.json'
 ];
