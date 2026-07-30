@@ -59,17 +59,47 @@ window.saveOnlineProfile=function(){
 };
 
 async function reserveRoom(){
-  for(let i=0;i<12;i++){const code=randomCode(),ref=state.db.ref('rooms/'+code);const snap=await ref.once('value');if(!snap.exists())return {code,ref}}
-  throw new Error('Impossible de générer un code. Réessaie.');
+  /*
+   * Les règles sécurisées interdisent volontairement de lire une salle avant
+   * d'en être membre. On ne tente donc plus de lire /rooms/CODE pour vérifier
+   * sa disponibilité : l'écriture atomique ci-dessous est la réservation.
+   * Si le code existe déjà, les règles refusent son remplacement.
+   */
+  const code=randomCode();
+  return {code,ref:state.db.ref('rooms/'+code)};
 }
 
 window.createOnlineRoom=async function(){
   setError('');try{
     await ensureFirebase();state.profile=state.profile||loadProfile();if(!state.profile)return openOnlineFlow();
     const {code,ref}=await reserveRoom();state.roomCode=code;state.roomRef=ref;state.isHost=true;
-    await ref.set({hostId:state.user.uid,status:'lobby',mode:null,createdAt:now(),updatedAt:now(),players:{}});
+    const createdAt=now();
+    await ref.set({
+      hostId:state.user.uid,
+      status:'lobby',
+      mode:null,
+      createdAt,
+      updatedAt:createdAt,
+      players:{
+        [state.user.uid]:{
+          uid:state.user.uid,
+          name:state.profile.name,
+          avatar:state.profile.avatar,
+          ready:false,
+          host:true,
+          online:true,
+          joinedAt:createdAt,
+          lastSeen:createdAt
+        }
+      }
+    });
     await joinPlayerRecord(true);listenRoom();showScreen('s7');
-  }catch(e){setError(e.message)}
+  }catch(e){
+    console.error('Création de salle impossible',e);
+    setError(e?.code==='PERMISSION_DENIED'||e?.code==='permission_denied'
+      ? 'La création a été refusée par Firebase. Vérifie que les nouvelles règles Realtime Database sont bien publiées.'
+      : (e.message||'Impossible de créer la partie. Réessaie.'));
+  }
 };
 window.joinOnlineRoom=async function(){
   setError('');try{

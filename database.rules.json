@@ -3,7 +3,7 @@
     "rooms": {
       "$code": {
         ".read": "auth != null && data.child('players').child(auth.uid).exists()",
-        ".write": "auth != null && ((!data.exists() && newData.child('hostId').val() == auth.uid) || data.child('hostId').val() == auth.uid)",
+        ".write": "auth != null && ((!data.exists() && newData.child('hostId').val() == auth.uid && newData.child('status').val() == 'lobby' && newData.child('players').child(auth.uid).child('uid').val() == auth.uid && newData.child('players').child(auth.uid).child('host').val() == true) || data.child('hostId').val() == auth.uid)",
         "hostId": {
           ".read": "auth != null"
         },

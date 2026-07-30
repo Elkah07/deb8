@@ -118,7 +118,7 @@ function selDev(m){
   document.getElementById('np-wrap').style.display= m==='solo'?'block':'none'
   const btn=document.getElementById('btn-dev')
   btn.style.opacity='1';btn.style.pointerEvents='all'
-  btn.textContent = m==='solo' ? 'Nommer les joueurs →' : 'Créer le lobby →'
+  btn.textContent = m==='solo' ? 'Nommer les joueurs →' : 'Continuer →'
 }
 function chgP(d){pcount=Math.max(2,Math.min(15,pcount+d));document.getElementById('pcount').textContent=pcount}
 

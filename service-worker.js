@@ -1,32 +1,21 @@
-const CACHE_NAME = 'deb8-security-final-v16';
+const CACHE_NAME = 'deb8-icon-larger-v14';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
   './assets/logo-deb8-v3.png',
-  './assets/icons/icon-v2-192.png',
-  './assets/icons/icon-v2-512.png',
-  './assets/icons/icon-maskable-v2-512.png',
-  './assets/icons/apple-touch-icon-v2.png',
-  './assets/icons/favicon-v2-32.png'
+  './assets/icons/icon-v3-192.png',
+  './assets/icons/icon-v3-512.png',
+  './assets/icons/icon-maskable-v3-512.png',
+  './assets/icons/apple-touch-icon-v3.png',
+  './assets/icons/favicon-v3-32.png'
   ,'./css/screens.css'
-  ,'./css/base.css'
-  ,'./css/game.css'
-  ,'./css/layout.css'
-  ,'./css/light-mode.css'
-  ,'./css/podium.css'
-  ,'./css/shop-settings.css'
   ,'./js/00-question-bases.js'
-  ,'./js/01-imposteur.js'
   ,'./js/02-core-state-navigation.js'
-  ,'./js/03-shop-legal.js'
   ,'./js/04-game-debate-duel-tf.js'
-  ,'./js/05-events-multiplayer-imposteur.js'
   ,'./js/06-multiplayer-debate-duel-tf.js'
   ,'./js/07-vocal-proximity-teams.js'
-  ,'./js/08-team-game-final.js'
   ,'./js/09-firebase-online.js'
-  ,'./js/10-creator-mode.js'
   ,'./js/11-audio-ambience.js'
   ,'./js/12-android-back-navigation.js'
   ,'./assets/sounds/tap.ogg'
@@ -39,16 +28,6 @@ const APP_SHELL = [
   ,'./assets/sounds/lose.ogg'
   ,'./data/true_false/questions.json'
   ,'./data/imposteur/pairs.json'
-  ,'./data/debate/ado_10_15_ans.json'
-  ,'./data/debate/classiques.json'
-  ,'./data/debate/dessins_animes.json'
-  ,'./data/debate/drole.json'
-  ,'./data/debate/enfants_5_10_ans.json'
-  ,'./data/debate/famille.json'
-  ,'./data/debate/musiques.json'
-  ,'./data/debate/philo.json'
-  ,'./data/debate/politique.json'
-  ,'./data/debate/super_heros.json'
 ];
 
 self.addEventListener('install', event => {
