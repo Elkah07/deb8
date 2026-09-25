@@ -1,9 +1,7 @@
-const CACHE_NAME = 'deb8-v29-theme-hotfix';
+const CACHE_NAME = 'deb8-v30-mode-settings';
 const APP_SHELL = [
   './',
   './index.html',
-  './css/v29-hotfix.css',
-  './js/13-theme-navigation-hotfix.js',
   './manifest.webmanifest',
   './assets/logo-deb8-v3.png',
   './assets/icons/icon-v3-192.png',
@@ -58,9 +56,9 @@ self.addEventListener('fetch', event => {
   if (isFreshFirst) {
     event.respondWith(
       fetch(event.request).then(response => {
-        if (response.ok && event.request.url.startsWith(self.location.origin)) {
+        if (response.ok && response.status !== 206 && event.request.url.startsWith(self.location.origin)) {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy)).catch(()=>{});
         }
         return response;
       }).catch(() => caches.match(event.request))
@@ -71,9 +69,9 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request).then(cached =>
       cached || fetch(event.request).then(response => {
-        if (response.ok && event.request.url.startsWith(self.location.origin)) {
+        if (response.ok && response.status !== 206 && event.request.url.startsWith(self.location.origin)) {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy)).catch(()=>{});
         }
         return response;
       })

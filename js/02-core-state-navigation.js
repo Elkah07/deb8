@@ -99,36 +99,15 @@ function go(n){
 
 function openGameSettings(){
   if(!gameMode){
-    go(3)
+    window.go(3)
     return
   }
-
   const selectedThemes = document.querySelectorAll('#s5 .th.sel')
   if(!selectedThemes.length){
     updateThemeSelectionControls()
     return
   }
-
-  try{
-    buildS9()
-
-    // Navigation directe et synchrone : évite les wrappers window.go
-    // qui pouvaient laisser l'utilisateur bloqué sur l'écran des thèmes.
-    document.querySelectorAll('.screen').forEach(s=>{
-      s.classList.remove('active','out')
-    })
-
-    const target = document.getElementById('s9')
-    if(!target) throw new Error('Écran de réglages introuvable')
-    target.classList.add('active')
-
-    if(typeof playUiSound === 'function') {
-      try { playUiSound('nav') } catch(_e){}
-    }
-  }catch(err){
-    console.error('Deb8 — ouverture réglages impossible :', err)
-    alert('Impossible d’ouvrir les réglages de la partie. Recharge Deb8 puis réessaie.')
-  }
+  window.go(9)
 }
 
 // ── DEVICE ──
@@ -168,7 +147,13 @@ function buildNames(){
 
 // ── MODE ──
 function selMode(m){
+  if(!modes[m]){
+    console.error('Deb8 — mode inconnu :',m)
+    return
+  }
   gameMode=m
+  window.__deb8GameMode=m
+  try{sessionStorage.setItem('deb8GameMode',m)}catch(_e){}
   const md=modes[m]
   // build how-to screen
   const hero=document.getElementById('rule-hero')
@@ -231,7 +216,22 @@ function selRoles(mode){
 
 // ── BUILD S9 (settings + nb questions) ──
 function buildS9(){
+  if(!gameMode || !modes[gameMode]){
+    let recovered=window.__deb8GameMode || null
+    if(!recovered){
+      try{recovered=sessionStorage.getItem('deb8GameMode')}catch(_e){}
+    }
+    if(recovered && modes[recovered]) gameMode=recovered
+  }
+
   const md=modes[gameMode]
+  if(!md){
+    console.error('Deb8 — aucun mode valide avant buildS9',gameMode)
+    alert('Le mode de jeu a été perdu. Sélectionne à nouveau ton mode.')
+    go(3)
+    return false
+  }
+
   const list=document.getElementById('settings-list-9')
   list.innerHTML=md.settings.map(s=>{
     if(s.type==='counter'){
@@ -356,69 +356,79 @@ function getCustomSeconds(key, fallback){
 }
 
 async function launchGame(){
-  if(devMode==='multi'){ go(7); return }
+  if(devMode==='multi'){ window.go(7); return }
 
-  try{
-    document.querySelectorAll('.sc-input').forEach(input => {
-      const key = input.id.replace('sv-', '')
-      const md = modes[gameMode]
-      const s = md && md.settings ? md.settings.find(x => x.key === key) : null
-      if(!s) return
-      let v = parseInt(input.value, 10)
-      if(!Number.isFinite(v)) v = s.val
-      v = Math.max(s.min, Math.min(s.max, v))
-      if(s.odd && v % 2 === 0) v += 1
-      v = Math.max(s.min, Math.min(s.max, v))
-      settingVals[key] = v
-      input.value = v
+  document.querySelectorAll('.sc-input').forEach(input => {
+  const key = input.id.replace('sv-', '')
+  const md = modes[gameMode]
+  const s = md.settings.find(x => x.key === key)
+
+  if(!s) return
+
+  let v = parseInt(input.value, 10)
+  if(!Number.isFinite(v)) v = s.val
+
+  v = Math.max(s.min, Math.min(s.max, v))
+
+  if(s.odd && v % 2 === 0) v += 1
+  v = Math.max(s.min, Math.min(s.max, v))
+
+  settingVals[key] = v
+  input.value = v
+})
+  // Read player names from inputs
+  playerNames = []
+for(let i=0;i<pcount;i++){
+  const inp = document.getElementById('pname-'+i)
+  const val = inp ? inp.value.trim() : ''
+  playerNames.push(val || 'Joueur ' + (i + 1))
+}
+
+console.log('Joueurs Deb8 :', playerNames)
+  if(typeof duelTimerInt !== "undefined") clearInterval(duelTimerInt)
+if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
+  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
+  const screenMap={debate:'s-debate',duel:'s-duel',tf:'s-tf-vote',imp:'s-imp'}
+  const sid=screenMap[gameMode]
+  if(!sid) return
+  // init tf state
+  if(gameMode==='tf') {
+    initTF()
+    document.getElementById(sid).classList.add('active')
+    return
+  }
+  if(gameMode==='duel') {
+    if(typeof prepareDebateQuestions === 'function') await prepareDebateQuestions()
+    initDuel()
+    document.getElementById(sid).classList.add('active')
+    return
+  }
+  if(gameMode==='imp') {
+    initImp()
+    clearInterval(impTimerInt)
+    setTimeout(()=>document.getElementById('s-imp-roles').classList.add('active'),80)
+    return
+  }
+ if(gameMode === "debate" && typeof prepareDebateQuestions === "function"){
+  prepareDebateQuestions()
+    .then(() => {
+      document.getElementById(sid).classList.add("active")
+
+      if(typeof buildDebatePlayers === "function") buildDebatePlayers()
+      if(typeof startDebateTimer === "function") startDebateTimer()
+
+      setTimeout(() => {
+        if(typeof showDebateStarter === "function") showDebateStarter()
+      }, 250)
+    })
+    .catch(err => {
+      console.error("Erreur lancement débat :", err)
+      alert("Erreur au lancement du débat. Regarde la console.")
     })
 
-    playerNames = []
-    for(let i=0;i<pcount;i++){
-      const inp = document.getElementById('pname-'+i)
-      const val = inp ? inp.value.trim() : ''
-      playerNames.push(val || 'Joueur ' + (i + 1))
-    }
-
-    if(typeof duelTimerInt !== 'undefined') clearInterval(duelTimerInt)
-    if(typeof impTimerInt !== 'undefined') clearInterval(impTimerInt)
-
-    const screenMap={debate:'s-debate',duel:'s-duel',tf:'s-tf-vote',imp:'s-imp-roles'}
-    const sid=screenMap[gameMode]
-    if(!sid) throw new Error('Mode inconnu : '+gameMode)
-
-    if(gameMode==='debate'){
-      if(typeof prepareDebateQuestions!=='function') throw new Error('Moteur Débat indisponible')
-      await prepareDebateQuestions()
-    }else if(gameMode==='duel'){
-      if(typeof prepareDebateQuestions==='function') await prepareDebateQuestions()
-      if(typeof initDuel!=='function') throw new Error('Moteur 1v1 indisponible')
-      initDuel()
-    }else if(gameMode==='tf'){
-      if(typeof initTF!=='function') throw new Error('Moteur Vrai/Faux indisponible')
-      initTF()
-    }else if(gameMode==='imp'){
-      if(typeof initImp!=='function') throw new Error('Moteur Imposteur indisponible')
-      initImp()
-      if(typeof impTimerInt!=='undefined') clearInterval(impTimerInt)
-    }
-
-    document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
-    document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-
-    const target=document.getElementById(sid)
-    if(!target) throw new Error('Écran introuvable : '+sid)
-    target.classList.add('active')
-
-    if(gameMode==='debate'){
-      if(typeof buildDebatePlayers==='function') buildDebatePlayers()
-      if(typeof startDebateTimer==='function') startDebateTimer()
-      setTimeout(()=>{ if(typeof showDebateStarter==='function') showDebateStarter() },250)
-    }
-  }catch(err){
-    console.error('Deb8 — lancement impossible :',err)
-    alert('Impossible de lancer la partie. Recharge Deb8 puis réessaie.')
-  }
+  return
+}
 }
 
 // ── MENU / SETTINGS ──
