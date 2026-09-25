@@ -1,4 +1,4 @@
-const CACHE_NAME='deb8-v35-clean';
+const CACHE_NAME='deb8-v36-clean';
 self.addEventListener('install',e=>e.waitUntil(self.skipWaiting()));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k!==CACHE_NAME)await caches.delete(k);await self.clients.claim()})()));
 self.addEventListener('fetch',e=>{
