@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-v32-clean';
+const CACHE_NAME = 'deb8-v33-click-bridge';
 
 const CORE = [
   './',
