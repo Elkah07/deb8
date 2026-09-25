@@ -136,6 +136,8 @@ function themeNext(){
     if(btn) btn.classList.toggle('on',id==='n9')
   })
 }
+window.themeNext=themeNext
+
 
 // ── DEVICE ──
 function selDev(m){

@@ -1,64 +1,58 @@
-const CACHE_NAME = 'deb8-v31-theme-next';
-const APP_SHELL = [
+const CACHE_NAME = 'deb8-v32-clean';
+
+const CORE = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './assets/logo-deb8-v3.png',
-  './assets/icons/icon-v3-192.png',
-  './assets/icons/icon-v3-512.png',
-  './assets/icons/icon-maskable-v3-512.png',
-  './assets/icons/apple-touch-icon-v3.png',
-  './assets/icons/favicon-v3-32.png'
-  ,'./css/screens.css'
-  ,'./js/00-question-bases.js'
-  ,'./js/02-core-state-navigation.js'
-  ,'./js/04-game-debate-duel-tf.js'
-  ,'./js/06-multiplayer-debate-duel-tf.js'
-  ,'./js/07-vocal-proximity-teams.js'
-  ,'./js/09-firebase-online.js'
-  ,'./js/11-audio-ambience.js'
-  ,'./js/12-android-back-navigation.js'
-  ,'./assets/sounds/tap.ogg'
-  ,'./assets/sounds/start.ogg'
-  ,'./assets/sounds/next.ogg'
-  ,'./assets/sounds/vote.ogg'
-  ,'./assets/sounds/countdown.ogg'
-  ,'./assets/sounds/reveal.ogg'
-  ,'./assets/sounds/win.ogg'
-  ,'./assets/sounds/lose.ogg'
-  ,'./data/true_false/questions.json'
-  ,'./data/imposteur/pairs.json'
+  './assets/logo-deb8-v3.png'
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));
-  self.skipWaiting();
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(async cache => {
+        for (const url of CORE) {
+          try {
+            const response = await fetch(url, {cache:'reload'});
+            if (response.ok && response.status !== 206) {
+              await cache.put(url, response);
+            }
+          } catch (_) {}
+        }
+      })
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))
-    )
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-  const requestUrl = new URL(event.request.url);
-  const isFreshFirst =
-    event.request.mode === 'navigate' ||
-    requestUrl.pathname.endsWith('/index.html') ||
-    requestUrl.pathname.endsWith('/manifest.webmanifest') ||
-    requestUrl.pathname.endsWith('/service-worker.js');
 
-  if (isFreshFirst) {
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin) return;
+
+  // Never intercept Range requests. Cache API cannot store partial 206 responses.
+  if (event.request.headers.has('range')) return;
+
+  const dynamic =
+    event.request.mode === 'navigate' ||
+    /\.(?:js|css|json|webmanifest)$/i.test(url.pathname);
+
+  if (dynamic) {
     event.respondWith(
-      fetch(event.request).then(response => {
-        if (response.ok && response.status !== 206 && event.request.url.startsWith(self.location.origin)) {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy)).catch(()=>{});
+      fetch(event.request).then(async response => {
+        if (response.ok && response.status !== 206) {
+          try {
+            const cache = await caches.open(CACHE_NAME);
+            await cache.put(event.request, response.clone());
+          } catch (_) {}
         }
         return response;
       }).catch(() => caches.match(event.request))
@@ -67,14 +61,6 @@ self.addEventListener('fetch', event => {
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached =>
-      cached || fetch(event.request).then(response => {
-        if (response.ok && response.status !== 206 && event.request.url.startsWith(self.location.origin)) {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy)).catch(()=>{});
-        }
-        return response;
-      })
-    )
+    caches.match(event.request).then(cached => cached || fetch(event.request))
   );
 });
