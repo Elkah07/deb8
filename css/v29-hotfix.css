@@ -1,0 +1,20 @@
+/* Deb8 V29 — écran Thèmes */
+#s5{
+  padding-bottom:0 !important;
+}
+#s5 .themes-grid{
+  min-height:0 !important;
+  overflow-y:auto !important;
+  -webkit-overflow-scrolling:touch;
+  padding-bottom:12px !important;
+}
+#s5 #btn-theme{
+  display:block !important;
+  position:relative !important;
+  z-index:999 !important;
+  flex:0 0 auto !important;
+  width:calc(100% - 40px) !important;
+  margin:10px 20px max(18px, env(safe-area-inset-bottom)) !important;
+  pointer-events:auto !important;
+  touch-action:manipulation !important;
+}

@@ -1,7 +1,9 @@
-const CACHE_NAME = 'deb8-v28-theme-navigation';
+const CACHE_NAME = 'deb8-v29-theme-hotfix';
 const APP_SHELL = [
   './',
   './index.html',
+  './css/v29-hotfix.css',
+  './js/13-theme-navigation-hotfix.js',
   './manifest.webmanifest',
   './assets/logo-deb8-v3.png',
   './assets/icons/icon-v3-192.png',
