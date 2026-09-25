@@ -1,0 +1,4 @@
+/* Deb8 V34 — CTA Thèmes physiquement séparé du scroll */
+#s5{position:absolute;padding-bottom:100px !important}
+#s5 .themes-grid{min-height:0 !important;overflow-y:auto !important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+#s5 #btn-theme{position:absolute !important;left:22px !important;right:22px !important;bottom:max(20px,env(safe-area-inset-bottom)) !important;width:auto !important;margin:0 !important;z-index:500 !important;pointer-events:auto !important;touch-action:manipulation !important}

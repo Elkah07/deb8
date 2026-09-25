@@ -108,12 +108,4 @@ function closeLegal(){
   m.style.opacity='0'; setTimeout(()=>m.style.display='none', 250)
 }
 
-// Override go to build s9 when navigating to it
-const _go=go
-window.go=function(n){
-  if(n===9 && gameMode) buildS9()
-  // Only build names when navigating to s10 from scratch (not via goFromDevice which calls it already)
-  if(n===10 && !window._namesBuilt) buildNames()
-  window._namesBuilt = false
-  _go(n)
-}
+// Navigation centralisée dans 02-core-state-navigation.js

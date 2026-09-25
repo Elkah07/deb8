@@ -77,66 +77,53 @@ const modes = {
 // ── NAVIGATION ──
 const sbIds = ['n1','n2','n10','n3','n4','n8','n5','n9','n7']
 function go(n){
-  // The settings screen is dynamic. Build it in the navigation source of truth
-  // instead of relying on the shop module's optional wrapper around window.go.
-  if(n===9){
-    if(!gameMode){
-      go(3)
-      return
-    }
-    buildS9()
-  }
-  document.querySelectorAll('.screen').forEach(s=>{s.classList.remove('active','out')})
+  const target=document.getElementById('s'+n)
+  if(!target){ console.error('Deb8 — écran introuvable : s'+n); return false }
+
+  if(n===9 && buildS9()===false) return false
+
   const cur=document.querySelector('.screen.active')
-  if(cur){cur.classList.add('out');setTimeout(()=>cur.classList.remove('out'),300)}
-  setTimeout(()=>document.getElementById('s'+n).classList.add('active'),80)
-  // highlight sidebar
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
+  if(cur && cur!==target){
+    cur.classList.add('out')
+    setTimeout(()=>cur.classList.remove('out'),300)
+  }
+  setTimeout(()=>target.classList.add('active'),80)
+
   sbIds.forEach(id=>{
     const btn=document.getElementById(id)
-    if(btn) btn.classList.toggle('on', id==='n'+n)
+    if(btn) btn.classList.toggle('on',id==='n'+n)
   })
+  return true
 }
+window.go=go
 
 function openGameSettings(){
-  if(!gameMode){
-    window.go(3)
-    return
-  }
-  const selectedThemes = document.querySelectorAll('#s5 .th.sel')
-  if(!selectedThemes.length){
+  if(!document.querySelectorAll('#s5 .th.sel').length){
     updateThemeSelectionControls()
-    return
+    return false
   }
-  window.go(9)
+  return go(9)
 }
-
-
-function themeNext(){
-  const selected=document.querySelectorAll('#s5 .th.sel')
-  if(!selected.length) return
-
-  if(buildS9()===false){
-    alert('Choisis à nouveau ton mode de jeu.')
-    go(3)
-    return
-  }
-
-  document.querySelectorAll('.screen').forEach(s=>{
-    s.classList.remove('active','out')
-  })
-  const target=document.getElementById('s9')
-  if(!target){
-    console.error('Deb8: écran s9 introuvable')
-    return
-  }
-  target.classList.add('active')
-
-  sbIds.forEach(id=>{
-    const btn=document.getElementById(id)
-    if(btn) btn.classList.toggle('on',id==='n9')
-  })
-}
+function themeNext(){ return openGameSettings() }
+window.openGameSettings=openGameSettings
 window.themeNext=themeNext
+
+// Listener natif dédié à la transition critique Thèmes -> Réglages.
+const themeNextButton=document.getElementById('btn-theme')
+if(themeNextButton){
+  themeNextButton.addEventListener('click',e=>{
+    e.preventDefault()
+    themeNext()
+  })
+}
+
+function showGame(mode){
+  if(!modes[mode]) return false
+  selMode(mode)
+  return true
+}
+window.showGame=showGame
 
 
 // ── DEVICE ──
