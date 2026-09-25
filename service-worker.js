@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-icon-larger-v14';
+const CACHE_NAME = 'deb8-v27-black-screen-fix';
 const APP_SHELL = [
   './',
   './index.html',

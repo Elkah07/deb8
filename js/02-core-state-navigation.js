@@ -337,77 +337,80 @@ function getCustomSeconds(key, fallback){
 async function launchGame(){
   if(devMode==='multi'){ window.go(7); return }
 
-  document.querySelectorAll('.sc-input').forEach(input => {
-  const key = input.id.replace('sv-', '')
-  const md = modes[gameMode]
-  const s = md.settings.find(x => x.key === key)
+  try{
+    document.querySelectorAll('.sc-input').forEach(input => {
+      const key = input.id.replace('sv-', '')
+      const md = modes[gameMode]
+      const s = md && md.settings ? md.settings.find(x => x.key === key) : null
+      if(!s) return
 
-  if(!s) return
+      let v = parseInt(input.value, 10)
+      if(!Number.isFinite(v)) v = s.val
+      v = Math.max(s.min, Math.min(s.max, v))
 
-  let v = parseInt(input.value, 10)
-  if(!Number.isFinite(v)) v = s.val
+      if(s.odd && v % 2 === 0) v += 1
+      v = Math.max(s.min, Math.min(s.max, v))
 
-  v = Math.max(s.min, Math.min(s.max, v))
+      settingVals[key] = v
+      input.value = v
+    })
 
-  if(s.odd && v % 2 === 0) v += 1
-  v = Math.max(s.min, Math.min(s.max, v))
+    playerNames = []
+    for(let i=0;i<pcount;i++){
+      const inp = document.getElementById('pname-'+i)
+      const val = inp ? inp.value.trim() : ''
+      playerNames.push(val || 'Joueur ' + (i + 1))
+    }
 
-  settingVals[key] = v
-  input.value = v
-})
-  // Read player names from inputs
-  playerNames = []
-for(let i=0;i<pcount;i++){
-  const inp = document.getElementById('pname-'+i)
-  const val = inp ? inp.value.trim() : ''
-  playerNames.push(val || 'Joueur ' + (i + 1))
-}
+    if(typeof duelTimerInt !== "undefined") clearInterval(duelTimerInt)
+    if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
 
-console.log('Joueurs Deb8 :', playerNames)
-  if(typeof duelTimerInt !== "undefined") clearInterval(duelTimerInt)
-if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
-  document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
-  const screenMap={debate:'s-debate',duel:'s-duel',tf:'s-tf-vote',imp:'s-imp'}
-  const sid=screenMap[gameMode]
-  if(!sid) return
-  // init tf state
-  if(gameMode==='tf') {
-    initTF()
-    document.getElementById(sid).classList.add('active')
-    return
-  }
-  if(gameMode==='duel') {
-    if(typeof prepareDebateQuestions === 'function') await prepareDebateQuestions()
-    initDuel()
-    document.getElementById(sid).classList.add('active')
-    return
-  }
-  if(gameMode==='imp') {
-    initImp()
-    clearInterval(impTimerInt)
-    setTimeout(()=>document.getElementById('s-imp-roles').classList.add('active'),80)
-    return
-  }
- if(gameMode === "debate" && typeof prepareDebateQuestions === "function"){
-  prepareDebateQuestions()
-    .then(() => {
-      document.getElementById(sid).classList.add("active")
+    const screenMap={debate:'s-debate',duel:'s-duel',tf:'s-tf-vote',imp:'s-imp-roles'}
+    const sid=screenMap[gameMode]
+    if(!sid) throw new Error('Mode de jeu inconnu : ' + gameMode)
 
+    // Prépare d'abord le jeu. On ne masque l'écran courant qu'une fois
+    // l'initialisation réussie, ce qui évite l'écran noir en cas d'erreur.
+    if(gameMode === 'debate'){
+      if(typeof prepareDebateQuestions !== 'function') throw new Error('Moteur Débat indisponible')
+      await prepareDebateQuestions()
+    }
+
+    if(gameMode === 'duel'){
+      if(typeof prepareDebateQuestions === 'function') await prepareDebateQuestions()
+      if(typeof initDuel !== 'function') throw new Error('Moteur 1v1 indisponible')
+      initDuel()
+    }
+
+    if(gameMode === 'tf'){
+      if(typeof initTF !== 'function') throw new Error('Moteur Vrai/Faux indisponible')
+      initTF()
+    }
+
+    if(gameMode === 'imp'){
+      if(typeof initImp !== 'function') throw new Error('Moteur Imposteur indisponible')
+      initImp()
+      if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
+    }
+
+    document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
+    document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
+
+    const target = document.getElementById(sid)
+    if(!target) throw new Error('Écran introuvable : ' + sid)
+    target.classList.add('active')
+
+    if(gameMode === 'debate'){
       if(typeof buildDebatePlayers === "function") buildDebatePlayers()
       if(typeof startDebateTimer === "function") startDebateTimer()
-
       setTimeout(() => {
         if(typeof showDebateStarter === "function") showDebateStarter()
       }, 250)
-    })
-    .catch(err => {
-      console.error("Erreur lancement débat :", err)
-      alert("Erreur au lancement du débat. Regarde la console.")
-    })
-
-  return
-}
+    }
+  }catch(err){
+    console.error('Erreur lancement Deb8 :', err)
+    alert('Impossible de lancer la partie. Recharge Deb8 puis réessaie. Si le problème continue, ouvre le mode créateur pour le diagnostic.')
+  }
 }
 
 // ── MENU / SETTINGS ──
