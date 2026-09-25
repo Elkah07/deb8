@@ -110,6 +110,33 @@ function openGameSettings(){
   window.go(9)
 }
 
+
+function themeNext(){
+  const selected=document.querySelectorAll('#s5 .th.sel')
+  if(!selected.length) return
+
+  if(buildS9()===false){
+    alert('Choisis à nouveau ton mode de jeu.')
+    go(3)
+    return
+  }
+
+  document.querySelectorAll('.screen').forEach(s=>{
+    s.classList.remove('active','out')
+  })
+  const target=document.getElementById('s9')
+  if(!target){
+    console.error('Deb8: écran s9 introuvable')
+    return
+  }
+  target.classList.add('active')
+
+  sbIds.forEach(id=>{
+    const btn=document.getElementById(id)
+    if(btn) btn.classList.toggle('on',id==='n9')
+  })
+}
+
 // ── DEVICE ──
 function selDev(m){
   devMode=m
@@ -147,13 +174,10 @@ function buildNames(){
 
 // ── MODE ──
 function selMode(m){
-  if(!modes[m]){
-    console.error('Deb8 — mode inconnu :',m)
-    return
-  }
+  if(!modes[m]) return
   gameMode=m
-  window.__deb8GameMode=m
-  try{sessionStorage.setItem('deb8GameMode',m)}catch(_e){}
+  window.__deb8SelectedMode=m
+  try{ sessionStorage.setItem('deb8SelectedMode',m) }catch(_e){}
   const md=modes[m]
   // build how-to screen
   const hero=document.getElementById('rule-hero')
@@ -217,18 +241,16 @@ function selRoles(mode){
 // ── BUILD S9 (settings + nb questions) ──
 function buildS9(){
   if(!gameMode || !modes[gameMode]){
-    let recovered=window.__deb8GameMode || null
+    let recovered=window.__deb8SelectedMode
     if(!recovered){
-      try{recovered=sessionStorage.getItem('deb8GameMode')}catch(_e){}
+      try{ recovered=sessionStorage.getItem('deb8SelectedMode') }catch(_e){}
     }
     if(recovered && modes[recovered]) gameMode=recovered
   }
 
   const md=modes[gameMode]
   if(!md){
-    console.error('Deb8 — aucun mode valide avant buildS9',gameMode)
-    alert('Le mode de jeu a été perdu. Sélectionne à nouveau ton mode.')
-    go(3)
+    console.error('Deb8: mode absent avant les réglages')
     return false
   }
 

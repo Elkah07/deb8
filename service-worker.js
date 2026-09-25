@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-v30-mode-settings';
+const CACHE_NAME = 'deb8-v31-theme-next';
 const APP_SHELL = [
   './',
   './index.html',
