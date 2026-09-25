@@ -1,4 +1,4 @@
-const CACHE_NAME = 'deb8-v27-black-screen-fix';
+const CACHE_NAME = 'deb8-v28-theme-navigation';
 const APP_SHELL = [
   './',
   './index.html',

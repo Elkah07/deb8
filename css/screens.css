@@ -888,3 +888,28 @@ body.light .creator-modal{
   #s1 .btn-outline{padding:13px}
   #s10 .name-row{min-height:58px}
 }
+
+
+/* ═══════════════════════════════════════════════════
+   V28 — ÉCRAN THÈMES : CTA TOUJOURS ACCESSIBLE
+═══════════════════════════════════════════════════ */
+#s5 #btn-theme{
+  position:relative;
+  z-index:20;
+  flex:0 0 auto;
+}
+@media (max-width:900px){
+  #s5{
+    overflow:hidden !important;
+  }
+  #s5 .themes-grid{
+    min-height:0;
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    -webkit-overflow-scrolling:touch;
+  }
+  #s5 #btn-theme{
+    position:sticky;
+    bottom:0;
+  }
+}

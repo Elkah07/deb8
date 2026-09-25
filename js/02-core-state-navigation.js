@@ -99,15 +99,36 @@ function go(n){
 
 function openGameSettings(){
   if(!gameMode){
-    window.go(3)
+    go(3)
     return
   }
+
   const selectedThemes = document.querySelectorAll('#s5 .th.sel')
   if(!selectedThemes.length){
     updateThemeSelectionControls()
     return
   }
-  window.go(9)
+
+  try{
+    buildS9()
+
+    // Navigation directe et synchrone : évite les wrappers window.go
+    // qui pouvaient laisser l'utilisateur bloqué sur l'écran des thèmes.
+    document.querySelectorAll('.screen').forEach(s=>{
+      s.classList.remove('active','out')
+    })
+
+    const target = document.getElementById('s9')
+    if(!target) throw new Error('Écran de réglages introuvable')
+    target.classList.add('active')
+
+    if(typeof playUiSound === 'function') {
+      try { playUiSound('nav') } catch(_e){}
+    }
+  }catch(err){
+    console.error('Deb8 — ouverture réglages impossible :', err)
+    alert('Impossible d’ouvrir les réglages de la partie. Recharge Deb8 puis réessaie.')
+  }
 }
 
 // ── DEVICE ──
@@ -335,7 +356,7 @@ function getCustomSeconds(key, fallback){
 }
 
 async function launchGame(){
-  if(devMode==='multi'){ window.go(7); return }
+  if(devMode==='multi'){ go(7); return }
 
   try{
     document.querySelectorAll('.sc-input').forEach(input => {
@@ -343,14 +364,11 @@ async function launchGame(){
       const md = modes[gameMode]
       const s = md && md.settings ? md.settings.find(x => x.key === key) : null
       if(!s) return
-
       let v = parseInt(input.value, 10)
       if(!Number.isFinite(v)) v = s.val
       v = Math.max(s.min, Math.min(s.max, v))
-
       if(s.odd && v % 2 === 0) v += 1
       v = Math.max(s.min, Math.min(s.max, v))
-
       settingVals[key] = v
       input.value = v
     })
@@ -362,54 +380,44 @@ async function launchGame(){
       playerNames.push(val || 'Joueur ' + (i + 1))
     }
 
-    if(typeof duelTimerInt !== "undefined") clearInterval(duelTimerInt)
-    if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
+    if(typeof duelTimerInt !== 'undefined') clearInterval(duelTimerInt)
+    if(typeof impTimerInt !== 'undefined') clearInterval(impTimerInt)
 
     const screenMap={debate:'s-debate',duel:'s-duel',tf:'s-tf-vote',imp:'s-imp-roles'}
     const sid=screenMap[gameMode]
-    if(!sid) throw new Error('Mode de jeu inconnu : ' + gameMode)
+    if(!sid) throw new Error('Mode inconnu : '+gameMode)
 
-    // Prépare d'abord le jeu. On ne masque l'écran courant qu'une fois
-    // l'initialisation réussie, ce qui évite l'écran noir en cas d'erreur.
-    if(gameMode === 'debate'){
-      if(typeof prepareDebateQuestions !== 'function') throw new Error('Moteur Débat indisponible')
+    if(gameMode==='debate'){
+      if(typeof prepareDebateQuestions!=='function') throw new Error('Moteur Débat indisponible')
       await prepareDebateQuestions()
-    }
-
-    if(gameMode === 'duel'){
-      if(typeof prepareDebateQuestions === 'function') await prepareDebateQuestions()
-      if(typeof initDuel !== 'function') throw new Error('Moteur 1v1 indisponible')
+    }else if(gameMode==='duel'){
+      if(typeof prepareDebateQuestions==='function') await prepareDebateQuestions()
+      if(typeof initDuel!=='function') throw new Error('Moteur 1v1 indisponible')
       initDuel()
-    }
-
-    if(gameMode === 'tf'){
-      if(typeof initTF !== 'function') throw new Error('Moteur Vrai/Faux indisponible')
+    }else if(gameMode==='tf'){
+      if(typeof initTF!=='function') throw new Error('Moteur Vrai/Faux indisponible')
       initTF()
-    }
-
-    if(gameMode === 'imp'){
-      if(typeof initImp !== 'function') throw new Error('Moteur Imposteur indisponible')
+    }else if(gameMode==='imp'){
+      if(typeof initImp!=='function') throw new Error('Moteur Imposteur indisponible')
       initImp()
-      if(typeof impTimerInt !== "undefined") clearInterval(impTimerInt)
+      if(typeof impTimerInt!=='undefined') clearInterval(impTimerInt)
     }
 
     document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
     document.querySelectorAll('.sb').forEach(b=>b.classList.remove('on'))
 
-    const target = document.getElementById(sid)
-    if(!target) throw new Error('Écran introuvable : ' + sid)
+    const target=document.getElementById(sid)
+    if(!target) throw new Error('Écran introuvable : '+sid)
     target.classList.add('active')
 
-    if(gameMode === 'debate'){
-      if(typeof buildDebatePlayers === "function") buildDebatePlayers()
-      if(typeof startDebateTimer === "function") startDebateTimer()
-      setTimeout(() => {
-        if(typeof showDebateStarter === "function") showDebateStarter()
-      }, 250)
+    if(gameMode==='debate'){
+      if(typeof buildDebatePlayers==='function') buildDebatePlayers()
+      if(typeof startDebateTimer==='function') startDebateTimer()
+      setTimeout(()=>{ if(typeof showDebateStarter==='function') showDebateStarter() },250)
     }
   }catch(err){
-    console.error('Erreur lancement Deb8 :', err)
-    alert('Impossible de lancer la partie. Recharge Deb8 puis réessaie. Si le problème continue, ouvre le mode créateur pour le diagnostic.')
+    console.error('Deb8 — lancement impossible :',err)
+    alert('Impossible de lancer la partie. Recharge Deb8 puis réessaie.')
   }
 }
 
