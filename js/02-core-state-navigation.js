@@ -77,53 +77,51 @@ const modes = {
 // ── NAVIGATION ──
 const sbIds = ['n1','n2','n10','n3','n4','n8','n5','n9','n7']
 function go(n){
-  const target=document.getElementById('s'+n)
-  if(!target){ console.error('Deb8 — écran introuvable : s'+n); return false }
-
-  if(n===9 && buildS9()===false) return false
-
-  const cur=document.querySelector('.screen.active')
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
-  if(cur && cur!==target){
-    cur.classList.add('out')
-    setTimeout(()=>cur.classList.remove('out'),300)
+  // The settings screen is dynamic. Build it in the navigation source of truth
+  // instead of relying on the shop module's optional wrapper around window.go.
+  if(n===9){
+    if(!gameMode){
+      go(3)
+      return
+    }
+    buildS9()
   }
-  setTimeout(()=>target.classList.add('active'),80)
-
+  document.querySelectorAll('.screen').forEach(s=>{s.classList.remove('active','out')})
+  const cur=document.querySelector('.screen.active')
+  if(cur){cur.classList.add('out');setTimeout(()=>cur.classList.remove('out'),300)}
+  setTimeout(()=>document.getElementById('s'+n).classList.add('active'),80)
+  // highlight sidebar
   sbIds.forEach(id=>{
     const btn=document.getElementById(id)
-    if(btn) btn.classList.toggle('on',id==='n'+n)
+    if(btn) btn.classList.toggle('on', id==='n'+n)
   })
-  return true
 }
-window.go=go
 
 function openGameSettings(){
-  if(!document.querySelectorAll('#s5 .th.sel').length){
-    updateThemeSelectionControls()
-    return false
+  if(!gameMode || !modes[gameMode]){
+    try{
+      const saved=sessionStorage.getItem('deb8GameMode')
+      if(saved && modes[saved]) gameMode=saved
+    }catch(_e){}
   }
-  return go(9)
-}
-function themeNext(){ return openGameSettings() }
-window.openGameSettings=openGameSettings
-window.themeNext=themeNext
+  if(!gameMode || !modes[gameMode]){
+    console.error('Deb8 — impossible d’ouvrir les réglages sans mode')
+    go(3)
+    return
+  }
 
-// Listener natif dédié à la transition critique Thèmes -> Réglages.
-const themeNextButton=document.getElementById('btn-theme')
-if(themeNextButton){
-  themeNextButton.addEventListener('click',e=>{
-    e.preventDefault()
-    themeNext()
-  })
-}
+  const selectedThemes=document.querySelectorAll('#s5 .th.sel')
+  if(!selectedThemes.length){
+    updateThemeSelectionControls()
+    return
+  }
 
-function showGame(mode){
-  if(!modes[mode]) return false
-  selMode(mode)
-  return true
+  if(buildS9()===false) return
+
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active','out'))
+  const target=document.getElementById('s9')
+  if(target) target.classList.add('active')
 }
-window.showGame=showGame
 
 
 // ── DEVICE ──

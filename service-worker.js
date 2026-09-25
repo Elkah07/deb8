@@ -1,5 +1,14 @@
-const CACHE_NAME='deb8-v34-clean';
-const CORE=['./','./index.html','./manifest.webmanifest','./assets/logo-deb8-v3.png'];
-self.addEventListener('install',event=>{event.waitUntil((async()=>{const cache=await caches.open(CACHE_NAME);for(const url of CORE){try{const r=await fetch(url,{cache:'reload'});if(r.ok&&r.status!==206)await cache.put(url,r)}catch(_){}}await self.skipWaiting()})())});
-self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)));await self.clients.claim()})())});
-self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;if(event.request.headers.has('range'))return;const fresh=event.request.mode==='navigate'||/\.(?:js|css|json|webmanifest)$/i.test(url.pathname);if(fresh){event.respondWith(fetch(event.request).then(async r=>{if(r.ok&&r.status!==206){try{const c=await caches.open(CACHE_NAME);await c.put(event.request,r.clone())}catch(_){}}return r}).catch(()=>caches.match(event.request)))}else{event.respondWith(caches.match(event.request).then(c=>c||fetch(event.request)))}})
+const CACHE_NAME='deb8-v35-clean';
+self.addEventListener('install',e=>e.waitUntil(self.skipWaiting()));
+self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k!==CACHE_NAME)await caches.delete(k);await self.clients.claim()})()));
+self.addEventListener('fetch',e=>{
+  if(e.request.method!=='GET'||e.request.headers.has('range'))return;
+  const u=new URL(e.request.url);
+  if(u.origin!==self.location.origin)return;
+  e.respondWith(fetch(e.request).then(async r=>{
+    if(r.ok&&r.status!==206){
+      try{const c=await caches.open(CACHE_NAME);await c.put(e.request,r.clone())}catch(_){}
+    }
+    return r
+  }).catch(()=>caches.match(e.request)))
+});
